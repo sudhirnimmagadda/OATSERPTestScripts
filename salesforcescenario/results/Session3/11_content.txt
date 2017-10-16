@@ -1,0 +1,2 @@
+<HTML><HEAD></HEAD>
+<BODY><IMG src="https://test.salesforce.com/s.gif"></BODY></HTML>

@@ -1,0 +1,16 @@
+login,password,ticker,acctnum
+ta1,ta,MSFT,5000
+ta2,ta,YHOO,5001
+ta3,ta,AAPL,5002
+ta4,ta,BA,5003
+ta5,ta,INTC,5004
+ta6,ta,CA,5005
+ta7,ta,DCLK,5006
+ta8,ta,EGGS,5007
+ta9,ta,BRCM,5008
+ta10,ta,MSN,5009
+ta11,ta,XCIT,5010
+ta12,ta,XPRT,5011
+ta13,ta,EXDS,5012
+ta14,ta,ZD,5013
+ta15,ta,ZRAN,5014

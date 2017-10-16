@@ -1,0 +1,5 @@
+TestCasename,Excution Time,Execution Date,Supplier name,AttachementFileName,Description,CategoryList,AttachmentType,Result
+AddingAttachmenttoSupplier,15:26:31,11-Oct-17,JOHN PEARLEY HUFFMAN,JOHN PEARLEY HUFFMAN_W9,Attachmenttesting,To Supplier,File,File Attached Sucessfully for JOHN PEARLEY HUFFMAN
+AddingAttachmenttoSupplier,15:26:41,11-Oct-17,JOHN CUSHMA,JOHN R CUSHMA_W7,Attachmenttesting,To Supplier,File,JOHN CUSHMAdoesnot exists
+AddingAttachmenttoSupplier,15:27:30,11-Oct-17,JOHN RUFO,JOHN RUFO_W8,Attachmenttesting,To Supplier,File,File Attached Sucessfully for JOHN RUFO
+Create And Approve Requistion,16:46:53,12-Oct-2017,194510,158756,USTU717USD,Approved,APPROVED NETWORKS INC,Pass

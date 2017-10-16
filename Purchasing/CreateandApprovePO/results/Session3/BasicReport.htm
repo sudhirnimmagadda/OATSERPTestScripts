@@ -1,0 +1,1200 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Results Report</TITLE>
+<style>
+
+		body {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+
+		hr { color: #dddddd; height:1px; }
+
+		.subheader { font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 17px; color:#7777bb; font-weight:bold; line-height: 120% }
+		td.section { padding-left: 30px; }
+
+		th { border-bottom: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; text-align: left; font-size: 11px; background-color:#f3f3f3; font-weight:normal; line-height: 130%; white-space: nowrap; }
+		td {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+
+		.rowTabular { border-bottom: 1px dotted #dddddd; background-color:#ffffff; }
+		.rowTabular th, .rowTabular td { border-bottom: 1px dotted #dddddd; background-color:#ffffff; vertical-align: top; }
+		.rowTabular th { font-size: 11px; background-color:#f3f3f3; font-weight:normal; line-height: 130%; }
+		.rowTabular table td { border-bottom: 0px ;}
+		td.indent { padding-left: 6px; word-wrap : break-word;}
+
+		a { color: #333399; text-decoration: underline; }
+		a:visited { color: #5555aa; text-decoration: underline; }
+		a:hover { color: #000000; text-decoration: underline; }
+
+		.hand { cursor: pointer; }
+		.hide { display:none; }
+		.nowrap { white-space: nowrap; }
+		.wrap { white-space: normal; }
+
+		.moreOrLess {color: #333399; cursor: pointer;}
+
+		.failed { color: red; background:url("file:../../icon_fail.gif") no-repeat 0px 2px; padding-left:14px;}
+	  	.warning { color: #ff9900; background:url("file:../../icon_warning.gif") no-repeat 0px 2px; padding-left:14px;}
+	  	.passed { color: green; background:url("file:../../icon_pass.gif") no-repeat 0px 2px; padding-left:14px;}
+
+		.failed a, .failed a:visited, .failed a:hover { color: red; }
+		.warning a, .warning a:visited, .warning a:hover { color: #ff9900; }
+		.passed a, .passed a:visited, .passed a:hover { color: green; }
+		a.failed, a.failed:visited, a.failed:hover { color: red; }
+	 	a.warning, a.warning:visited, a.warning:hover { color: #ff9900; }
+	 	a.passed, a.passed:visited, a.passed:hover { color: green; }
+
+		.toggle { font-family: courier new; font-size: 10px; font-weight: bold; width: 12px; height: 9px; padding:0 2 0 2px; border:1px solid #7777bb; color: #7777bb; line-height: 100%; }
+		.notoggle { font-family: courier new; font-size: 10px; font-weight: bold; width: 12px; height: 9px; padding:0 2 0 2px; line-height: 100%; }
+		.subheader .toggle { margin-bottom: 2px; }
+		.result { margin-bottom: 2px; }
+
+		.text { padding-bottom: 2px; }
+
+		.chartFailure { background-color: red }
+		.chartWarning { background-color: #ff9900 }
+		.chartPassed {background-color: green}
+
+	</style>
+<script language="javascript">
+		// Tree code
+		function toggleVisibility(span, id)
+		{
+			var obj = document.getElementById(id);
+			var bHide = obj.style.display == "";
+
+			obj.style.display = bHide ? 'none' : '';
+
+			setToggleSpan(span, bHide);
+		}
+
+		function setToggleSpan(obj, bPlus)
+		{
+			obj.innerHTML = bPlus ? "+" : "-";
+		}
+
+		function toggleVisibilityLoop(span, id, j, bParentHide)
+		{
+			for(var i = j; i != 0; i--)
+			{
+				var str = id + '_' + i;
+				var obj = document.getElementById(str);
+				if (obj == null)
+					return;
+
+				var bHide = obj.style.display == "";
+				if (bParentHide && ! bHide)
+					bHide = true;
+
+				obj.style.display = bHide ? 'none' : '';
+
+				var plusSpan = obj.getElementsByTagName("span")[0];
+				if (plusSpan)
+					plusSpan = plusSpan.getElementsByTagName("span")[0];
+
+				if (! plusSpan)
+					continue;
+
+				if (plusSpan.innerHTML == "+" || plusSpan.innerHTML == "-") {
+					var subId = obj.getAttribute("subId");
+					var subCount = obj.getAttribute("subCount");
+					if (plusSpan.innerHTML == "-")
+						toggleVisibilityLoop(span, subId, subCount, bHide);
+				}
+			}
+
+			setToggleSpan(span.getElementsByTagName("span")[0], bHide);
+		}
+
+		function expandChildren(span, id, j, expand)
+		{
+			for(var i = j; i != 0; i--)	{
+				var str = id + '_' + i;
+				var obj = document.getElementById(str);
+				if (obj == null)
+					return;
+
+				obj.style.display = expand ? '' : 'none';
+
+				var plusSpan = obj.getElementsByTagName("span")[0];
+				if (plusSpan)
+					plusSpan = plusSpan.getElementsByTagName("span")[0];
+
+				if (! plusSpan)
+					continue;
+
+				if (plusSpan.innerHTML == "+" || plusSpan.innerHTML == "-") {
+					var subId = obj.getAttribute("subId");
+					var subCount = obj.getAttribute("subCount");
+					setToggleSpan(plusSpan, !expand);
+					expandChildren(span, subId, subCount, expand);
+				}
+			}
+		}
+
+		function expandSection(obj, expand)
+		{
+			var subId = obj.getAttribute("subId");
+			var subCount = obj.getAttribute("subCount");
+
+			if (subCount == 0)
+				return;
+
+			var outerPlusSpan = obj.getElementsByTagName("span")[0];
+			var plusSpan = outerPlusSpan ? outerPlusSpan.getElementsByTagName("span")[0] : null;
+
+			if (! plusSpan)
+				return;
+
+			if (plusSpan.innerHTML == "+" || plusSpan.innerHTML == "-") {
+				expandChildren(outerPlusSpan, subId, subCount, expand);
+				setToggleSpan(plusSpan, !expand);
+			}
+		}
+
+		function expandMainSection(id, expand)
+		{
+			var span = document.getElementById("toggle_" + id);
+			var obj = document.getElementById(id);
+
+			obj.style.display = expand ? '' : 'none';
+			setToggleSpan(span, !expand);
+		}
+
+		function expandAll(expand)
+		{
+			if (expand) {
+				expandMainSection('scriptDetails', expand);
+				expandMainSection('testsSummary', expand);
+			}
+
+			expandSection(document.getElementById("initialize"), expand);
+			for (var i = 1; ; i++) {
+				var section = document.getElementById("iterate" + i);
+				if (section == null)
+					break;
+
+				expandSection(section, expand);
+			}
+			expandSection(document.getElementById("finish"), expand);
+		}
+
+		function showMore(id)
+		{
+			showById('summary_more_' + id, true);
+			showById('summary_less_' + id, false);
+		}
+
+		function showLess(id)
+		{
+			showById('summary_more_' + id, false);
+			showById('summary_less_' + id, true);
+		}
+
+		function showById(id, bShow)
+		{
+			var obj = document.getElementById(id);
+			if (obj == null)
+				return;
+
+			obj.style.display = bShow ? '' : 'none';
+		}
+
+	</script>
+</head>
+<body>
+<span class="subheader"><B>Script Name</B>: CreateandApprovePO</span>
+<br>
+<br>
+<table cellspacing="10" cellpadding="0" width="100%">
+<tr>
+<td>
+<div class="text">
+<B>Script</B>: C:\OracleATS\OFT\Purchasing\CreateandApprovePO</div>
+<div class="text">
+<B>Datatable</B>:
+							<a href="datatable.xls">CreateandApprovePO</a>&nbsp;
+							</div>
+<div class="text">
+<B>Date Time</B>: 10/09/2017 14:04:50 PM PDT (UTC -7:00)</div>
+<div class="text">
+<B>OpenScript Version</B>: 12.5.0.3.1012</div>
+</td>
+</tr>
+</table>
+<table cellspacing="10" cellpadding="0">
+<tr>
+<td>
+<div class="text">
+<B>Iterations</B>: 1</div>
+<div class="text">
+<B>Total Steps</B>: 11</div>
+<div class="text">
+<B>Total User-Defined Tests</B>: 0</div>
+<div class="text">
+<B>Total Script Actions</B>: 59</div>
+<div class="text">
+<B>Total Comments</B>
+</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Total Passes</B>: 59 (98.33%)</div>
+<div class="text">
+<B>Total Failures</B>: 1 (1.67%)</div>
+<div class="text">
+<B>Total Warnings</B>: 0 (0.00%)</div>
+<div class="text">
+<B>Overall Result</B>: <span class="failed">Failed</span>
+</div>
+</td><td valign="top">
+<div class="text">&nbsp;</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Passed</B>:&nbsp;0</div>
+<div class="text">
+<B>Passed</B>:&nbsp;59</div>
+<div class="text">
+<B>Passed</B>:&nbsp;0</div>
+</td><td valign="top">
+<div class="text">&nbsp;</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Failed</B>:&nbsp;0</div>
+<div class="text">
+<B>Failed</B>:&nbsp;0</div>
+<div class="text">
+<B>Failed</B>:&nbsp;1</div>
+</td><td valign="top">
+<div class="text">&nbsp;</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Warning</B>:&nbsp;0</div>
+<div class="text">
+<B>Warning</B>:&nbsp;0</div>
+<div class="text">
+<B>Warning</B>:&nbsp;0</div>
+</td>
+</tr>
+</table>
+<br>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="90%"><span class="toggle hand result" id="toggle_scriptDetails" onclick="toggleVisibility(this, 'scriptDetails')">-</span>&nbsp;
+	<span class="subheader">Script Summary</span> &nbsp;&nbsp;
+
+	</td><td width="10%" style="white-space: nowrap;"><span class="toggle hand" onclick="expandAll(true)">Expand All</span>&nbsp;<span class="toggle hand" onclick="expandAll(false)">Collapse All</span>&nbsp;</td>
+</tr>
+</table>
+<div id="scriptDetails">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="section"><!--</td>
+</tr>
+</table>
+</div>--></td></tr><tr><td class="section"><br>
+<table border-bottom="1" cellpadding="5" cellspacing="0" width="100%" rules="groups">
+<tr class="rowTabular">
+<th>Section</th><th>Name</th><th class="wrap">Playback Time (sec)</th><th class="wrap">Time Stamp</th><th>Result</th><th>Summary</th>
+</tr>
+<tr class="rowTabular" id="initialize" subId="time_row_iter_3" subCount="6">
+<td><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_3', '6')"><span class="toggle">-</span></span>&nbsp;&nbsp;
+			 		Initialize</td><td><b>Initialize Total (sec)</b></td><td>98.143</td><td>10-09 14:04:50</td><td class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_3_1" subId="time_row_iter_4" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Launch Browser: InternetExplorer 10.0.9200.17609</td>
+</tr>
+</table>
+</td><td>2.038</td><td>10-09 14:04:50</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_3_2" subId="time_row_iter_5" subCount="3">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_5', '3')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">Call Function: EBS_Reusable_Methods.login_EBS</td>
+</tr>
+</table>
+</td><td>18.102</td><td>10-09 14:04:53</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_5_1" subId="time_row_iter_6" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Launch Browser: InternetExplorer 10.0.9200.17609</td>
+</tr>
+</table>
+</td><td>1.393</td><td>10-09 14:04:58</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_5_2" subId="time_row_iter_7" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 0 (sec).</td>
+</tr>
+</table>
+</td><td>0.023</td><td>10-09 14:04:59</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_5_3" subId="time_row_iter_8" subCount="8">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_8', '8')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">[1] Import Excel</td>
+</tr>
+</table>
+</td><td>11.262</td><td>10-09 14:04:59</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_1" subId="time_row_iter_9" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.001</td><td>10-09 14:04:59</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: selected environment is ++ </td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_2" subId="time_row_iter_10" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.001</td><td>10-09 14:04:59</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: oatsuser</td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_3" subId="time_row_iter_11" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Navigate https://erpint.fin.yahoo.com:8000/</td>
+</tr>
+</table>
+</td><td>0.067</td><td>10-09 14:05:00</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_4" subId="time_row_iter_12" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 10 (sec).</td>
+</tr>
+</table>
+</td><td>10.032</td><td>10-09 14:05:00</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_5" subId="time_row_iter_13" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textBox("@id='usernameField'") oatsuser</td>
+</tr>
+</table>
+</td><td>0.130</td><td>10-09 14:05:10</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_6" subId="time_row_iter_14" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetPassword textBox("@id='passwordField'") ******</td>
+</tr>
+</table>
+</td><td>0.038</td><td>10-09 14:05:10</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_7" subId="time_row_iter_15" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@index='0'")</td>
+</tr>
+</table>
+</td><td>0.098</td><td>10-09 14:05:10</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_8_8" subId="time_row_iter_17" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">WaitForPage https://erpint.fin.yahoo.com:8000/OA_HTML/AppsLocalLogin.jsp</td>
+</tr>
+</table>
+</td><td>0.420</td><td>10-09 14:05:10</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a href="17.jpg">Screen Shot</a>&nbsp;
+	            </span><span class="text"><a href="17_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_3_3" subId="time_row_iter_18" subCount="6">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_18', '6')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">Call Function: EBS_Reusable_Methods.expand_NodeFromList</td>
+</tr>
+</table>
+</td><td>45.388</td><td>10-09 14:05:11</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_18_1" subId="time_row_iter_19" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 0 (sec).</td>
+</tr>
+</table>
+</td><td>0.022</td><td>10-09 14:05:49</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_18_2" subId="time_row_iter_20" subCount="1">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_20', '1')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">[3] Expand Node from the List</td>
+</tr>
+</table>
+</td><td>1.751</td><td>10-09 14:05:49</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_20_1" subId="time_row_iter_21" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click element("@text='System Administrator'")</td>
+</tr>
+</table>
+</td><td>1.647</td><td>10-09 14:05:49</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_18_3" subId="time_row_iter_22" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 0 (sec).</td>
+</tr>
+</table>
+</td><td>0.019</td><td>10-09 14:05:51</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_18_4" subId="time_row_iter_23" subCount="1">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_23', '1')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">[3] Expand Node from the List</td>
+</tr>
+</table>
+</td><td>3.627</td><td>10-09 14:05:51</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_23_1" subId="time_row_iter_24" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click element("@text='Concurrent'")</td>
+</tr>
+</table>
+</td><td>3.559</td><td>10-09 14:05:51</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_18_5" subId="time_row_iter_25" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 0 (sec).</td>
+</tr>
+</table>
+</td><td>0.019</td><td>10-09 14:05:54</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_18_6" subId="time_row_iter_26" subCount="2">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_26', '2')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">[4] Click on the link under the Node</td>
+</tr>
+</table>
+</td><td>1.638</td><td>10-09 14:05:54</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_26_1" subId="time_row_iter_28" subCount="2">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_28', '2')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">WaitForPage https://erpint.fin.yahoo.com:8000/OA_HTML/OA.jsp?OAFunc=OAHOMEPAGE#dummyAnchor</td>
+</tr>
+</table>
+</td><td>0.412</td><td>10-09 14:05:54</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a href="28.jpg">Screen Shot</a>&nbsp;
+	            </span><span class="text"><a href="28_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_28_1" subId="time_row_iter_29" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:672px">
+<tr>
+<td style="width:54px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Frame (URL=https://erpint.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/t.htm)</td>
+</tr>
+</table>
+</td><td>0.000</td><td></td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a href="29_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_28_2" subId="time_row_iter_30" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:672px">
+<tr>
+<td style="width:54px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Frame (URL=https://erpint.fin.yahoo.com:8000/OA_HTML/blank.html)</td>
+</tr>
+</table>
+</td><td>0.000</td><td></td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a href="30_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_26_2" subId="time_row_iter_31" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:654px">
+<tr>
+<td style="width:36px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click element("@text='Requests'")</td>
+</tr>
+</table>
+</td><td>1.050</td><td>10-09 14:05:55</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_3_4" subId="time_row_iter_32" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Close window("@name='JOBS_QF'")</td>
+</tr>
+</table>
+</td><td>21.865</td><td>10-09 14:05:56</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_3_5" subId="time_row_iter_33" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Activate window("@name='NAVIGATOR'")</td>
+</tr>
+</table>
+</td><td>0.014</td><td>10-09 14:06:18</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_3_6" subId="time_row_iter_34" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 10 (sec).</td>
+</tr>
+</table>
+</td><td>10.022</td><td>10-09 14:06:18</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" id="iterate1" subId="time_row_iter_35" subCount="57">
+<td><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_35', '57')"><span class="toggle">-</span></span>&nbsp;&nbsp;
+			 			Iteration&nbsp;1</td><td><b>Iteration Total (sec)</b></td><td>147.100</td><td>10-09 14:06:28</td><td class="nowrap"><span class="failed">Failed</span></td><td valign="top">PO number not approved </td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_1" subId="time_row_iter_36" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.000</td><td>10-09 14:06:28</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: C:\OracleATS\OFT\Purchasing\CreateandApprovePO\CreateandApprovePO.jwg</td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_2" subId="time_row_iter_37" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.000</td><td>10-09 14:06:28</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: C:\OracleATS\OFT\Purchasing</td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_3" subId="time_row_iter_38" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Call Function: EBS_Reusable_Methods.generateUniqueData</td>
+</tr>
+</table>
+</td><td>0.021</td><td>10-09 14:06:28</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_4" subId="time_row_iter_39" subCount="3">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_39', '3')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">Call Function: EBS_Reusable_Methods.SwitchResponsibility</td>
+</tr>
+</table>
+</td><td>10.455</td><td>10-09 14:06:29</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_39_1" subId="time_row_iter_40" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">ClickToolbarButton window("@name='NAVIGATOR'") Switch Responsibility...</td>
+</tr>
+</table>
+</td><td>0.822</td><td>10-09 14:06:31</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_39_2" subId="time_row_iter_41" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 2 (sec).</td>
+</tr>
+</table>
+</td><td>2.022</td><td>10-09 14:06:31</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_39_3" subId="time_row_iter_42" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Find listOfValues("forms:listOfValues") Purchasing Super User</td>
+</tr>
+</table>
+</td><td>1.468</td><td>10-09 14:06:33</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_5" subId="time_row_iter_43" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">FocusItem treeList("@name='NAVIGATOR_LIST_0'") Purchase Orders</td>
+</tr>
+</table>
+</td><td>0.631</td><td>10-09 14:06:39</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_6" subId="time_row_iter_44" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SelectItem treeList("@name='NAVIGATOR_LIST_0'") Purchase Orders</td>
+</tr>
+</table>
+</td><td>0.690</td><td>10-09 14:06:40</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_7" subId="time_row_iter_45" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">FocusItem treeList("@name='NAVIGATOR_LIST_0'") Purchase Orders|Purchase Orders</td>
+</tr>
+</table>
+</td><td>0.611</td><td>10-09 14:06:40</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_8" subId="time_row_iter_46" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SelectItem treeList("@name='NAVIGATOR_LIST_0'") Purchase Orders|Purchase Orders</td>
+</tr>
+</table>
+</td><td>2.898</td><td>10-09 14:06:41</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_9" subId="time_row_iter_47" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetFocus textField("@name='PO_HEADERS_OPERATING_UNIT_0'")</td>
+</tr>
+</table>
+</td><td>0.165</td><td>10-09 14:06:44</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_10" subId="time_row_iter_48" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='PO_HEADERS_OPERATING_UNIT_0'") YAHOO! US</td>
+</tr>
+</table>
+</td><td>0.060</td><td>10-09 14:06:44</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_11" subId="time_row_iter_49" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_HEADERS_OPERATING_UNIT_0'")</td>
+</tr>
+</table>
+</td><td>1.471</td><td>10-09 14:06:44</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_12" subId="time_row_iter_50" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click textField("@name='PO_HEADERS_DESC_FLEX_0'") </td>
+</tr>
+</table>
+</td><td>0.921</td><td>10-09 14:06:46</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_13" subId="time_row_iter_51" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='PO_HEADERS_VENDOR_NAME_0'") APPROVED NETWORKS INC</td>
+</tr>
+</table>
+</td><td>11.210</td><td>10-09 14:06:47</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_14" subId="time_row_iter_52" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_HEADERS_VENDOR_NAME_0'")</td>
+</tr>
+</table>
+</td><td>0.513</td><td>10-09 14:06:58</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_15" subId="time_row_iter_53" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Activate window("@name='PO_HEADERS'")</td>
+</tr>
+</table>
+</td><td>0.045</td><td>10-09 14:06:59</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_16" subId="time_row_iter_54" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetFocus textField("@name='PO_LINES_LINE_NUM_0'")</td>
+</tr>
+</table>
+</td><td>1.730</td><td>10-09 14:06:59</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_17" subId="time_row_iter_55" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">OpenDialog textField("@name='PO_LINES_ITEM_CATEGORY_0'")</td>
+</tr>
+</table>
+</td><td>0.926</td><td>10-09 14:07:01</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_18" subId="time_row_iter_56" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">combination flexWindow("forms:flexWindow")</td>
+</tr>
+</table>
+</td><td>0.426</td><td>10-09 14:07:02</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_19" subId="time_row_iter_57" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">setTextAndClickOk flexWindow("forms:flexWindow") Major PO Category, , %</td>
+</tr>
+</table>
+</td><td>0.835</td><td>10-09 14:07:02</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_20" subId="time_row_iter_58" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Select listOfValues("forms:listOfValues") Brand/Media Marketing|Creative Production|Brand/Media Marketing.Creative Production</td>
+</tr>
+</table>
+</td><td>0.845</td><td>10-09 14:07:03</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_21" subId="time_row_iter_59" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='PO_LINES_ITEM_DESCRIPTION_0'") Reqtesting</td>
+</tr>
+</table>
+</td><td>0.099</td><td>10-09 14:07:04</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_22" subId="time_row_iter_60" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_LINES_ITEM_DESCRIPTION_0'")</td>
+</tr>
+</table>
+</td><td>0.509</td><td>10-09 14:07:04</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_23" subId="time_row_iter_61" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_LINES_UNIT_MEAS_LOOKUP_CODE_TL_0'")</td>
+</tr>
+</table>
+</td><td>0.437</td><td>10-09 14:07:05</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_24" subId="time_row_iter_62" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='PO_LINES_QUANTITY_0'") 5</td>
+</tr>
+</table>
+</td><td>0.088</td><td>10-09 14:07:05</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_25" subId="time_row_iter_63" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_LINES_QUANTITY_0'")</td>
+</tr>
+</table>
+</td><td>0.488</td><td>10-09 14:07:05</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_26" subId="time_row_iter_64" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='PO_LINES_UNIT_PRICE_0'") 10</td>
+</tr>
+</table>
+</td><td>0.088</td><td>10-09 14:07:06</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_27" subId="time_row_iter_65" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_LINES_UNIT_PRICE_0'")</td>
+</tr>
+</table>
+</td><td>0.490</td><td>10-09 14:07:06</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_28" subId="time_row_iter_66" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_LINES_PROMISED_DATE_0'")</td>
+</tr>
+</table>
+</td><td>0.271</td><td>10-09 14:07:07</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_29" subId="time_row_iter_67" subCount="2">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_67', '2')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">Call Function: EBS_Reusable_Methods.getDateTimeFormat</td>
+</tr>
+</table>
+</td><td>0.107</td><td>10-09 14:07:07</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_67_1" subId="time_row_iter_68" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.000</td><td>10-09 14:07:07</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: insside getDateTimeFormat</td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_67_2" subId="time_row_iter_69" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.000</td><td>10-09 14:07:07</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: 11-Oct-2017</td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_30" subId="time_row_iter_70" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='PO_LINES_NEED_BY_0'") 11-Oct-2017</td>
+</tr>
+</table>
+</td><td>0.048</td><td>10-09 14:07:07</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_31" subId="time_row_iter_71" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_LINES_NEED_BY_0'")</td>
+</tr>
+</table>
+</td><td>0.474</td><td>10-09 14:07:07</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_32" subId="time_row_iter_72" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetFocus textField("@name='PO_LINES_NEED_BY_0'")</td>
+</tr>
+</table>
+</td><td>0.360</td><td>10-09 14:07:08</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_33" subId="time_row_iter_73" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@name='PO_CONTROL_SHIPMENTS_0'")</td>
+</tr>
+</table>
+</td><td>1.530</td><td>10-09 14:07:08</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_34" subId="time_row_iter_74" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@name='SHIP_CONTROL_DISTRIBUTIONS_0'")</td>
+</tr>
+</table>
+</td><td>1.615</td><td>10-09 14:07:10</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_35" subId="time_row_iter_75" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='PO_DISTRIBUTIONS_CHARGE_ACCOUNT_FLEX_0'") 110-100300-1010-0000-000-000000-000-0000</td>
+</tr>
+</table>
+</td><td>1.283</td><td>10-09 14:07:12</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_36" subId="time_row_iter_76" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='PO_DISTRIBUTIONS_CHARGE_ACCOUNT_FLEX_0'")</td>
+</tr>
+</table>
+</td><td>1.083</td><td>10-09 14:07:13</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_37" subId="time_row_iter_77" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">ClickToolbarButton window("@name='PO_DISTRIBUTIONS'") Save</td>
+</tr>
+</table>
+</td><td>9.022</td><td>10-09 14:07:14</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_38" subId="time_row_iter_78" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">ClickButton choiceBox("forms:choiceBox") OK</td>
+</tr>
+</table>
+</td><td>30.035</td><td>10-09 14:07:23</td><td valign="top" class="nowrap"><span class="warning">Ignored</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_39" subId="time_row_iter_79" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Close window("@name='PO_DISTRIBUTIONS'")</td>
+</tr>
+</table>
+</td><td>0.878</td><td>10-09 14:07:53</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_40" subId="time_row_iter_80" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Close window("@name='PO_SHIPMENTS'")</td>
+</tr>
+</table>
+</td><td>0.650</td><td>10-09 14:07:54</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_41" subId="time_row_iter_81" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetFocus textField("@name='PO_LINES_LINE_NUM_0'")</td>
+</tr>
+</table>
+</td><td>0.296</td><td>10-09 14:07:55</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_42" subId="time_row_iter_82" subCount="1">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_82', '1')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">Call Function: EBS_Reusable_Methods.GetText</td>
+</tr>
+</table>
+</td><td>0.121</td><td>10-09 14:07:55</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_82_1" subId="time_row_iter_83" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.001</td><td>10-09 14:07:55</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: Text: 158738</td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_43" subId="time_row_iter_84" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@name='PO_CONTROL_APPROVE_0'")</td>
+</tr>
+</table>
+</td><td>5.302</td><td>10-09 14:07:56</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_44" subId="time_row_iter_85" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@name='PO_ONLINE_REPORT_OK_BUTTON_0'")</td>
+</tr>
+</table>
+</td><td>30.180</td><td>10-09 14:08:01</td><td valign="top" class="nowrap"><span class="warning">Ignored</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_45" subId="time_row_iter_86" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Close window("@name='PO_HEADERS'")</td>
+</tr>
+</table>
+</td><td>0.559</td><td>10-09 14:08:31</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_46" subId="time_row_iter_87" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Activate window("@name='NAVIGATOR'")</td>
+</tr>
+</table>
+</td><td>0.010</td><td>10-09 14:08:32</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_47" subId="time_row_iter_88" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@name='NAV_CONTROLS_COLLAPSE_ALL_0'")</td>
+</tr>
+</table>
+</td><td>0.700</td><td>10-09 14:08:32</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_48" subId="time_row_iter_89" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">FocusItem treeList("@name='NAVIGATOR_LIST_0'") Purchase Orders</td>
+</tr>
+</table>
+</td><td>0.584</td><td>10-09 14:08:33</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_49" subId="time_row_iter_90" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SelectItem treeList("@name='NAVIGATOR_LIST_0'") Purchase Orders</td>
+</tr>
+</table>
+</td><td>0.568</td><td>10-09 14:08:33</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_50" subId="time_row_iter_91" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SelectItem treeList("@name='NAVIGATOR_LIST_0'") Purchase Orders|Purchase Order Summary</td>
+</tr>
+</table>
+</td><td>2.273</td><td>10-09 14:08:34</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_51" subId="time_row_iter_92" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetFocus textField("@name='FIND_OPERATING_UNIT_0'")</td>
+</tr>
+</table>
+</td><td>0.076</td><td>10-09 14:08:36</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_52" subId="time_row_iter_93" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textField("@name='FIND_PO_NUM_0'") 158738</td>
+</tr>
+</table>
+</td><td>0.267</td><td>10-09 14:08:36</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_53" subId="time_row_iter_94" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">InvokeSoftKey textField("@name='FIND_PO_NUM_0'")</td>
+</tr>
+</table>
+</td><td>4.213</td><td>10-09 14:08:37</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_54" subId="time_row_iter_95" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@name='FIND_FIND_0'")</td>
+</tr>
+</table>
+</td><td>3.850</td><td>10-09 14:08:41</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_55" subId="time_row_iter_96" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 10 (sec).</td>
+</tr>
+</table>
+</td><td>10.020</td><td>10-09 14:08:45</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_56" subId="time_row_iter_97" subCount="1">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_97', '1')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">Call Function: EBS_Reusable_Methods.GetText</td>
+</tr>
+</table>
+</td><td>0.092</td><td>10-09 14:08:55</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_97_1" subId="time_row_iter_98" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Info</td>
+</tr>
+</table>
+</td><td>0.001</td><td>10-09 14:08:55</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top">Comments: Text: Incomplete</td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_35_57" subId="time_row_iter_99" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Failure</td>
+</tr>
+</table>
+</td><td>0.000</td><td>10-09 14:08:55</td><td valign="top" class="nowrap"><span class="failed">Failed</span></td><td valign="top">PO number not approved </td>
+</tr>
+<tr class="rowTabular" id="finish" subId="time_row_iter_100" subCount="0">
+<td><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_100', '0')"><span class="toggle">-</span></span>&nbsp;&nbsp;
+			 		Finish</td><td><b>Finish Total (sec)</b></td><td>0.064</td><td>10-09 14:08:55</td><td class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular">
+<td></td><td><b>Script Total (sec)</b></td><td>245.656</td><td>10-09 14:04:50</td><td class="nowrap"><span class="failed">Failed</span></td><td></td>
+</tr>
+</table><!--<div>
+<table>
+<tr>
+<td>--></td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="90%"><span class="toggle hand result" id="toggle_testsSummary" onclick="toggleVisibility(this, 'testsSummary')">-</span>&nbsp;
+	<span class="subheader">Test Results Summary</span> &nbsp;&nbsp;
+
+	</td>
+</tr>
+</table>
+<div id="testsSummary">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="section"><!--</td>
+</tr>
+</table>
+</div>--></td></tr><tr><td class="section"><br>
+<table border-bottom="1" cellpadding="5" cellspacing="0" width="100%" rules="groups">
+<tr class="rowTabular">
+<th width="5%">Total</th><th width="10%">Result</th><th width="80%">0%</th><th width="5%">100%</th>
+</tr>
+<tr class="rowTabular" title="1.67%">
+<td>1</td><td class="nowrap"><span class="failed">Failed</span></td><td colspan="2"><span class="chartFailure" style="width:1.67%">&nbsp;<img src="404.gif" height="0" width="1.67%"></span></td>
+</tr>
+<tr class="rowTabular" title="0.00%">
+<td>0</td><td class="nowrap"><span class="warning">Warning</span></td><td colspan="2"><span class="chartWarning" style="width:0.00%">&nbsp;<img src="404.gif" height="0" width="0.00%"></span></td>
+</tr>
+<tr class="rowTabular" title="98.33%">
+<td>59</td><td class="nowrap"><span class="passed">Passed</span></td><td colspan="2"><span class="chartPassed" style="width:98.33%">&nbsp;<img src="404.gif" height="0" width="98.33%"></span></td>
+</tr>
+</table><!--<div>
+<table>
+<tr>
+<td>--></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

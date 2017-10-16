@@ -1,0 +1,324 @@
+import oracle.oats.scripting.modules.basic.api.*;
+import oracle.oats.scripting.modules.browser.api.*;
+import oracle.oats.scripting.modules.functionalTest.api.*;
+import oracle.oats.scripting.modules.utilities.api.*;
+import oracle.oats.scripting.modules.utilities.api.sql.*;
+import oracle.oats.scripting.modules.utilities.api.xml.*;
+import oracle.oats.scripting.modules.utilities.api.file.*;
+import oracle.oats.scripting.modules.webdom.api.*;
+import oracle.oats.scripting.modules.formsFT.api.*;
+import oracle.oats.scripting.modules.applet.api.*;
+import lib.*;
+
+public class script extends IteratingVUserScript {
+	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
+	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
+	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
+	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
+	@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;
+	@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;
+	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
+	@FunctionLibrary("EBS_Reusable_Methods") lib.Subaru.EBSUpgrade.EBS_Reusable_Methods eBS_Reusable_Methods;
+	public void initialize() throws Exception {
+		
+		browser.launch();
+		datatable.importExcel("C:/OracleATS/OFT/Vehicles AR Invoice and Receipt Creation/ARinvoicereceipt.xls");
+		eBS_Reusable_Methods.login_EBS_SSO();
+		eBS_Reusable_Methods.expand_NodeFromList(new String[]{"System Administrator","Concurrent"}, "Requests");
+		forms.window("//forms:window[(@name='JOBS_QF')]").close();
+		forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);	
+		think(100);
+		
+	}
+
+	/**
+	 * Add code to be executed each iteration for this virtual user.
+	 */
+	public void run() throws Exception {
+		
+				
+		datatable.setCurrentSheet("Customer Details");
+		datatable.useFirstRowAsColumnHeader("Customer Details");
+		datatable.getRowCount();
+		
+		String cusnum=(String) datatable.getValue("Customer Details",0,"Customer");
+		String invacct=(String) datatable.getValue("Customer Details",0,"Invoice Amount");
+		String frghtacct=(String) datatable.getValue("Customer Details",0,"FreightAccount");
+		String Recacct=(String) datatable.getValue("Customer Details",0,"RecAccount");
+		
+		info(cusnum);
+		info(invacct);
+		info(frghtacct);
+		
+		eBS_Reusable_Methods.SwitchResponsibility("SOA Vehicles Receivables Manager");
+		forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0","Transactions");
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0","Transactions|Transactions");
+		forms.textField("//forms:textField[(@name='TGW_HEADER_BS_BATCH_SOURCE_NAME_MIR_0')]").click();
+		forms.textField("//forms:textField[(@name='TGW_HEADER_BS_BATCH_SOURCE_NAME_MIR_0')]").openDialog();
+			
+			forms.window("//forms:window[(@name='TMAI_HEADER')]")
+					.activate(true);
+			
+			forms.listOfValues("//forms:listOfValues")
+					.select("MANUAL VEHICLE TRANSACTIONS|SOA|MANUAL VEHICLE TRANSACTIONS");
+		
+			forms.textField("//forms:textField[(@name='TGW_HEADER_TRX_DATE_MIR_0')]").click();
+			
+			forms.list("//forms:list[(@name='TGW_HEADER_CTT_CLASS_MIR_0')]")
+					.selectItem("Invoice");
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_CTT_TYPE_NAME_MIR_0')]")
+					.openDialog();
+			forms.window("//forms:window[(@name='TMAI_HEADER')]")
+					.activate(true);
+			
+			forms.listOfValues("//forms:listOfValues").select("WHOLESALE|Invoice|VEHICLE WHOLESALE INVOICE");
+		
+		    info(cusnum);
+		    forms.textField("//forms:textField[(@name='TGW_HEADER_RAC_BILL_TO_CUSTOMER_NUM_MIR_0')]").click();
+		
+			forms.textField("//forms:textField[(@name='TGW_HEADER_RAC_BILL_TO_CUSTOMER_NUM_MIR_0')]")
+					.setText(cusnum);
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_RAC_BILL_TO_CUSTOMER_NUM_MIR_0')]")
+					.invokeSoftKey("NEXT_FIELD");
+						
+			eBS_Reusable_Methods.GetText("TGW_HEADER_RAC_BILL_TO_CUSTOMER_NAME_MIR_0");
+			eBS_Reusable_Methods.GetText("TGW_HEADER_RAA_BILL_TO_ADDRESS3_MIR_0");
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_RAC_SHIP_TO_CUSTOMER_NUM_MIR_0')]")
+					.setText(cusnum);
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_RAC_SHIP_TO_CUSTOMER_NUM_MIR_0')]")
+					.invokeSoftKey("NEXT_FIELD");
+			
+			eBS_Reusable_Methods.GetText("TGW_HEADER_RAA_SHIP_TO_ADDRESS1_MIR_0");
+			eBS_Reusable_Methods.GetText("TGW_HEADER_RAC_SHIP_TO_CUSTOMER_NAME_MIR_0");
+			
+			String invnum=eBS_Reusable_Methods.generateUniqueData("test");
+			forms.textField("//forms:textField[(@name='TGW_HEADER_TRX_NUMBER_MIR_0')]")
+					.setText(invnum);
+						
+			forms.button("//forms:button[(@name='TGW_HEADER_HEADER_FREIGHT_0')]")
+					.click();
+			
+			forms.textField("//forms:textField[(@name='TFRT_HEADER_OF_SHIP_VIA_DESCRIPTION_0')]")
+					.setFocus();
+			
+			forms.textField("//forms:textField[(@name='TFRT_LINE_EXTENDED_AMOUNT_0')]").click();
+			
+			forms.textField("//forms:textField[(@name='TFRT_LINE_EXTENDED_AMOUNT_0')]")
+					.setText("500");
+			
+			forms.textField(176,
+					"//forms:textField[(@name='TFRT_LINE_FRT_GL_ACCOUNT_0')]")
+					.openDialog();
+			
+			//eBS_Reusable_Methods.flexWindow("ACCT","110209");
+		
+			forms.captureScreenshot(178);
+			
+			
+			forms.flexWindow(179, "//forms:flexWindow").setText("ACCT", "",
+				frghtacct);
+			{
+				think(11.756);
+			}
+			forms.flexWindow(180, "//forms:flexWindow").clickOk();
+		
+					
+			forms.window("//forms:window[(@name='TFRT_HEADER')]")
+					.clickToolBarButton("Save");
+			
+			forms.window("//forms:window[(@name='TFRT_HEADER')]").close();
+		
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_BS_BATCH_SOURCE_NAME_MIR_0')]")
+					.setFocus();
+			
+			forms.button("//forms:button[(@name='TGW_HEADER_HEADER_ACCOUNTING_0')]")
+					.click();
+		
+			
+			forms.textField("//forms:textField[(@name='TACC_ACC_ASSGN_ACCOUNTING_FLEX_0')]")
+					.openDialog();
+		
+			forms.flexWindow(195, "//forms:flexWindow").setText("ACCT", "",
+				Recacct);
+			
+			forms.flexWindow(196, "//forms:flexWindow").clickOk();
+		
+			forms.window(199, "//forms:window[(@name='TACCOUNTS')]")
+					.clickToolBarButton("Save");
+			
+			
+			
+			forms.textField("//forms:textField[(@name='TACC_ACC_ASSGN_GL_POSTED_DATE_0')]")
+					.setFocus();
+			forms.window(202, "//forms:window[(@name='TACCOUNTS')]").close();
+		
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_BS_BATCH_SOURCE_NAME_MIR_0')]")
+					.setFocus();
+			forms.button("//forms:button[(@name='TGW_HEADER_HEADER_COMPLETE_0')]")
+					.click();
+						
+			forms.textField(208,
+					"//forms:textField[(@name='TGW_HEADER_BS_BATCH_SOURCE_NAME_MIR_0')]")
+					.setFocus();
+			
+			String frieghtamt=eBS_Reusable_Methods.GetText("TGW_HEADER_FREIGHT_BALANCE_0");
+			String totalamt=eBS_Reusable_Methods.GetText("TGW_HEADER_TOTAL_BALANCE_MIR_0");
+			
+			String ARinvoicenum=eBS_Reusable_Methods.GetText("TGW_HEADER_TRX_NUMBER_MIR_0");
+					
+			forms.window(211, "//forms:window[(@name='TMAI_HEADER')]")
+					.clickToolBarButton("Save");
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_TRX_NUMBER_MIR_0')]")
+					.setFocus();
+			
+			forms.window("//forms:window[(@name='TMAI_HEADER')]").close();
+				
+				
+			
+									/// Creating Receipt for the Invoice created///
+			
+			
+			
+			forms.button("//forms:button[(@name='NAV_CONTROLS_COLLAPSE_ALL_0')]")
+					.click();
+			eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Receipts");
+			eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Receipts|Receipts");
+			forms.textField("//forms:textField[(@name='RGW_FOLDER_M_PAYMENT_METHOD_DSP_0')]").click();
+			
+			forms.textField("//forms:textField[(@name='RGW_FOLDER_M_PAYMENT_METHOD_DSP_0')]").setText("PNC MISC WIRES");
+			
+			/*forms.window("//forms:window[(@name='ENTER_RECEIPTS')]")
+					.activate(true);
+			
+			forms.listOfValues("//forms:listOfValues")
+					.select("PNC MISC WIRES|SOA|*****0075|PNC BANK|USD|MISC WIRES|N|N|Y");*/
+		forms.textField("//forms:textField[(@name='RGW_FOLDER_M_RECEIPT_NUMBER_0')]").click();
+		String Recnum=eBS_Reusable_Methods.generateUniqueData("REC");
+		forms.textField("//forms:textField[(@name='RGW_FOLDER_M_RECEIPT_NUMBER_0')]").setText(Recnum);
+		forms.textField("//forms:textField[(@name='RGW_FOLDER_M_AMOUNT_DSP_0')]").click();
+		forms.textField("//forms:textField[(@name='RGW_FOLDER_M_AMOUNT_DSP_0')]").setText("500");
+		forms.textField("//forms:textField[(@name='RGW_FOLDER_M_CUSTOMER_NUMBER_0')]").click();
+		forms.textField("//forms:textField[(@name='RGW_FOLDER_M_CUSTOMER_NUMBER_0')]").setText(cusnum);
+		forms.textField("//forms:textField[(@name='RGW_FOLDER_M_CUSTOMER_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");
+			
+			forms.textField("//forms:textField[(@name='RGW_FOLDER_M_CUSTOMER_NAME_0')]")
+					.click();
+			
+			forms.button("//forms:button[(@name='RGW_FOLDER_APPLICATIONS_BUTTON_DETAIL_0')]")
+					.click();
+		
+					
+			forms.textField("//forms:textField[(@name='APP_FOLDER_TRX_NUMBER_0')]")
+					.openDialog();
+			
+			forms.window("//forms:window[(@name='APP_FOLDER')]").activate(true);
+			
+			forms.listOfValues("//forms:listOfValues").select(ARinvoicenum);
+		
+			forms.textField("//forms:textField[(@name='APP_FOLDER_APPLY_DATE_0')]").click();
+			
+			forms.window("//forms:window[(@name='APP_FOLDER')]")
+					.clickToolBarButton("Save");
+			
+			forms.window("//forms:window[(@name='APP_FOLDER')]").close();
+		
+			forms.textField("//forms:textField[(@name='RGW_FOLDER_M_PAYMENT_METHOD_DSP_0')]")
+					.setFocus();
+				
+			
+			String AppliedAmt=eBS_Reusable_Methods.GetText("RGW_FOLDER_M_APPLIED_AMOUNT_0");
+			String Receiptnum=eBS_Reusable_Methods.GetText("RGW_FOLDER_M_RECEIPT_NUMBER_0");
+			
+			forms.window("//forms:window[(@name='ENTER_RECEIPTS')]")
+					.selectMenu("Tools|Create Accounting");
+		
+			forms.button("//forms:button[(@name='SLACEXEC_OK_BP_0')]")
+					.click();
+		    think(1000);	
+			forms.choiceBox("//forms:choiceBox").clickButton("OK");
+			
+			forms.window("//forms:window[(@name='SLACEXEC')]").activate(true);
+		
+			forms.window(368, "//forms:window[(@name='ENTER_RECEIPTS')]")
+					.activate(true);
+		
+			forms.textField("//forms:textField[(@name='RGW_FOLDER_M_PAYMENT_METHOD_DSP_0')]")
+					.setFocus();
+			
+			forms.window(372, "//forms:window[(@name='ENTER_RECEIPTS')]")
+					.selectMenu("Tools|View Accounting");
+		
+			web.window("/web:window[@index='2' or @title='Subledger Journal Entry Lines']")
+					.waitForPage(null);
+			
+			String Acctname= web.element("/web:window[@index='2' or @title='Subledger Journal Entry Lines']/web:document[@index='0']/web:span[@id='N696:AccountingClass:1']").getAttribute("text");
+			info(Acctname);
+			
+			String Acctnum=web.element("/web:window[@index='2' or @title='Subledger Journal Entry Lines']/web:document[@index='0']/web:span[@id='N696:Account:1']").getAttribute("text");
+			info(Acctnum);
+						
+			web.window("/web:window[@index='2' or @title='Subledger Journal Entry Lines']").close();
+			forms.window("//forms:window[(@name='ENTER_RECEIPTS')]").close();
+						
+			
+			forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);
+			eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Transactions");
+			eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Transactions|Transactions");
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_BS_BATCH_SOURCE_NAME_MIR_0')]")
+					.invokeSoftKey("ENTER_QUERY");
+			
+			forms.textField("//forms:textField[(@name='TGW_HEADER_TRX_NUMBER_MIR_0')]")
+					.setText(invnum);
+			forms.textField("//forms:textField[(@name='TGW_HEADER_TRX_NUMBER_MIR_0')]")
+					.invokeSoftKey("EXECUTE_QUERY");
+			{
+				think(14.078);
+			}
+			forms.window("//forms:window[(@name='TMAI_HEADER')]")
+					.selectMenu("Tools|Create Accounting");
+		
+			forms.button("//forms:button[(@name='SLACEXEC_OK_BP_0')]")
+					.click();
+		
+			
+			forms.choiceBox("//forms:choiceBox").clickButton("OK");
+			
+			forms.window("//forms:window[(@name='SLACEXEC')]").activate(true);
+					
+			forms.textField("//forms:textField[(@name='TGW_HEADER_BS_BATCH_SOURCE_NAME_MIR_0')]").setFocus();
+			
+			forms.window("//forms:window[(@name='TMAI_HEADER')]").selectMenu("Tools|View Accounting");
+		
+			web.window("/web:window[@index='3' or @title='Subledger Journal Entry Lines']").waitForPage(null);
+			{
+				think(18.219);
+			}
+						
+			String recAcctclass=web.element("/web:window[@index='2' or @title='Subledger Journal Entry Lines']/web:document[@index='0']/web:span[@id='N696:AccountingClass:0']").getAttribute("text");
+			info(recAcctclass);
+			
+			String RecAcctnum=web.element("/web:window[@index='2' or @title='Subledger Journal Entry Lines']/web:document[@index='0']/web:span[@id='N696:Account:0']").getAttribute("text");
+			info(RecAcctnum);
+			
+			forms.window("//forms:window[(@name='TMAI_HEADER')]").close();
+			
+			forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);
+		}		
+		
+	
+
+	public void finish() throws Exception {
+		
+		eBS_Reusable_Methods.ERPLogout();	
+		
+	}
+}

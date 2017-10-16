@@ -1,0 +1,177 @@
+import oracle.oats.scripting.modules.basic.api.*;
+import oracle.oats.scripting.modules.browser.api.*;
+import oracle.oats.scripting.modules.functionalTest.api.*;
+import oracle.oats.scripting.modules.utilities.api.*;
+import oracle.oats.scripting.modules.utilities.api.sql.*;
+import oracle.oats.scripting.modules.utilities.api.xml.*;
+import oracle.oats.scripting.modules.utilities.api.file.*;
+import oracle.oats.scripting.modules.webdom.api.*;
+import oracle.oats.scripting.modules.formsFT.api.*;
+import oracle.oats.scripting.modules.applet.api.*;
+import lib.*;
+
+public class script extends IteratingVUserScript {
+	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
+	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
+	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
+	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
+	@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;
+	@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;
+	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
+	@FunctionLibrary("EBS_Reusable_Methods") lib.Subaru.EBSUpgrade.EBS_Reusable_Methods eBS_Reusable_Methods;
+	public void initialize() throws Exception {
+				
+		browser.launch();
+		datatable.importExcel("//snt026/OATSTESTSCRIPTS/EBS Upgrade Tests/Automation Scripts/EBS Financials/Test Data/APSupplierInquiry.xls");
+		
+		
+		eBS_Reusable_Methods.login_EBS_SSO();
+		eBS_Reusable_Methods.expand_NodeFromList(new String[]{"System Administrator","Concurrent"}, "Requests");
+		forms.window("//forms:window[(@name='JOBS_QF')]").close();
+		forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);	
+		think(100);
+	}
+
+	/**
+	 * Add code to be executed each iteration for this virtual user.
+	 */
+	public void run() throws Exception {
+		
+		eBS_Reusable_Methods.SwitchResponsibility("SOA Vehicles Payables Manager");
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0","Suppliers");
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0","Suppliers|Inquiry");
+			web.window("/web:window[@index='2' or @title='Suppliers']").waitForPage(null);
+			{
+				think(16.485);
+			}
+			
+			datatable.setCurrentSheet("Customer Details");
+			datatable.useFirstRowAsColumnHeader("Customer Details");
+			int cnt=datatable.getRowCount();
+			System.out.println(cnt);
+			
+			for(int i=0;i<cnt;i++)
+			{
+			String Suppliernum=(String) datatable.getValue("Customer Details",i,"Supplier");
+			
+			web.textBox("/web:window[@index='2' or @title='Suppliers']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='SearchSuppNum' or @name='SearchSuppNum' or @index='1']")
+					.click();
+			
+			web.textBox("/web:window[@index='2' or @title='Suppliers']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='SearchSuppNum' or @name='SearchSuppNum' or @index='1']")
+					.setText(Suppliernum);
+			
+			web.button("/web:window[@index='2' or @title='Suppliers']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:button[@id='GoButton' or @value='Go' or @index='0']")
+					.click();
+		
+			//web.window("/web:window[@index='2' or @title='Update NORTH END SUBARU - 010359: Quick Update']").waitForPage(null);
+			
+			web.window("/web:window[@index='2']").waitForPage(null);
+			
+			/*String Suppliername=web.textBox("/web:window[@index='2' or @title='Update NORTH END SUBARU - 010359: Quick Update']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='SupplierName' or @name='SupplierName' or @index='0']")
+					            .getAttribute("value");
+			info(Suppliername);*/
+			
+			String Suppliername=web.textBox("/web:window[@index='2']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='SupplierName' or @name='SupplierName' or @index='0']")
+            					.getAttribute("value");
+			
+			info(Suppliername);
+			
+			String Supliernumber=web.element("/web:window[@index='2']/web:document[@index='0']/web:span[@id='supplierNumber' or @index='30']")
+					             .getAttribute("text");
+			info(Supliernumber);
+			
+			String SuplierSite=web.element("/web:window[@index='2']/web:document[@index='0']/web:span[@id='N28:SiteName1:0' or @index='72']")
+					           .getAttribute("text");
+			info(SuplierSite);
+			
+					
+			String SuplierOU=web.element("/web:window[@index='2']/web:document[@index='0']/web:span[@id='N28:OuName111:0' or @index='73']")
+								.getAttribute("text");
+			info(SuplierOU);
+			
+			
+			
+			web.link("/web:window[@index='2']/web:document[@index='0']/web:a[@text='Organization' or @index='9']")
+					.click();
+		
+			web.window(151, "/web:window[@index='2' or @title='Organization']")
+					.waitForPage(null);
+			think(100);
+			
+			Suppliername=web.textBox("/web:window[@index='2' or @title='Organization']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='SupplierName' or @name='SupplierName' or @index='0']")
+					      .getAttribute("value");
+			
+			String Supplierid=web.textBox("/web:window[@index='2' or @title='Organization']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='dffItem3' or @name='dffItem3' or @index='10']")
+					    .getAttribute("value");
+			
+			info(Supplierid);
+			
+			String Suppliertype=web.selectBox("/web:window[@index='2' or @title='Organization']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:select[(@id='Type' or @name='Type' or @index='0') and multiple mod 'False']").getAttribute("text");
+			
+			info(Suppliertype);
+			
+			web.link("/web:window[@index='2' or @title='Organization']/web:document[@index='0']/web:a[@text='Address Book' or @index='11']")
+					.click();
+		
+			web.window(157, "/web:window[@index='2' or @title='Address Book']")
+					.waitForPage(null);
+			
+			
+			web.link("/web:window[@index='2' or @title='Address Book']/web:document[@index='0']/web:a[@text='Banking Details' or @index='15']")
+					.click();
+		
+			web.window(161, "/web:window[@index='2' or @title='Bank Accounts']")
+					.waitForPage(null);
+			think(50);
+			
+			web.link("/web:window[@index='2' or @title='Bank Accounts']/web:document[@index='0']/web:a[@text='Accounting' or @index='19']")
+					.click();
+		
+			web.window("/web:window[@index='2' or @title='Supplier Accounting Details']")
+					.waitForPage(null);
+			think(50);
+			
+			String SupplierAcctdetails=web.textBox("/web:window[@index='2' or @title='Supplier Accounting Details']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='N28:LiabilityFlex_COMBINATION:0' or @name='N28:LiabilityFlex_COMBINATION:0' or @index='2']")
+					.getAttribute("value");
+			
+						
+			web.link("/web:window[@index='2' or @title='Supplier Accounting Details']/web:document[@index='0']/web:a[@text='Purchasing' or @index='20']")
+					.click();
+		
+			web.window(170, "/web:window[@index='2' or @title='Purchasing']")
+					.waitForPage(null);
+			
+			String Suppliersite=web.element("/web:window[@index='2' or @title='Purchasing']/web:document[@index='0']/web:span[@text='LUNENBURG' or @id='N28:SiteName1:0' or @index='44']")
+					.getAttribute("text");
+			info(Suppliersite);
+			
+			String SupplierOU=web.element("/web:window[@index='2' or @title='Purchasing']/web:document[@index='0']/web:span[@text='SOA' or @id='N28:OuName1:0' or @index='45']")
+					.getAttribute("text");
+			
+			info(SupplierOU);
+			
+			
+			web.link("/web:window[@index='2' or @title='Purchasing']/web:document[@index='0']/web:a[@text='Receiving' or @index='21']")
+					.click();
+		
+			web.window(176, "/web:window[@index='2' or @title='Receiving']").waitForPage(null);
+			     think(50);
+			
+			web.link("/web:window[@index='2' or @title='Receiving']/web:document[@index='0']/web:a[@text='Payment Details' or @index='22']")
+					.click();
+		
+			web.window("/web:window[@index='2' or @title='Payment Details']").waitForPage(null);
+			    think(50);
+			
+			web.link("/web:window[@index='2' or @title='Payment Details']/web:document[@index='0']/web:a[@text='Suppliers' or @href=\"javascript:_submitNav(&apos;DefaultFormName&apos;,&apos;http%3A//soa057.subaru1.com%3A8080/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/SuppSummPG%26OAHP%3DPOS_HT_SP_HP%26OASF%3DPOS_HT_SP_B_SUPP%26OAPB%3DAP_PAY_PRODUCT_BRAND%26_ti%3D385722054%26language_code%3DUS%26CallFromForm%3D%5C%27Y%5C%27%26bcrumb%3DY%26oapc%3D15%26oas%3D67xEji3SwjEdsL8sc8almA..&apos;)\" or @index='26']")
+					.click();
+		
+			web.window(184, "/web:window[@index='2' or @title='Suppliers']").waitForPage(null);
+			}
+		
+
+	}
+
+	public void finish() throws Exception {
+	}
+}

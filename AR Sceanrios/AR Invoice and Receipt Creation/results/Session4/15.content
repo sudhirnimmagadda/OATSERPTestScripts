@@ -1,0 +1,26 @@
+<HTML lang=en class=" ie"><HEAD><TITLE>Login</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=viewport content=width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes>
+<META name=apple-mobile-web-app-capable content=yes>
+<META name=mobile-web-app-capable content=yes><LINK rel=stylesheet type=text/css href="?login.css">
+<SCRIPT type=text/javascript src="?login.js"></SCRIPT>
+</HEAD>
+<BODY onload=startup()>
+<DIV id=logo><IMG class=logo title="Oracle Logo" alt="Oracle Logo" src="/OA_HTML/media/oracle_white_logo.png"> </DIV>
+<DIV class=login_panel>
+<DIV class=login_container>
+<FORM id=login method=post action=javascript:submitCredentials(); autocomplete="off">
+<DIV id=UsernameBox class="control_box min_margin"><LABEL title="User Name" for=usernameField message="FND_SSO_USER_NAME">User Name</LABEL> <INPUT id=usernameField class=inp tabIndex=0 type=text name=usernameField message="FND_SSO_USER_NAME" readonly="false"> </DIV>
+<DIV style="DISPLAY: none" id=logoutLink class="control_box min_margin"><A title="Not ?  Log Out" tabIndex=0 onclick=confirmLogout() name=logout message="FND_SSO_NOTSAME_USER">Not ? Log Out</A></DIV>
+<DIV class="control_box min_margin"><LABEL title=Password for=passwordField message="FND_SSO_PASSWORD">Password</LABEL> <INPUT id=passwordField class=inp tabIndex=0 value="" type=password name=passwordField message="FND_SSO_PASSWORD"> </DIV></FORM>
+<DIV id=ButtonBox class="control_box center"><BUTTON style="PADDING-LEFT: 6px; PADDING-RIGHT: 6px" class="OraButton left" tabIndex=0 onclick=submitCredentials() type=submit message="FND_SSO_LOGIN">Login</BUTTON><BUTTON style="PADDING-LEFT: 6px; PADDING-RIGHT: 6px" class="OraButton right" tabIndex=0 onclick=handleCancel() type=submit message="FND_SSO_CANCEL">Cancel</BUTTON> </DIV>
+<DIV id=HelpLinkBox class=control_box><A style="BACKGROUND-COLOR: #ff0066" id=ForgotPasswordURL title="Login Assistance" role=LINK tabIndex=0 href="#" message="FND_SSO_FORGOT_PASSWORD">Login Assistance</A> <BR><BR><A id=RegisterHereURL title="Register here" role=LINK tabIndex=0 href="#" message="FND_SSO_REGISTER_HERE">Register here</A> </DIV>
+<DIV id=AccessibilityBox class="control_box min_margin"><LABEL id=adaLabel title=Accessibility for=accessibility message="FND_SSO_ACCESSIBILITY">Accessibility</LABEL> <SELECT id=accessibility class=selector title=Accessibility tabIndex=0 name=Accessibility><OPTION title=None selected value=N>None</OPTION><OPTION title="Standard Accessibility" value=Y>Standard Accessibility</OPTION><OPTION title="Screen Reader Optimized" value=S>Screen Reader Optimized</OPTION></SELECT> </DIV>
+<DIV id=LanguagePickerBox class="control_box min_margin"><LABEL title=Language for=slang message="FND_SSO_LANGUAGE">Language</LABEL> <SELECT id=slang class=selector title="Select a Language:" tabIndex=0 name=currentLanguage message="FND_SSO_LOGIN_LANG_SELECT"><OPTION lang=en title="American English" selected value=US>English</OPTION></SELECT> </DIV>
+<DIV style="DISPLAY: none" id=errorBox class="control_box min_margin" role=alert message="undefined">&nbsp;</DIV></DIV></DIV>
+<DIV id=FooterBox class=footer>
+<DIV id=CopyrightBox class=copyright><SPAN title="Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved." message="FND_COPYRIGHT">Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV id=LinksBox class=links_footer>
+<UL></UL></DIV></DIV>
+<DIV id=lock class=lock></DIV>
+<DIV style="DISPLAY: block" id=spinner class=spinner></DIV></BODY></HTML>

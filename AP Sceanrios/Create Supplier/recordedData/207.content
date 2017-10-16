@@ -1,0 +1,562 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Create Address: Site Creation</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/tableUtils.js"></SCRIPT>
+
+<SCRIPT id=oaf_detachScript type=text/javascript src="/OA_HTML/cabo/oajsLibs/detachTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event,\\'DefaultFormName\\')','CTinitRichTableUI(\\'allSitesExtnd.tableRN\\');CTaddEventToPPROnLoad();Linit();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};_navDirty=1;</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/pos/supplier/webui/ByrCrtStPG&amp;PosAddressName=Radissonsite&amp;PosAddressDetails=suite%20203%2C%204%20ckarke%20st%2C%20crowsnest%2C%20CALIFORNIA%2C%20United%20States&amp;PosReturnFunction=POS_HT_SP_B_ADDR_BK&amp;PosEvent=CREATE&amp;PosAddressPurpose=Payment&amp;PosReturnMenu=POS_HT_SP_HP&amp;PosLocationId=6117906&amp;PosBackFunction=POS_HT_SP_B_ADDR_PG&amp;PosPartySiteId=8351104&amp;_ti=765824128&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;OAMC=G&amp;oapc=23&amp;oas=jySnCNOD32nrEOO4FftWHg..><INPUT id=_AM_TX_ID_FIELD value=4lCAHVVWQ type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormNameqkxktIn6 type=hidden name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=pageLayout>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=x86><SPAN style="POSITION: relative" title=Payables><SPAN class=x4j>Payables</SPAN></SPAN>
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fskyros\\x2Ft.gif";var _axm;t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=14></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD>
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SNAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Navigator alt=Navigator src="/OA_MEDIA/navigator.png"></DIV></A></DIV></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=PersonalizePage class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/framework/personalization/webui/ChooseContextPG&amp;retainAM=Y&amp;addBreadCrumb=S&amp;PERZ=Y&amp;bypass=y&amp;pg=%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG.pageLayout&amp;is=0&amp;io=51&amp;ir=20639&amp;ia=200&amp;iu=122032&amp;te=oapswByrCrtStPG.pageLayout&amp;pv=SPS&amp;amMode=7&amp;baseAM=oracle.apps.pos.supplier.server.ByrSuppAM&amp;baseRC=/oracle/apps/pos/supplier/webui/ByrCrtStPG&amp;baseAppId=177&amp;_ti=765824128&amp;oapc=23&amp;OAIG=10231&amp;menu=Y&amp;oas=PCSlt2ABgE9B1jCm1pGjEQ..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/framework/personalization/webui/ChooseContextPG&amp;retainAM=Y&amp;addBreadCrumb=S&amp;PERZ=Y&amp;bypass=y&amp;pg=%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG.pageLayout&amp;is=0&amp;io=51&amp;ir=20639&amp;ia=200&amp;iu=122032&amp;te=oapswByrCrtStPG.pageLayout&amp;pv=SPS&amp;amMode=7&amp;baseAM=oracle.apps.pos.supplier.server.ByrSuppAM&amp;baseRC=/oracle/apps/pos/supplier/webui/ByrCrtStPG&amp;baseAppId=177&amp;_ti=765824128&amp;oapc=23&amp;OAIG=10231&amp;menu=Y&amp;oas=PCSlt2ABgE9B1jCm1pGjEQ..">
+<TD style="PADDING-LEFT: 7px"><IMG id=PersonalizePage:select border=0 name=PersonalizePage:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Personalize Page</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=765824128&amp;oapc=23&amp;OAMC=84856_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=Hh1WzwPEcPljuqO011g9EQ..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=765824128&amp;oapc=23&amp;OAMC=84856_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=Hh1WzwPEcPljuqO011g9EQ..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG%26PosAddressName%3DRadissonsite%26PosAddressDetails%3Dsuite%2520203%252C%25204%2520ckarke%2520st%252C%2520crowsnest%252C%2520CALIFORNIA%252C%2520United%2520States%26PosReturnFunction%3DPOS_HT_SP_B_ADDR_BK%26PosEvent%3DCREATE%26PosAddressPurpose%3DPayment%26PosReturnMenu%3DPOS_HT_SP_HP%26PosLocationId%3D6117906%26PosBackFunction%3DPOS_HT_SP_B_ADDR_PG%26PosPartySiteId%3D8351104%26transactionid%3D765824128%26retainAM%3DY%26addBreadCrumb%3DY%26OAMC%3DG%26oas%3D2WqRQ_i2syqdgeQI0Q8Qhg..&amp;_ti=765824128&amp;oapc=23&amp;OAIG=7867&amp;menu=Y&amp;oas=UiY9nuASSIhJ2t51BzpppA..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG%26PosAddressName%3DRadissonsite%26PosAddressDetails%3Dsuite%2520203%252C%25204%2520ckarke%2520st%252C%2520crowsnest%252C%2520CALIFORNIA%252C%2520United%2520States%26PosReturnFunction%3DPOS_HT_SP_B_ADDR_BK%26PosEvent%3DCREATE%26PosAddressPurpose%3DPayment%26PosReturnMenu%3DPOS_HT_SP_HP%26PosLocationId%3D6117906%26PosBackFunction%3DPOS_HT_SP_B_ADDR_PG%26PosPartySiteId%3D8351104%26transactionid%3D765824128%26retainAM%3DY%26addBreadCrumb%3DY%26OAMC%3DG%26oas%3D2WqRQ_i2syqdgeQI0Q8Qhg..&amp;_ti=765824128&amp;oapc=23&amp;OAIG=7867&amp;menu=Y&amp;oas=UiY9nuASSIhJ2t51BzpppA..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=DtK_Kr-AWePeWdw7-e4LVA.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('1','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=DtK_Kr-AWePeWdw7-e4LVA.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>1</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD></TD>
+<TD><A class=x84 href="javascript:_submitNav('DefaultFormName','https%3A//erpptp1.fin.yahoo.com%3A8000/OA_HTML/OALogout.jsp%3FcloseWindow%3Dtrue%26menu%3DY')">
+<DIV><IMG title="Close Window" border=0 alt="Close Window" src="/OA_MEDIA/Close.png"></DIV></A></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=3></TD></TR>
+<TR>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9n>
+<DIV>
+<DIV class=pagetopborderleft></DIV>
+<DIV class=pagetopbordermiddle></DIV>
+<DIV class=pagetopborderright></DIV></DIV></DIV>
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<DIV class=x6v>
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=xl><NOBR><A href="javascript:_submitNav('DefaultFormName','https%3A//erpptp1.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAddrBkPG%26retainAM%3DY%26_ti%3D765824128%26OAMC%3D84856_67_0%26menu%3DY%26oaMenuLevel%3D4%26bcrumb%3DY%26oapc%3D23%26oas%3D8lAjSu9VFzQI12OHNYdODA..')">Suppliers: Address Book</A>&nbsp;&nbsp;&gt;</NOBR> <NOBR><A href="javascript:_submitNav('DefaultFormName','https%3A//erpptp1.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAddrPG%26PosEvent%3DCREATE%26PosVendorId%3D476815%26PosPartyId%3D18394323%26_ti%3D765824128%26retainAM%3DY%26addBreadCrumb%3DY%26OAMC%3DG%26bcrumb%3DY%26oapc%3D23%26oas%3D9OmnPt_Kc49YwzbEvnjqFQ..')">Create Address: Confirm Details</A>&nbsp;&nbsp;&gt;</NOBR><SPAN class=xm> <NOBR></NOBR></SPAN></DIV></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV id=p_SwanPageLayout class=x7z>
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Create Address: Site Creation</H1></TD>
+<TD vAlign=bottom noWrap align=right>
+<TABLE id=pageBtnRN class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\\'DefaultFormName\\',0,{\\'_FORM_SUBMIT_BUTTON\\':\\'cancelBtnIBE-ORT-\\'});return false',this,event,true)" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON id=backBtn class=x7p title=Back onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'backBtngZCZAGuK'});return false" type=submit>Back</BUTTON></TD>
+<TD><BUTTON accessKey=p id=applyBtn class=x7p title=Apply onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'applyBtn6lHhpaXQ'});return false" type=submit>A<SPAN class=xq>p</SPAN>ply</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV>
+<DIV id=allSitesExtnd_p13n><A id=N86 class=xh title="Personalize /oracle/apps/pos/supplier/components/webui/CreateSiteRN" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Fpos%252Fsupplier%252Fcomponents%252Fwebui%252FCreateSiteRN%26is%3D0%26io%3D51%26ir%3D20639%26ia%3D200%26iu%3D122032%26te%3DoapscwCreateSiteRN%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.pos.supplier.server.ByrSuppAM%26baseRC%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG%26baseAppId%3D177%26OAIG%3D10231%26_ti%3D765824128%26oapc%3D23%26oas%3D_RYEsBk_UScXtG9CM18K7g..%22)">Personalize "Site Details"</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=allSitesExtnd>
+<TABLE id=SuppNaddDtRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:2}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=messageLayout1__xc_>
+<TD vAlign=top noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap>
+<TABLE id=AddressDtRN1 border=0 cellSpacing=0 cellPadding=0 width="80%" data="{columns:1}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=addrName1__xc_>
+<TD vAlign=top width="37%" noWrap align=right><SPAN class="OraPromptText OraPromptSpaceBig">Address Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%"><SPAN id=addrName1 class="OraDataText MessageComponentLayoutText" title="Address Name">Radissonsite</SPAN></TD></TR>
+<TR id=addrDetail1__xc_>
+<TD vAlign=top width="37%" noWrap align=right><SPAN class="OraPromptText OraPromptSpaceBig">Address Details</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%"><SPAN id=addrDetail1 class="OraDataText MessageComponentLayoutText" title="Address Details">suite 203, 4 ckarke st, crowsnest, CALIFORNIA, US, 94551</SPAN></TD></TR>
+<TR id=purpose1__xc_>
+<TD vAlign=top width="37%" noWrap align=right><SPAN class="OraPromptText OraPromptSpaceBig">Purpose</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%"><SPAN id=purpose1 class="OraDataText MessageComponentLayoutText" title=Purpose>Payment</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><INPUT id=addrId value={!!nJO6bponsAioq7gfm4HgSwKQHE1i0R type=hidden name=addrId><INPUT id=locationId value={!!xmPuF2tZKZ-nBLPfFqXiuwOgl4NDQ2 type=hidden name=locationId><INPUT id=supplierId value={!!oD82loQvwp.WldyA.25QJAVlPJ9usd type=hidden name=supplierId><INPUT id=addrDt type=hidden name=addrDt><INPUT id=addrPurpose type=hidden name=addrPurpose></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=messageLayout2__xc_>
+<TD vAlign=top noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap>
+<TABLE id=SupplierDetailsRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:1}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=suppName__xc_>
+<TD vAlign=top width="37%" noWrap align=right><SPAN class="OraPromptText OraPromptSpaceBig">Supplier Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%"><SPAN id=suppName class="OraDataText MessageComponentLayoutText" title="Supplier Name">Radisson Test</SPAN></TD></TR>
+<TR id=suppNum__xc_>
+<TD vAlign=top width="37%" noWrap align=right><SPAN class="OraPromptText OraPromptSpaceBig">Supplier Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%"><SPAN id=suppNum class="OraDataText MessageComponentLayoutText" title="Supplier Number">233445</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=OusRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Operating Units</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<DIV parent="OAHeaderBean, localName='header'"><A id=N87 class=xh title="Personalize /oracle/apps/pos/supplier/components/webui/CreateSiteRN.OusRN" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Fpos%252Fsupplier%252Fcomponents%252Fwebui%252FCreateSiteRN.OusRN%26is%3D0%26io%3D51%26ir%3D20639%26ia%3D200%26iu%3D122032%26te%3DoapscwCreateSiteRN.OusRN%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.pos.supplier.server.ByrSuppAM%26baseRC%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG%26baseAppId%3D177%26OAIG%3D10231%26_ti%3D765824128%26oapc%3D23%26oas%3D1qlSptltv6xqsm5TrT_c9A..%22)">Personalize "Operating Units"</A></DIV></DIV>
+<DIV>
+<DIV id=allSitesExtnd.tableRN_p13n><A id=N88 class=xh title="Personalize /oracle/apps/pos/supplier/components/webui/CreateSiteRN.tableRN" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Fpos%252Fsupplier%252Fcomponents%252Fwebui%252FCreateSiteRN.tableRN%26is%3D0%26io%3D51%26ir%3D20639%26ia%3D200%26iu%3D122032%26te%3DoapscwCreateSiteRN.tableRN%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.pos.supplier.server.ByrSuppAM%26baseRC%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG%26baseAppId%3D177%26OAIG%3D10231%26_ti%3D765824128%26oapc%3D23%26oas%3DbKdjfKWo3QeQ-Q1FimOagg..%22)">Personalize "Operating Units for which sites sh..."</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=allSitesExtnd.tableRN title="Operating Units for which sites should be created.">
+<DIV id=loadDiv:allSitesExtnd.tableRN>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:allSitesExtnd.tableRN><INPUT id=fullAMName:allSitesExtnd.tableRN value=oracle.apps.pos.supplier.server.ByrSuppAM type=hidden><INPUT id=tid:allSitesExtnd.tableRN value=765824128 type=hidden><INPUT id=fullCustRef:allSitesExtnd.tableRN value=/oracle/apps/pos/supplier/webui/ByrCrtStPG.allSitesExtnd.tableRN type=hidden>
+<DIV id=surroundingDiv:allSitesExtnd.tableRN>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:allSitesExtnd.tableRN title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:allSitesExtnd.tableRN onfocus="TUdetachTableForwardFocusLoop('allSitesExtnd.tableRN');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:allSitesExtnd.tableRN onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:allSitesExtnd.tableRN><IMG title="Attach Table: Operating Units for which sites should be created." border=0 alt="Attach Table: Operating Units for which sites should be created." src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="60%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=allSitesExtnd.tableRN:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Operating Units for which sites should be created." onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Operating Units for which sites should be created."><IMG id=allSitesExtnd.tableRN:detachIcon class=OraTableControlBarIcon title="Detach Table: Operating Units for which sites should be created." alt="Detach Table: Operating Units for which sites should be created." src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Operating Units for which sites should be created."></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=allSitesExtnd.tableRN:refreshIcon title="Refresh Table: Operating Units for which sites should be created." onclick="_tableRefresh('DefaultFormName','tablerefresh','N10',1,' ',' ','allSitesExtnd.tableRN')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Operating Units for which sites should be created." alt="Refresh Table: Operating Units for which sites should be created." src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:allSitesExtnd.tableRN class=x9i onclick="TUreset('allSitesExtnd.tableRN');" href="javascript:void(0)" name=reset:ena:allSitesExtnd.tableRN><IMG title="Reset Table Settings: Operating Units for which sites should be created." border=0 alt="Reset Table Settings: Operating Units for which sites should be created." src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:allSitesExtnd.tableRN class=x9i title="Reset Table Settings Disabled: Operating Units for which sites should be created." border=0 name=reset:dis:allSitesExtnd.tableRN alt="Reset Table Settings Disabled: Operating Units for which sites should be created." src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_allSitesExtnd__tableRN'].invokeMenuUsingKey(this,event);" id=settings:allSitesExtnd.tableRN class=x9j role=button onclick="menus['settings_allSitesExtnd__tableRN'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:allSitesExtnd.tableRN><IMG title="Table Settings: Operating Units for which sites should be created." border=0 alt="Table Settings: Operating Units for which sites should be created." src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_allSitesExtnd__tableRN class=x9u role=menu submitfun="TUMenuOKAction('settings_allSitesExtnd.tableRN' ,'allSitesExtnd.tableRN');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_allSitesExtnd__tableRN'].focusMenu(event, this);" id=menuItem:siteName aria-checked=true class=x9t onmouseover="menus['settings_allSitesExtnd__tableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_allSitesExtnd__tableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].clickOnMenuItem(\\'menuItem:siteName\\',event);','TUmenuSelection(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\',\\'menuItem:siteName\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:siteName:select title=Hide border=0 name=menuItem:siteName:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Site Name</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:siteName tabIndex=-1 onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].reorderUp(this,event)','TUreorder(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\')',this,event)" href="javascript:void(0)" name=up:menuItem:siteName><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:siteName tabIndex=-1 onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].reorderDown(this,event)','TUreorder(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\')',this,event)" href="javascript:void(0)" name=down:menuItem:siteName><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_allSitesExtnd__tableRN'].focusMenu(event, this);" id=menuItem:ou aria-checked=true class=x9t onmouseover="menus['settings_allSitesExtnd__tableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_allSitesExtnd__tableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].clickOnMenuItem(\\'menuItem:ou\\',event);','TUmenuSelection(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\',\\'menuItem:ou\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:ou:select title=Hide border=0 name=menuItem:ou:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Operating Unit</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:ou tabIndex=-1 onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].reorderUp(this,event)','TUreorder(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\')',this,event)" href="javascript:void(0)" name=up:menuItem:ou><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:ou tabIndex=-1 onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].reorderDown(this,event)','TUreorder(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\')',this,event)" href="javascript:void(0)" name=down:menuItem:ou><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_allSitesExtnd__tableRN'].focusMenu(event, this);" id=menuItem:taxReportable aria-checked=true class=x9t onmouseover="menus['settings_allSitesExtnd__tableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_allSitesExtnd__tableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].clickOnMenuItem(\\'menuItem:taxReportable\\',event);','TUmenuSelection(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\',\\'menuItem:taxReportable\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:taxReportable:select title=Hide border=0 name=menuItem:taxReportable:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Tax Reportable</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:taxReportable tabIndex=-1 onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].reorderUp(this,event)','TUreorder(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\')',this,event)" href="javascript:void(0)" name=up:menuItem:taxReportable><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:taxReportable tabIndex=-1 onclick="return _chain('menus[\\'settings_allSitesExtnd__tableRN\\'].reorderDown(this,event)','TUreorder(\\'settings_allSitesExtnd__tableRN\\',\\'allSitesExtnd.tableRN\\')',this,event)" href="javascript:void(0)" name=down:menuItem:taxReportable><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_allSitesExtnd__tableRN']= new Menu();menus['settings_allSitesExtnd__tableRN'].initMenu('settings_allSitesExtnd__tableRN');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_allSitesExtnd__tableRN'].invokeMenuUsingKey(this,event);" id=freeze:allSitesExtnd.tableRN class=x9j role=button onclick="menus['freeze_allSitesExtnd__tableRN'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:allSitesExtnd.tableRN><IMG title="Column Freeze: Operating Units for which sites should be created." border=0 alt="Column Freeze: Operating Units for which sites should be created." src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_allSitesExtnd__tableRN class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_allSitesExtnd__tableRN'].focusMenu(event, this);" id=allSitesExtnd.tableRN:unfreeze class=x9t onmouseover="menus['freeze_allSitesExtnd__tableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_allSitesExtnd__tableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_allSitesExtnd__tableRN'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('allSitesExtnd.tableRN');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=allSitesExtnd.tableRN:unfreeze:select border=0 name=allSitesExtnd.tableRN:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_allSitesExtnd__tableRN'].focusMenu(event, this);" id=menuItem:siteName:freeze class=x9t onmouseover="menus['freeze_allSitesExtnd__tableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_allSitesExtnd__tableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_allSitesExtnd__tableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('allSitesExtnd.tableRN','menuItem:siteName:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:siteName:freeze:select border=0 name=menuItem:siteName:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Site Name</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_allSitesExtnd__tableRN'].focusMenu(event, this);" id=menuItem:ou:freeze class=x9t onmouseover="menus['freeze_allSitesExtnd__tableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_allSitesExtnd__tableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_allSitesExtnd__tableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('allSitesExtnd.tableRN','menuItem:ou:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:ou:freeze:select border=0 name=menuItem:ou:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Operating Unit</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_allSitesExtnd__tableRN'].focusMenu(event, this);" id=menuItem:taxReportable:freeze class=x9t onmouseover="menus['freeze_allSitesExtnd__tableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_allSitesExtnd__tableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_allSitesExtnd__tableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('allSitesExtnd.tableRN','menuItem:taxReportable:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:taxReportable:freeze:select border=0 name=menuItem:taxReportable:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Tax Reportable</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_allSitesExtnd__tableRN']= new Menu();menus['freeze_allSitesExtnd__tableRN'].initMenu('freeze_allSitesExtnd__tableRN');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:allSitesExtnd.tableRN class=x9i title="Column Freeze is disabled for table Operating Units for which sites should be created.. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:allSitesExtnd.tableRN alt="Column Freeze is disabled for table Operating Units for which sites should be created.. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR>
+<TD>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'allSitesExtnd.tableRN')" id=contentDiv:allSitesExtnd.tableRN class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=allSitesExtnd.tableRN:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="1" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="classic" initialWidth="undefined" initialOWidth="undefined">
+<TBODY>
+<TR>
+<TH class="x21 x50" width="1%" scope=col noWrap specialcolumn="true"><SPAN id=N10:triState__xc_><INPUT id=N10:triState title=Select onclick="updateTableCheckboxStates('N10');" value=on type=checkbox></SPAN></TH>
+<TH id=siteName class="x1z x50 x9h" scope=col sortvalue="0UdX9kol4" oaondragstart="dragStartOnRichTableColumn(allSitesExtnd.tableRN)"><SPAN id=OASH__11789 class=x2c>Site Name
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt,parent) {if( ((typeof TUfromDragEvent != 'undefined') && TUfromDragEvent)  || ((typeof TUhideEvt != 'undefined') && TUhideEvt) ) {TUfromDragEvent = false ; TUhideEvt = false;return;}if(parent!=null && parent.tagName =='TH' && parent.getAttribute('sortvalue') != null) {  val = parent.getAttribute('sortvalue'); } var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN><A style="POSITION: absolute; DISPLAY: none" id=siteName:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('allSitesExtnd.tableRN','siteName');return false" href="javascript:void(0)" name=siteName:h><IMG title="Hide : Site Name" border=0 alt="Hide : Site Name" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=ou class="x28 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N10','1zcqsnhEN','','allSitesExtnd.tableRN');return false" scope=col noWrap sortvalue="1zcqsnhEN" oaondragstart="dragStartOnRichTableColumn(allSitesExtnd.tableRN)"><SPAN id=OASH__11790 class=x2b>Operating Unit</SPAN><A id=ou_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=ou:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('allSitesExtnd.tableRN','ou');return false" href="javascript:void(0)" name=ou:h><IMG title="Hide : Operating Unit" border=0 alt="Hide : Operating Unit" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=taxReportable class="x21 x50 x9h" scope=col sortvalue="24RAhGaX-" oaondragstart="dragStartOnRichTableColumn(allSitesExtnd.tableRN)"><SPAN id=OASH__11791 class=x2c>Tax Reportable</SPAN><A style="POSITION: absolute; DISPLAY: none" id=taxReportable:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('allSitesExtnd.tableRN','taxReportable');return false" href="javascript:void(0)" name=taxReportable:h><IMG title="Hide : Tax Reportable" border=0 alt="Hide : Tax Reportable" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx" width="1%"><SPAN onchange="handleTableMultiSelection('N10:selected:0');updateTriStateCheckBoxState('N10');"><INPUT title=Select value=0 type=checkbox name=N10:selected:0></SPAN></TD>
+<TD class="x1t x50 xjx"><INPUT id=N10:siteName:0 class=x8 title="Site Name" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onchange="" value=Radissonsite maxLength=15 size=15 type=text name=N10:siteName:0></TD>
+<TD class="x1t x50 xjx"><SPAN id=N10:ou:0 title="Operating Unit">YAHOO! US</SPAN></TD>
+<TD class="x1x x50 xjx"><SPAN id=N10:taxReportable:0__xc_><INPUT id=N10:taxReportable:0 title="Tax Reportable" value=on type=checkbox name=N10:taxReportable:0></SPAN></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:allSitesExtnd.tableRN')" id=scrollDiv:allSitesExtnd.tableRN scrolltorow="0">
+<DIV id=scrollDivContent:allSitesExtnd.tableRN></DIV></DIV></TD></TR></TBODY></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:allSitesExtnd.tableRN onfocus="TUdetachTableReturnFocusLoop('allSitesExtnd.tableRN');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:allSitesExtnd.tableRN></DIV></DIV></DIV>
+<SCRIPT language=javascript>function _richTblRefresh(formName,validate,ptgt,table,event,val) { _submitPartialChange(formName,validate,{event:event,source:table,partialTargets:ptgt,value:val});  }</SCRIPT>
+
+<SCRIPT language=javascript>function _tableRefresh(formName, tablerefresh, src, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:tablerefresh,source:src,value:val,size:sze,partialTargets:partialTargets});}</SCRIPT>
+<INPUT id=direction:N10 type=hidden name=direction:N10>
+<SCRIPT language=javascript>correctChoiceSelection('allSitesExtnd.tableRN','1')</SCRIPT>
+</SPAN>
+<SCRIPT>var _N10_value=31;</SCRIPT>
+<SPAN id=allSitesExtnd.tableRN-hv><INPUT id=N10:_pkOrganizationId:0 value={!!2y39Dxp7qpoyivkzCT6IZgxRbVpL4X type=hidden name=N10:_pkOrganizationId:0><INPUT value=1 type=hidden name=N10:length><INPUT type=hidden name=N10:selectMode></SPAN>
+<SCRIPT>_addNavExclude('N10:selected')</SCRIPT>
+
+<SCRIPT language=javascript>updateTriStateCheckBoxState('N10');</SCRIPT>
+
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV id=SpacerRN_p13n><A id=N89 class=xh title="Personalize /oracle/apps/pos/supplier/components/webui/CreateSiteRN.SpacerRN" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Fpos%252Fsupplier%252Fcomponents%252Fwebui%252FCreateSiteRN.SpacerRN%26is%3D0%26io%3D51%26ir%3D20639%26ia%3D200%26iu%3D122032%26te%3DoapscwCreateSiteRN.SpacerRN%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.pos.supplier.server.ByrSuppAM%26baseRC%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG%26baseAppId%3D177%26OAIG%3D10231%26_ti%3D765824128%26oapc%3D23%26oas%3DMNsVf-pQnGevPI-ze-ZJCA..%22)">Personalize Default Single Column: (SpacerRN)</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=SpacerRN>
+<SCRIPT id=spacer1>t('1','15')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=15>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<DIV id=siteDtRN_p13n><A id=N90 class=xh title="Personalize /oracle/apps/pos/supplier/components/webui/CreateSiteRN.siteDtRN" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Fpos%252Fsupplier%252Fcomponents%252Fwebui%252FCreateSiteRN.siteDtRN%26is%3D0%26io%3D51%26ir%3D20639%26ia%3D200%26iu%3D122032%26te%3DoapscwCreateSiteRN.siteDtRN%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.pos.supplier.server.ByrSuppAM%26baseRC%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrCrtStPG%26baseAppId%3D177%26OAIG%3D10231%26_ti%3D765824128%26oapc%3D23%26oas%3D8m4AK1TGDSrTyi6n2oHlIQ..%22)">Personalize "Site Attributes"</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=siteDtRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Site Attributes</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<TABLE id=msg1RN border=0 cellSpacing=0 cellPadding=0 width="40%" data="{columns:1}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=termsChkBox__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SPAN id=termsChkBox__xc_0>
+<SCRIPT>function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);}</SCRIPT>
+<INPUT id=termsChkBox title="Override default site attributes" onclick="_uixspu('DefaultFormName',1,'changeCheckState','termsChkBox',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_termsChkBox_changeCheckState9tVVL2Fj','evtSrcRowIdx':'0ww3l1ZJm','evtSrcRowId':'ByrSuppAM.ByrAddrAM.ByrCrtStTermsVO1000lKA2XL6D'});return true;" value=on type=checkbox name=termsChkBox><SPAN class="OraFieldText OraCheckboxText">Override default site attributes</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog data="{autoPosition:0,px:-1,py:-1};" isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=765824128&amp;oapc=23&amp;oas=H-UdS9ObCVn7I32__iJSFQ.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/pos/supplier/webui/ByrCrtStPG:::0YWOpuc1 type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,2)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=2></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right><FOOTER style="DISPLAY: none" id=oaffooterbuttons>
+<TABLE id=pageBtnRN_uixr class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn_uixr class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\\'DefaultFormName\\',0,{\\'_FORM_SUBMIT_BUTTON\\':\\'cancelBtnIBE-ORT-\\'});return false',this,event,true)" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON id=backBtn_uixr class=x7p title=Back onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'backBtngZCZAGuK'});return false" type=submit>Back</BUTTON></TD>
+<TD><BUTTON accessKey=p id=applyBtn_uixr class=x7p title=Apply onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'applyBtn6lHhpaXQ'});return false" type=submit>A<SPAN class=xq>p</SPAN>ply</BUTTON></TD></TR></TBODY></TABLE></FOOTER></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N74>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\\'DefaultFormName\\',0,{\\'serverValidate\\':\\'1WiBqRhZC\\',event:\\'about\\'});return false;',this,event,true)" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=N10$$unvalidated value=falsedVwYxAdN type=hidden name=N10$$unvalidated><INPUT id=N10$$serverUnvalidated value=falseqDZGwDdG type=hidden name=N10$$serverUnvalidated><INPUT id=_fwkActBtnName_termsChkBox_changeCheckState$$serverUnvalidated value=falsezWsqES-1 type=hidden name=_fwkActBtnName_termsChkBox_changeCheckState$$serverUnvalidated><INPUT id=_OA_CURRENT_SUBTAB_UINODENAME value=0eFOB-6QW type=hidden name=_OA_CURRENT_SUBTAB_INDEX><INPUT id=openPopupSourceId value=oC9Wi1g9 type=hidden name=openPopupSourceId><INPUT id=cancelBtn$$unvalidated value=trueJEs3CKDF type=hidden name=cancelBtn$$unvalidated><INPUT id=cancelBtn$$serverUnvalidated value=trueqX0A03Ph type=hidden name=cancelBtn$$serverUnvalidated><INPUT id=cancelBtn$$processFormDataCalled value=truekAqQazYD type=hidden name=cancelBtn$$processFormDataCalled><INPUT id=backBtn$$unvalidated value=falseh8mfo59e type=hidden name=backBtn$$unvalidated><INPUT id=backBtn$$serverUnvalidated value=falseTB336i6E type=hidden name=backBtn$$serverUnvalidated><INPUT id=backBtn$$processFormDataCalled value=truebWDkdNQK type=hidden name=backBtn$$processFormDataCalled><INPUT id=applyBtn$$unvalidated value=falserQa7282g type=hidden name=applyBtn$$unvalidated><INPUT id=applyBtn$$serverUnvalidated value=falserNWSmrQe type=hidden name=applyBtn$$serverUnvalidated><INPUT id=applyBtn$$processFormDataCalled value=trueLvG6Vn2M type=hidden name=applyBtn$$processFormDataCalled><INPUT id=_pkByrSuppAM.ByrAddrAM.ByrCrtStTermsVORowNum value={!!2cIA2TOtwa3FW20AgA3b8wVxCwndMl type=hidden name=_pkByrSuppAM.ByrAddrAM.ByrCrtStTermsVORowNum><INPUT id=FORM_MAC_LIST value=_FORM^_AM_TX_ID_FIELD^backBtn$$serverUnvalidated^N10$$unvalidated^openPopupSourceId^applyBtn$$serverUnvalidated^backBtn$$unvalidated^addrId^applyBtn$$unvalidated^_pkByrSuppAM.ByrAddrAM.ByrCrtStTermsVORowNum^_OA_CURRENT_SUBTAB_INDEX^N10$$serverUnvalidated^supplierId^locationId^cancelBtn$$processFormDataCalled^_fwkAbsolutePageName^backBtn$$processFormDataCalled^cancelBtn$$serverUnvalidated^_FORM_SUBMIT_BUTTON^cancelBtn$$unvalidated^applyBtn$$processFormDataCalled^_FORMEVENT^_fwkActBtnName_termsChkBox_changeCheckState$$serverUnvalidated^evtSrcRowIdx^evtSrcRowId^_OA_SUB_TAB_INDEX^serverValidate***value;T^N10:_pkOrganizationId:0;T@@@FORM_MAC_LIST***@@@source^addrDt^state^event^partialTargets^FORM_MAC_LIST^termsChkBox^addrPurpose^N10:length^N10:siteName:0^N10:selectMode^direction:N10^N10:taxReportable:0^N10:selected:0V9LN3u2EBRYDWy-_G2nOCw.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=source><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=_OA_SUB_TAB_INDEX>
+<SCRIPT>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","source","value","state","partialTargets","partial","_OA_SUB_TAB_INDEX"];</SCRIPT>
+
+<SCRIPT>var _DefaultFormName_Validations=['new Utf8Format(15).validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"N10:siteName:0",0,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'N10:siteName:0':'Site\\x20Name'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is too long.'];function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV style="Z-INDEX: 50; VISIBILITY: hidden" id=LLAOutput>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE id=lovSuggestTable border=1 cellSpacing=0 cellPadding=2 width="100%"></TABLE></DIV></TD>
+<TD class=OraRightShadowBg vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG align=top src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=center align=left>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR class=OraBottomShadowBg>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG align=left src="/OA_MEDIA/btmshdw.gif" width=5 height=13></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 706px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=true;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) --></BODY></HTML>

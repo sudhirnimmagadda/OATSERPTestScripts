@@ -1,0 +1,600 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Create/Update Address</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript>function clearFlexChildren(){lovClearValue(document.DefaultFormName.HzAddressStyleFlex1);lovClearValue(document.DefaultFormName.HzAddressStyleFlex2);lovClearValue(document.DefaultFormName.HzAddressStyleFlex3);lovClearValue(document.DefaultFormName.HzAddressStyleFlex4);lovClearValue(document.DefaultFormName.HzAddressStyleFlex5);lovClearValue(document.DefaultFormName.HzAddressStyleFlex6);lovClearValue(document.DefaultFormName.HzAddressStyleFlex7);lovClearValue(document.DefaultFormName.HzAddressStyleFlex8);}</SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("https://erpint.fin.yahoo.com:8000/OA_HTML/help?locale=en_US&group=AP:CONTENTS:US&topic=US/POS/@pos_buyer_help_home", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event,\'DefaultFormName\',[\'HzFlexCountry\'])','Linit();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/pos/supplier/webui/ByrAddrPG&amp;PosEvent=CREATE&amp;PosVendorId=458476&amp;PosPartyId=18747767&amp;_ti=1714013320&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;OAMC=G&amp;oapc=14&amp;oas=mwO6Y8krVPps8noBYcAmIA..><INPUT id=_AM_TX_ID_FIELD value=39IFJZh2i type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormNameW2Fzqase type=hidden name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFHzFlexCountry value=N4AWY6uLQ type=hidden name=lovAutoClearHFHzFlexCountry>
+<SCRIPT language=javascript>function LOCHzFlexCountryCode(visitedList){visitedList['HzFlexCountryCode'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCHzFlexCountry(visitedList){ visitedList['HzFlexCountry'] = 'v';if (visitedList['HzFlexCountryCode'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].HzFlexCountryCode);LOCHzFlexCountryCode(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldHzFlexCountry value=HzFlexCountry5Zl2LoWc type=hidden name=lovCriteriaHiddenFieldHzFlexCountry><INPUT id=lovPassiveCriteriaHFHzFlexCountry type=hidden name=lovPassiveCriteriaHFHzFlexCountry><INPUT id=BASE_FORM_NAME value=DefaultFormNameu210r5Bg type=hidden name=BASE_FORM_NAME><INPUT id=lovOnClickJSHiddenFieldHzFlexCountry type=hidden name=lovOnClickJSHiddenFieldHzFlexCountry><INPUT id=lovOnClickJSExecutedHiddenFieldHzFlexCountry value=N type=hidden name=lovOnClickJSExecutedHiddenFieldHzFlexCountry><INPUT id=lovJSHiddenFieldHzFlexCountry type=hidden name=lovJSHiddenFieldHzFlexCountry>
+<SCRIPT language=javascript>function LcustomOnChangeHzFlexCountry(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+</SPAN><SPAN id=PageLayoutRN>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=xbl><IMG title="Customized corporate branding image for Oracle Applications" border=0 alt="Customized corporate branding image for Oracle Applications" src="/OA_MEDIA/yahoo_logo.gif"></TD>
+<TD class=x86><SPAN style="POSITION: relative" title=Payables><SPAN class=x4j>Payables</SPAN></SPAN>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fskyros\x2Ft.gif";var _axm;t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=14></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD>
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SNAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Navigator alt=Navigator src="/OA_MEDIA/navigator.png"></DIV></A></DIV></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1714013320&amp;oapc=14&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=7-XnKcwtuBZqa7FweBkamA..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1714013320&amp;oapc=14&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=7-XnKcwtuBZqa7FweBkamA..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrAddrPG%26PosEvent%3DCREATE%26PosVendorId%3D458476%26PosPartyId%3D18747767%26transactionid%3D1714013320%26retainAM%3DY%26addBreadCrumb%3DY%26OAMC%3DG%26oas%3DdA6tJUwZJytOHImU24297A..&amp;_ti=1714013320&amp;oapc=14&amp;OAIG=7867&amp;menu=Y&amp;oas=TxvtYgEhp6LJZIdnXE1iHw..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrAddrPG%26PosEvent%3DCREATE%26PosVendorId%3D458476%26PosPartyId%3D18747767%26transactionid%3D1714013320%26retainAM%3DY%26addBreadCrumb%3DY%26OAMC%3DG%26oas%3DdA6tJUwZJytOHImU24297A..&amp;_ti=1714013320&amp;oapc=14&amp;OAIG=7867&amp;menu=Y&amp;oas=TxvtYgEhp6LJZIdnXE1iHw..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=ncPfwdtbjoV-dMMdIOVRxA.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('7','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=ncPfwdtbjoV-dMMdIOVRxA.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>7</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD><A class=x84 href="javascript:top.help_window()">
+<DIV><IMG title=Help border=0 alt=Help src="/OA_MEDIA/help.png"></DIV></A></TD>
+<TD><A class=x84 href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OALogout.jsp%3FcloseWindow%3Dtrue%26menu%3DY')">
+<DIV><IMG title="Close Window" border=0 alt="Close Window" src="/OA_MEDIA/Close.png"></DIV></A></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=3></TD></TR>
+<TR>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9n>
+<DIV>
+<DIV class=pagetopborderleft></DIV>
+<DIV class=pagetopbordermiddle></DIV>
+<DIV class=pagetopborderright></DIV></DIV></DIV>
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<DIV class=x6v>
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=xl><NOBR><A href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAddrBkPG%26retainAM%3DY%26_ti%3D1714013320%26OAMC%3D84817_67_0%26menu%3DY%26oaMenuLevel%3D4%26bcrumb%3DY%26oapc%3D14%26oas%3DWpEB4PfHhPlNKeuarOyJNQ..')">Suppliers: Address Book</A>&nbsp;&nbsp;&gt;</NOBR><SPAN class=xm> <NOBR></NOBR></SPAN></DIV></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV id=p_SwanPageLayout class=x7z>
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Create Address: Confirm Details</H1></TD>
+<TD vAlign=bottom noWrap align=right>
+<TABLE id=PageButtonBarRN class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'_FORM_SUBMIT_BUTTON\':\'cancelBtnCcHIO30_\'});return false',this,event,true)" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON accessKey=C id=nextBtn class=x7p title=Continue onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'nextBtnd6MkMHcp'});return false" type=submit><SPAN class=xq>C</SPAN>ontinue</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD><SPAN id=ReqFldRN>
+<TABLE id=RequiredFieldRN border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Row>
+<TD id=AstCell><SPAN id=ReqTextRN><SPAN id=RequiredFieldIcon class=xg>*</SPAN>
+<SCRIPT id=spacer1>t('6','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=6 height=1><SPAN id=RequiredFieldText class=x5i>Indicates required field</SPAN></SPAN></TD></TR></TBODY></TABLE></SPAN></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><SPAN id=SupplierDetailsRN>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=supplierName__xc_>
+<TD vAlign=top noWrap align=right><SPAN class="OraPromptText OraPromptSpaceBig">Supplier Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top><SPAN id=supplierName class="OraDataText MessageComponentLayoutText" title="Supplier Name">CA VENTURES LLC</SPAN></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=supplierNumber__xc_>
+<TD vAlign=top noWrap align=right><SPAN class="OraPromptText OraPromptSpaceBig">Supplier Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top><SPAN id=supplierNumber class="OraDataText MessageComponentLayoutText" title="Supplier Number">236732</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<DIV id=item1 class=x8u></DIV>
+<DIV></DIV><SPAN id=extndRegion>
+<TABLE id=AddrDet1RN border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=rowLtRN>
+<TD id=region6>
+<TABLE id=AddrDet1 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Address Details</H2></TD>
+<TD vAlign=bottom noWrap align=right><A id=recHistoryImageAddrDet1 onclick="openWindow(self, '/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;akRegionCode=/oracle/apps/fnd/framework/webui/OARecordHistoryRN&amp;akRegionApplicationId=0&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=AM_USAGE_MODE_LONGTIP&amp;baseRegionCode=/oracle/apps/pos/supplier/webui/ByrAddrPG&amp;baseRegionApplId=177&amp;recHisAm=ByrSuppAM.ByrAddrAM.HzPuiAddressAM&amp;headerID=AddrDet1&amp;frameTitle=recordHistory&amp;addBreadCrumb=S&amp;transactionid=1714013320&amp;oapc=14&amp;oas=K5PoqdnIbmfzCOXofLztiQ..' , 'RecordHistory', {width:550, height:350, resizable:'yes'}, true); " href="#" name=recHistoryImageAddrDet1><IMG title="Record History" border=0 alt="Record History" src="/OA_MEDIA/revisionhistory_enabled.gif"></A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c><SPAN id=addressCreateUpdateStack><INPUT id=HzFlexCountryCode value=USIZvKYfb1 type=hidden name=HzFlexCountryCode>
+<DIV></DIV>
+<TABLE id=AddressStyleRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:3}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=HzFlexCountry__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN class=xg title=Required>*</SPAN>&nbsp;Country</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap>
+<SCRIPT>var _jspDir='/OA_HTML/cabo/jsps/a.jsp';</SCRIPT>
+
+<SCRIPT>var _configName='OAConfig';var _enc='UTF-8';var _contextURI='/OA_HTML';</SCRIPT>
+
+<SCRIPT>function _lovClose(f,p,pt){var s=submitForm;if(pt)s=_submitPartialChange;return s(f,0,p);}</SCRIPT>
+
+<DIV id=HzFlexCountry__xc_0 class=OraLOVOuterDiv><SPAN id=HzFlexCountry__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=HzFlexCountry class=x8 title=Country onkeypress="return _chain(' var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible(\'hidden\'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }','return _submitOnEnter(event, \'DefaultFormName\');',this,event,true)" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}LlookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1714013320&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', 'TerritoryShortName', new Array('TerritoryCode', 'TerritoryShortName'), new Array('1', '1'), new Array(&quot;Country Code&quot;, &quot;Country Name&quot;), new Array('HzFlexCountry', 'HzFlexCountryCode'), new Array('TerritoryShortName', 'TerritoryCode'), new Array('HzFlexCountry') , 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCHzFlexCountry(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'HzFlexCountry\',0,_getInputField(event),1,1);',this,event,true)" value="United States" size=0 type=text name=HzFlexCountry autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('HzFlexCountry',0,document.forms['DefaultFormName']['HzFlexCountry'],1,1,{'F':'DefaultFormName','N':'HzFlexCountry','L':'HzFlexCountry','D':'/OA_HTML/OA.jsp?region=/oracle/apps/ar/hz/address/webui/HzCountryLOV&amp;regionCode=HzFlexCountry&amp;regionAppId=177&amp;lovBaseItemName=HzFlexCountry&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1714013320&amp;label=Country&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=TerritoryShortName&amp;Criteria=HzFlexCountry.TerritoryShortName&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/ByrAddrPG.HzFlexCountry_/oracle/apps/ar/hz/address/webui/HzCountryLOV&amp;baseCompMode=11.5.10&amp;oapc=14&amp;oas=g1prmW1Gg-mi2YMZauMAKQ..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Country" border=0 alt="Search: Country" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex1__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN class=xg title=Required>*</SPAN>&nbsp;Address Line 1</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=HzAddressStyleFlex1 class=x8 onchange="" maxLength=240 size=50 type=text name=HzAddressStyleFlex1>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex2__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Address Line 2</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=HzAddressStyleFlex2 class=x8 onchange="" maxLength=240 size=50 type=text name=HzAddressStyleFlex2>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex3__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Address Line 3</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=HzAddressStyleFlex3 class=x8 onchange="" maxLength=240 size=50 type=text name=HzAddressStyleFlex3>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex4__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Address Line 4</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=HzAddressStyleFlex4 class=x8 onchange="" maxLength=240 size=50 type=text name=HzAddressStyleFlex4>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex5__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>City</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=HzAddressStyleFlex5 class=x8 onchange="" maxLength=60 size=50 type=text name=HzAddressStyleFlex5>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex6__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>County</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=HzAddressStyleFlex6 class=x8 onchange="" maxLength=60 size=50 type=text name=HzAddressStyleFlex6>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex7__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>State</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SELECT id=HzAddressStyleFlex7 class=x8 onchange="" name=HzAddressStyleFlex7><OPTION selected></OPTION><OPTION value=,eNgeow2M>,</OPTION><OPTION value=-PXa419_y>-</OPTION><OPTION value=12932755825fgnqEiZ>1293275582</OPTION><OPTION value=30c0eEB81d>30</OPTION><OPTION value=?UiRrlWac>?</OPTION><OPTION value=AP-vESxFV>A</OPTION><OPTION value=A;NERTAeyH0ev9Y>A;NERTA</OPTION><OPTION value=AK-4TklFJ6>AK</OPTION><OPTION value=ALpM4SaXWr>AL</OPTION><OPTION value=ALASKAnlnamALr>ALASKA</OPTION><OPTION value=ALBERTA_kLtgcUD>ALBERTA</OPTION><OPTION value=ALICANTEEdB0S2bE>ALICANTE</OPTION><OPTION value=ARUEbB0xS1>AR</OPTION><OPTION value=ARIZONA3qmBpnoy>ARIZONA</OPTION><OPTION value=ASP47hNEJ4>AS</OPTION><OPTION value=AZXLl2Z0M7>AZ</OPTION><OPTION value=Bqu3BrG3w>B</OPTION><OPTION value=BERLINw1JXDmGh>BERLIN</OPTION><OPTION value="BOYNTON BEACH428B-wVr">BOYNTON BEACH</OPTION><OPTION value="BRITISH COLUMBIAtsAWSfc5">BRITISH COLUMBIA</OPTION><OPTION value=CAnOHhi3U_>CA</OPTION><OPTION value=CALIFORNIA-bmVFGQG>CALIFORNIA</OPTION><OPTION value=CANADAxCXRVjDr>CANADA</OPTION><OPTION value=CA&nbsp;-OstiVu->CA&nbsp;</OPTION><OPTION value=COzk3SeQ30>CO</OPTION><OPTION value=COLORADOHbh9piMx>COLORADO</OPTION><OPTION value=CONNECTICUTrCmg15DK>CONNECTICUT</OPTION><OPTION value=CTSQLX5wNe>CT</OPTION><OPTION value=D.C.vTPs2j0J>D.C.</OPTION><OPTION value=DCorEuYkFg>DC</OPTION><OPTION value=DEcWuDzYu_>DE</OPTION><OPTION value="DES MOINEScybCS19l">DES MOINES</OPTION><OPTION value=EDINBURGHtb-Bx4mm>EDINBURGH</OPTION><OPTION value=ENGLANDAkjlZymt>ENGLAND</OPTION><OPTION value=FAFAsa7SJcRp>FAFA</OPTION><OPTION value=FL8KHWHnG1>FL</OPTION><OPTION value="FLAGSTAFF AZIDorU5m8">FLAGSTAFF AZ</OPTION><OPTION value=FLORIDAYiFh4e5CX>FLORIDAY</OPTION><OPTION value=FL&nbsp;qnhoRBO7>FL&nbsp;</OPTION><OPTION value=FMknqmdTkQ>FM</OPTION><OPTION value=FRANCEjoAVCTgF>FRANCE</OPTION><OPTION value=GAmNEUD-5g>GA</OPTION><OPTION value=GA.KVGpnlCD>GA.</OPTION><OPTION value=GEORGIANIiORr2A>GEORGIA</OPTION><OPTION value=GU5Y-gVTxr>GU</OPTION><OPTION value=HAMBURGCuLQz_vi>HAMBURG</OPTION><OPTION value=HIAYvfoZaq>HI</OPTION><OPTION value="HONG KONGI-LVcUhq">HONG KONG</OPTION><OPTION value=IAf9ubMxqx>IA</OPTION><OPTION value=IDY43Z1S9i>ID</OPTION><OPTION value=ILqtSzeII->IL</OPTION><OPTION value=ILLbgBvYWKp>ILL</OPTION><OPTION value=ILLINOIS4YwMnW0p>ILLINOIS</OPTION><OPTION value=IN5yT12uTj>IN</OPTION><OPTION value=INDIANAK5FnG9KO>INDIANA</OPTION><OPTION value=INTL.-POLs__5NKe0>INTL.-POL</OPTION><OPTION value=ISRAELwUXiljgZ>ISRAEL</OPTION><OPTION value=IUYo5jtSKM5>IUY</OPTION><OPTION value=JAKARTACJVHKuqY>JAKARTA</OPTION><OPTION value=JHCZf8Wfvt>JH</OPTION><OPTION value=JL9-HeUUf1>JL</OPTION><OPTION value=KANSASPlzl0nW8>KANSAS</OPTION><OPTION value=KENTUCKYWSVKcl84>KENTUCKY</OPTION><OPTION value=KSWG1djpTZ>KS</OPTION><OPTION value=KYNITbRIqf>KY</OPTION><OPTION value=LAoaSHhcxt>LA</OPTION><OPTION value=LEVALLOIS-PERRET_a2hJ9CV>LEVALLOIS-PERRET</OPTION><OPTION value="LIGHHOUSE POINTbbR-7VgL">LIGHHOUSE POINT</OPTION><OPTION value=LOUISIANAhgxKWFkD>LOUISIANA</OPTION><OPTION value=LUXEMBOURG0LqMSkGo>LUXEMBOURG</OPTION><OPTION value=MAYXbdrOBo>MA</OPTION><OPTION value=MAINE-66SFxjr>MAINE</OPTION><OPTION value=MARYLANDFBclwht8>MARYLAND</OPTION><OPTION value=MASSACHUSETTSIUSyn1gD>MASSACHUSETTS</OPTION><OPTION value=MB4Wmgzu4P>MB</OPTION><OPTION value=MDnN8r2Bj1>MD</OPTION><OPTION value=MErtjyHHdf>ME</OPTION><OPTION value=MHKHt_GdGW>MH</OPTION><OPTION value=MIvrw3ZiJy>MI</OPTION><OPTION value=MICHIGANVGjF25j3>MICHIGAN</OPTION><OPTION value=MINNEAPOLIStfAD2MNS>MINNEAPOLIS</OPTION><OPTION value=MINNESOTASSRct-Z0>MINNESOTA</OPTION><OPTION value=MINNESTOTAG_AK6xAR>MINNESTOTA</OPTION><OPTION value=MISSOURI7x13LZ-O>MISSOURI</OPTION><OPTION value=MNWh2T5OWJ>MN</OPTION><OPTION value=MOYxLiFwMK>MO</OPTION><OPTION value=MONTANAbrpO_o9a>MONTANA</OPTION><OPTION value=MPd9W1rq5c>MP</OPTION><OPTION value=MS-epiIo5f>MS</OPTION><OPTION value=MTmwfyHq-9>MT</OPTION><OPTION value=MX-GnfgDDc>MX</OPTION><OPTION value=NACi8IqVwN>NA</OPTION><OPTION value=NBhoQSG3Gk>NB</OPTION><OPTION value=NCX3OjeMHu>NC</OPTION><OPTION value=NDLB4yAeMZ>ND</OPTION><OPTION value=NEpn9scH9A>NE</OPTION><OPTION value=NEVADAbFU8kYGe>NEVADA</OPTION><OPTION value=NEWN00k3V-i>NEW</OPTION><OPTION value="NEW JERSEY0lsCPc2f">NEW JERSEY</OPTION><OPTION value="NEW SOUTH WALESAnRtQ_P2">NEW SOUTH WALES</OPTION><OPTION value="NEW YORK0X3breOI">NEW YORK</OPTION><OPTION value=NFi-K-s2ve>NF</OPTION><OPTION value=NHRKe6moo6>NH</OPTION><OPTION value=NJhADg0adN>NJ</OPTION><OPTION value=NM72gh6f7K>NM</OPTION><OPTION value="NORTH CAROLINAT-kQrY8z">NORTH CAROLINA</OPTION><OPTION value=NSoMKlX18O>NS</OPTION><OPTION value=NT15RTw6Ae>NT</OPTION><OPTION value=NULL3F0Q1Cgh>NULL</OPTION><OPTION value=NVKQsqquNP>NV</OPTION><OPTION value=NYaHZmZzLV>NY</OPTION><OPTION value=NYCplLKovzZ>NYC</OPTION><OPTION value=OHty3GsPFM>OH</OPTION><OPTION value=OHIOiRIbIH3Z>OHIO</OPTION><OPTION value=OK95bMtqU4>OK</OPTION><OPTION value=OKLAHOMA0bFUZN7u>OKLAHOMA</OPTION><OPTION value=ONTARIOpwT1u6rS>ONTARIO</OPTION><OPTION value="ONTARIO CANADAmGoweksX">ONTARIO CANADA</OPTION><OPTION value=ORvqGmW1nS>OR</OPTION><OPTION value=OREGONRiTjlkEg>OREGON</OPTION><OPTION value=PA_Uptqj_1>PA</OPTION><OPTION value="PALMA CAMPANIAEbIqyiu0">PALMA CAMPANIA</OPTION><OPTION value=PEqkYpvjSa>PE</OPTION><OPTION value=PENNSYLVANIAlcc2k-La>PENNSYLVANIA</OPTION><OPTION value=PLASSEYfFSZEZeR>PLASSEY</OPTION><OPTION value=PREGEErqeh>PR</OPTION><OPTION value=PW4c-qetRz>PW</OPTION><OPTION value=RI8KNtJ3Va>RI</OPTION><OPTION value="SALT LAKE CITY9Q4hgeHf">SALT LAKE CITY</OPTION><OPTION value="SAN DIEGOEhsZ0Brj">SAN DIEGO</OPTION><OPTION value=SANTIAGO9LBAWYin>SANTIAGO</OPTION><OPTION value="SAO PAULOSDskn-uo">SAO PAULO</OPTION><OPTION value=SCIu1CoBQA>SC</OPTION><OPTION value=SD7H03A7LK>SD</OPTION><OPTION value=SKUD55QFa3>SK</OPTION><OPTION value="SOUTH CAROLINAclrywDPw">SOUTH CAROLINA</OPTION><OPTION value="SOUTH SAN FRANCISCO28ls_Xcs">SOUTH SAN FRANCISCO</OPTION><OPTION value=TEL-AVIVupCMOJV4>TEL-AVIV</OPTION><OPTION value=TENNESSEEuT3L7-3x>TENNESSEE</OPTION><OPTION value=TEXASXU1RiqKE>TEXAS</OPTION><OPTION value=TN10pa5sk->TN</OPTION><OPTION value=TROYCEYqvSlo>TROY</OPTION><OPTION value=TXMxEtesu_>TX</OPTION><OPTION value=TX,YG-C-2gj>TX,</OPTION><OPTION value=TX&nbsp;2wRAV8Pz>TX&nbsp;</OPTION><OPTION value=UKJIL3wkCY>UK</OPTION><OPTION value=UM3VDouboV>UM</OPTION><OPTION value="UNITED ARAB EMIRATESyHJsrflU">UNITED ARAB EMIRATES</OPTION><OPTION value="UNITED STATES5_tsstyG">UNITED STATES</OPTION><OPTION value=USA8Wk_4iaT>USA</OPTION><OPTION value=UTBKKVLlYj>UT</OPTION><OPTION value=UTAH4qsXGoTv>UTAH</OPTION><OPTION value=UTANdd0ikhql>UTAN</OPTION><OPTION value=VAtGvti76o>VA</OPTION><OPTION value=VENEZIA5wyZWSNy>VENEZIA</OPTION><OPTION value=VIkdSoUK0A>VI</OPTION><OPTION value=VIRGINIAAmawTVUB>VIRGINIA</OPTION><OPTION value=VTPz-_LlUH>VT</OPTION><OPTION value=WAaOhac52w>WA</OPTION><OPTION value=WASHINGTONASO0ULUK>WASHINGTON</OPTION><OPTION value=WERWERH5-c1vFs>WERWER</OPTION><OPTION value=WIvWG5rRdh>WI</OPTION><OPTION value=WISCONSINGGe_6gKz>WISCONSIN</OPTION><OPTION value=WVzHRWPjp_>WV</OPTION><OPTION value=WVAQMNpMu5f>WVA</OPTION><OPTION value=WYUlkno6bo>WY</OPTION><OPTION value=XYprAJgx7>X</OPTION><OPTION value=YTQ8mYqsHh>YT</OPTION><OPTION value="ZOLA PEDROSAmk-nNNJh">ZOLA PEDROSA</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=HzAddressStyleFlex8__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Postal Code</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=HzAddressStyleFlex8 class=x8 onchange="" maxLength=60 size=50 type=text name=HzAddressStyleFlex8>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=AddressVerifyRN__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap>
+<TABLE id=region1 border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR></TR></TBODY></TABLE>
+<TABLE id=region2 border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class="xca ">
+<SCRIPT id=spacer1>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=10 height=1></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=hzPartySiteName__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN class=xg title=Required>*</SPAN>&nbsp;Address Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=hzPartySiteName class=x8 title="Address Description" onchange="" maxLength=240 size=30 type=text name=hzPartySiteName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=hzAddressee__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Addressee</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=hzAddressee class=x8 title=Addressee onchange="" maxLength=360 size=30 type=text name=hzAddressee>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=hzGeoCodeOverride__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Geography Code Override</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=hzGeoCodeOverride class=x8 title="Geography Code Override" onchange="" maxLength=360 size=30 type=text name=hzGeoCodeOverride>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=hzLanguage__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Language</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SELECT id=hzLanguage class=x8 title=Language onchange="" name=hzLanguage><OPTION selected></OPTION><OPTION value=USMZ6QP5zA>American English</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><INPUT id=HzAddressStyleFlexFlex_Read_Only_Flag value=falseT-S4Pn7I type=hidden name=HzAddressStyleFlexFlex_Read_Only_Flag></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=PSFlexRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:3}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=psInfoFlexRN__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap>
+<TABLE id=partySiteInformation border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=partySiteInformation0__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Context Value</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SELECT onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',0,{event:'FLEX_CONTEXT_CHANGEDpartySiteInformation',source:'partySiteInformation0'});return false;" id=partySiteInformation0 class=x8 onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',0,{event:'FLEX_CONTEXT_CHANGEDpartySiteInformation',source:'partySiteInformation0'});return false;" onchange="return _pprChoiceChangeEvent(event);" name=partySiteInformation0><OPTION selected></OPTION><OPTION value=YSMCAMddty0PbP>SAM</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=partySiteInformationFlex_Read_Only_Flag value=falseBFO07M_F type=hidden name=partySiteInformationFlex_Read_Only_Flag></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AddressPurposeRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:3}"></TABLE><INPUT id=HzPuiAddressExist value=YESZHqefs9u type=hidden name=HzPuiAddressExist></SPAN></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=region7 vAlign=top align=middle>
+<TABLE id=region9 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Contact Details and Purpose</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<TABLE id=Addr411RN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:1}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=newCommDetails__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Communication Details</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SPAN id=newCommDetails__xc_0><INPUT id=newCommDetails title="Update to all new sites created for this address" value=on type=checkbox name=newCommDetails><SPAN class="OraFieldText OraCheckboxText">Update to all new sites created for this address</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=phAreaCode__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Phone Area Code</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=phAreaCode class=x8 title="Phone Area Code" onchange="" maxLength=10 size=0 type=text name=phAreaCode>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=phNumber__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Phone Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=phNumber class=x8 title="Phone Number" onchange="" maxLength=40 size=0 type=text name=phNumber>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=faxAreaCode__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Fax Area Code</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=faxAreaCode class=x8 title="Fax Area Code" onchange="" maxLength=10 size=0 type=text name=faxAreaCode>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=faxNumber__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Fax Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=faxNumber class=x8 title="Fax Number" onchange="" maxLength=40 size=0 type=text name=faxNumber>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=emailAddr__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Email Address</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=emailAddr class=x8 title="Email Address" onchange="" maxLength=2000 size=0 type=text name=emailAddr>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=purSite__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Address Purpose</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SPAN id=purSite__xc_0><INPUT id=purSite title=Purchasing value=on type=checkbox name=purSite><SPAN class="OraFieldText OraCheckboxText">Purchasing</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=paySite__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SPAN id=paySite__xc_0><INPUT id=paySite title=Payment value=on type=checkbox name=paySite><SPAN class="OraFieldText OraCheckboxText">Payment</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=rfqOnly__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SPAN id=rfqOnly__xc_0><INPUT id=rfqOnly title="RFQ Only" value=on type=checkbox name=rfqOnly><SPAN class="OraFieldText OraCheckboxText">RFQ Only</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=ExtAttrRow>
+<TD id=ExtAttrCell colSpan=2></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=region5 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=region1 vAlign=top>
+<TD id=region3 vAlign=top width="70%"></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog data="{autoPosition:0,px:-1,py:-1};" isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=1714013320&amp;oapc=14&amp;oas=aUxJekkUviDWijdEvK0Zyg.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/pos/supplier/webui/ByrAddrPG:::q-er78l_ type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,2)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=2></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right><FOOTER style="DISPLAY: none" id=oaffooterbuttons>
+<TABLE id=PageButtonBarRN_uixr class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn_uixr class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'_FORM_SUBMIT_BUTTON\':\'cancelBtnCcHIO30_\'});return false',this,event,true)" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON accessKey=C id=nextBtn_uixr class=x7p title=Continue onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'nextBtnd6MkMHcp'});return false" type=submit><SPAN class=xq>C</SPAN>ontinue</BUTTON></TD></TR></TBODY></TABLE></FOOTER></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N75>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'serverValidate\':\'1xrbhGqCR\',event:\'about\'});return false;',this,event,true)" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=openPopupSourceId value=XbYdQ0Zn type=hidden name=openPopupSourceId><INPUT id=cancelBtn$$unvalidated value=trueWpyEAAyT type=hidden name=cancelBtn$$unvalidated><INPUT id=cancelBtn$$serverUnvalidated value=trueRajphudK type=hidden name=cancelBtn$$serverUnvalidated><INPUT id=cancelBtn$$processFormDataCalled value=truewmoatHXG type=hidden name=cancelBtn$$processFormDataCalled><INPUT id=nextBtn$$unvalidated value=falseEpzG6Zjt type=hidden name=nextBtn$$unvalidated><INPUT id=nextBtn$$serverUnvalidated value=falseDLhOu5Y8 type=hidden name=nextBtn$$serverUnvalidated><INPUT id=nextBtn$$processFormDataCalled value=truebxToLXVG type=hidden name=nextBtn$$processFormDataCalled><INPUT id=_pkByrSuppAM.ByrAddrAM.HzPuiAddressAM.HzPuiLocationVOLocationId value={!!qedDf.SMkdmqfPQ6TyxkZAkiWXTBo- type=hidden name=_pkByrSuppAM.ByrAddrAM.HzPuiAddressAM.HzPuiLocationVOLocationId><INPUT id=_pkByrSuppAM.ByrAddrAM.HzPuiAddressAM.HzPuiPartySiteVOPartySiteId value={!!Z6Mq13LBx963Wj-w4rwA4ghzK7Sy4M type=hidden name=_pkByrSuppAM.ByrAddrAM.HzPuiAddressAM.HzPuiPartySiteVOPartySiteId><INPUT id=FORM_MAC_LIST value=_FORM^_pkByrSuppAM.ByrAddrAM.HzPuiAddressAM.HzPuiLocationVOLocationId^_AM_TX_ID_FIELD^openPopupSourceId^HzPuiPartySiteUseType^HzPuiAddressExist^nextBtn$$unvalidated^nextBtn$$serverUnvalidated^_pkByrSuppAM.ByrAddrAM.HzPuiAddressAM.HzPuiPartySiteVOPartySiteId^cancelBtn$$processFormDataCalled^_fwkAbsolutePageName^HzAddressStyleFlexFlex_Read_Only_Flag^lovCriteriaHiddenFieldHzFlexCountry^HzFlexCountryCode^HzPuiPsuEvent^BASE_FORM_NAME^cancelBtn$$serverUnvalidated^HzPuiPartySiteUseId^_FORM_SUBMIT_BUTTON^cancelBtn$$unvalidated^lovAutoClearHFHzFlexCountry^_FORMEVENT^partySiteInformation0^evtSrcRowIdx^partySiteInformationFlex_Read_Only_Flag^nextBtn$$processFormDataCalled^evtSrcRowId^hzLanguage^serverValidate^HzAddressStyleFlex7***@@@FORM_MAC_LIST***@@@HzAddressStyleFlex6^HzAddressStyleFlex5^paySite^HzAddressStyleFlex4^HzAddressStyleFlex3^HzAddressStyleFlex2^lovOnClickJSExecutedHiddenFieldHzFlexCountry^HzAddressStyleFlex1^rfqOnly^lovPassiveCriteriaHFHzFlexCountry^faxNumber^purSite^emailAddr^newCommDetails^lovOnClickJSHiddenFieldHzFlexCountry^lovJSHiddenFieldHzFlexCountry^hzAddressee^hzGeoCodeOverride^faxAreaCode^source^hzPartySiteName^event^phNumber^FORM_MAC_LIST^phAreaCode^HzFlexCountry^HzAddressStyleFlex8l9EjFYckl-BsFR19cH3QWg.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=source><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=searchText><INPUT type=hidden name=HzPuiPartySiteUseId><INPUT type=hidden name=HzPuiPsuEvent><INPUT type=hidden name=HzPuiPartySiteUseType>
+<SCRIPT>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","source","partialTargets","partial","searchText","HzPuiPartySiteUseId","HzPuiPsuEvent","HzPuiPartySiteUseType"];</SCRIPT>
+
+<SCRIPT>var _DefaultFormName_Validations=['_isEmpty(%value%)','new Utf8Format(240).validate(%value%)','new Utf8Format(60).validate(%value%)','new Utf8Format(360).validate(%value%)','new Utf8Format(10).validate(%value%)','new Utf8Format(40).validate(%value%)','new Utf8Format(2000).validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"HzFlexCountry",0,0,1,"HzAddressStyleFlex1",1,1,0,"HzAddressStyleFlex1",0,0,1,"HzAddressStyleFlex2",1,1,1,"HzAddressStyleFlex3",1,1,1,"HzAddressStyleFlex4",1,1,2,"HzAddressStyleFlex5",1,1,2,"HzAddressStyleFlex6",1,1,2,"HzAddressStyleFlex8",1,1,1,"hzPartySiteName",1,1,0,"hzPartySiteName",0,0,3,"hzAddressee",1,1,3,"hzGeoCodeOverride",1,1,4,"phAreaCode",1,1,5,"phNumber",1,1,4,"faxAreaCode",1,1,5,"faxNumber",1,1,6,"emailAddr",1,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'HzFlexCountry':'Country','HzAddressStyleFlex1':'Address\x20Line\x201','HzAddressStyleFlex2':'Address\x20Line\x202','HzAddressStyleFlex3':'Address\x20Line\x203','HzAddressStyleFlex4':'Address\x20Line\x204','HzAddressStyleFlex5':'City','HzAddressStyleFlex6':'County','HzAddressStyleFlex8':'Postal\x20Code','hzPartySiteName':'Address\x20Name','hzAddressee':'Addressee','hzGeoCodeOverride':'Geography\x20Code\x20Override','phAreaCode':'Phone\x20Area\x20Code','phNumber':'Phone\x20Number','faxAreaCode':'Fax\x20Area\x20Code','faxNumber':'Fax\x20Number','emailAddr':'Email\x20Address'};var _DefaultFormName_Formats=['A value must be entered for "%label%".','Value "%value%" in "%label%" is too long.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV style="Z-INDEX: 50; POSITION: absolute; VISIBILITY: hidden" id=LLAOutput>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE style="BORDER-LEFT: #d6dfe6 1px solid" id=lovSuggestTable class=OraNoBorderTableContent border=1 cellSpacing=0 cellPadding=2 width="100%"></TABLE></DIV></TD>
+<TD class=OraRightShadowBg vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG align=top src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=center align=left>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR class=OraBottomShadowBg>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG align=left src="/OA_MEDIA/btmshdw.gif" width=5 height=13></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 665px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=true;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpint.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) --></BODY></HTML>

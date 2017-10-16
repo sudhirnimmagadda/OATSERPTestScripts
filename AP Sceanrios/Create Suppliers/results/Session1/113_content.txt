@@ -1,0 +1,564 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Address Book</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/tableUtils.js"></SCRIPT>
+
+<SCRIPT id=oaf_detachScript type=text/javascript src="/OA_HTML/cabo/oajsLibs/detachTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/attachmentPopup.js"></SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event,\'DefaultFormName\',[\'addrNameSrch\',\'addrDet\',\'OUName\',\'stName\'])','CTaddEventToPPROnLoad();CTinitRichTableUI(\'userTableRN\');CTinitRichTableUI(\'addressTable\');CTinitRichTableUI(\'InactiveAddrRN.addressTable\');Linit();setLookAndFeel(&quot;skyros&quot;);Ainit();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/pos/supplier/webui/ByrAddrBkPG&amp;retainAM=Y&amp;_ti=580083904&amp;OAMC=84817_67_0&amp;menu=Y&amp;oaMenuLevel=4&amp;oapc=12&amp;oas=eKdxpLjIeFGfo8n6Qh6sqA..><INPUT id=_AM_TX_ID_FIELD value=3_-ydFoCl type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormNamec_4aVPKr type=hidden name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFOUName value=NKquxiH8J type=hidden name=lovAutoClearHFOUName></SPAN><SPAN id=PageLayoutRN class=xcm>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=xbl><IMG title="Customized corporate branding image for Oracle Applications" border=0 alt="Customized corporate branding image for Oracle Applications" src="/OA_MEDIA/yahoo_logo.gif"></TD>
+<TD class=x86><SPAN style="POSITION: relative" title=Payables><SPAN class=x4j>Payables</SPAN></SPAN>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fskyros\x2Ft.gif";var _axm;t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=14></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD>
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SNAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Navigator alt=Navigator src="/OA_MEDIA/navigator.png"></DIV></A></DIV></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=580083904&amp;oapc=12&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=dekFQVPf7_1YjsLhVm5X-w..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=580083904&amp;oapc=12&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=dekFQVPf7_1YjsLhVm5X-w..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrAddrBkPG%26retainAM%3DY%26transactionid%3D580083904%26OAMC%3D84817_67_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DFU03s5GRCFL_y57UZeVjIA..&amp;_ti=580083904&amp;oapc=12&amp;OAIG=7867&amp;menu=Y&amp;oas=kcXPED3PJio-FNFC7HMYBA..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrAddrBkPG%26retainAM%3DY%26transactionid%3D580083904%26OAMC%3D84817_67_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DFU03s5GRCFL_y57UZeVjIA..&amp;_ti=580083904&amp;oapc=12&amp;OAIG=7867&amp;menu=Y&amp;oas=kcXPED3PJio-FNFC7HMYBA..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=HCZ69MwpknG4YE29TlhxfA.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('7','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=HCZ69MwpknG4YE29TlhxfA.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>7</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD></TD>
+<TD><A class=x84 href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OALogout.jsp%3FcloseWindow%3Dtrue%26menu%3DY')">
+<DIV><IMG title="Close Window" border=0 alt="Close Window" src="/OA_MEDIA/Close.png"></DIV></A></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=3></TD></TR>
+<TR>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=bottom colSpan=4 align=left>
+<DIV class=x9k>
+<DIV>
+<TABLE class=x1k border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=x1m noWrap><A id=POS_HT_SP_B_SUPP title=Suppliers href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/SuppSummPG%26OASF%3DPOS_HT_SP_B_SUPP%26retainAM%3DN%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_14_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DNRBnxA-Gc6wFNFjyjrdZMw..')" name=POS_HT_SP_B_SUPP>Suppliers</A></TD>
+<TD width="100%">
+<DIV class=OraTabBarSpace>
+<DIV class=OraTabBarSpaceBottom></DIV>
+<DIV class=OraTabBarSpaceRight></DIV></DIV></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<TABLE class=x6v border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD rowSpan=2>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=0></TD>
+<TD vAlign=top rowSpan=2>
+<TABLE class=x1i border=0 cellSpacing=0 cellPadding=0 width=150>
+<TBODY>
+<TR>
+<TD background=/OA_HTML/></TD>
+<TD class=x77>
+<DIV style="MARGIN-TOP: 10px"></DIV>
+<DIV class=x7t>
+<UL style="LIST-STYLE-TYPE: disc" class=x4p>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_SIDE_BAR class=xh title="Quick Update" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/QuickUpdatePG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_64_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3DmJ1jnaKducZu3bk6MYWPdQ..')" name=POS_HT_SP_B_SIDE_BAR>Quick Update</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p></UL></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_CP class=xh title="Company Profile" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/OrganizationPG%26retainAM%3DY%26OASF%3DPOS_HT_SP_B_ORG%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_65_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3D-UjGpw_nAMAHcXivBykOgg..')" name=POS_HT_SP_B_CP>Company Profile</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_ORG class=xh title=Organization href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/OrganizationPG%26retainAM%3DY%26OASF%3DPOS_HT_SP_B_ORG%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_65_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DgE7u4WOBT6K3dWrZqUGQRg..')" name=POS_HT_SP_B_ORG>Organization</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_TAX_DT class=xh title="Tax Details" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrTaxDtPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_66_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DBDsOCewZ9gjdPC60lfHFtQ..')" name=POS_HT_SP_B_TAX_DT>Tax Details</A></SPAN></LI>
+<LI class=x78><SPAN class=x4n><A id=POS_HT_SP_B_ADDR_BK class=xh title="Address Book" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAddrBkPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_67_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DAbiNknJtttgv9uv76LGylg..')" name=POS_HT_SP_B_ADDR_BK>Address Book</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_CONT_DIR class=xh title="Contact Directory" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrCntctDirPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_68_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DGKz9bMa6LTYVU62Sf5gb6g..')" name=POS_HT_SP_B_CONT_DIR>Contact Directory</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_BUS_CLSS class=xh title="Business Classification" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/BusClassPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_69_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3D0t2EGGdTbBGZ8pR1LX7EGA..')" name=POS_HT_SP_B_BUS_CLSS>Business Classification</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_PS class=xh title="Products &amp; Services" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/components/webui/PosPSMainPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_70_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DJC1pWQwG3DAtaFggMm2Yuw..')" name=POS_HT_SP_B_PS>Products &amp; Services</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_SBD_BUYER_MAIN class=xh title="Banking Details" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/sbd/webui/ByrMainPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_75_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3Dng-0lj3jxEWKit5EGzNpLw..')" name=POS_SBD_BUYER_MAIN>Banking Details</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_SURVEY_PG class=xh title=Surveys href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/survey/webui/SurveysPG%26ISPMODE%3DBUYER%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_85_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DF2p0XwXecHA0UbTbCuUipA..')" name=POS_SURVEY_PG>Surveys</A></SPAN></LI></UL></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_AH class=xh title="Approval History" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ApprovalHistoryPG%26retainAM%3DY%26submitFunc%3DSuppProfile%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_91_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3DpqJniDgF1uSICUfE3hqwRw..')" name=POS_HT_SP_B_AH>Approval History</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p></UL></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_TC class=xh title="Terms and Control" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAcctPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_92_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3DvBPZJ7MbsKZJcu6FtLjAoQ..')" name=POS_HT_SP_B_TC>Terms and Control</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_ACCT class=xh title=Accounting href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAcctPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_92_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3Dd2bIUq191dflbOHnSW0uGA..')" name=POS_HT_SP_B_ACCT>Accounting</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_TAX_RPT class=xh title="Tax and Reporting" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrTaxRptPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_93_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DvqE1b8LzDDMcS15wk5oUGg..')" name=POS_HT_SP_B_TAX_RPT>Tax and Reporting</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_PURCH class=xh title=Purchasing href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrPurchPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_94_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DJVDAe7o_iRa_LwmevbxbhQ..')" name=POS_HT_SP_B_PURCH>Purchasing</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_RCV class=xh title=Receiving href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrRcvPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_95_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3Dpn9rVqtaCQm9sdSbrrCzbw..')" name=POS_HT_SP_B_RCV>Receiving</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_PAY class=xh title="Payment Details" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/sbd/webui/ByrPayPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_96_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3D1C6WbIDDouIOFH5XBHrGvQ..')" name=POS_HT_SP_B_PAY>Payment Details</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_RELATIONSHIP class=xh title=Relationship href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/PosRelationshipSetupPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_97_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DGESPrJt9_K2QW7xAL23RNw..')" name=POS_HT_SP_B_RELATIONSHIP>Relationship</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_INV_MNG class=xh title="Invoice Management" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrInvPG%26retainAM%3DY%26_ti%3D580083904%26oapc%3D12%26OAMC%3D84817_103_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DACfG6QW7tQlZKlq1Fnli9Q..')" name=POS_HT_SP_B_INV_MNG>Invoice Management</A></SPAN></LI></UL></LI></UL></DIV></TD>
+<TD background=/OA_HTML/></TD></TR>
+<TR>
+<TD><IMG border=0 alt="" src="/OA_HTML/" width=0 height=0></TD>
+<TD background=/OA_HTML/ width="100%"></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/" width=0 height=0></TD></TR></TBODY></TABLE></TD>
+<TD vAlign=top width="100%">
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD id=p_SwanPageLayout class=x7z vAlign=top width="100%">
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Update CENTRAL ARMATURE WORKS INC - 236728: Address Book</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV>
+<TABLE id=searchRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Search</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<TABLE id=AddressDtSrchRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:2}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=addrNameSrch__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Address Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=addrNameSrch class=x8 title="Address Name" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onchange="" size=0 type=text name=addrNameSrch>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=addrDet__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Address Details</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=addrDet class=x8 title="Address Details" onchange="" size=0 type=text name=addrDet>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=stName__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Site Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=stName class=x8 title="Site Name" onchange="" size=0 type=text name=stName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7c>
+<TABLE id=btnRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:3}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=BtnLayoutRN__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><BUTTON id=GoBtn class=x7p title=Go onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'GoBtnAXUd5H8F'});return false" type=submit>Go</BUTTON><BUTTON id=ClearBtn class=x7p title=Clear onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'ClearBtnrAyp8kjx'});return false" type=submit>Clear</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7c>
+<SCRIPT id=item3>t('1','8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=8></DIV>
+<DIV class=x7c>
+<DIV id=item2 class=x8u></DIV></DIV>
+<DIV class=x7c>
+<SCRIPT id=item1>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></DIV>
+<DIV><SPAN id=addressTable title=Address>
+<DIV id=loadDiv:addressTable>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:addressTable><INPUT id=fullAMName:addressTable value=oracle.apps.pos.supplier.server.ByrSuppAM type=hidden><INPUT id=tid:addressTable value=580083904 type=hidden><INPUT id=fullCustRef:addressTable value=/oracle/apps/pos/supplier/webui/ByrAddrBkPG.addressTable type=hidden>
+<DIV id=surroundingDiv:addressTable>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:addressTable title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:addressTable onfocus="TUdetachTableForwardFocusLoop('addressTable');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:addressTable onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:addressTable><IMG title="Attach Table: Address" border=0 alt="Attach Table: Address" src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=addressTable:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap><SPAN id=region1><BUTTON id=Create class=x7p title=Create onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'CreateiV96C2pE'});return false" type=submit>Create</BUTTON></SPAN></TD>
+<TD vAlign=center>&nbsp;|&nbsp;</TD>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Address" onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Address"><IMG id=addressTable:detachIcon class=OraTableControlBarIcon title="Detach Table: Address" alt="Detach Table: Address" src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Address"></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=addressTable:refreshIcon title="Refresh Table: Address" onclick="_tableRefresh('DefaultFormName','tablerefresh','N32',1,' ',' ','addressTable')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Address" alt="Refresh Table: Address" src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:addressTable class=x9i onclick="TUreset('addressTable');" href="javascript:void(0)" name=reset:ena:addressTable><IMG title="Reset Table Settings: Address" border=0 alt="Reset Table Settings: Address" src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:addressTable class=x9i title="Reset Table Settings Disabled: Address" border=0 name=reset:dis:addressTable alt="Reset Table Settings Disabled: Address" src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_addressTable'].invokeMenuUsingKey(this,event);" id=settings:addressTable class=x9j role=button onclick="menus['settings_addressTable'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:addressTable><IMG title="Table Settings: Address" border=0 alt="Table Settings: Address" src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_addressTable class=x9u role=menu submitfun="TUMenuOKAction('settings_addressTable' ,'addressTable');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:addressName aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:addressName\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:addressName\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:addressName:select title=Hide border=0 name=menuItem:addressName:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Name</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:addressName tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:addressName><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:addressName tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:addressName><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:usAddress aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:usAddress\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:usAddress\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:usAddress:select title=Hide border=0 name=menuItem:usAddress:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Address</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:usAddress tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:usAddress><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:usAddress tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:usAddress><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:country1 aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:country1\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:country1\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:country1:select title=Hide border=0 name=menuItem:country1:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Country</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:country1 tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:country1><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:country1 tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:country1><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:communication aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:communication\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:communication\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:communication:select title=Hide border=0 name=menuItem:communication:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Communication</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:communication tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:communication><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:communication tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:communication><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:purpose aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:purpose\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:purpose\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:purpose:select title=Hide border=0 name=menuItem:purpose:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Purpose</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:purpose tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:purpose><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:purpose tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:purpose><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:statusRegion aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:statusRegion\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:statusRegion\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:statusRegion:select title=Hide border=0 name=menuItem:statusRegion:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Status</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:statusRegion tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:statusRegion><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:statusRegion tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:statusRegion><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:editActiveImage aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:editActiveImage\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:editActiveImage\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:editActiveImage:select title=Hide border=0 name=menuItem:editActiveImage:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Update</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:editActiveImage tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:editActiveImage><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:editActiveImage tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:editActiveImage><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:region2 aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:region2\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:region2\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:region2:select title=Hide border=0 name=menuItem:region2:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Manage Sites</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:region2 tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:region2><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:region2 tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:region2><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:region21 aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:region21\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:region21\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:region21:select title=Hide border=0 name=menuItem:region21:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:region21 tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:region21><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:region21 tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:region21><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_addressTable'].focusMenu(event, this);" id=menuItem:SourceSystemRN aria-checked=true class=x9t onmouseover="menus['settings_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_addressTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_addressTable\'].clickOnMenuItem(\'menuItem:SourceSystemRN\',event);','TUmenuSelection(\'settings_addressTable\',\'addressTable\',\'menuItem:SourceSystemRN\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:SourceSystemRN:select title=Hide border=0 name=menuItem:SourceSystemRN:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>&nbsp;</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:SourceSystemRN tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderUp(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=up:menuItem:SourceSystemRN><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:SourceSystemRN tabIndex=-1 onclick="return _chain('menus[\'settings_addressTable\'].reorderDown(this,event)','TUreorder(\'settings_addressTable\',\'addressTable\')',this,event)" href="javascript:void(0)" name=down:menuItem:SourceSystemRN><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_addressTable']= new Menu();menus['settings_addressTable'].initMenu('settings_addressTable');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_addressTable'].invokeMenuUsingKey(this,event);" id=freeze:addressTable class=x9j role=button onclick="menus['freeze_addressTable'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:addressTable><IMG title="Column Freeze: Address" border=0 alt="Column Freeze: Address" src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_addressTable class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=addressTable:unfreeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('addressTable');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=addressTable:unfreeze:select border=0 name=addressTable:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:addressName:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:addressName:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:addressName:freeze:select border=0 name=menuItem:addressName:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Name</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:usAddress:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:usAddress:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:usAddress:freeze:select border=0 name=menuItem:usAddress:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Address</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:country1:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:country1:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:country1:freeze:select border=0 name=menuItem:country1:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Country</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:communication:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:communication:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:communication:freeze:select border=0 name=menuItem:communication:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Communication</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:purpose:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:purpose:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:purpose:freeze:select border=0 name=menuItem:purpose:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Purpose</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:statusRegion:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:statusRegion:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:statusRegion:freeze:select border=0 name=menuItem:statusRegion:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Status</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:editActiveImage:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:editActiveImage:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:editActiveImage:freeze:select border=0 name=menuItem:editActiveImage:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Update</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:region2:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:region2:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:region2:freeze:select border=0 name=menuItem:region2:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Manage Sites</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:region21:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:region21:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:region21:freeze:select border=0 name=menuItem:region21:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_addressTable'].focusMenu(event, this);" id=menuItem:SourceSystemRN:freeze class=x9t onmouseover="menus['freeze_addressTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_addressTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_addressTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('addressTable','menuItem:SourceSystemRN:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:SourceSystemRN:freeze:select border=0 name=menuItem:SourceSystemRN:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>&nbsp;</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_addressTable']= new Menu();menus['freeze_addressTable'].initMenu('freeze_addressTable');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:addressTable class=x9i title="Column Freeze is disabled for table Address. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:addressTable alt="Column Freeze is disabled for table Address. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'addressTable')" id=contentDiv:addressTable class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=addressTable:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="1" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="classic" initialWidth="undefined" initialOWidth="undefined" det="T">
+<TBODY>
+<TR>
+<TH style="WORD-BREAK: keep-all" class="x1z x50" width="1%" scope=col noWrap specialcolumn="true">Details</TH>
+<TH id=addressName class="x1z x50 x9h" scope=col sortvalue="0lQLqUF4F" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9415 class=x2b>Name
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt,parent) {if( ((typeof TUfromDragEvent != 'undefined') && TUfromDragEvent)  || ((typeof TUhideEvt != 'undefined') && TUhideEvt) ) {TUfromDragEvent = false ; TUhideEvt = false;return;}if(parent!=null && parent.tagName =='TH' && parent.getAttribute('sortvalue') != null) {  val = parent.getAttribute('sortvalue'); } var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN><A style="POSITION: absolute; DISPLAY: none" id=addressName:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','addressName');return false" href="javascript:void(0)" name=addressName:h><IMG title="Hide : Name" border=0 alt="Hide : Name" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=usAddress class="x1z x50 x9h" scope=col sortvalue="1H6hDJ91l" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9416 class=x2c>Address</SPAN><A style="POSITION: absolute; DISPLAY: none" id=usAddress:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','usAddress');return false" href="javascript:void(0)" name=usAddress:h><IMG title="Hide : Address" border=0 alt="Hide : Address" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=country1 class="x1z x50 x9h" scope=col sortvalue="2jpNKrOTY" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9417 class=x2b>Country</SPAN><A style="POSITION: absolute; DISPLAY: none" id=country1:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','country1');return false" href="javascript:void(0)" name=country1:h><IMG title="Hide : Country" border=0 alt="Hide : Country" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=communication class="x1z x50 x9h" scope=col sortvalue="32cBGAs3c" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9418 class=x2c>Communication</SPAN><A style="POSITION: absolute; DISPLAY: none" id=communication:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','communication');return false" href="javascript:void(0)" name=communication:h><IMG title="Hide : Communication" border=0 alt="Hide : Communication" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=purpose class="x1z x50 x9h" scope=col sortvalue="4Nwvng8aU" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9419 class=x2c>Purpose</SPAN><A style="POSITION: absolute; DISPLAY: none" id=purpose:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','purpose');return false" href="javascript:void(0)" name=purpose:h><IMG title="Hide : Purpose" border=0 alt="Hide : Purpose" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=statusRegion class="x1z x50 x9h" scope=col sortvalue="5HkAX1LB0" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9420 class=x2b>Status</SPAN><A style="POSITION: absolute; DISPLAY: none" id=statusRegion:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','statusRegion');return false" href="javascript:void(0)" name=statusRegion:h><IMG title="Hide : Status" border=0 alt="Hide : Status" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=editActiveImage class="x21 x50 x9h" scope=col sortvalue="6MbAfjVxN" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9421 class=x2c>Update</SPAN><A style="POSITION: absolute; DISPLAY: none" id=editActiveImage:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','editActiveImage');return false" href="javascript:void(0)" name=editActiveImage:h><IMG title="Hide : Update" border=0 alt="Hide : Update" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=region2 class="x1z x50 x9h" scope=col sortvalue="7Z8srpuZH" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9422 class=x2c>Manage Sites</SPAN><A style="POSITION: absolute; DISPLAY: none" id=region2:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','region2');return false" href="javascript:void(0)" name=region2:h><IMG title="Hide : Manage Sites" border=0 alt="Hide : Manage Sites" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=region21 class="x1z x50 x9h" scope=col sortvalue="8qUR6jRP6" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9423 class=x2c>Remove</SPAN><A style="POSITION: absolute; DISPLAY: none" id=region21:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','region21');return false" href="javascript:void(0)" name=region21:h><IMG title="Hide : Remove" border=0 alt="Hide : Remove" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=SourceSystemRN class="x1z x50 x9h" scope=col sortvalue="9qJ2cYeVM" oaondragstart="dragStartOnRichTableColumn(addressTable)"><SPAN id=OASH__9424 class=x2c>&nbsp;</SPAN><A style="POSITION: absolute; DISPLAY: none" id=SourceSystemRN:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('addressTable','SourceSystemRN');return false" href="javascript:void(0)" name=SourceSystemRN:h><IMG title="Hide : &nbsp;" border=0 alt="Hide : &nbsp;" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR>
+<TD class="x1t x50" width="1%" noWrap><BR></TD>
+<TD class="x1t x50">No results found.</TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1x x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:addressTable')" id=scrollDiv:addressTable>
+<DIV id=scrollDivContent:addressTable></DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:addressTable onfocus="TUdetachTableReturnFocusLoop('addressTable');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:addressTable></DIV></DIV></DIV>
+<SCRIPT language=javascript>function _richTblRefresh(formName,validate,ptgt,table,event,val) { _submitPartialChange(formName,validate,{event:event,source:table,partialTargets:ptgt,value:val});  }</SCRIPT>
+
+<SCRIPT language=javascript>function _tableRefresh(formName, tablerefresh, src, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:tablerefresh,source:src,value:val,size:sze,partialTargets:partialTargets});}</SCRIPT>
+<INPUT id=direction:N32 type=hidden name=direction:N32></SPAN><SPAN id=addressTable-hv><INPUT value=0 type=hidden name=N32:length></SPAN></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=InactiveAddrRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD class=xbn>
+<DIV style="VERTICAL-ALIGN: middle">
+<SCRIPT>function _submitHideShow(a,v,b,c,l,d,p) {var o = {event:b,source:c};if (d!=(void 0)) o.value=d;if (p) {o.partialTargets=p;_setRequestedFocusNode(document, l, false, window);_submitPartialChange(a,v,o);} else submitForm(a,v,o);return false;}</SCRIPT>
+<A aria-expanded=false id=InactiveAddrRN__xc_ class=xh role=button onclick="return _submitHideShow('DefaultFormName',1,'show','InactiveAddrRN','InactiveAddrRN__xc_',null,'InactiveAddrRN')" aria-controls=InactiveAddrRN__xc_hideshow href="#"><IMG title="Select to show information" border=0 alt="Select to show information" align=middle src="/OA_HTML/cabo/images/alta/disclosecollapsed_ena.png" width=24 height=24></A></DIV></TD>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Inactive Addresses</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR class=xbt>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><INPUT id=orgIdFormVal type=hidden name=orgIdFormVal>
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog data="{autoPosition:0,px:-1,py:-1};" isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=580083904&amp;oapc=12&amp;oas=zn3IhhLZzNQ8Bteso1yFkQ.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/pos/supplier/webui/ByrAddrBkPG:::8Hgi6dID type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></DIV></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N81>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'serverValidate\':\'1s-pUJeLf\',event:\'about\'});return false;',this,event,true)" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=_OA_CURRENT_SUBTAB_UINODENAME value=03PsWT1GE type=hidden name=_OA_CURRENT_SUBTAB_INDEX><INPUT id=_fwkActBtnName_descFF_updateEmpSuppDFF$$serverUnvalidated value=falsex3T1Xd2g type=hidden name=_fwkActBtnName_descFF_updateEmpSuppDFF$$serverUnvalidated><INPUT id=_fwkActBtnName_RenderFlexSwr_Y_updateFlex$$serverUnvalidated value=falserTXUsseA type=hidden name=_fwkActBtnName_RenderFlexSwr_Y_updateFlex$$serverUnvalidated><INPUT id=btnCreate$$unvalidated value=falseEVenb12- type=hidden name=btnCreate$$unvalidated><INPUT id=btnCreate$$serverUnvalidated value=falseTupB0E4E type=hidden name=btnCreate$$serverUnvalidated><INPUT id=btnCreate$$processFormDataCalled value=trueSeT9AsTC type=hidden name=btnCreate$$processFormDataCalled><INPUT id=N11$$unvalidated value=falsempEPs_0Z type=hidden name=N11$$unvalidated><INPUT id=N11$$serverUnvalidated value=falsef4zwTDeB type=hidden name=N11$$serverUnvalidated><INPUT id=GoBtn$$unvalidated value=falseXErCrMxy type=hidden name=GoBtn$$unvalidated><INPUT id=GoBtn$$serverUnvalidated value=falsexsRKzcNN type=hidden name=GoBtn$$serverUnvalidated><INPUT id=GoBtn$$processFormDataCalled value=trueoD6BvYWX type=hidden name=GoBtn$$processFormDataCalled><INPUT id=ClearBtn$$unvalidated value=falseWxcNFTP0 type=hidden name=ClearBtn$$unvalidated><INPUT id=ClearBtn$$serverUnvalidated value=falsejDIRAYAE type=hidden name=ClearBtn$$serverUnvalidated><INPUT id=ClearBtn$$processFormDataCalled value=trueTvWrxx0_ type=hidden name=ClearBtn$$processFormDataCalled><INPUT id=_fwkActBtnName_editActiveImage_update$$serverUnvalidated value=falseXWbF-26G type=hidden name=_fwkActBtnName_editActiveImage_update$$serverUnvalidated><INPUT id=_fwkActBtnName_mngSites_update$$serverUnvalidated value=false_4gzeI9c type=hidden name=_fwkActBtnName_mngSites_update$$serverUnvalidated><INPUT id=_fwkActBtnName_removeActiveImage_update$$serverUnvalidated value=falsehqfpLlJL type=hidden name=_fwkActBtnName_removeActiveImage_update$$serverUnvalidated><INPUT id=openPopupSourceId value=rmo3yTwj type=hidden name=openPopupSourceId><INPUT id=N31$$unvalidated value=false5MmPpfxT type=hidden name=N31$$unvalidated><INPUT id=N31$$serverUnvalidated value=falseGaJtYZy8 type=hidden name=N31$$serverUnvalidated><INPUT id=Create$$unvalidated value=falseCizubVGx type=hidden name=Create$$unvalidated><INPUT id=Create$$serverUnvalidated value=false_ei93fYL type=hidden name=Create$$serverUnvalidated><INPUT id=Create$$processFormDataCalled value=truepumT4rmQ type=hidden name=Create$$processFormDataCalled><INPUT id=N32$$unvalidated value=falseZiYbzXnB type=hidden name=N32$$unvalidated><INPUT id=N32$$serverUnvalidated value=falseMuJVj6Ls type=hidden name=N32$$serverUnvalidated><INPUT id=N34$$unvalidated value=falseJRcZ3t8H type=hidden name=N34$$unvalidated><INPUT id=N34$$serverUnvalidated value=falsef-1THmOW type=hidden name=N34$$serverUnvalidated><INPUT id=N35$$unvalidated value=falseLw0aO5pW type=hidden name=N35$$unvalidated><INPUT id=N35$$serverUnvalidated value=falseSY80dN-w type=hidden name=N35$$serverUnvalidated><INPUT id=InactiveAddrRN$$unvalidated value=falseLgMazBun type=hidden name=InactiveAddrRN$$unvalidated><INPUT id=InactiveAddrRN$$serverUnvalidated value=falseMTL-8TIH type=hidden name=InactiveAddrRN$$serverUnvalidated><INPUT id=cancelBtn$$unvalidated value=truefpU36rsh type=hidden name=cancelBtn$$unvalidated><INPUT id=cancelBtn$$serverUnvalidated value=trueLKj0UlbI type=hidden name=cancelBtn$$serverUnvalidated><INPUT id=cancelBtn$$processFormDataCalled value=true7rSccJ6m type=hidden name=cancelBtn$$processFormDataCalled><INPUT id=saveBtn$$unvalidated value=false7sKvWTb8 type=hidden name=saveBtn$$unvalidated><INPUT id=saveBtn$$serverUnvalidated value=falseR12-K5rL type=hidden name=saveBtn$$serverUnvalidated><INPUT id=saveBtn$$processFormDataCalled value=trueuZi35PNv type=hidden name=saveBtn$$processFormDataCalled><INPUT id=FORM_MAC_LIST value=evtSrcRowIdx^saveBtn$$processFormDataCalled^_FORM^cancelBtn$$serverUnvalidated^serverValidate^cancelBtn$$processFormDataCalled^btnCreate$$processFormDataCalled^saveBtn$$serverUnvalidated^GoBtn$$unvalidated^N32$$serverUnvalidated^Create$$processFormDataCalled^N11$$serverUnvalidated^_OA_SUB_TAB_INDEX^PartySiteId^N31$$serverUnvalidated^ViewSiteDetails^_AM_TX_ID_FIELD^_fwkActBtnName_RenderFlexSwr_Y_updateFlex$$serverUnvalidated^ReturnToSupplierSearch^_fwkActBtnName_editActiveImage_update$$serverUnvalidated^evtSrcRowId^_OA_CURRENT_SUBTAB_INDEX^_fwkActBtnName_mngSites_update$$serverUnvalidated^_fwkActBtnName_descFF_updateEmpSuppDFF$$serverUnvalidated^_fwkAbsolutePageName^GoBtn$$serverUnvalidated^RemoveAddress^EditBankAccount^EditAddress^ViewOperatingUnits^EditStatus^N32$$unvalidated^btnCreate$$serverUnvalidated^Create$$serverUnvalidated^_fwkActBtnName_removeActiveImage_update$$serverUnvalidated^cancelBtn$$unvalidated^N11$$unvalidated^GoBtn$$processFormDataCalled^InactiveAddrRN$$unvalidated^ClearBtn$$serverUnvalidated^ClearBtn$$processFormDataCalled^N35$$unvalidated^lovAutoClearHFOUName^_FORMEVENT^N31$$unvalidated^N35$$serverUnvalidated^InactiveAddrRN$$serverUnvalidated^N34$$serverUnvalidated^PartySiteName^btnCreate$$unvalidated^Create$$unvalidated^N34$$unvalidated^openPopupSourceId^saveBtn$$unvalidated^ClearBtn$$unvalidated***_FORM_SUBMIT_BUTTON;T^value;T@@@FORM_MAC_LIST***@@@source^event^partialTargets^direction:N32^FORM_MAC_LIST^orgIdFormVal^addrNameSrch^addrDet^stName^N32:length^value53KcyNbAnAYVltQ7GLVodA.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=source><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=ReturnToSupplierSearch><INPUT type=hidden name=ViewSiteDetails><INPUT type=hidden name=RemoveAddress><INPUT type=hidden name=EditAddress><INPUT type=hidden name=PartySiteId><INPUT type=hidden name=ViewOperatingUnits><INPUT type=hidden name=PartySiteName><INPUT type=hidden name=EditStatus><INPUT type=hidden name=EditBankAccount><INPUT type=hidden name=_OA_SUB_TAB_INDEX>
+<SCRIPT>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","source","value","state","partialTargets","partial","ReturnToSupplierSearch","ViewSiteDetails","RemoveAddress","EditAddress","PartySiteId","ViewOperatingUnits","PartySiteName","EditStatus","EditBankAccount","_OA_SUB_TAB_INDEX"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV style="Z-INDEX: 50; VISIBILITY: hidden" id=LLAOutput>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE id=lovSuggestTable border=1 cellSpacing=0 cellPadding=2 width="100%"></TABLE></DIV></TD>
+<TD class=OraRightShadowBg vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG align=top src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=center align=left>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR class=OraBottomShadowBg>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG align=left src="/OA_MEDIA/btmshdw.gif" width=5 height=13></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 820px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=true;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpint.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) -->
+<DIV style="Z-INDEX: 45; POSITION: absolute; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: transparent; MARGIN: 0pt; DISPLAY: none; BORDER-COLLAPSE: separate; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none" id=OpaqueDiv:Reorder></DIV></BODY></HTML>

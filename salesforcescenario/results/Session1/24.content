@@ -1,0 +1,7 @@
+<HTML><HEAD>
+<META content=NO-CACHE http-equiv=PRAGMA></HEAD>
+<BODY>
+<SCRIPT>var tm=null;function lhdoredir(){tm&&(window.clearTimeout(tm),tm=null);window.location.replace?window.location.replace("https://cs3.salesforce.com/home/home.jsp"):window.location.href="https://cs3.salesforce.com/home/home.jsp"}window.setTimeout?tm=window.setTimeout(lhdoredir,1E3):lhdoredir();var SFDCSessionVars={"uid":"005Q000000PpndU","server":"https://test.salesforce.com/login/sessionserver208.html","act":"t","inst":"https://cs3.salesforce.com","host":"test.salesforce.com","oid":"00DQ000000EeLQg","exp":1505170007000};SFDCSessionVars.callback=lhdoredir;</SCRIPT>
+
+<SCRIPT src="/jslibrary/1500591790000/sfdc/SfdcSessionBase208.js"></SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -999px; LEFT: -999px" title=sessionserver src="https://test.salesforce.com/login/sessionserver208.html"></IFRAME><NOSCRIPT></NOSCRIPT><!-- service is in read write mode --></BODY></HTML>

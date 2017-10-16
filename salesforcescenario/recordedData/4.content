@@ -1,0 +1,62 @@
+<HTML style="VISIBILITY: visible" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Login | Salesforce</TITLE>
+<META name=viewport content=initial-scale=1.0>
+<META name=description content="Salesforce Customer Secure Login Page. Login to your Salesforce Customer Account.">
+<META name=format-detection content=telephone=no><LINK rel=stylesheet type=text/css href="/css/sfdc_210.css">
+<STYLE type=text/css>html{visibility: hidden;}a{color:#0070d2;}body{background-color:#F4F6F9;}#content,.container{background-color:#ffffff;}#header{color:#16325c;}body{display: table; width:100%;}#content{margin-bottom:24px;}#wrap{height:100%;}#left,#wrap{height:auto;}.activity{height:8px;}</STYLE>
+
+<STYLE type=text/css> html { visibility: hidden; } </STYLE>
+
+<SCRIPT type=text/javascript>if (self == top) {document.documentElement.style.visibility = 'visible';} else {document.write = ''; top.location = self.location; setTimeout(function(){document.body.innerHTML='';}, 1);window.self.onload=function(evt){document.body.innerHTML='';};}</SCRIPT>
+
+<SCRIPT>var SFDCSessionVars={"server":"https://test.salesforce.com/login/sessionserver208.html","im":false,"ah":"active","save":"Save","saveOne":"Save 1 Change","sum":"#p# Saved Usernames","iaac":false,"hac":"Choose a Username","suo":"1 Saved Username","title":" | Salesforce","saveMany":"Save #p# Changes","lpt":"Login","lllbl":"Lightning Login","host":"test.salesforce.com","le":false,"heu":"Edit Username List","ic":false,"lh":false,"hidp":"Log In Using","ih":"inactive","dc":"Username removed. Click Save to Commit Changes."};</SCRIPT>
+
+<SCRIPT src="/jslibrary/SfdcSessionBase208.js"></SCRIPT>
+
+<SCRIPT src="/jslibrary/LoginHint208.js"></SCRIPT>
+
+<SCRIPT>LoginHint.hideLoginForm();</SCRIPT>
+<LINK rel=canonical href="https://test.salesforce.com/?locale=us"></HEAD>
+<BODY onload=lazyload();>
+<DIV id=left class=pr>
+<DIV id=wrap>
+<DIV id=main>
+<DIV id=wrapper>
+<DIV id=logo_wrapper class="standard_logo_wrapper mb24">
+<H1 style="DISPLAY: table-cell; HEIGHT: 100%; VERTICAL-ALIGN: bottom"><IMG id=logo class=standard_logo border=0 name=logo alt=Salesforce src="/img/logo198.png"></H1></DIV>
+<H2 style="DISPLAY: none" id=header class=mb12></H2>
+<DIV style="DISPLAY: block" id=content>
+<DIV style="DISPLAY: none" id=chooser>
+<DIV style="DISPLAY: block" id=chooser_error class=loginError></DIV>
+<DIV><SPAN id=chooser_label class=label>0 Saved Usernames</SPAN><A id=edit class="fr small" onclick=LoginHint.showEdit(); href="javascript:void(0);">Edit List</A></DIV>
+<DIV class="scrollable mt8">
+<UL id=idlist></UL></DIV></DIV>
+<DIV style="DISPLAY: none" id=manager>
+<DIV class="nonscrollable mt8">
+<UL id=editlist class=mb24 aria-relevant="additions removals" aria-live=polite></UL></DIV>
+<DIV class=mt16><BUTTON id=hint_save_edit class="button primary fiftyfifty right" onclick=LoginHint.saveHintEdit(); name=Save type=submit>Save</BUTTON><BUTTON id=hint_back_edit class="button secondary fiftyfifty" onclick=LoginHint.showChooser(); name=Cancel type=submit>Cancel</BUTTON></DIV></DIV>
+<DIV style="DISPLAY: block" id=theloginform>
+<FORM id=login_form onsubmit=handleLogin(); method=post name=login action=https://test.salesforce.com/ target=_top novalidate="novalidate">
+<FIELDSET style="DISPLAY: none"><INPUT id=un_hfid type=hidden name=un> <INPUT type=hidden name=width> <INPUT type=hidden name=height> <INPUT value=true type=hidden name=hasRememberUn> <INPUT id=login_startUrl type=hidden name=startURL> <INPUT type=hidden name=loginURL> <INPUT type=hidden name=loginType> <INPUT value=true type=hidden name=useSecure> <INPUT type=hidden name=local> <INPUT value=standard type=hidden name=lt> <INPUT type=hidden name=qs> <INPUT type=hidden name=locale> <INPUT type=hidden name=oauth_token> <INPUT type=hidden name=oauth_callback> <INPUT type=hidden name=login> <INPUT type=hidden name=serverid> <INPUT value=EylWgppB0Yk type=hidden name=QCQQ> <INPUT value=page type=hidden name=display></FIELDSET> 
+<DIV id=usernamegroup class=inputgroup><LABEL class=label for=username>Username</LABEL>
+<DIV id=username_container>
+<DIV style="DISPLAY: none" id=idcard-container class="mt8 mb16">
+<DIV id=idcard><IMG id=idcard-avatar class=avatar alt=""><A id=clear_link class=clearlink onclick=LoginHint.clearExistingIdentity(); href="javascript:void(0);"><IMG class=clearicon alt="Log In with a Different Username" src="/img/clear.png"></A><SPAN id=idcard-identity></SPAN></DIV></DIV><INPUT style="DISPLAY: block" id=username class="input r4 wide mb16 mt8 username" type=email name=username><INPUT value=%5B%7B%22width%22:1440%7D,%7B%22height%22:900%7D,%7B%22language%22:%22en-us%22%7D,%7B%22offset%22:7%7D,%7B%22scripts%22:%5B%7B%22size%22:251,%22summary%22:%22%5Cr%5Cnif%20(self%20==%20top)%20%7Bdocument.documentElement.style%22%7D,%7B%22size%22:524,%22summary%22:%22%5Cr%5Cnvar%20SFDCSessionVars=%7B%5C%22server%5C%22:%5C%22https://test.sale%22%7D,%7B%22url%22:%22https://test.salesforce.com/jslibrary/SfdcSessionBase208.js%22%7D,%7B%22url%22:%22https://test.salesforce.com/jslibrary/LoginHint208.js%22%7D,%7B%22size%22:28,%22summary%22:%22%5Cr%5CnLoginHint.hideLoginForm();%22%7D,%7B%22size%22:38,%22summary%22:%22%5Cr%5CnLoginHint.getSavedIdentities(false);%22%7D,%7B%22url%22:%22https://test.salesforce.com/jslibrary/baselogin3.js%22%7D,%7B%22url%22:%22https://test.salesforce.com/jslibrary/LoginMarketingSurveyResponse.js%22%7D,%7B%22size%22:359,%22summary%22:%22%5Cr%5Cnfunction%20handleLogin()%7Bdocument.login.un.value=d%22%7D%5D%7D,%7B%22scriptCount%22:9%7D,%7B%22iframes%22:%5B%22https://c.salesforce.com/login-messages/promos.html%22,%22https://test.salesforce.com/login/sessionserver208.html%22%5D%7D,%7B%22iframeCount%22:2%7D,%7B%22referrer%22:%22NO_REFERRER%22%7D%5D type=hidden name=ExtraLog></DIV></DIV><LABEL class=label for=password>Password</LABEL><INPUT id=password class="input r4 wide mb16 mt8 password" onkeypress=checkCaps(event) value="" type=password name=pw autocomplete="off">
+<DIV style="DISPLAY: none" id=pwcaps class=mb16><IMG id=pwcapsicon alt="Caps Lock is on." src="/img/icon/capslock_blue.png" width=12> Caps Lock is on.</DIV><INPUT id=Login class="button r4 wide primary" value="Log In to Sandbox" type=submit name=Login>
+<DIV class="w0 pr ln3 p16 remember"><INPUT id=rememberUn class="r4 fl mr8" type=checkbox name=rememberUn><LABEL class="fl pr db tn3" for=rememberUn>Remember me</LABEL><BR></DIV></FORM>
+<DIV class="w0 links bt pt16 mb20"><A id=forgot_password_link class="fl small" href="/secur/forgotpassword.jsp?locale=us&amp;lqs=">Forgot Your Password?</A><A id=mydomainLink class="fr small" onclick="DomainSwitcher.enterCustomDomain('Use Custom Domain',' | Salesforce')" href="javascript:void(0);">Use Custom Domain</A></DIV></DIV>
+<DIV style="DISPLAY: none" id=mydomainContainer>
+<P class=mb16>To go to your company's login page, enter the custom domain name.</P>
+<FORM onsubmit="DomainSwitcher.handleMyDomain();return false;"><LABEL class=label for=mydomain>Custom Domain</LABEL><INPUT id=mydomain class="input wide focus mt8 mb16" onkeyup="DomainSwitcher.updateMyDomain(this, event);" type=text name=mydomain>
+<DIV id=mydomain_preview class="mb16 wordwrap">https://<EM>domain</EM>.my.salesforce.com</DIV></FORM><INPUT id=mydomain_suffix value=.my.salesforce.com type=hidden><INPUT id=community_suffix value=.cs13.force.com type=hidden><BUTTON id=mydomainContinue class="button primary fiftyfifty right" onclick=DomainSwitcher.handleMyDomain(); name=Continue type=submit>Continue</BUTTON><BUTTON id=hint_back_domain class="button secondary fiftyfifty" onclick="DomainSwitcher.dismissCustomDomain('Login',' | Salesforce');" type=submit>Back</BUTTON></DIV></DIV>
+<DIV style="DISPLAY: none" id=use_new_identity_div class=tc><A id=use_new_identity onclick=LoginHint.useNewIdentity(); href="javascript:void(0);">Log In with a Different Username</A></DIV></DIV></DIV></DIV>
+<DIV id=footer>\C2\A9 2017 salesforce.com, inc. All rights reserved. | <A id=privacy-link href="http://www.salesforce.com/us/company/privacy" target=_blank ?>Privacy</A></DIV></DIV>
+<DIV id=right><IFRAME id=marketing title=Marketing tabIndex=-1 src="https://c.salesforce.com/login-messages/promos.html" frameBorder=0 name=marketing scrolling=no sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts"></IFRAME></DIV>
+<DIV style="WIDTH: 0px; HEIGHT: 0px" id=assistive-announce class=zen-assistiveText aria-live=polite aria-atomic="true">Login</DIV>
+<SCRIPT>LoginHint.getSavedIdentities(false);</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -999px; LEFT: -999px" title=sessionserver src="https://test.salesforce.com/login/sessionserver208.html"></IFRAME>
+<SCRIPT src="/jslibrary/baselogin3.js"></SCRIPT>
+
+<SCRIPT src="/jslibrary/LoginMarketingSurveyResponse.js"></SCRIPT>
+
+<SCRIPT>function handleLogin(){document.login.un.value=document.login.username.value;document.login.width.value=screen.width;document.login.height.value=screen.height;}function lazyload(){document.getElementById("pwcapsicon").src="/img/icon/capslock_blue.png";document.getElementById("marketing").src="https://c.salesforce.com/login-messages/promos.html";}loader();</SCRIPT>
+</BODY></HTML>

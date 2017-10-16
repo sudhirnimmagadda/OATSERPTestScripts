@@ -1,0 +1,1245 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Home</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/tableUtils.js"></SCRIPT>
+
+<SCRIPT id=oaf_detachScript type=text/javascript src="/OA_HTML/cabo/oajsLibs/detachTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/mainMenuTree.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/flexibleLayout.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("https://erpptp1.fin.yahoo.com:8000/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/FND/@ICX_FWK_LABS_HOME_PAGE", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event)','CTinitRichTableUI(\\'NtfWorklist\\');CTaddEventToPPROnLoad();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/NewHomePG&amp;homePage=Y&amp;_ti=2097175121&amp;retainAM=Y&amp;addBreadCrumb=N&amp;OAPB=FWK_HOMEPAGE_BRAND&amp;OAMC=G&amp;oapc=3&amp;oas=3y0JIN3mKBBOqM_UYaP5_g..><INPUT id=_AM_TX_ID_FIELD value=1XShl0oFQ type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormNameSjgrbFCy type=hidden name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=PageLayoutRN>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=xbl><IMG title="Customized corporate branding image for Oracle Applications" border=0 alt="Customized corporate branding image for Oracle Applications" src="/OA_MEDIA/yahoo_logo.gif"></TD>
+<TD class=x86><SPAN style="POSITION: relative" title="E-Business Suite"><SPAN class=x4j>E-Business Suite</SPAN></SPAN>
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fskyros\\x2Ft.gif";var _axm;t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=14></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV>
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+</TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=PersonalizePage class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/framework/personalization/webui/ChooseContextPG&amp;retainAM=Y&amp;addBreadCrumb=S&amp;PERZ=Y&amp;bypass=y&amp;pg=%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG.PageLayoutRN&amp;if=OANEWHOMEPAGE&amp;is=0&amp;io=2660&amp;ia=-1&amp;iu=122032&amp;te=oaffnwNewHomePG.PageLayoutRN&amp;pv=SPS&amp;amMode=7&amp;baseAM=oracle.apps.fnd.framework.navigate.server.OANavigatePortletAM&amp;baseRC=/oracle/apps/fnd/framework/navigate/webui/NewHomePG&amp;baseAppId=0&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=Lu2APPxEP52jGKXZigTRlg..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/framework/personalization/webui/ChooseContextPG&amp;retainAM=Y&amp;addBreadCrumb=S&amp;PERZ=Y&amp;bypass=y&amp;pg=%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG.PageLayoutRN&amp;if=OANEWHOMEPAGE&amp;is=0&amp;io=2660&amp;ia=-1&amp;iu=122032&amp;te=oaffnwNewHomePG.PageLayoutRN&amp;pv=SPS&amp;amMode=7&amp;baseAM=oracle.apps.fnd.framework.navigate.server.OANavigatePortletAM&amp;baseRC=/oracle/apps/fnd/framework/navigate/webui/NewHomePG&amp;baseAppId=0&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=Lu2APPxEP52jGKXZigTRlg..">
+<TD style="PADDING-LEFT: 7px"><IMG id=PersonalizePage:select border=0 name=PersonalizePage:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Personalize Page</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=wQfnaA3AlHnFQSHs5WJRYg..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=wQfnaA3AlHnFQSHs5WJRYg..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26homePage%3DY%26transactionid%3D2097175121%26retainAM%3DY%26addBreadCrumb%3DN%26OAPB%3DFWK_HOMEPAGE_BRAND%26OAMC%3DG%26oas%3D1rPdwQDSou73ntsWU-eiqA..&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=ZhRmMVSdGNAGMaNC6pH7SA..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26homePage%3DY%26transactionid%3D2097175121%26retainAM%3DY%26addBreadCrumb%3DN%26OAPB%3DFWK_HOMEPAGE_BRAND%26OAMC%3DG%26oas%3D1rPdwQDSou73ntsWU-eiqA..&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=ZhRmMVSdGNAGMaNC6pH7SA..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=ManageProxies class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/umx/proxy/webui/ManageProxiesPG&amp;_ri=0&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=bmYK9xukjGfqkpq7iD2rOw..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/umx/proxy/webui/ManageProxiesPG&amp;_ri=0&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=bmYK9xukjGfqkpq7iD2rOw..">
+<TD style="PADDING-LEFT: 7px"><IMG id=ManageProxies:select border=0 name=ManageProxies:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Manage Proxies</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=AccessRequests class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/umx/accessRequest/webui/MyAppAccessPG&amp;_ri=0&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=vS233g0d7zyc-UVFtZ7dXQ..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/umx/accessRequest/webui/MyAppAccessPG&amp;_ri=0&amp;_ti=2097175121&amp;oapc=3&amp;menu=Y&amp;oas=vS233g0d7zyc-UVFtZ7dXQ..">
+<TD style="PADDING-LEFT: 7px"><IMG id=AccessRequests:select border=0 name=AccessRequests:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Access Requests</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=b-4xPR_JtcZvASuiyN4Q1Q.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('0','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=b-4xPR_JtcZvASuiyN4Q1Q.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>0</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD><A class=x84 href="javascript:top.help_window()">
+<DIV><IMG title=Help border=0 alt=Help src="/OA_MEDIA/help.png"></DIV></A></TD>
+<TD></TD>
+<TD><A class=x84 href="/OA_HTML/OALogout.jsp?menu=Y">
+<DIV><IMG title=Logout border=0 alt=Logout src="/OA_MEDIA/signout.png"></DIV></A></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=3></TD></TR>
+<TR>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9n>
+<DIV>
+<DIV class=pagetopborderleft></DIV>
+<DIV class=pagetopbordermiddle></DIV>
+<DIV class=pagetopborderright></DIV></DIV></DIV>
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR>
+<TR>
+<TD width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=x4c width="100%" colSpan=3>
+<TABLE id=AppsSearchRG border=0 cellSpacing=0 cellPadding=0 align=left>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=AppsSearchableGroup__xc_ border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Enterprise Search</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><SELECT id=AppsSearchableGroup class=x8 title="Enterprise Search" onchange="" name=AppsSearchableGroup><OPTION selected value=SESG_OKC_DOC_SRH_PSa6MVXNf_>Contract Documents</OPTION><OPTION value=SESG_CTX_OKC_PSAwhuEb63>Contracts Searchables</OPTION><OPTION value=SESG_OTA_COURSE_SRCH2-VivXfv>Courses</OPTION><OPTION value=SESG_NOTIFICATIONST_TnmYuj>Workflow Notifications</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE id=AppsSearchText__xc_ border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><INPUT id=AppsSearchText class=x8 title="Search Text" onkeypress="return _chain('if(_getKC(event)==13){submitForm(\\'DefaultFormName\\',1,{\\'AppsSearchTextEnterKey\\':\\'HITH3RttNbd\\'});return false;};return true;','return _submitOnEnter(event, \\'DefaultFormName\\');',this,event,true)" onchange="" size=55 type=text name=AppsSearchText>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD><BUTTON id=AppsSearchGO class=x7p title="Click here to perform search" onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'AppsSearchGOwrFyz_z1'});return false" type=submit>Go</BUTTON></TD>
+<TD class="xca ">
+<SCRIPT id=Spacer1>t('50','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=50 height=1></TD>
+<TD>
+<TABLE id=AppsSearchResultsUI__xc_ border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Search Results Display Preference</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><SELECT onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" id=AppsSearchResultsUI class=x8 onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" onchange="return _pprChoiceChangeEvent(event);" name=AppsSearchResultsUI><OPTION value=ADVANCEDjKXM-idJ>Advanced</OPTION><OPTION selected value=STANDARDwlvvvdvO>Standard</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<DIV class=x6v>
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=x1h border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=x7g>
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm vAlign=bottom>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/warnl.gif" width=18 height=18></TD>
+<TD>
+<SCRIPT>t(5,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=0></TD>
+<TD width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x60 type="OraHeader">Warning</H1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class=x48></DIV>
+<DIV class=x47>You are running this application with an obsolete look and feel (appearance setting) and/or an unsupported browser version. As a result, application pages may not work correctly. Please contact your system administrator for assistance.</DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV id=p_SwanPageLayout class=x7z>
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Home</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD><SPAN id=openNTF></SPAN></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><IMG id=Status title="The application is running in inaccessible mode. This can be changed from the preferences screen." border=0 name=Status alt="The application is running in inaccessible mode. This can be changed from the preferences screen." src="/OA_MEDIA/fnd_t.gif">
+<DIV></DIV><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleLayoutRenderer id=mainLayout:  render start isDisclosed=true hasHeader=false userCustomizable=true -->
+<TABLE id=mainLayout width="100%">
+<TBODY>
+<TR id=mainLayout_internalRow1>
+<TD id=mainLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV style="horizontal-align: left" id=mainLayout_div>
+<TABLE id=mainLayout_internalTable width="100%" ?>
+<TBODY><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleRowLayoutRenderer id=mainLayout_row_0:  render start -->
+<TR id=mainLayout_row_0 hAlign="left">
+<TD id=menuLayout height=450 vAlign=top width=320 align=left>
+<TABLE id=menuLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=menuLayout_internalTable1_Row1>
+<TD id=menuLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV style="WIDTH: 320px; HEIGHT: 450px; OVERFLOW: auto; horizontal-align: left" id=menuLayout_div><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleContentRenderer id=menuContent:  render start  hasHeader=false hasBorder=false isDisclosed=true -->
+<TABLE id=menuContent width="100%">
+<TBODY>
+<TR id=menuContent_internalRow1>
+<TD id=menuContent_internalRow1_Col2 vAlign=top align=left>
+<DIV id=menuTable_p13n><A id=N48 class=xh title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.menuTable" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.menuTable%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D2660%26ia%3D-1%26iu%3D122032%26te%3DoaffnwNewHomePG.menuTable%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.fnd.framework.navigate.server.OANavigatePortletAM%26baseRC%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26baseAppId%3D0%26OAIG%3D10231%26_ti%3D2097175121%26oapc%3D3%26oas%3DJ9boGjRGLSyOiI98yPSWNQ..%22)">Personalize Table Layout: (menuTable)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=menuTable border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=PersonalizeRow>
+<TD id=PersonalizeCell>
+<TABLE id=header class=xbr border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Navigator</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<DIV parent="OAHeaderBean, localName='header'"><A id=N49 class=xh title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.header" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.header%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D2660%26ia%3D-1%26iu%3D122032%26te%3DoaffnwNewHomePG.header%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.fnd.framework.navigate.server.OANavigatePortletAM%26baseRC%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26baseAppId%3D0%26OAIG%3D10231%26_ti%3D2097175121%26oapc%3D3%26oas%3DA0Z__FJckBGCqn7kOMaCSA..%22)">Personalize "Navigator"</A></DIV></DIV>
+<DIV class=x7c>
+<DIV id=headerTable_p13n><A id=N50 class=xh title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.headerTable" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.headerTable%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D2660%26ia%3D-1%26iu%3D122032%26te%3DoaffnwNewHomePG.headerTable%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.fnd.framework.navigate.server.OANavigatePortletAM%26baseRC%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26baseAppId%3D0%26OAIG%3D10231%26_ti%3D2097175121%26oapc%3D3%26oas%3D2qA61_GKFTbujDw9zidreg..%22)">Personalize Table Layout: (headerTable)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=headerTable border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=headerRow>
+<TD id=headerCell align=right><BUTTON id=persBtn class=x7p title=Personalize onclick="document.location='OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/CustomizeNavigatePG&amp;_ti=2097175121&amp;oapc=3&amp;oas=FcNSidWnRH9OUVYvlOmKRw..'" type=button>Personalize</BUTTON></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=MenuRow>
+<TD id=MenuCell vAlign=top>
+<TABLE id=mainMenuRegion border=0 cellSpacing=0 cellPadding=0 width="100%" align=center>
+<TBODY>
+<TR id=mainMenuRow vAlign=top>
+<TD id=mainMenuCell vAlign=top width="100%">
+<TABLE id=respList class=respList>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>
+   var Mplus="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png"; 
+   var Mminus="/OA_HTML/cabo/images/skyros/discloseexpanded_16_ena.png"; 
+</SCRIPT>
+
+<UL id=treemenu1 class=treeview>
+<LI id=20419:0:-1:0:mainMenuRESTY9M3XAGw class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Application Developer</DIV></A></LI>
+<LI id=68074:0:-1:0:mainMenuRESTQA6f7o_9 class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Application Diagnostics</DIV></A></LI>
+<LI id=20563:140:-1:0:mainMenuREST6n43DY7_ class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Fixed Assets Manager</DIV></A></LI>
+<LI id=20434:101:-1:0:mainMenuRESTI0CQ791C class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Collapse alt=Collapse src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/discloseexpanded_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>General Ledger Super User</DIV></A>
+<UL style="DISPLAY: block" id=undefined rel="open">
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=22241&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=sIr-pjTaWhgPrB2GsHzyGg..&amp;params=OnhwAiEe2Ojxt5kfoysR3lSNLkhyWgwTwmNT7CTFGPM">
+<DIV><IMG class=image alt="Yahoo! APEX GL Accounts Mappings" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Yahoo! APEX GL Accounts Mappings</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=30792&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=epu2pqaJYaIlVsB6_Y1sOQ..&amp;params=OnhwAiEe2Ojxt5kfoysR3lSNLkhyWgwTwmNT7CTFGPM">
+<DIV><IMG class=image alt="HK Profit and Loss Statement" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>HK Profit and Loss Statement</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=31997&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=H9Byo4RKV1vDQjB29qWutw..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Yahoo! Unbill Reclass Variance Setup</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=31396&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Ng1D-Cvy4AD1GNcTYAvFdQ..')">
+<DIV><IMG class=image alt="Yahoo! CAM Payout Workbench" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Yahoo! CAM Payout Workbench</DIV></A></LI>
+<LI id=20434:101:67902:0:mainMenuREST-I4zBYXg class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Journals</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=616&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=VwEIQiqLGcFeO8YvLOMHgw..')">
+<DIV><IMG class=image alt="Enter journals" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Enter</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=588&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=taJQRNfjNs-X7lpdZENdzQ..')">
+<DIV><IMG class=image alt="Post journals" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Post</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=615&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=-0njlzGVIImrHuNk1QK64Q..')">
+<DIV><IMG class=image alt="Enter encumbrances" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Encumbrance</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=35492&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=skR-sbYQSe4RKYPmdj4Y-g..&amp;params=xvHUew9GCZQWnM82nWYUGEhMkrbIBxn8UgeERHz6U84">
+<DIV><IMG class=image alt="Journal Wizard Launch page" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Launch Journal Wizard</DIV></A></LI>
+<LI id=20434:101:67905:0:mainMenuRESTbxGOhEV2 class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Import</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=592&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=_8ToGiiWjER5H7Jskjh2Lw..')">
+<DIV><IMG class=image alt="Import journals" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Run</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=590&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=PAsyX7V7iOrgi_dFCLTWEw..')">
+<DIV><IMG class=image alt="Correct journal import data" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Correct</DIV></A></LI></UL></LI>
+<LI id=20434:101:67903:0:mainMenuRESTkkLCWral class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Define</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=618&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=_PhVhUohE1rq3dMlAaRUGA..')">
+<DIV><IMG class=image alt="Define MassAllocations" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Allocation</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=614&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=uZUmTLvDVrbePP8HnnMZrA..')">
+<DIV><IMG class=image alt="Define recurring journal formula" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Recurring</DIV></A></LI></UL></LI>
+<LI id=20434:101:67904:0:mainMenuRESTGTVkuVbp class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Generate</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=589&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=6V6mME1UFFqlKtTpUh12Bg..')">
+<DIV><IMG class=image alt="Generate reversing journals" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Reversal</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=620&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Lar2wQNiVjnQzrOVo2fvWQ..')">
+<DIV><IMG class=image alt="Generate MassAllocations" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Allocation</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=595&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=jpW4rcswFf4Mj8npiVX8fA..')">
+<DIV><IMG class=image alt="Generate recurring journals" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Recurring</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=594&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=wFmEyzWAz9zfdnlbaFvTJg..')">
+<DIV><IMG class=image alt="Perform year-end carry forward" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Carryforward</DIV></A></LI></UL></LI>
+<LI id=20434:101:69538:0:mainMenuREST6WyPeIu6 class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Schedule</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4390&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Kx0w4zVg5Jx3z-NX_jUG4Q..')">
+<DIV><IMG class=image alt="Schedule MassAllocations" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Allocation</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4393&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=pFi4668l75VGANrfHSsXhg..')">
+<DIV><IMG class=image alt="Schedule recurring journals" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Recurring</DIV></A></LI></UL></LI>
+<LI id=20434:101:70195:0:mainMenuRESTOOsWU9dx class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>AutoAllocation</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4395&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=rayDp0ILl3nYSXNyly4Kuw..')">
+<DIV><IMG class=image alt="Define, run, schedule, and monitor General Ledger AutoAllocation processes" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Workbench</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4379&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=-Eab8tvADEarwT1dkcC1VA..')">
+<DIV><IMG class=image alt="View AutoAllocation status" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>View Status</DIV></A></LI></UL></LI>
+<LI id=20434:101:85631:0:mainMenuRESTVHEm4psT class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Reconciliation</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=35490&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=by7sp3Uk8eFLDjLJ8ocT_g..')">
+<DIV><IMG class=image alt="Reconcile Journal Lines" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Reconcile</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=35491&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=oYd--PLwfToIeqjSxB9jMA..')">
+<DIV><IMG class=image alt="Reverse Reconciled Journal Lines" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Reverse</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:67892:0:mainMenuREST8NRO-FtY class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Budgets</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=574&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=KPMNyQny6F5bRJhDF-UOlw..')">
+<DIV><IMG class=image alt="Freeze budgets, budget organizations, and budget formulas" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Freeze</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34914&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=iLUKwhXc6uXvHwQ_h4T0Mw..&amp;params=81SWk.SKHAoN25.OzpwQ7EhMkrbIBxn8UgeERHz6U84">
+<DIV><IMG class=image alt="Web-based desktop integrator for budget entry" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Launch Budget Wizard</DIV></A></LI>
+<LI id=20434:101:67894:0:mainMenuRESTw4-TczY9 class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Enter</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=622&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=ZBjMJbfXZimN1fHT6Jj4lw..')">
+<DIV><IMG class=image alt="Enter budget amounts" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Amounts</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=621&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=oVxU0q7PhNUppJycBFEBDg..')">
+<DIV><IMG class=image alt="Enter budget journals" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Journals</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=577&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=-RydVZe2p8ytwBv2dNzZIQ..')">
+<DIV><IMG class=image alt="Transfer amounts between budgets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Transfer</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=576&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=AQwqAeYu596u1Ks3Fwvd2Q..')">
+<DIV><IMG class=image alt="Upload budget spreadsheet data" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Upload</DIV></A></LI></UL></LI>
+<LI id=20434:101:67893:0:mainMenuRESTKeprFO-V class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Define</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=573&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=g_TvPiI59CxBLa4KS3QotQ..')">
+<DIV><IMG class=image alt="Define budgets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Budget</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=575&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=KyneM-XfdZ9R_HkHMehyFA..')">
+<DIV><IMG class=image alt="Define budget organizations" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Organization</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=617&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=YtChg54X3U0ULYNdOKHlBw..')">
+<DIV><IMG class=image alt="Define MassBudgets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>MassBudget</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=613&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=FJ_rIjEa5he1mQ5Q1jn7pQ..')">
+<DIV><IMG class=image alt="Define budget formulas" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Formula</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=601&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=5lSto5LsQkD2P3fEUzKNZA..')">
+<DIV><IMG class=image alt="Define budgetary control groups" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Controls</DIV></A></LI></UL></LI>
+<LI id=20434:101:67895:0:mainMenuRESTNqF9wdRa class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Generate</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=619&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=fjMBlrh3G2nHasw2CmjhYA..')">
+<DIV><IMG class=image alt="Generate MassBudgets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>MassBudget</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=572&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=3Mt7zVeVYPF52RR2xBHqDA..')">
+<DIV><IMG class=image alt="Calculate budget amounts from budget formulas" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Formula</DIV></A></LI></UL></LI>
+<LI id=20434:101:69539:0:mainMenuRESTvqDUyRMJ class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Schedule</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4391&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=RjABksE2wQVmY-JAjBwFbA..')">
+<DIV><IMG class=image alt="Schedule MassBudgets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>MassBudget</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4392&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=4vWplpO4MDprmtOsNRqcgw..')">
+<DIV><IMG class=image alt="Schedule budget formulas" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Formula</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:67901:0:mainMenuRESTMaeIKEKg class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Inquiry</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=582&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Oh4bSwRiaJfANn18LPtXfw..')">
+<DIV><IMG class=image alt="Inquire on account balances" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Account</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2028&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=VJXRFbugncHICEPlEnjZJQ..')">
+<DIV><IMG class=image alt="Inquire on average balances" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Average</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=584&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=nOnPZJd5-j3s_1M9SVAUNw..')">
+<DIV><IMG class=image alt="Inquire on budget balances" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Budget</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=587&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=wE9cq2wyrRhu-mhL4mkwlQ..')">
+<DIV><IMG class=image alt="Inquire on journal entries" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Journal</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=586&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Jc4vEkPRKjpUSdgQGZ39XQ..')">
+<DIV><IMG class=image alt="Inquire on funds available" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Funds</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=27981&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=brAVd2g2shok3zSgwccA5w..&amp;params=Vi4Hj7cWjKW06fI4GeFVJFSNLkhyWgwTwmNT7CTFGPM">
+<DIV><IMG class=image alt="Account Analysis and Drilldown Search page." src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Account Analysis and Drilldown</DIV></A></LI>
+<LI id=20434:101:67910:0:mainMenuRESTGLsZqsYv class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Report</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=911&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=4OT_H7Zyty2GN_nVk-1rNw..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Financial</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=75&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=6z6F2VH1ZkOHFa-0mZglqQ..')">
+<DIV><IMG class=image alt="Requests: Run Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Standard</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=18404&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=qR43Hm0QXawbdpdo6oqWSw..&amp;params=lf9DskPRpsXs0XFkEWVagthFLIKOghy2iLXtbVXMJtY">
+<DIV><IMG class=image alt="Run Discoverer Reports" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Discoverer Viewer</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=18384&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=95JFjTElddR6BZySAEqDbQ..&amp;params=lf9DskPRpsXs0XFkEWVagthFLIKOghy2iLXtbVXMJtY">
+<DIV><IMG class=image alt="Discoverer Plus" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Discoverer Plus</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:67897:0:mainMenuRESTamJiHv0z class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Currency</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=580&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=kCecaDIiNIokC2539lwx-Q..')">
+<DIV><IMG class=image alt=Revaluation src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Revaluation</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=581&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=NFRLe4T3WcPsg5JyLFlgkA..')">
+<DIV><IMG class=image alt="Translate balances" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Translation</DIV></A></LI></UL></LI>
+<LI id=20434:101:67896:0:mainMenuRESTXXS4NOmz class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Consolidation</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2800&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=6vxqqYjcBdzqZSZo_5G1-g..')">
+<DIV><IMG class=image alt="Monitor and control consolidation process flow" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Workbench</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=578&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=UFxp1QRXjCeKtb5eMY8Xtg..')">
+<DIV><IMG class=image alt="Purge consolidation audit data" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Purge</DIV></A></LI>
+<LI id=20434:101:68431:0:mainMenuRESTiQzNImW- class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Define</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=204&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=OTXb_m3yEFMhLXPOPe7bGg..')">
+<DIV><IMG class=image alt="Define consolidations" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Consolidation</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2799&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=sFO7e2lwrccLiZgaQh-f2Q..')">
+<DIV><IMG class=image alt="Define consolidation sets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Consolidation Set</DIV></A></LI></UL></LI>
+<LI id=20434:101:68432:0:mainMenuRESTIdaClmAK class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Transfer</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=579&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=_C3kIZ35T_pYBOY5_rLC6A..')">
+<DIV><IMG class=image alt="Transfer consolidation data" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Data</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2798&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=gx6z-3UUMQiZJE4wOr_MxA..')">
+<DIV><IMG class=image alt="Transfer consolidation data set" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Data Set</DIV></A></LI></UL></LI>
+<LI id=20434:101:69625:0:mainMenuRESTDEhc_Ozr class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Elimination</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4573&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=c39VHUM6rv2g1f-UbajgRA..')">
+<DIV><IMG class=image alt="Define elimination sets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4574&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=BE72AnzHE2yjLc0EZ5f-NA..')">
+<DIV><IMG class=image alt="Generate eliminations" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Generate</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:67907:0:mainMenuRESTin8vZ-vj class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Reports</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=904&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=jQ2gwIRhKvE7UDeIOC2J8w..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>AutoCopy</DIV></A></LI>
+<LI id=20434:101:67910:0:mainMenuRESTGLsZqsYv class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Request</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=911&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=4OT_H7Zyty2GN_nVk-1rNw..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Financial</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=75&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=6z6F2VH1ZkOHFa-0mZglqQ..')">
+<DIV><IMG class=image alt="Requests: Run Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Standard</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=18404&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=qR43Hm0QXawbdpdo6oqWSw..&amp;params=lf9DskPRpsXs0XFkEWVagthFLIKOghy2iLXtbVXMJtY">
+<DIV><IMG class=image alt="Run Discoverer Reports" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Discoverer Viewer</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=18384&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=95JFjTElddR6BZySAEqDbQ..&amp;params=lf9DskPRpsXs0XFkEWVagthFLIKOghy2iLXtbVXMJtY">
+<DIV><IMG class=image alt="Discoverer Plus" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Discoverer Plus</DIV></A></LI></UL></LI>
+<LI id=20434:101:67908:0:mainMenuRESTwPbBeiQl class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Define</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=37425&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=dn74Ia8O48s9RnG6HbFnyA..&amp;params=BKkJ052UmT30bnTnSELJ7.03KyloXnhLc0f4rEkJO7Q">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Generate Content Set</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=624&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=-_6XXIVlJB6h98qGfoR_xw..')">
+<DIV><IMG class=image alt="Define column set" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Column Set</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=906&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=D2JljPLp-Eyet1ZGEi4vqg..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Content Set</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=908&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=MG_ugPhMvzgD4zkLJbXNnw..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Order</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=909&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=EanDebpgMfldxRXP8C3MvQ..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Report</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=910&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=l9IuJNnYH-pDY5DWMVNJ7A..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Report Set</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=623&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=QSOC4WCpN6OerYY5RAWwxQ..')">
+<DIV><IMG class=image alt="Define row set" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Row Set</DIV></A></LI>
+<LI id=20434:101:67909:0:mainMenuRESThAB_Wq03 class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Display</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=907&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=CQR04poFWmU0DsAsrGuJGw..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Set</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=905&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=55OSur5XVrCHAi-E5sSjJQ..')">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Group</DIV></A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=20434:101:67911:0:mainMenuRESTX4Czitdn class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Setup</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=593&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=96g_SqIuFzsqjqnfYvwhow..')">
+<DIV><IMG class=image alt="Open and close periods" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Open/Close</DIV></A></LI>
+<LI id=20434:101:67898:0:mainMenuREST8QzOAp1R class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Financials</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34617&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=vGSz_DbSUnFpw5wSuKJzSw..')">
+<DIV><IMG class=image alt="Define ledger sets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Ledger Sets</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34618&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=jI62fiP8d8NUvsRaCybnDQ..')">
+<DIV><IMG class=image alt="Define data access sets" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Data Access Sets</DIV></A></LI>
+<LI id=20434:101:67920:0:mainMenuRESTfKHx2FTd class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Flexfields</DIV></A>
+<UL style="DISPLAY: none" rel="closed">
+<LI id=20434:101:67922:0:mainMenuRESTDW5HsPtI class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Key</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=57&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=5uzABMRk62TXcZKdM-PDOg..')">
+<DIV><IMG class=image alt="Key Flexfield Segments Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Segments</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=60&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=anG7aj58lY_oHWmvi3ifyw..')">
+<DIV><IMG class=image alt="Flexfield Segment Values: Key Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Values</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=74&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=N3RbxMRnfJCLAmwIj_XV_g..')">
+<DIV><IMG class=image alt="FlexField Shorthand Aliases Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Aliases</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=63&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=flKMkDxNiGarSlbliaMiSg..')">
+<DIV><IMG class=image alt="FlexField Cross-Validation Rules Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Rules</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=54&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=UQr99P2aqJfcsljVj4uxLg..')">
+<DIV><IMG class=image alt="FlexField Rollup Groups: Key Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Groups</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2855&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=dpefTXv8TrrwBuu1mPq3tQ..')">
+<DIV><IMG class=image alt="Select workflow processes to generate accounts" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Accounts</DIV></A></LI>
+<LI id=20434:101:67919:0:mainMenuRESTihV5_qce class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Security</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=173&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=--5SbIzhboyBIoRGUJFB1Q..')">
+<DIV><IMG class=image alt="FlexField Security Rules: Key Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=175&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=YsOYKlip6-NpDJR_9woKBA..')">
+<DIV><IMG class=image alt="FlexField Security Rules: Key Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Assign</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:67921:0:mainMenuRESTyseX-twB class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Descriptive</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=64&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=OBD2atqOfE4NSZSYjTA4kg..')">
+<DIV><IMG class=image alt="Descriptive FlexField Segments Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Segments</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=59&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=KOE82upkGS8Is7h4q34iQA..')">
+<DIV><IMG class=image alt="Flexfield Segment Values: Descriptive Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Values</DIV></A></LI>
+<LI id=20434:101:67918:0:mainMenuREST8GxIxhty class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Security</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=172&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=e1tNBQMqafPckGafIs9X9A..')">
+<DIV><IMG class=image alt="FlexField Security Rules: Descriptive Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=174&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=XJ3lls1SVOH7_ONFBOpm0w..')">
+<DIV><IMG class=image alt="FlexField Security Rules: Descriptive Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Assign</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:67923:0:mainMenuRESTR9be1AdT class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Validation</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=69&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=2RyWPu3vzRhCaF9wGhMz_g..')">
+<DIV><IMG class=image alt="FlexField Value Sets Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Sets</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=61&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=shrR2NgFI7nnaKMXt4jo7w..')">
+<DIV><IMG class=image alt="FlexField Segment Values Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Values</DIV></A></LI>
+<LI id=20434:101:67870:0:mainMenuREST65_i-aGb class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Security</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=99&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Aoh1J85SuW8nbagSsQg8tg..')">
+<DIV><IMG class=image alt="FlexField Security Rules Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=100&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Wpje_IyCJuQqi2nBBR3gCQ..')">
+<DIV><IMG class=image alt="FlexField Security Rules Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Assign</DIV></A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=20434:101:67899:0:mainMenuRESTAT3xbrWi class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Calendars</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=609&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=QQ8pqhx2Xoz4Pj4WIz8OGw..')">
+<DIV><IMG class=image alt="Define period types" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Types</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=603&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=bP_DiGUNYsYRWP01I4YWsw..')">
+<DIV><IMG class=image alt="Define periods" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Accounting</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2029&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=OwuGg2lM-ukaUa7g2yCbmg..')">
+<DIV><IMG class=image alt="Define transaction calendars" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Transaction</DIV></A></LI></UL></LI>
+<LI id=20434:101:85308:0:mainMenuRESTZlh70Bgg class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Fusion Coexistence Mapping</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34590&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=uOrsvkwIF2VGN3XiFmhkVg..&amp;params=s80T1wSU6-wxu.QX5CQXE.03KyloXnhLc0f4rEkJO7Q">
+<DIV><IMG class=image alt="Ledger Mapping Search Page" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Ledger</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34595&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=6qXWV5trs3w71jXUMXf3gQ..&amp;params=s80T1wSU6-wxu.QX5CQXE.03KyloXnhLc0f4rEkJO7Q">
+<DIV><IMG class=image alt="Calendar Mapping Search Page" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Calendar</DIV></A></LI></UL></LI>
+<LI id=20434:101:84607:0:mainMenuRESTE8i1zJrB class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Accounting Setup Manager</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=32213&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=yPBEiSv4vWd9XuSHDgJYTg..&amp;params=inVWzWVF4vdyZJL3WalH0ReF-l08De0i3niyjDGD6d8">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Accounting Setups</DIV></A></LI></UL></LI>
+<LI id=20434:101:85319:0:mainMenuREST8D8CljGP class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Definition Access Sets</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34619&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=WGTtH43V3bUTxNC05SNgmQ..')">
+<DIV><IMG class=image alt="Define Definition Access Set" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34620&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=wC67DflcXCoQSEWYSwfT-g..')">
+<DIV><IMG class=image alt="Assign Definition Access Sets to Responsibility" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Assign</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34621&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=X3_sbyukpitCGDnfW6GOXw..&amp;params=iQ5sPWolkyak28xaIPos1ecSUPQ2BjNNqlg.9hBqggI">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define and Assign</DIV></A></LI></UL></LI>
+<LI id=20434:101:67900:0:mainMenuRESTLFVqjfBu class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Sequences</DIV></A>
+<UL style="DISPLAY: none" rel="closed">
+<LI id=20434:101:85322:0:mainMenuRESTgOt4b0UO class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Document</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=114&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=_hTY2YhfTtaVxOiRE-yLhQ..')">
+<DIV><IMG class=image alt="Sequential Numbers: Document Sequences Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=113&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=rHOIsFbUba7c0-A_cOisnQ..')">
+<DIV><IMG class=image alt="Sequential Numbers: Document Sequence Assignments Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Assign</DIV></A></LI></UL></LI>
+<LI id=20434:101:85327:0:mainMenuREST52D3fyxu class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Accounting</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34612&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=c2x7OiZkt7-thRjvAZFTcQ..&amp;params=WCJRQV9nIyYY1LuSwXUHOBeF-l08De0i3niyjDGD6d8">
+<DIV><IMG class=image alt="Search Sequences" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34598&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=x61808v0ScKCXh0hN14wFQ..&amp;params=WCJRQV9nIyYY1LuSwXUHOBeF-l08De0i3niyjDGD6d8">
+<DIV><IMG class=image alt="Search Sequencing Contexts" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Assign</DIV></A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=20434:101:67912:0:mainMenuRESTqo6-zRdz class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Accounts</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=568&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=54DlSGTn1YVOHcTnM5ra5w..')">
+<DIV><IMG class=image alt="Define GL Accounts" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Combinations</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=571&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=ff0UtJsOv4hiA5UMbzKHkA..')">
+<DIV><IMG class=image alt="Define suspense accounts" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Suspense</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=570&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=pmCzQPon8sw_G-xu47_0xw..')">
+<DIV><IMG class=image alt="Define summary accounts" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Summary</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=612&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=SwSV8sbIvrRh-tbQKGBilg..')">
+<DIV><IMG class=image alt="Define statistical units of measure" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Units</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34690&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=4IoMgUsUQQbLcbDJUNjy2g..')">
+<DIV><IMG class=image alt="Define chart of accounts mappings" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Chart of Accounts Mapping</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=10680&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=l7MeYAhJxvlfxnAIDv70bA..&amp;params=WojG7gzafq.aRhPvmqXV00hMkrbIBxn8UgeERHz6U84">
+<DIV><IMG class=image alt="Edit Account Hierarchies" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Manager</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=607&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=vLmtNV5RZVk8Yl1GsZtvbQ..')">
+<DIV><IMG class=image alt="Define government transaction codes" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Transaction Codes</DIV></A></LI></UL></LI>
+<LI id=20434:101:67915:0:mainMenuRESTJNi-Mn36 class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Journal</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=611&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=j0Hmf2IIt9nd_2OrzULZMw..')">
+<DIV><IMG class=image alt="Define journal sources" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Sources</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=604&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=6R5yGgd35M7K1IQ1CBMLjA..')">
+<DIV><IMG class=image alt="Define journal categories" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Categories</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=606&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=UoTG_WR2tYXDJtxaRHmAdA..')">
+<DIV><IMG class=image alt="Define encumbrance types" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Encumbrances</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=600&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=peECANToamdltxG92atagQ..')">
+<DIV><IMG class=image alt="Define autopost criteria" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>AutoPost</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4179&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=E0k47QQNInBVXZaeLhghTg..')">
+<DIV><IMG class=image alt="Define journal reversal criteria" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>AutoReverse</DIV></A></LI></UL></LI>
+<LI id=20434:101:67913:0:mainMenuREST8_zN6UQF class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Currencies</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=106&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Ljf3m9pe07BIQcJ-Cui99w..')">
+<DIV><IMG class=image alt="Currencies Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Define</DIV></A></LI>
+<LI id=20434:101:81318:0:mainMenuRESTir-JO0uo class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Currency Rates Manager</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=24878&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=CAqwcP7S9BwGvGn_0PNraw..&amp;params=RfW4Uod-S2IyXJV4c.0Lbu03KyloXnhLc0f4rEkJO7Q">
+<DIV><IMG class=image alt="Currency Rates Manager Daily Rates Function Used within Forms Based Responsibilities" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Daily Rates</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=24880&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=muhS25yqRC7Z-o4Ffz_vHw..&amp;params=RfW4Uod-S2IyXJV4c.0Lbu03KyloXnhLc0f4rEkJO7Q">
+<DIV><IMG class=image alt="Currency Rates Manager Historical Rates Function Used within Forms Based Responsibilities" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Historical Rates</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=24881&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=s6D3ZFQb-o0LF-SoKQWWpQ..&amp;params=RfW4Uod-S2IyXJV4c.0Lbu03KyloXnhLc0f4rEkJO7Q">
+<DIV><IMG class=image alt="Currency Rates Manager Rate Types Function Used within Forms Based Responsibilities" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Rate Types</DIV></A></LI></UL></LI>
+<LI id=20434:101:67914:0:mainMenuRESTvVkA6nMO class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Rates</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=596&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=uVJeqrc2vXZrTzKtOko-9A..')">
+<DIV><IMG class=image alt="Define daily rates" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Daily</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=597&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=XYPJyYzcIBqA30ZqIF4psw..')">
+<DIV><IMG class=image alt="Define historical rates" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Historical</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=599&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=ju4yLes9-OL-g_FzrbBg4Q..')">
+<DIV><IMG class=image alt="Define conversion rate types" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Types</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:68373:0:mainMenuRESTC6_Y4VQz class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Tax</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=34783&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=8AO91ZFSsuJWHz7MhoFrWA..')">
+<DIV><IMG class=image alt="Define Tax Options" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Tax Options</DIV></A></LI></UL></LI>
+<LI id=20434:101:68434:0:mainMenuREST5HdknHoS class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Employees</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2804&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=girlz32NshGVoaaVisDBYA..')">
+<DIV><IMG class=image alt="Define employee journal authorization limits" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Limits</DIV></A></LI></UL></LI>
+<LI id=20434:101:67916:0:mainMenuRESTNWdRTFIw class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>System</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=608&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Lvvk_T9vx1nNtbzFWl-DQg..')">
+<DIV><IMG class=image alt="Archive and purge account balances and journal entries" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Purge</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=610&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=iPU1tdAvFKsNA3YLZVpk-w..')">
+<DIV><IMG class=image alt="Update storage parameters" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Storage</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2245&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=A7Zk1IaR5O5Fp9sF-KFZIQ..')">
+<DIV><IMG class=image alt="Define database links for FSG Transfer" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Database Links</DIV></A></LI></UL></LI>
+<LI id=20434:101:68433:0:mainMenuRESTMqGLixnT class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Other</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4408&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=wvnckAR0YlLWUS4gZY3JuQ..')">
+<DIV><IMG class=image alt="Define submission schedules" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Schedules</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=2783&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=9zewMFffdPQg3Koqosl0zA..')">
+<DIV><IMG class=image alt="Define and run Mass Maintenance requests" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Mass Maintenance</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=38484&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=Gwdg63FkZCqBSLIdFt11vw..&amp;params=5.mIp54IKTmEIn3Xq4hw-lA4XEJDtHYmy0V1CHjpHW8">
+<DIV><IMG class=image alt="Fusion Cloud Register Page" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Fusion Accounting Hub Reporting Cloud Service</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:67906:0:mainMenuREST-ntoCaLv class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Other</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=66&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=xa1zO4jAlDgY-cfbd1SXbg..')">
+<DIV><IMG class=image alt="Concurrent Requests: View User Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Requests</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=4849&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=d4m5lJ6CGFu-2M2HSXbPAg..&amp;params=IrpXzLj1AllBpbHgPLxzojZVj8fiKLDhrWlOZjpE2NY">
+<DIV><IMG class=image alt="Find Notifications" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Notifications</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=18784&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=wS06_CXHS81JBsaf6htbRg..&amp;params=IrpXzLj1AllBpbHgPLxzojZVj8fiKLDhrWlOZjpE2NY">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>FileUpload</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=44&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=FvafQ0r9zuo243lzk4YM7A..')">
+<DIV><IMG class=image alt="Profile User Values Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Profile</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=19806&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=9I6QCijirEA-pxj7MidQBw..&amp;params=IrpXzLj1AllBpbHgPLxzojZVj8fiKLDhrWlOZjpE2NY">
+<DIV><IMG class=image alt="" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>XML Template</DIV></A></LI>
+<LI id=20434:101:67850:0:mainMenuRESTWhXQav-K class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Report</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=75&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=6z6F2VH1ZkOHFa-0mZglqQ..')">
+<DIV><IMG class=image alt="Requests: Run Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Run</DIV></A></LI>
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=76&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=T3PX7y7U9pP3kFYXhzpS8w..')">
+<DIV><IMG class=image alt="Request Sets: User Mode Form" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Set</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=18384&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=95JFjTElddR6BZySAEqDbQ..&amp;params=iaUpO6R3yNuKQErelEs5ENhFLIKOghy2iLXtbVXMJtY">
+<DIV><IMG class=image alt="Discoverer Plus" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Discoverer Plus</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=18404&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=qR43Hm0QXawbdpdo6oqWSw..&amp;params=iaUpO6R3yNuKQErelEs5ENhFLIKOghy2iLXtbVXMJtY">
+<DIV><IMG class=image alt="Run Discoverer Reports" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Discoverer Viewer</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20434:101:84397:0:mainMenuRESTdnVGxGOD class=submenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor">
+<DIV><IMG class=image title=Expand alt=Expand src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>AX_NAV_SUPERVISOR_GL</DIV></A>
+<UL style="DISPLAY: none" id=undefined rel="closed">
+<LI id=undefined><A href="javascript:launchForm('https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=31557&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=X2K0MtYwmO0FrQwCuVJqhQ..')">
+<DIV><IMG class=image alt="Yahoo! GL FR GAAP Function" src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Yahoo! FR GAAP Report</DIV></A></LI>
+<LI id=undefined><A href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/RF.jsp?function_id=31558&amp;resp_id=20434&amp;resp_appl_id=101&amp;security_group_id=0&amp;lang_code=US&amp;oas=KCDz3bLPbi7k2S4ydHJklA..&amp;params=GLCkCnFwAedjoYtfkQEMNheF-l08De0i3niyjDGD6d8">
+<DIV><IMG class=image alt="Yahoo! FR GAAP File Download" src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16></DIV>
+<DIV class=textdiv>Yahoo! FR GAAP File Download</DIV></A></LI></UL></LI></UL></LI>
+<LI id=20639:200:-1:0:mainMenuRESTdjLuAuMq class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Payables Manager</DIV></A></LI>
+<LI id=20707:201:-1:0:mainMenuRESTH-JQW24U class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Purchasing Super User</DIV></A></LI>
+<LI id=20678:222:-1:0:mainMenuRESTUsPtBhaQ class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Receivables Manager</DIV></A></LI>
+<LI id=20420:1:-1:0:mainMenuRESTUvBVvceY class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>System Administrator</DIV></A></LI>
+<LI id=52488:101:-1:0:mainMenuRESTnxtpshjl class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>US GL User</DIV></A></LI>
+<LI id=56226:231:-1:0:mainMenuRESTN7KqHST3 class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>US Web ADI</DIV></A></LI>
+<LI id=54211:0:-1:0:mainMenuRESTEgANhi8R class=rootmenu><A style="TEXT-DECORATION: underline" href="#dummyAnchor1">
+<DIV><IMG class=image title=Expand alt=Expand src="/OA_HTML/cabo/images/skyros/disclosecollapsed_16_ena.png" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/folder_ena.png" width=16 height=16></DIV>
+<DIV class=textdivresp>Yahoo! Notifications</DIV></A></LI></UL></TD></TR></TBODY></TABLE><LINK rel=stylesheet type=text/css href="cabo/styles/mainMenuTree_skyros.css">
+<SCRIPT type=text/javascript>McreateTree("treemenu1", escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'), true)</SCRIPT>
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleContentRenderer id=menuContent:  render end --></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleCellLayoutRenderer id=menuLayout:  render End -->
+<TD id=favNtfLayout vAlign=top align=left>
+<TABLE id=favNtfLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=favNtfLayout_internalTable1_Row1>
+<TD id=favNtfLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV style="horizontal-align: left" id=favNtfLayout_div>
+<TABLE id=favNtfLayout_internalTable20 width="100%">
+<TBODY><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_0:  render start -->
+<TR id=favNtfLayout_row_0 hAlign="left">
+<TD id=NtfLayout vAlign=top width="100%" align=left>
+<TABLE id=NtfLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=NtfLayout_internalTable1_Row1>
+<TD id=NtfLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV style="horizontal-align: left" id=NtfLayout_div><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleContentRenderer id=NtfContent:  render start  hasHeader=false hasBorder=false isDisclosed=true -->
+<TABLE id=NtfContent width="100%">
+<TBODY>
+<TR id=NtfContent_internalRow1>
+<TD id=NtfContent_internalRow1_Col2 vAlign=top align=left>
+<TABLE id=worklistRow border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD id=worklistCell vAlign=top align=left>
+<DIV id=NotificationRN_p13n><A id=N51 class=xh title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.NotificationRN" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.NotificationRN%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D2660%26ia%3D-1%26iu%3D122032%26te%3DoaffnwNewHomePG.NotificationRN%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.fnd.framework.navigate.server.OANavigatePortletAM%26baseRC%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26baseAppId%3D0%26OAIG%3D10231%26_ti%3D2097175121%26oapc%3D3%26oas%3Dy8zUmdrONYGB21HqpwZGtw..%22)">Personalize "Worklist"</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=NotificationRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x44 type="OraHeader">Worklist</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV><SPAN id=Notifications>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N52 class=xh title="Personalize /oracle/apps/fnd/wf/worklist/webui/AdvancWorklistRG" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fwf%252Fworklist%252Fwebui%252FAdvancWorklistRG%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D2660%26ia%3D-1%26iu%3D122032%26te%3DoafwwwAdvancWorklistRG%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.fnd.framework.navigate.server.OANavigatePortletAM%26baseRC%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26baseAppId%3D0%26OAIG%3D10231%26_ti%3D2097175121%26oapc%3D3%26oas%3DUZbOKFRfAjnuyJrFvWeY0g..%22)">Personalize "Notifications Worklist Function"</A></DIV>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD>
+<TD align=right><BUTTON id=NtfFullList class=x7p title="Show the complete notification worklist" onclick="document.location='OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/AdvancWorklistPG&amp;addBreadCrumb=Y&amp;ebizHomeList=Y&amp;_ti=2097175121&amp;oapc=3&amp;oas=gj1-udMRkMwhgFtuaxCn_w..'" type=button>Full List</BUTTON></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV id=NtfWorklist_p13n><A id=N53 class=xh title="Personalize /oracle/apps/fnd/wf/worklist/webui/AdvancWorklistRG.NtfWorklist" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fwf%252Fworklist%252Fwebui%252FAdvancWorklistRG.NtfWorklist%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D2660%26ia%3D-1%26iu%3D122032%26te%3DoafwwwAdvancWorklistRG.NtfWorklist%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.fnd.framework.navigate.server.OANavigatePortletAM%26baseRC%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26baseAppId%3D0%26OAIG%3D10231%26_ti%3D2097175121%26oapc%3D3%26oas%3DpFmevvb_mi9fa9k1mE4QVQ..%22)">Personalize "Notification List"</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=NtfWorklist title="Notification List">
+<DIV id=loadDiv:NtfWorklist>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:NtfWorklist><INPUT id=fullAMName:NtfWorklist value=oracle.apps.fnd.framework.navigate.server.OANavigatePortletAM type=hidden><INPUT id=tid:NtfWorklist value=2097175121 type=hidden><INPUT id=fullCustRef:NtfWorklist value=/oracle/apps/fnd/framework/navigate/webui/NewHomePG.Notifications.NtfWorklist type=hidden>
+<DIV id=surroundingDiv:NtfWorklist>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:NtfWorklist title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:NtfWorklist onfocus="TUdetachTableForwardFocusLoop('NtfWorklist');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:NtfWorklist onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:NtfWorklist><IMG title="Attach Table: Notification List" border=0 alt="Attach Table: Notification List" src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=NtfWorklist:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Notification List" onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Notification List"><IMG id=NtfWorklist:detachIcon class=OraTableControlBarIcon title="Detach Table: Notification List" alt="Detach Table: Notification List" src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Notification List"></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=NtfWorklist:refreshIcon title="Refresh Table: Notification List" onclick="_tableRefresh('DefaultFormName','tablerefresh','N42',1,' ',' ','NtfWorklist')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Notification List" alt="Refresh Table: Notification List" src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:NtfWorklist class=x9i onclick="TUreset('NtfWorklist');" href="javascript:void(0)" name=reset:ena:NtfWorklist><IMG title="Reset Table Settings: Notification List" border=0 alt="Reset Table Settings: Notification List" src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:NtfWorklist class=x9i title="Reset Table Settings Disabled: Notification List" border=0 name=reset:dis:NtfWorklist alt="Reset Table Settings Disabled: Notification List" src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_NtfWorklist'].invokeMenuUsingKey(this,event);" id=settings:NtfWorklist class=x9j role=button onclick="menus['settings_NtfWorklist'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:NtfWorklist><IMG title="Table Settings: Notification List" border=0 alt="Table Settings: Notification List" src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_NtfWorklist class=x9u role=menu submitfun="TUMenuOKAction('settings_NtfWorklist' ,'NtfWorklist');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfFromUser aria-checked=true class=x9t onmouseover="menus['settings_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_NtfWorklist\\'].clickOnMenuItem(\\'menuItem:NtfFromUser\\',event);','TUmenuSelection(\\'settings_NtfWorklist\\',\\'NtfWorklist\\',\\'menuItem:NtfFromUser\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfFromUser:select title=Hide border=0 name=menuItem:NtfFromUser:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>From</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:NtfFromUser tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderUp(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=up:menuItem:NtfFromUser><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:NtfFromUser tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderDown(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=down:menuItem:NtfFromUser><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfType aria-checked=true class=x9t onmouseover="menus['settings_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_NtfWorklist\\'].clickOnMenuItem(\\'menuItem:NtfType\\',event);','TUmenuSelection(\\'settings_NtfWorklist\\',\\'NtfWorklist\\',\\'menuItem:NtfType\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfType:select title=Hide border=0 name=menuItem:NtfType:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Type</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:NtfType tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderUp(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=up:menuItem:NtfType><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:NtfType tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderDown(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=down:menuItem:NtfType><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfSubject aria-checked=true class=x9t onmouseover="menus['settings_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_NtfWorklist\\'].clickOnMenuItem(\\'menuItem:NtfSubject\\',event);','TUmenuSelection(\\'settings_NtfWorklist\\',\\'NtfWorklist\\',\\'menuItem:NtfSubject\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfSubject:select title=Hide border=0 name=menuItem:NtfSubject:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Subject</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:NtfSubject tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderUp(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=up:menuItem:NtfSubject><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:NtfSubject tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderDown(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=down:menuItem:NtfSubject><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfSent aria-checked=true class=x9t onmouseover="menus['settings_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_NtfWorklist\\'].clickOnMenuItem(\\'menuItem:NtfSent\\',event);','TUmenuSelection(\\'settings_NtfWorklist\\',\\'NtfWorklist\\',\\'menuItem:NtfSent\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfSent:select title=Hide border=0 name=menuItem:NtfSent:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Sent</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:NtfSent tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderUp(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=up:menuItem:NtfSent><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:NtfSent tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderDown(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=down:menuItem:NtfSent><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfDue aria-checked=true class=x9t onmouseover="menus['settings_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_NtfWorklist\\'].clickOnMenuItem(\\'menuItem:NtfDue\\',event);','TUmenuSelection(\\'settings_NtfWorklist\\',\\'NtfWorklist\\',\\'menuItem:NtfDue\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfDue:select title=Hide border=0 name=menuItem:NtfDue:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Due</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:NtfDue tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderUp(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=up:menuItem:NtfDue><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:NtfDue tabIndex=-1 onclick="return _chain('menus[\\'settings_NtfWorklist\\'].reorderDown(this,event)','TUreorder(\\'settings_NtfWorklist\\',\\'NtfWorklist\\')',this,event)" href="javascript:void(0)" name=down:menuItem:NtfDue><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_NtfWorklist']= new Menu();menus['settings_NtfWorklist'].initMenu('settings_NtfWorklist');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_NtfWorklist'].invokeMenuUsingKey(this,event);" id=freeze:NtfWorklist class=x9j role=button onclick="menus['freeze_NtfWorklist'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:NtfWorklist><IMG title="Column Freeze: Notification List" border=0 alt="Column Freeze: Notification List" src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_NtfWorklist class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_NtfWorklist'].focusMenu(event, this);" id=NtfWorklist:unfreeze class=x9t onmouseover="menus['freeze_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_NtfWorklist'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('NtfWorklist');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=NtfWorklist:unfreeze:select border=0 name=NtfWorklist:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfFromUser:freeze class=x9t onmouseover="menus['freeze_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_NtfWorklist'].closeMenuOnAction(this,event);CTfreezeMenuSelection('NtfWorklist','menuItem:NtfFromUser:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfFromUser:freeze:select border=0 name=menuItem:NtfFromUser:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>From</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfType:freeze class=x9t onmouseover="menus['freeze_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_NtfWorklist'].closeMenuOnAction(this,event);CTfreezeMenuSelection('NtfWorklist','menuItem:NtfType:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfType:freeze:select border=0 name=menuItem:NtfType:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Type</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfSubject:freeze class=x9t onmouseover="menus['freeze_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_NtfWorklist'].closeMenuOnAction(this,event);CTfreezeMenuSelection('NtfWorklist','menuItem:NtfSubject:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfSubject:freeze:select border=0 name=menuItem:NtfSubject:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Subject</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfSent:freeze class=x9t onmouseover="menus['freeze_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_NtfWorklist'].closeMenuOnAction(this,event);CTfreezeMenuSelection('NtfWorklist','menuItem:NtfSent:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfSent:freeze:select border=0 name=menuItem:NtfSent:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Sent</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_NtfWorklist'].focusMenu(event, this);" id=menuItem:NtfDue:freeze class=x9t onmouseover="menus['freeze_NtfWorklist'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_NtfWorklist'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_NtfWorklist'].closeMenuOnAction(this,event);CTfreezeMenuSelection('NtfWorklist','menuItem:NtfDue:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:NtfDue:freeze:select border=0 name=menuItem:NtfDue:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Due</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_NtfWorklist']= new Menu();menus['freeze_NtfWorklist'].initMenu('freeze_NtfWorklist');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:NtfWorklist class=x9i title="Column Freeze is disabled for table Notification List. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:NtfWorklist alt="Column Freeze is disabled for table Notification List. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'NtfWorklist')" id=contentDiv:NtfWorklist class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=NtfWorklist:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="1" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="classic" initialWidth="undefined" initialOWidth="undefined">
+<TBODY>
+<TR>
+<TH id=NtfFromUser class="x1z x50 x9h" scope=col sortvalue="0ciR8PHNy" oaondragstart="dragStartOnRichTableColumn(NtfWorklist)"><SPAN id=OASH__744 class=x2b>From
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt,parent) {if( ((typeof TUfromDragEvent != 'undefined') && TUfromDragEvent)  || ((typeof TUhideEvt != 'undefined') && TUhideEvt) ) {TUfromDragEvent = false ; TUhideEvt = false;return;}if(parent!=null && parent.tagName =='TH' && parent.getAttribute('sortvalue') != null) {  val = parent.getAttribute('sortvalue'); } var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN><A style="POSITION: absolute; DISPLAY: none" id=NtfFromUser:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('NtfWorklist','NtfFromUser');return false" href="javascript:void(0)" name=NtfFromUser:h><IMG title="Hide : From" border=0 alt="Hide : From" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=NtfType class="x1z x50 x9h" scope=col sortvalue="1Iad7TjmZ" oaondragstart="dragStartOnRichTableColumn(NtfWorklist)"><SPAN id=OASH__745 class=x2b>Type</SPAN><A style="POSITION: absolute; DISPLAY: none" id=NtfType:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('NtfWorklist','NtfType');return false" href="javascript:void(0)" name=NtfType:h><IMG title="Hide : Type" border=0 alt="Hide : Type" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=NtfSubject class="x1z x50 x9h" scope=col sortvalue="2ViwVJtrt" oaondragstart="dragStartOnRichTableColumn(NtfWorklist)"><SPAN id=OASH__746 class=x2b>Subject</SPAN><A style="POSITION: absolute; DISPLAY: none" id=NtfSubject:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('NtfWorklist','NtfSubject');return false" href="javascript:void(0)" name=NtfSubject:h><IMG title="Hide : Subject" border=0 alt="Hide : Subject" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=NtfSent class="x1z x50 x9h" scope=col sortvalue="3c1ri1xED" oaondragstart="dragStartOnRichTableColumn(NtfWorklist)"><SPAN id=OASH__747 class=x2b>Sent</SPAN><A style="POSITION: absolute; DISPLAY: none" id=NtfSent:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('NtfWorklist','NtfSent');return false" href="javascript:void(0)" name=NtfSent:h><IMG title="Hide : Sent" border=0 alt="Hide : Sent" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=NtfDue class="x1z x50 x9h" scope=col sortvalue="4J13gWtUU" oaondragstart="dragStartOnRichTableColumn(NtfWorklist)"><SPAN id=OASH__748 class=x2b>Due</SPAN><A style="POSITION: absolute; DISPLAY: none" id=NtfDue:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('NtfWorklist','NtfDue');return false" href="javascript:void(0)" name=NtfDue:h><IMG title="Hide : Due" border=0 alt="Hide : Due" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR>
+<TD class="x1t x50">There are no notifications in this view.</TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50" noWrap><BR></TD>
+<TD class="x1t x50" noWrap><BR></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:NtfWorklist')" id=scrollDiv:NtfWorklist>
+<DIV id=scrollDivContent:NtfWorklist></DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:NtfWorklist onfocus="TUdetachTableReturnFocusLoop('NtfWorklist');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:NtfWorklist></DIV></DIV></DIV>
+<SCRIPT language=javascript>function _richTblRefresh(formName,validate,ptgt,table,event,val) { _submitPartialChange(formName,validate,{event:event,source:table,partialTargets:ptgt,value:val});  }</SCRIPT>
+
+<SCRIPT language=javascript>function _tableRefresh(formName, tablerefresh, src, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:tablerefresh,source:src,value:val,size:sze,partialTargets:partialTargets});}</SCRIPT>
+<INPUT id=direction:N42 type=hidden name=direction:N42></SPAN><SPAN id=NtfWorklist-hv><INPUT value=0 type=hidden name=N42:length></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<TABLE id=vacationRulesTip border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="/OA_HTML/cabo/images/skyros/tip.png" width=16 height=16></TD>
+<TD class=x5h vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5i vAlign=top width="100%"><A class=OraLinkText href="OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/RouteRulePG&amp;OAFunc=FND_WFNTF_ROUTE_RULE&amp;addBreadCrumb=Y&amp;_ti=2097175121&amp;oapc=3&amp;oas=TSxr23tTJI1ZxG3253fGvw..">Vacation Rules</A> - Specify which users can \E2\80\98Approve\E2\80\99 notifications on your behalf.</TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleContentRenderer id=NtfContent:  render end --></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleCellLayoutRenderer id=NtfLayout:  render End --></TR><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_0:  render end --></TBODY></TABLE>
+<TABLE id=favNtfLayout_internalTable21 width="100%">
+<TBODY><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_1:  render start -->
+<TR id=favNtfLayout_row_1 hAlign="left">
+<TD id=favLayout vAlign=top width="60%" align=left>
+<TABLE id=favLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=favLayout_internalTable1_Row1>
+<TD id=favLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV style="horizontal-align: left" id=favLayout_div></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleCellLayoutRenderer id=favLayout:  render End --></TR><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_1:  render end --></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleCellLayoutRenderer id=favNtfLayout:  render End --></TR><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleRowLayoutRenderer id=mainLayout_row_0:  render end --></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><!-- oracle.apps.fnd.framework.configpage.renderer.FlexibleLayoutRenderer id=mainLayout:  render End -->
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f" data="{autoPosition:0,px:-1,py:-1};">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=2097175121&amp;oapc=3&amp;oas=iz23hQxtJbG5B9rr-qtptw.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/fnd/framework/navigate/webui/NewHomePG:::DYmIGdys type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N35>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="submitForm('DefaultFormName',0,{'serverValidate':'1yqo_5Z37',event:'about'});return false;" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=N42$$unvalidated value=false14D8qmgQ type=hidden name=N42$$unvalidated><INPUT id=N42$$serverUnvalidated value=falseNEhVQMOB type=hidden name=N42$$serverUnvalidated><INPUT id=openPopupSourceId value=_hPh-qkT type=hidden name=openPopupSourceId><INPUT id=AppsSearchGO$$unvalidated value=falsemIffYCcC type=hidden name=AppsSearchGO$$unvalidated><INPUT id=AppsSearchGO$$serverUnvalidated value=falseFl3scvku type=hidden name=AppsSearchGO$$serverUnvalidated><INPUT id=AppsSearchGO$$processFormDataCalled value=trueiphJLtJy type=hidden name=AppsSearchGO$$processFormDataCalled><INPUT id=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated value=falseIGeB9243 type=hidden name=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated><INPUT id=FORM_MAC_LIST value=_FORM^_AM_TX_ID_FIELD^N42$$serverUnvalidated^_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated^AppsSearchGO$$processFormDataCalled^openPopupSourceId^N42$$unvalidated^AppsSearchGO$$unvalidated^_fwkAbsolutePageName^AppsSearchableGroup^AppsSearchResultsUI^_FORM_SUBMIT_BUTTON^_FORMEVENT^evtSrcRowIdx^evtSrcRowId^AppsSearchGO$$serverUnvalidated^AppsSearchTextEnterKey^serverValidate***value;T@@@FORM_MAC_LIST***@@@source^event^partialTargets^FORM_MAC_LIST^AppsSearchText^N42:length^evtSrcRowId^evtSrcRowIdx^direction:N42VBZbp4zSGHTBpBMUYYdp1Q.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=AppsSearchTextEnterKey>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","value","state","partialTargets","partial","AppsSearchTextEnterKey"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 889px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=false;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) --></BODY></HTML>

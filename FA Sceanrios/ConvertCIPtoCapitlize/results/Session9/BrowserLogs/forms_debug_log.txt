@@ -1,0 +1,22 @@
+2017-10-03 08:34:49 019 ERROR [HeartBeat][oracle.oats.scripting.modules.formsFT.helper.util.ReflectionUtility] 
+java.lang.NullPointerException
+	at oracle.oats.scripting.modules.formsFT.helper.util.ReflectionUtility.executeMethod(ReflectionUtility.java:233)
+	at oracle.oats.scripting.modules.formsFT.helper.util.ReflectionUtility.executeMethod(ReflectionUtility.java:248)
+	at oracle.oats.scripting.modules.formsFT.helper.Engine.isWebStart(Engine.java:224)
+	at oracle.oats.scripting.modules.formsFT.helper.Engine.onDestoryRunform(Engine.java:1794)
+	at oracle.oats.scripting.modules.formsFT.helper.OracleFormHook.onDestoryRunform(OracleFormHook.java:80)
+	at oracle.oats.scripting.modules.formsFT.helper.crackers.ClientListHook.removeElementForPrivilegedAction(ClientListCracker.java:91)
+	at oracle.oats.scripting.modules.formsFT.helper.crackers.ClientListHook$2.run(ClientListCracker.java:101)
+	at oracle.oats.scripting.modules.formsFT.helper.crackers.ClientListHook$2.run(ClientListCracker.java:99)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at oracle.oats.scripting.modules.formsFT.helper.crackers.ClientListHook.removeElement(ClientListCracker.java:99)
+	at oracle.forms.engine.Main.destroyRunform(Unknown Source)
+	at oracle.forms.engine.Runform.onMessageReal(Unknown Source)
+	at oracle.forms.engine.Runform.onMessage(Unknown Source)
+	at oracle.forms.engine.Heartbeat.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2017-10-03 08:38:50 489 ERROR [FormsFTDelayRecorderThread][oracle.oats.scripting.modules.formsFT.helper.Engine] InterruptedException in DelayRecorderThread
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:485)
+	at oracle.oats.scripting.modules.formsFT.helper.Engine$FormsRecorder$DelayRecorderThread.run(Engine.java:1345)

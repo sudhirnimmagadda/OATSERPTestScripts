@@ -1,0 +1,124 @@
+import oracle.oats.scripting.modules.basic.api.*;
+import oracle.oats.scripting.modules.browser.api.*;
+import oracle.oats.scripting.modules.functionalTest.api.*;
+import oracle.oats.scripting.modules.utilities.api.*;
+import oracle.oats.scripting.modules.utilities.api.sql.*;
+import oracle.oats.scripting.modules.utilities.api.xml.*;
+import oracle.oats.scripting.modules.utilities.api.file.*;
+import oracle.oats.scripting.modules.webdom.api.*;
+import oracle.oats.scripting.modules.formsFT.api.*;
+import oracle.oats.scripting.modules.applet.api.*;
+import lib.*;
+
+public class script extends IteratingVUserScript {
+	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
+	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
+	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
+	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
+	@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;
+	@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;
+	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
+	@FunctionLibrary("EBS_Reusable_Methods") lib.Subaru.EBSUpgrade.EBS_Reusable_Methods eBS_Reusable_Methods;
+	public void initialize() throws Exception {
+		
+		browser.launch();
+		datatable.importExcel("//snt026/OATSTESTSCRIPTS/EBS Upgrade Tests/Automation Scripts/EBS Financials/Test Data/ARCustomerInquiry.xls");
+		//eBS_Reusable_Methods.login_EBS();
+		//eBS_Reusable_Methods.expand_NodeFromList(new String[]{"System Administrator","Concurrent"}, "Requests");
+		forms.window("//forms:window[(@name='JOBS_QF')]").close();
+		forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);	
+		think(100);
+		
+	}
+
+	/**
+	 * Add code to be executed each iteration for this virtual user.
+	 */
+	public void run() throws Exception {
+		
+			eBS_Reusable_Methods.SwitchResponsibility("SOA Vehicles Receivables Manager");
+		    eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0","Customers");
+			eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0","Customers|Customers");
+			web.window("/web:window[@index='2' or @title='Customers']").waitForPage(null);
+			
+			datatable.setCurrentSheet("Customer Details");
+			datatable.useFirstRowAsColumnHeader("Customer Details");
+			int cnt=datatable.getRowCount();
+			System.out.println(cnt);
+			
+			for(int i=0;i<cnt;i++)
+			{
+			String customernum=(String) datatable.getValue("Customer Details",i,"Customer");
+						
+			web.textBox("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='AccountNumber' or @name='AccountNumber' or @index='2']").click();
+						
+			web.textBox("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='AccountNumber' or @name='AccountNumber' or @index='2']")
+						.setText(customernum);
+				
+			web.button("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:button[@id='HzPuiGoSearch' or @value='Go' or @index='0']")
+						.click();
+			
+			web.window("/web:window[@index='2' or @title='Customers']")
+						.waitForPage(null);
+				{
+					think(13.797);
+				}
+				
+				              //// validating the Customer Status and Address is populated or not ///
+				
+				String CustomerStatus=web.element("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:span[@id='N24:RegistryMeaning:0' or @index='43']").getAttribute("text");
+				info(CustomerStatus);
+				String Customerdata=web.element("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:span[@id='N24:Address:0' or @index='40']").getAttribute("text");
+				info(Customerdata);
+				
+				if (Customerdata.isEmpty()){
+					System.out.println("Customerdata is not available "+Customerdata);
+					reportFailure("Customerdata is not available "+Customerdata);
+					System.exit(0);
+					}				
+			
+				String custname=web.link("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:a[@id='N33:HzPuiPartyName:0'or @index='18']").getAttribute("value");
+				info(custname);
+				
+				web.link("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:a[@id='N33:HzPuiPartyName:0'or @index='18']").click();
+			    web.window("/web:window[@index='2' or @title='Customer Overview']").waitForPage(null);
+			    think(20.0);
+				
+				String Customername=web.textBox("/web:window[@index='2' or @title='Customer Overview']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='organization_name' or @name='organization_name' or @index='0']").getAttribute("value");
+				System.out.println("Customername is" +Customername );
+				
+				String Customeraddress=web.element("/web:window[@index='2' or @title='Customer Overview']/web:document[@index='0']/web:span[@id='AcctSitesTable:FormattedAddress:0' or @index='57']").getAttribute("text");
+				System.out.println("Customeradd is " +Customeraddress);
+				
+				CustomerStatus=web.element("/web:window[@index='2' or @title='Customer Overview']/web:document[@index='0']/web:span[@id='HzPuiAccountTable:AccountMeaning:0' or @index='30']").getAttribute("text");
+				System.out.println("Customerstatus is "+CustomerStatus);		
+				
+				String Customerid=web.element("/web:window[@index='2' or @title='Customer Overview']/web:document[@index='0']/web:span[@id='AcctSitesTable:PartySiteNum:0']").getAttribute("text");
+						
+				web.link("/web:window[@index='2' or @title='Customer Overview']/web:document[@index='0']/web:a[@text='Customers' or @index='8']").click();
+			
+				web.window("/web:window[@index='2' or @title='Customers']").waitForPage(null);
+				think(10.0);
+				
+				Customerdata=web.element("/web:window[@index='2' or @title='Customers']/web:document[@index='0']/web:span[@id='N33:RegistryMeaning:0']").getAttribute("text");
+				
+				if (Customerdata.isEmpty()){
+					System.out.println("Customerdata is not available "+Customerdata);
+					reportFailure("Customerdata is not available "+Customerdata);
+					}
+				
+			}
+			
+			web.window("/web:window[@index='2' or @title='Customers']").close();
+			
+			
+			
+	
+
+	}
+
+	public void finish() throws Exception {
+		
+		eBS_Reusable_Methods.ERPLogout();
+	}
+}

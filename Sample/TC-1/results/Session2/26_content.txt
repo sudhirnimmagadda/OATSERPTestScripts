@@ -1,0 +1,651 @@
+<HTML lang=en xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Oracle OpenScript Tutorial</TITLE>
+<META content="text/html; charset=us-ascii" http-equiv=Content-Type>
+<META content=en http-equiv=Content-Language>
+<META content=text/css http-equiv=Content-Style-Type>
+<META content=text/javascript http-equiv=Content-Script-Type>
+<META name=generator content="Oracle DARB XHTML Converter (Mode = document) - Version 5.1.1">
+<META name=Date content=2010-10-27T17:17:1Z>
+<META scheme=http://www.robotstxt.org/ name=robots content=all>
+<META name=doctitle content="Oracle® Application Testing Suite Getting Started Guide Version 9.20">
+<META name=partno content=E15487-04>
+<META name=docid content=ATSGS><LINK title=Home rel=Start type=text/html href="../../index.htm"><LINK title=Copyright rel=Copyright type=text/html href="../../dcommon/html/cpyr.htm"><LINK title=Default rel=Stylesheet type=text/css href="../../dcommon/css/blafdoc.css">
+<SCRIPT type=text/javascript src="../../dcommon/js/doccd.js">
+</SCRIPT>
+<LINK title=Contents rel=Contents type=text/html href="toc.htm"><LINK title=Index rel=Index type=text/html href="index.htm"><LINK title=Previous rel=Prev type=text/html href="chap2_fm.htm"><LINK title=Next rel=Next type=text/html href="chap4_olt_fm.htm"><LINK title="PDF version" rel=alternate type=application/pdf href="../e15487.pdf"></HEAD>
+<BODY style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1ex 0.5em 1ex 26%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px">
+<DIV class=header>
+<DIV class=zz-skip-header><A id=top href="#BEGIN" name=top>Skip Headers</A></DIV>
+<TABLE class="simple oac_no_warn" cellSpacing=0 summary="" cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD vAlign=top align=left><B>Oracle® Application Testing Suite Getting Started Guide<BR>Version 9.20</B><BR>Part Number E15487-04</TD>
+<TD vAlign=bottom align=right>
+<TABLE class="icons oac_no_warn" cellSpacing=0 summary="" cellPadding=0 width=245>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle><A href="../../index.htm"><IMG alt="Go to Documentation Home" src="../../dcommon/gifs/doclib.gif" width=24 height=24><BR><SPAN class=icon>Home</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="../../nav/portal_booklist.htm"><IMG alt="Go to Book List" src="../../dcommon/gifs/booklist.gif" width=24 height=24><BR><SPAN class=icon>Book List</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="toc.htm"><IMG alt="Go to Table of Contents" src="../../dcommon/gifs/toc.gif" width=24 height=24><BR><SPAN class=icon>Contents</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="index.htm"><IMG alt="Go to Index" src="../../dcommon/gifs/index.gif" width=24 height=24><BR><SPAN class=icon>Index</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="../../dcommon/html/feedback.htm"><IMG alt="Go to Feedback page" src="../../dcommon/gifs/feedbck2.gif" width=24 height=24><BR><SPAN class=icon>Contact Us</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<HR>
+
+<TABLE class="simple oac_no_warn" cellSpacing=0 summary="" cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD vAlign=top align=left>
+<TABLE class="simple oac_no_warn" cellSpacing=0 summary="" cellPadding=0 width=98>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle><A href="chap2_fm.htm"><IMG alt="Go to previous page" src="../../dcommon/gifs/leftnav.gif" width=24 height=24><BR><SPAN class=icon>Previous</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="chap4_olt_fm.htm"><IMG alt="Go to next page" src="../../dcommon/gifs/rightnav.gif" width=24 height=24><BR><SPAN class=icon>Next</SPAN></A></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-SIZE: 90%" vAlign=top align=right><A href="../e15487.pdf">View PDF</A></TD></TR></TBODY></TABLE><A id=BEGIN name=BEGIN></A></DIV>
+<DIV class=IND><!-- End Header --><A id=CHDHFCEC name=CHDHFCEC></A>
+<H1 class=chapter><SPAN class=secnum>3</SPAN> <!--BOLOC E1548702-998750-4-->Oracle OpenScript <A id=sthref213 name=sthref213></A><A id=sthref214 name=sthref214></A>Tutorial<!--EOLOC E1548702-998750-4--></H1>
+<P><!--BOLOC E1548702-998763-4-->This tutorial walks you through the main features of Oracle OpenScript. The tutorial consists of the following examples:<!--EOLOC E1548702-998763-4--></P>
+<UL>
+<LI>
+<P><!--BOLOC E1548702-998778-4--><SPAN class=bold>Starting the Avitek Medical Records Sample Application</SPAN> - explains how to start the sample Avitek Medical Records Server for use with this tutorial.<!--EOLOC E1548702-998778-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-998795-4--><SPAN class=bold>Starting Oracle OpenScript</SPAN> - describes how to start OpenScript.<!--EOLOC E1548702-998795-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-998812-4--><SPAN class=bold>Creating a Web Functional Test Script</SPAN> - describes how to create a Web Functional test script project and record a script. <!--EOLOC E1548702-998812-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-998829-4--><SPAN class=bold>Working with Scripts</SPAN> - explains the features of the OpenScript script tree and how to examine the structure and content of a recorded script.<!--EOLOC E1548702-998829-4--></P></LI>
+<LI>
+<P><SPAN class=bold>Playing Back a Web Functional Test Script</SPAN> - explains the procedure for playing back Web Functional Test scripts that you have recorded and viewing the results.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-998863-4--><SPAN class=bold>Adding Tests to the Script</SPAN> - explains how to add tests to your OpenScript scripts. <!--EOLOC E1548702-998863-4--></P></LI>
+<LI>
+<P><SPAN class=bold>Creating an HTTP Test Script</SPAN> - describe how to create an HTTP protocol load test script project and record a load test script.</P></LI>
+<LI>
+<P><SPAN class=bold>Creating an HTTP Test Script with Databanks</SPAN> - describe how to create an HTTP protocol load test script project and explains how to configure and use Databanks to run iterative tests on a login form using data from an external file.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-998897-4--><SPAN class=bold>Stopping the Avitek Medical Records Server</SPAN> - explains how to stop the sample Avitek Medical Records Server used with this tutorial.<!--EOLOC E1548702-998897-4--></P></LI></UL>
+<P><!--BOLOC E1548701-998893-1-->The tutorial is designed to be followed sequentially from beginning to end. Many of the examples are interrelated and build upon the steps in previous examples.<!--EOLOC E1548701-998893-1--></P>
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref215 name=sthref215></A>
+<H2 id=autoId0 class=sect1><SPAN class=secnum>3.1</SPAN> <!--BOLOC E1548702-998920-4-->Starting the Avitek Medical Records Sample Application<A id=sthref216 name=sthref216></A><!--EOLOC E1548702-998920-4--></H2>
+<P><!--BOLOC E1548702-998928-4-->The tutorial uses the Avitek Medical Records Sample Application to record and playback OpenScript scripts. The WebLogic server and Avitek Medical Records Sample Application need to be started on the system before creating OpenScript script projects and recording scripts.<!--EOLOC E1548702-998928-4--></P>
+<P><!--BOLOC E1548702-998934-4-->To start the Weblogic Server and Avitek Medical Records Sample Application:<!--EOLOC E1548702-998934-4--></P>
+<OL>
+<LI>
+<P>Select <SPAN class=bold>Programs</SPAN> from the <SPAN class=bold>Start</SPAN> menu and then select <SPAN class=bold>Sample</SPAN> from the <SPAN class=bold>Oracle Application Testing Suite</SPAN> menu.</P></LI>
+<LI>
+<P>Select <SPAN class=bold>Start MedRec Application</SPAN>.</P></LI>
+<LI>
+<P>Wait until the Avitek Medical Records Sample Application starts in the Weblogic server.</P></LI>
+<LI>
+<P>Close the browser window after the server and sample application are started. When recording OpenScript scripts, the browser window will automatically open again to specify the Web address to record.</P></LI></OL></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref217 name=sthref217></A>
+<H2 id=autoId1 class=sect1><SPAN class=secnum>3.2</SPAN> <!--BOLOC E1548702-999057-4-->Starting Oracle OpenScript<!--EOLOC E1548702-999057-4--></H2>
+<P><!--BOLOC E1548702-999062-4-->To start OpenScript:<!--EOLOC E1548702-999062-4--></P>
+<UL>
+<LI>
+<P>Select <SPAN class=bold>Programs</SPAN> from the <SPAN class=bold>Start</SPAN> menu, then select <SPAN class=bold>OpenScript</SPAN> from the <SPAN class=bold>Oracle Application Testing Suite</SPAN> Start menu.</P></LI></UL></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref218 name=sthref218></A>
+<H2 id=autoId2 class=sect1><SPAN class=secnum>3.3</SPAN> <!--BOLOC E1548702-999126-4-->Example 1: Creating a Web Functional Test Script<A id=sthref219 name=sthref219></A><A id=sthref220 name=sthref220></A><!--EOLOC E1548702-999126-4--></H2>
+<P><!--BOLOC E1548702-999136-4-->This example illustrates the creation of an OpenScript Web Functional test script project and recording a script. A script project creates the basic structure of an OpenScript script. Initially, the script project includes only the Initialize, Run, and Finish script nodes with the underlying Java code. You use the recording capabilities of OpenScript to record page navigations and generate the Java code for the script.<!--EOLOC E1548702-999136-4--></P>
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref221 name=sthref221></A>
+<H3 id=autoId3 class=sect2><SPAN class=secnum>3.3.1</SPAN> <!--BOLOC E1548702-999147-4-->Creating a Web Functional Test Script Project<!--EOLOC E1548702-999147-4--></H3>
+<P><!--BOLOC E1548702-999152-4-->To create a Web Functional Test Script Project:<!--EOLOC E1548702-999152-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-999167-4-->Select <SPAN class=bold>New</SPAN> from the <SPAN class=bold>File</SPAN> menu.<!--EOLOC E1548702-999167-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999196-4-->Select <SPAN class=bold>Web</SPAN> under the <SPAN class=bold>Functional Testing (Browser/GUI Automation)</SPAN> folder.<!--EOLOC E1548702-999196-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999227-4-->Click <SPAN class=bold>Next</SPAN>.<!--EOLOC E1548702-999227-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999246-4-->Make sure the Repository is set to Default.<!--EOLOC E1548702-999246-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999266-4-->Enter WebTutor as the script name.<!--EOLOC E1548702-999266-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999276-4-->Click <SPAN class=bold>Finish</SPAN>. OpenScript creates the script project and shows the Initialize, Run, and Finish nodes in the Script View as follows:<!--EOLOC E1548702-999276-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref222 name=sthref222></A>Figure 3-1 <!--BOLOC E1548702-999295-4-->OpenScript Script Project Tree<!--EOLOC E1548702-999295-4--></P><IMG title="Description of Figure 3-1 follows" alt="Description of Figure 3-1 follows" src="img/os_scp1.gif" width=122 longDesc="img_text/os_scp1.htm" height=65><BR><A id=sthref223 href="img_text/os_scp1.htm" name=sthref223>Description of "Figure 3-1 OpenScript Script Project Tree"</A><BR><BR></DIV><!-- class="figure" --></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref224 name=sthref224></A>
+<H3 id=autoId4 class=sect2><SPAN class=secnum>3.3.2</SPAN> <!--BOLOC E1548702-999339-4-->Recording a Web Functional Test Script<A id=sthref225 name=sthref225></A><!--EOLOC E1548702-999339-4--></H3>
+<P><!--BOLOC E1548702-999347-4-->Recording scripts captures the page navigations and generates the Java code that will be used to drive script playback for testing purposes. Web Functional test scripts record and playback actions performed on browser objects. <!--EOLOC E1548702-999347-4--></P>
+<P><!--BOLOC E1548702-999353-4-->In this example, we will open the Avitek Medical Records sample application and log in as a patient. During recording, we will add a Text Matching test to verify that the log in was successful. <!--EOLOC E1548702-999353-4--></P>
+<P><!--BOLOC E1548702-999359-4-->To record a Web Functional Test Script:<!--EOLOC E1548702-999359-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-999374-4-->Select <SPAN class=bold>Record</SPAN> from the <SPAN class=bold>Script</SPAN> menu or click the Record toolbar button. OpenScript opens a browser window and the OpenScript toolbar window.<!--EOLOC E1548702-999374-4--></P></LI>
+<LI>
+<P>Enter <CODE>http://&lt;</CODE><CODE><SPAN class=codeinlineitalic>machineName</SPAN></CODE><CODE>&gt;:7011/medrec/</CODE> into the browser Address line and press <SPAN class=bold>Enter</SPAN>.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-999438-4-->When the application loads, click <SPAN class=bold>Start using MedRec!</SPAN>. A second browser window opens with Avitek Medical Records Sample Application.<!--EOLOC E1548702-999438-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999457-4-->Click Login under the Patient section.<!--EOLOC E1548702-999457-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999467-4-->Enter <CODE>fred@golf.com</CODE> as the Email address.<!--EOLOC E1548702-999467-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999488-4-->Enter <CODE>weblogic</CODE> as the password.<!--EOLOC E1548702-999488-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999507-4-->Click <SPAN class=bold>Submit</SPAN>.<!--EOLOC E1548702-999507-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999526-4-->Click the Text Matching Test button on the OpenScript floating toolbar.<!--EOLOC E1548702-999526-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999536-4-->Enter <CODE>WebText1</CODE> as the Test name.<!--EOLOC E1548702-999536-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999555-4-->Enter <CODE>Successfully logged in! Click here to continue</CODE> as the Text to Match.<!--EOLOC E1548702-999555-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999574-4-->Make sure <SPAN class=bold>Source</SPAN> is set to <SPAN class=bold>HTML Display Contents</SPAN>.<!--EOLOC E1548702-999574-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999593-4-->Make sure <SPAN class=bold>Pass when</SPAN> is set to <SPAN class=bold>Pass if present</SPAN>.<!--EOLOC E1548702-999593-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999612-4-->Make sure <SPAN class=bold>Match</SPAN> is set to <SPAN class=bold>Exact</SPAN>.<!--EOLOC E1548702-999612-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999631-4-->Make sure V<SPAN class=bold>erify only, never fail</SPAN> is selected.<!--EOLOC E1548702-999631-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999650-4-->Click <SPAN class=bold>OK</SPAN>.<!--EOLOC E1548702-999650-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999669-4-->Click <SPAN class=underline>Successfully logged in! Click here to continue</SPAN>.<!--EOLOC E1548702-999669-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999688-4-->Click Logout in the Avitek Medical Records application.<!--EOLOC E1548702-999688-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999698-4-->Close the Avitek Medical Records application browser window.<!--EOLOC E1548702-999698-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999708-4-->Close the Weblogic Server Avitek Medical Records Sample Application browser window.<!--EOLOC E1548702-999708-4--></P>
+<P><!--BOLOC E1548702-999713-4-->Recording automatically stops when you close the second browser window. The script tree view includes plus icons to indicate additional nodes have been added to the script as follows:<!--EOLOC E1548702-999713-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=CHDJBEEI name=CHDJBEEI></A>Figure 3-2 <!--BOLOC E1548702-999724-4-->OpenScript Script Tree After Recording<!--EOLOC E1548702-999724-4--></P><IMG title="Description of Figure 3-2 follows" alt="Description of Figure 3-2 follows" src="img/os_scp2.gif" width=127 longDesc="img_text/os_scp2.htm" height=71><BR><A id=sthref226 href="img_text/os_scp2.htm" name=sthref226>Description of "Figure 3-2 OpenScript Script Tree After Recording"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-999774-4-->Save the script.<!--EOLOC E1548702-999774-4--></P></LI></OL></DIV><!-- class="sect2" --></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref227 name=sthref227></A>
+<H2 id=autoId5 class=sect1><SPAN class=secnum>3.4</SPAN> <!--BOLOC E1548702-999784-4-->Example 2: Working with Scripts<!--EOLOC E1548702-999784-4--></H2>
+<P><!--BOLOC E1548702-999789-4-->This example explains the features of the OpenScript Script tree and how to examine the structure and content of a recorded script. <!--EOLOC E1548702-999789-4--></P>
+<P><!--BOLOC E1548702-999795-4-->After recording a script, you can expand the Tree View to view the page navigations, actions, and parameters recorded to the script. Before starting this example, make sure the script that you recorded in Example 1 is still displayed.<!--EOLOC E1548702-999795-4--></P>
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref228 name=sthref228></A>
+<H3 id=autoId6 class=sect2><SPAN class=secnum>3.4.1</SPAN> <!--BOLOC E1548702-999806-4-->Viewing Information About Script Items<A id=sthref229 name=sthref229></A><!--EOLOC E1548702-999806-4--></H3>
+<P><!--BOLOC E1548702-999814-4-->To view information about script items:<!--EOLOC E1548702-999814-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-999829-4-->Expand the Initialize section to expand the tree as follows:<!--EOLOC E1548702-999829-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=CHDHDHAJ name=CHDHDHAJ></A>Figure 3-3 <!--BOLOC E1548702-999839-4-->Script Tree with Expanded Initialize Section<!--EOLOC E1548702-999839-4--></P><IMG title="Description of Figure 3-3 follows" alt="Description of Figure 3-3 follows" src="img/os_init.gif" width=152 longDesc="img_text/os_init.htm" height=88><BR><A id=sthref230 href="img_text/os_init.htm" name=sthref230>Description of "Figure 3-3 Script Tree with Expanded Initialize Section"</A><BR><BR></DIV><!-- class="figure" -->
+<P><!--BOLOC E1548702-999884-4-->The Initialize section executes commands that will be run only once at the beginning of script playback. In our recorded script, Launch Browser is the only action in the Initialize section. <!--EOLOC E1548702-999884-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-999895-4-->Expand the Run section to expand the tree as follows: <!--EOLOC E1548702-999895-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=CHDIBHIJ name=CHDIBHIJ></A>Figure 3-4 <!--BOLOC E1548702-999905-4-->Script Tree with Expanded Run Section<!--EOLOC E1548702-999905-4--></P><IMG title="Description of Figure 3-4 follows" alt="Description of Figure 3-4 follows" src="img/os_scp3.gif" width=242 longDesc="img_text/os_scp3.htm" height=189><BR><A id=sthref231 href="img_text/os_scp3.htm" name=sthref231>Description of "Figure 3-4 Script Tree with Expanded Run Section"</A><BR><BR></DIV><!-- class="figure" -->
+<P><!--BOLOC E1548702-999943-4-->The Run node contains the navigations recorded to the script as Step Groups. By default, OpenScript Web Functional test scripts create Step Group nodes based on web page navigations. Step Group preferences can be changed in the OpenScript Preferences.<!--EOLOC E1548702-999943-4--></P></LI>
+<LI>
+<P>Expand the [5] (/loginPatient.action) Step Group and select the WaitForPage (http://<SPAN class=italic>systemName</SPAN>:7011/medrec/loginPatient.action) node as follows:</P>
+<DIV class=figure>
+<P class=titleinfigure><A id=CHDIDFBF name=CHDIDFBF></A>Figure 3-5 <!--BOLOC E1548702-999978-4-->Script Tree with Expanded Step Group Node<!--EOLOC E1548702-999978-4--></P><IMG title="Description of Figure 3-5 follows" alt="Description of Figure 3-5 follows" src="img/os_scp4.gif" width=408 longDesc="img_text/os_scp4.htm" height=273><BR><A id=sthref232 href="img_text/os_scp4.htm" name=sthref232>Description of "Figure 3-5 Script Tree with Expanded Step Group Node"</A><BR><BR></DIV><!-- class="figure" -->
+<P><!--BOLOC E1548702-1000016-4-->The Step Group node shows the actions and parameters recorded for specific navigations and actions on a Web page. <!--EOLOC E1548702-1000016-4--></P>
+<P><!--BOLOC E1548702-1000022-4-->The Details View tabs show the details for a specific navigation including a screen shot of the recorded page, the HTML source, and the browser rendering of the page.<!--EOLOC E1548702-1000022-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000033-4-->Click the Screenshot, HTML, and Browser tabs to view the script details.<!--EOLOC E1548702-1000033-4--></P></LI>
+<LI>
+<P>Expand the WaitForPage (http://<SPAN class=italic>systemName</SPAN>:7011/medrec/loginPatient.action) node. The script records Think time nodes to include the amount of user delay that occurred during recording as follows:</P>
+<DIV class=figure>
+<P class=titleinfigure><A id=CHDBBDGF name=CHDBBDGF></A>Figure 3-6 <!--BOLOC E1548702-1000060-4-->Script Think Node<!--EOLOC E1548702-1000060-4--></P><IMG title="Description of Figure 3-6 follows" alt="Description of Figure 3-6 follows" src="img/os_think.gif" width=351 longDesc="img_text/os_think.htm" height=33><BR><A id=sthref233 href="img_text/os_think.htm" name=sthref233>Description of "Figure 3-6 Script Think Node"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1000103-4-->Select the Think node, click the right mouse button and select <SPAN class=bold>Properties</SPAN>. The Think time properties lets you edit the delay recorded to a script as follows:<!--EOLOC E1548702-1000103-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref234 name=sthref234></A>Figure 3-7 <!--BOLOC E1548702-1000122-4-->Script Think Node Properties<!--EOLOC E1548702-1000122-4--></P><IMG title="Description of Figure 3-7 follows" alt="Description of Figure 3-7 follows" src="img/os_thinkprops.gif" width=400 longDesc="img_text/os_thinkprops.htm" height=129><BR><A id=sthref235 href="img_text/os_thinkprops.htm" name=sthref235>Description of "Figure 3-7 Script Think Node Properties"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1000165-4-->Change the Think time value and click <SPAN class=bold>OK</SPAN>. This is useful if you want to reduce long a delay time that may have occurred during recording of script.<!--EOLOC E1548702-1000165-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000184-4-->Right-click the Text Matching Test: Web Text node and select <SPAN class=bold>Properties</SPAN>. You can view or change the Text Matching test properties as follows:<!--EOLOC E1548702-1000184-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref236 name=sthref236></A>Figure 3-8 <!--BOLOC E1548702-1000203-4-->Text Matching Test Properties<!--EOLOC E1548702-1000203-4--></P><IMG title="Description of Figure 3-8 follows" alt="Description of Figure 3-8 follows" src="img/os_textmatch.gif" width=400 longDesc="img_text/os_textmatch.htm" height=366><BR><A id=sthref237 href="img_text/os_textmatch.htm" name=sthref237>Description of "Figure 3-8 Text Matching Test Properties"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1000253-4-->Click <SPAN class=bold>Cancel</SPAN> to leave the Text Matching test properties unchanged.<!--EOLOC E1548702-1000253-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000272-4-->Open and view the properties of other script nodes.<!--EOLOC E1548702-1000272-4--></P></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref238 name=sthref238></A>
+<H3 id=autoId7 class=sect2><SPAN class=secnum>3.4.2</SPAN> <!--BOLOC E1548702-1000282-4-->Using the Java Code View<!--EOLOC E1548702-1000282-4--></H3>
+<P><!--BOLOC E1548702-1000287-4-->When you create a script project and record a script, the Java code is automatically generated. The Java Code view shows the script navigations and data as Java programming code. The Java Code view corresponds to the Tree View. Any changes in the Code View will be automatically updated in the Tree View. The Java Code view has the following standard procedures:<!--EOLOC E1548702-1000287-4--></P>
+<UL>
+<LI>
+<P><!--BOLOC E1548801-1002658-1--><CODE>initialize()</CODE> - <A id=sthref239 name=sthref239></A>corresponds to the Initialize node of the Tree View and executes any custom code added once at the beginning of script playback.<!--EOLOC E1548801-1002658-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-1002681-1--><CODE>run()</CODE> - <A id=sthref240 name=sthref240></A>corresponds to the Run node of the Tree View and executes recorded and custom code one or more times during script playback depending upon databanks or other custom programming.<!--EOLOC E1548801-1002681-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-1002704-1--><CODE>finish()</CODE> - <A id=sthref241 name=sthref241></A>corresponds to the Finish node of the Tree View and executes any custom code added once at the end of script playback.<!--EOLOC E1548801-1002704-1--></P></LI></UL>
+<P><!--BOLOC E1548801-1002722-1-->Use Ctrl-space to open an Intellisense window listing available procedures. See the API Reference in the OpenScript Platform Reference help for additional programming information.<!--EOLOC E1548801-1002722-1--></P></DIV><!-- class="sect2" --></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref242 name=sthref242></A>
+<H2 id=autoId8 class=sect1><SPAN class=secnum>3.5</SPAN> <!--BOLOC E1548702-1000377-4-->Example 3: Playing Back a Web Functional Test Script<A id=sthref243 name=sthref243></A><A id=sthref244 name=sthref244></A><!--EOLOC E1548702-1000377-4--></H2>
+<P><!--BOLOC E1548702-1000387-4-->This example explains the procedure for playing back Web Functional Test scripts that you have recorded. It also shows the results log. Web Functional Test scripts perform actions on browser objects. During playback, the browser will open and you will be able to watch as script actions occur. <!--EOLOC E1548702-1000387-4--></P>
+<P><!--BOLOC E1548702-1000393-4-->To play back an OpenScript script:<!--EOLOC E1548702-1000393-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1000408-4-->Select <SPAN class=bold>Playback</SPAN> from the <SPAN class=bold>Script</SPAN> menu or click the Playback toolbar button to play back the recorded script. The navigations and actions in the script Step Groups will be played back in the order recorded. The Browser navigates to each page, executes the any tests for each page, and shows the results in the Result view. <A id=sthref245 name=sthref245></A><!--EOLOC E1548702-1000408-4--></P></LI>
+<LI>
+<P>When playback finishes, expand the Results tree to view the results for each Step Group as follows:</P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref246 name=sthref246></A>Figure 3-9 <!--BOLOC E1548702-1000450-4-->Script Playback Results in the Results View<!--EOLOC E1548702-1000450-4--></P><IMG title="Description of Figure 3-9 follows" alt="Description of Figure 3-9 follows" src="img/os_resultsview.gif" width=691 longDesc="img_text/os_resultsview.htm" height=178><BR><A id=sthref247 href="img_text/os_resultsview.htm" name=sthref247>Description of "Figure 3-9 Script Playback Results in the Results View"</A><BR><BR></DIV><!-- class="figure" -->
+<P><!--BOLOC E1548702-1000495-4-->The "passed" results indicate that all referenced resources are available. Oracle OpenScript automatically generates a results report and opens the report in the Details view.<!--EOLOC E1548702-1000495-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000507-4-->Select the top-level Result node or the script name in the Results view to view the results report in the Details view as follows:<!--EOLOC E1548702-1000507-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref248 name=sthref248></A>Figure 3-10 <!--BOLOC E1548702-1000517-4-->Results Report in the Details View<!--EOLOC E1548702-1000517-4--></P><IMG title="Description of Figure 3-10 follows" alt="Description of Figure 3-10 follows" src="img/os_resultreport.gif" width=503 longDesc="img_text/os_resultreport.htm" height=395><BR><A id=sthref249 href="img_text/os_resultreport.htm" name=sthref249>Description of "Figure 3-10 Results Report in the Details View"</A><BR><BR></DIV><!-- class="figure" -->
+<P><!--BOLOC E1548701-1001098-1-->Notice that all tests passed. This is because you played back the script using the same version of the Web pages that was used to record the script. This establishes a baseline of tests for the Web application or Web site's content and structure.<!--EOLOC E1548701-1001098-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000566-4-->Expand the Run node in the Results view then expand the results for Step Group [5] (/loginPatient.action).<!--EOLOC E1548702-1000566-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000582-4-->Select the WaitForPage node under [5] (/loginPatient.action). The Details view shows the results for the specific Step Group.<!--EOLOC E1548702-1000582-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000598-4-->Click the Comparison tab in the Details view. The Comparison tab lets you compare the recorded HTML content, screenshots, and browser renderings of page navigations to the play back values as follows:<!--EOLOC E1548702-1000598-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref250 name=sthref250></A>Figure 3-11 <!--BOLOC E1548702-1000608-4-->Details View Showing the Web Functional Test Comparison Tab<!--EOLOC E1548702-1000608-4--></P><IMG title="Description of Figure 3-11 follows" alt="Description of Figure 3-11 follows" src="img/os_compare.gif" width=503 longDesc="img_text/os_compare.htm" height=395><BR><A id=sthref251 href="img_text/os_compare.htm" name=sthref251>Description of "Figure 3-11 Details View Showing the Web Functional Test Comparison Tab"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1000651-4-->Select the Content and Browser options in the <SPAN class=bold>Compare</SPAN> list to compare the recorded and playback HTML source and browser renderings of the page.<!--EOLOC E1548702-1000651-4--></P></LI></OL></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref252 name=sthref252></A>
+<H2 id=autoId9 class=sect1><SPAN class=secnum>3.6</SPAN> <!--BOLOC E1548702-1000670-4-->Example 4: Adding Tests to the Script<A id=sthref253 name=sthref253></A><A id=sthref254 name=sthref254></A><!--EOLOC E1548702-1000670-4--></H2>
+<P><!--BOLOC E1548702-1000680-4-->This example explains how to add tests to your OpenScript scripts. Make sure the script you recorded in the previous example is open in OpenScript.<!--EOLOC E1548702-1000680-4--></P>
+<P><!--BOLOC E1548702-1000686-4-->OpenScript provides the ability to add the following test types to the pages in your Web Functional test script:<!--EOLOC E1548702-1000686-4--></P>
+<UL>
+<LI>
+<P style="MARGIN: 0px"><!--BOLOC E1548702-1000701-4-->Text Matching Test<!--EOLOC E1548702-1000701-4--></P></LI>
+<LI>
+<P style="MARGIN: 0px"><!--BOLOC E1548702-1000711-4-->Server Response Test<!--EOLOC E1548702-1000711-4--></P></LI>
+<LI>
+<P style="MARGIN: 0px"><!--BOLOC E1548702-1000721-4-->Object Test<!--EOLOC E1548702-1000721-4--></P></LI>
+<LI>
+<P style="MARGIN: 0px"><!--BOLOC E1548701-1002414-1-->Table Test<!--EOLOC E1548701-1002414-1--></P></LI></UL>
+<P><!--BOLOC E1548702-1000736-4-->Other OpenScript test modules provide test types specific to the type of module. <!--EOLOC E1548702-1000736-4--></P>
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref255 name=sthref255></A>
+<H3 id=autoId10 class=sect2><SPAN class=secnum>3.6.1</SPAN> <!--BOLOC E1548702-1000747-4-->Inserting a Server Response Test Case<A id=sthref256 name=sthref256></A><A id=sthref257 name=sthref257></A><!--EOLOC E1548702-1000747-4--></H3>
+<P><!--BOLOC E1548702-1000757-4-->Server Response test cases measure the response time of a server access for a page in the script.<!--EOLOC E1548702-1000757-4--></P>
+<P><!--BOLOC E1548702-1000763-4-->To add a Server Response test:<!--EOLOC E1548702-1000763-4--></P>
+<OL>
+<LI>
+<P>Expand the [2] (/medrec/) Step Group in the script tree.</P></LI>
+<LI>
+<P>Select the WaitForPage (http://<SPAN class=italic>systemName</SPAN>:7011/medrec/index.action) node.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000796-4-->Select <SPAN class=bold>Add</SPAN> from the <SPAN class=bold>Script</SPAN> menu, then select <SPAN class=bold>Other</SPAN>.<!--EOLOC E1548702-1000796-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1000835-4-->Expand the Web Tests folder, select <SPAN class=bold>Server Response Test</SPAN>, and click <SPAN class=bold>OK</SPAN>. OpenScript opens the Server Response Test properties dialog box as follows:<!--EOLOC E1548702-1000835-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref258 name=sthref258></A>Figure 3-12 <!--BOLOC E1548702-1000864-4-->Server Response Test Properties Dialog Box<A id=sthref259 name=sthref259></A><!--EOLOC E1548702-1000864-4--></P><IMG title="Description of Figure 3-12 follows" alt="Description of Figure 3-12 follows" src="img/os_svrresp.gif" width=400 longDesc="img_text/os_svrresp.htm" height=289><BR><A id=sthref260 href="img_text/os_svrresp.htm" name=sthref260>Description of "Figure 3-12 Server Response Test Properties Dialog Box"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1001002-4-->Type WebTimer1 as the test case name.<!--EOLOC E1548702-1001002-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001012-4-->Set the <SPAN class=bold><A id=sthref261 name=sthref261></A>Minimum</SPAN> time to 0 seconds.<!--EOLOC E1548702-1001012-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001034-4-->Set the <SPAN class=bold><A id=sthref262 name=sthref262></A>Maximum</SPAN> time to 5 seconds. <!--EOLOC E1548702-1001034-4--></P></LI>
+<LI>
+<P>Click <SPAN class=bold>OK</SPAN> and view the test in the script. OpenScript adds the test to the Step Group as follows:</P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref263 name=sthref263></A>Figure 3-13 <!--BOLOC E1548702-1001083-4-->Server Response Test Added to the Script Tree<!--EOLOC E1548702-1001083-4--></P><IMG title="Description of Figure 3-13 follows" alt="Description of Figure 3-13 follows" src="img/os_svrresp2.gif" width=418 longDesc="img_text/os_svrresp2.htm" height=86><BR><A id=sthref264 href="img_text/os_svrresp2.htm" name=sthref264>Description of "Figure 3-13 Server Response Test Added to the Script Tree"</A><BR><BR></DIV><!-- class="figure" --></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref265 name=sthref265></A>
+<H3 id=autoId11 class=sect2><SPAN class=secnum>3.6.2</SPAN> <!--BOLOC E1548702-1001133-4-->Inserting a Table Test<A id=sthref266 name=sthref266></A><A id=sthref267 name=sthref267></A><!--EOLOC E1548702-1001133-4--></H3>
+<P><!--BOLOC E1548702-1001143-4-->Table test cases let you define a custom test on a Web page table object. The Table Test properties lets you select the table object directly from the Web page by highlighting it with the mouse. The properties also let you specify the table object property to test and the type of test to perform.<!--EOLOC E1548702-1001143-4--></P>
+<P><!--BOLOC E1548702-1001150-4-->To add a Table test:<!--EOLOC E1548702-1001150-4--></P>
+<OL>
+<LI>
+<P>Expand the [5] (/viewLoginResult.action) Step Group in the script tree.</P></LI>
+<LI>
+<P>Select the WaitForPage (http://<SPAN class=italic>systemName</SPAN>:7011/medrec/patient/viewLoginResult.action) node.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001181-4-->Select <SPAN class=bold>Add</SPAN> from the <SPAN class=bold>Script</SPAN> menu, then select <SPAN class=bold>Other</SPAN>.<!--EOLOC E1548702-1001181-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001220-4-->Expand the Web Tests folder, select <SPAN class=bold>Table Test</SPAN>, and click <SPAN class=bold>OK</SPAN>. OpenScript opens the Table Test properties dialog box as follows:<!--EOLOC E1548702-1001220-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref268 name=sthref268></A>Figure 3-14 <!--BOLOC E1548702-1001249-4-->Table Test Properties Dialog Box<!--EOLOC E1548702-1001249-4--></P><IMG title="Description of Figure 3-14 follows" alt="Description of Figure 3-14 follows" src="img/os_tabletest1.gif" width=500 longDesc="img_text/os_tabletest1.htm" height=519><BR><A id=sthref269 href="img_text/os_tabletest1.htm" name=sthref269>Description of "Figure 3-14 Table Test Properties Dialog Box"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P>Click the select <SPAN class=bold>Capture object in browser</SPAN> button next to the <SPAN class=bold>Path</SPAN> field and select <SPAN class=bold>Capture Object</SPAN> from the menu. The capture mode starts.</P></LI>
+<LI>
+<P>Open the Medical Records Sample Application (http://<SPAN class=italic>systemName</SPAN>:7011/medrec/) in the browser window (which should still be open from the previous example).</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001338-4-->Click <SPAN class=bold>Start using MedRec!</SPAN> to navigate to the page with the table data.<!--EOLOC E1548702-1001338-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001357-4-->Click Login under the Patient section.<!--EOLOC E1548702-1001357-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001367-4-->Enter <CODE>fred@golf.com</CODE> as the Email address.<!--EOLOC E1548702-1001367-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001388-4-->Enter <CODE>weblogic</CODE> as the password.<!--EOLOC E1548702-1001388-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001407-4-->Click <SPAN class=bold>Submit</SPAN>.<!--EOLOC E1548702-1001407-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001426-4-->Click <SPAN class=underline>Successfully logged in! Click here to continue</SPAN>.<!--EOLOC E1548702-1001426-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001445-4-->Move the mouse over the Prescriptions table so that the table is highlighted.<!--EOLOC E1548702-1001445-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001455-4-->Press F10 to capture the object path in the Select Object dialog box. <!--EOLOC E1548702-1001455-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001465-4-->Click <SPAN class=bold>OK</SPAN>. The object path for the Medical Records Sample Application web page table is added to the Table Test properties as follows:<!--EOLOC E1548702-1001465-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref270 name=sthref270></A>Figure 3-15 <!--BOLOC E1548702-1001484-4-->Table Test Properties Dialog Box with Captured Data<!--EOLOC E1548702-1001484-4--></P><IMG title="Description of Figure 3-15 follows" alt="Description of Figure 3-15 follows" src="img/os_tabletest2.gif" width=500 longDesc="img_text/os_tabletest2.htm" height=519><BR><A id=sthref271 href="img_text/os_tabletest2.htm" name=sthref271>Description of "Figure 3-15 Table Test Properties Dialog Box with Captured Data"</A><BR><BR></DIV><!-- class="figure" -->
+<P><!--BOLOC E1548702-1001529-4-->The Table Test properties lets you enable or disable testing for each table cell individually. The Test Details section shows the details for the currently selected table cell. <!--EOLOC E1548702-1001529-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001540-4-->Clear the check boxes for all of the data items in rows 2, 3, and 4 (scroll the table as necessary). This will perform the testing on heading rows but not the data rows.<!--EOLOC E1548702-1001540-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001550-4-->Enter WebTable as the Test name.<!--EOLOC E1548702-1001550-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001560-4-->Click <SPAN class=bold>OK</SPAN> and view the test in the script. OpenScript adds the test to the script [6] (/viewLoginResult.action) Step Group as follows:<!--EOLOC E1548702-1001560-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref272 name=sthref272></A>Figure 3-16 <!--BOLOC E1548702-1001585-4-->Table Test Added to the Script Tree<!--EOLOC E1548702-1001585-4--></P><IMG title="Description of Figure 3-16 follows" alt="Description of Figure 3-16 follows" src="img/os_tabletest3.gif" width=469 longDesc="img_text/os_tabletest3.htm" height=65><BR><A id=sthref273 href="img_text/os_tabletest3.htm" name=sthref273>Description of "Figure 3-16 Table Test Added to the Script Tree"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1001612-4-->Save the script.<!--EOLOC E1548702-1001612-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001622-4-->Close the Medical Records Sample Application browser windows.<!--EOLOC E1548702-1001622-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001632-4-->Playback the script and verify that all tests pass.<!--EOLOC E1548702-1001632-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001642-4-->Close the WebTutor script when finished.<!--EOLOC E1548702-1001642-4--></P></LI></OL></DIV><!-- class="sect2" --></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref274 name=sthref274></A>
+<H2 id=autoId12 class=sect1><SPAN class=secnum>3.7</SPAN> Example 5: Creating an HTTP Test Script</H2>
+<P>This example explains how to create an HTTP test script project to use for load testing an application. HTTP test scripts record and playback navigations performed using the HTTP protocol. HTTP script are typically used for performing load tests on an application using the Oracle Load Testing application.</P>
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref275 name=sthref275></A>
+<H3 id=autoId13 class=sect2><SPAN class=secnum>3.7.1</SPAN> <!--BOLOC E1548702-1001679-4-->Creating an HTTP Script Project<!--EOLOC E1548702-1001679-4--></H3>
+<P><!--BOLOC E1548702-1001684-4-->To create an HTTP script project:<!--EOLOC E1548702-1001684-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1001699-4-->Select <SPAN class=bold>New</SPAN> from the <SPAN class=bold>File</SPAN> menu. <!--EOLOC E1548702-1001699-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001728-4-->Select <SPAN class=bold>Web/HTTP</SPAN> under the <SPAN class=bold>Load Testing (Protocol Automation)</SPAN> folder.<!--EOLOC E1548702-1001728-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001759-4-->Click <SPAN class=bold>Next</SPAN>.<!--EOLOC E1548702-1001759-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001778-4-->Make sure the Repository is set to Default.<!--EOLOC E1548702-1001778-4--></P></LI>
+<LI>
+<P>Enter HTTPTutor1 as the script name.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001808-4-->Click <SPAN class=bold>Finish</SPAN>. OpenScript creates the script project and shows the Initialize, Run, and Finish nodes in the Script view.<!--EOLOC E1548702-1001808-4--></P></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref276 name=sthref276></A>
+<H3 id=autoId14 class=sect2><SPAN class=secnum>3.7.2</SPAN> <!--BOLOC E1548702-1001827-4-->Recording an HTTP Script<A id=sthref277 name=sthref277></A><!--EOLOC E1548702-1001827-4--></H3>
+<P><!--BOLOC E1548702-1001835-4-->To record an HTTP script:<!--EOLOC E1548702-1001835-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1001850-4-->Select <SPAN class=bold>Record</SPAN> from the <SPAN class=bold>Script</SPAN> menu or click the Record toolbar button. OpenScript opens a browser window and the OpenScript toolbar window.<!--EOLOC E1548702-1001850-4--></P></LI>
+<LI>
+<P>If asked if you want to clear the cache, click <SPAN class=bold>Yes</SPAN>.</P></LI>
+<LI>
+<P>Enter <CODE>http://&lt;</CODE><CODE><SPAN class=codeinlineitalic>machineName</SPAN></CODE><CODE>&gt;:7011/medrec/</CODE> into the browser Address line and press <SPAN class=bold>Enter</SPAN>.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001896-4-->When the application loads, click <SPAN class=bold>Start using MedRec!</SPAN>. A second browser window opens with Avitek Medical Records Sample Application.<!--EOLOC E1548702-1001896-4--></P></LI>
+<LI>
+<P>Click Login under the Administrator section.</P></LI>
+<LI>
+<P>Enter <CODE>admin@avitek.com</CODE> as the Email address.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001946-4-->Enter <CODE>weblogic</CODE> as the password.<!--EOLOC E1548702-1001946-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001965-4-->Click <SPAN class=bold>Submit</SPAN>.<!--EOLOC E1548702-1001965-4--></P></LI>
+<LI>
+<P>Click <SPAN class=underline>View Pending Requests</SPAN>.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002003-4-->Click Logout in the Avitek Medical Records application.<!--EOLOC E1548702-1002003-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002013-4-->Close the Avitek Medical Records application browser window.<!--EOLOC E1548702-1002013-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002023-4-->Close the Weblogic Server Avitek Medical Records Sample Application browser window. Recording automatically stops.<!--EOLOC E1548702-1002023-4--></P></LI>
+<LI>
+<P>Playback the script and verify there are no errors.</P></LI></OL></DIV><!-- class="sect2" --></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref278 name=sthref278></A>
+<H2 id=autoId15 class=sect1><SPAN class=secnum>3.8</SPAN> Example 6: Creating an HTTP Test Script with Databanks<A id=sthref279 name=sthref279></A><A id=sthref280 name=sthref280></A></H2>
+<P>This example explains how to create an HTTP test script and use a databank to drive testing. This example also explains one way to use the Databanks with the Text Matching test case to verify Login results pages. The Databanks provides the capability to run iterative tests using data from a Databank file.</P>
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref281 name=sthref281></A>
+<H3 id=autoId16 class=sect2><SPAN class=secnum>3.8.1</SPAN> <!--BOLOC E1548702-1001679-4-->Creating an HTTP Script Project<!--EOLOC E1548702-1001679-4--></H3>
+<P><!--BOLOC E1548702-1001684-4-->To create an HTTP script project:<!--EOLOC E1548702-1001684-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1001699-4-->Select <SPAN class=bold>New</SPAN> from the <SPAN class=bold>File</SPAN> menu. <!--EOLOC E1548702-1001699-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001728-4-->Select <SPAN class=bold>Web/HTTP</SPAN> under the <SPAN class=bold>Load Testing (Protocol Automation)</SPAN> folder.<!--EOLOC E1548702-1001728-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001759-4-->Click <SPAN class=bold>Next</SPAN>.<!--EOLOC E1548702-1001759-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001778-4-->Make sure the Repository is set to Default.<!--EOLOC E1548702-1001778-4--></P></LI>
+<LI>
+<P>Enter HTTPTutor2 as the script name.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001808-4-->Click <SPAN class=bold>Finish</SPAN>. OpenScript creates the script project and shows the Initialize, Run, and Finish nodes in the Script view.<!--EOLOC E1548702-1001808-4--></P></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref282 name=sthref282></A>
+<H3 id=autoId17 class=sect2><SPAN class=secnum>3.8.2</SPAN> <!--BOLOC E1548702-1001827-4-->Recording an HTTP Script<A id=sthref283 name=sthref283></A><!--EOLOC E1548702-1001827-4--></H3>
+<P><!--BOLOC E1548702-1001835-4-->To record an HTTP script:<!--EOLOC E1548702-1001835-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1001850-4-->Select <SPAN class=bold>Record</SPAN> from the <SPAN class=bold>Script</SPAN> menu or click the Record toolbar button. OpenScript opens a browser window and the OpenScript toolbar window.<!--EOLOC E1548702-1001850-4--></P></LI>
+<LI>
+<P>Reload the Medical Records Sample Application (http://<SPAN class=italic>systemName</SPAN>:7011/medrec/) in the browser window.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001896-4-->When the application loads, click <SPAN class=bold>Start using MedRec!</SPAN>. A second browser window opens with Avitek Medical Records Sample Application.<!--EOLOC E1548702-1001896-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001915-4-->Click Login under the Patient section.<!--EOLOC E1548702-1001915-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001925-4-->Enter <CODE>fred@golf.com</CODE> as the Email address.<!--EOLOC E1548702-1001925-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001946-4-->Enter <CODE>weblogic</CODE> as the password.<!--EOLOC E1548702-1001946-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001965-4-->Click <SPAN class=bold>Submit</SPAN>.<!--EOLOC E1548702-1001965-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1001984-4-->Click <SPAN class=underline>Successfully logged in! Click here to continue</SPAN>.<!--EOLOC E1548702-1001984-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002003-4-->Click Logout in the Avitek Medical Records application.<!--EOLOC E1548702-1002003-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002013-4-->Close the Avitek Medical Records application browser window.<!--EOLOC E1548702-1002013-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002023-4-->Close the Weblogic Server Avitek Medical Records Sample Application browser window. Recording automatically stops.<!--EOLOC E1548702-1002023-4--></P></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref284 name=sthref284></A>
+<H3 id=autoId18 class=sect2><SPAN class=secnum>3.8.3</SPAN> <!--BOLOC E1548702-1002033-4-->Viewing the Parameters in the Script<A id=sthref285 name=sthref285></A><A id=sthref286 name=sthref286></A><!--EOLOC E1548702-1002033-4--></H3>
+<P><!--BOLOC E1548702-1002043-4-->To view the script parameters:<!--EOLOC E1548702-1002043-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1002058-4-->Expand the [4] Oracle WebLogic Server - Medical Record Sample Application Step Group in the script tree. Notice the parameters under the Post Data node of the tree as follows:<!--EOLOC E1548702-1002058-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref287 name=sthref287></A>Figure 3-17 <!--BOLOC E1548702-1002072-4-->Script Parameter Values for HTTP Post Data<!--EOLOC E1548702-1002072-4--></P><IMG title="Description of Figure 3-17 follows" alt="Description of Figure 3-17 follows" src="img/os_postdata1.gif" width=559 longDesc="img_text/os_postdata1.htm" height=101><BR><A id=sthref288 href="img_text/os_postdata1.htm" name=sthref288>Description of "Figure 3-17 Script Parameter Values for HTTP Post Data"</A><BR><BR></DIV><!-- class="figure" --></LI></OL>
+<P><!--BOLOC E1548702-1002124-4-->The <CODE>usernameInput</CODE> and <CODE>passwordInput</CODE> parameters can be mapped to a databank file to pass data from an external file.<!--EOLOC E1548702-1002124-4--></P></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref289 name=sthref289></A>
+<H3 id=autoId19 class=sect2><SPAN class=secnum>3.8.4</SPAN> <!--BOLOC E1548702-1002154-4-->Configuring Databanks with OpenScript Scripts<A id=sthref290 name=sthref290></A><A id=sthref291 name=sthref291></A><!--EOLOC E1548702-1002154-4--></H3>
+<P><!--BOLOC E1548702-1002164-4-->Before you can map parameters to databank, you must configure the script with the databank file.<!--EOLOC E1548702-1002164-4--></P>
+<P><!--BOLOC E1548702-1002170-4-->To configure a databank in OpenScript scripts:<!--EOLOC E1548702-1002170-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548801-998903-1-->Open or create a Script project.<!--EOLOC E1548801-998903-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548803-998913-10-->Select <SPAN class=bold>Script Properties</SPAN> from the <SPAN class=bold>Script</SPAN> menu.<!--EOLOC E1548803-998913-10--></P></LI>
+<LI>
+<P><!--BOLOC E1548703-1018468-11-->Select the <SPAN class=bold>Script Assets</SPAN> type.<!--EOLOC E1548703-1018468-11--></P></LI>
+<LI>
+<P><!--BOLOC E1548803-1018486-10-->Select <SPAN class=bold>Databanks</SPAN>.<!--EOLOC E1548803-1018486-10--></P></LI>
+<LI>
+<P><!--BOLOC E1548803-998942-10-->Click <SPAN class=bold>Add</SPAN>.<!--EOLOC E1548803-998942-10--></P></LI>
+<LI>
+<P>Select <SPAN class=bold>Databank</SPAN> the select <SPAN class=bold>CSV file</SPAN>.</P></LI>
+<LI>
+<P><!--BOLOC E1548703-1000181-11-->Select the Default Repository from the <SPAN class=bold>My Repositories</SPAN> tree.<!--EOLOC E1548703-1000181-11--></P></LI>
+<LI>
+<P>Select the <CODE>avitek.csv</CODE> databank file from the DataBank repository folder.</P></LI>
+<LI>
+<P><!--BOLOC E1548803-998980-10-->Enter an alias name to use for the Databank or leave the default alias name. The default alias name is the name of the .CSV Databank file.<!--EOLOC E1548803-998980-10--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-998990-1-->Click <SPAN class=bold>OK</SPAN>.<!--EOLOC E1548801-998990-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548803-1131344-10-->Click <SPAN class=bold>OK</SPAN> to add the Databank file.<!--EOLOC E1548803-1131344-10--></P></LI></OL>
+<P><!--BOLOC E1548801-999014-1--><A id=sthref292 name=sthref292></A>Databank files are comma-separated value files. The field names are on the first line of the file separated by commas (no spaces). The field data is on subsequent lines separated by commas (different line for each record, no spaces around commas). The following shows an example:<!--EOLOC E1548801-999014-1--></P>
+<P><!--BOLOC E1548801-1093733-1--><CODE>FirstName,LastName,Mail,Phone</CODE><!--EOLOC E1548801-1093733-1--></P>
+<P><!--BOLOC E1548801-1093758-1--><CODE>John,Smith,JohnS@company.com,x993</CODE><!--EOLOC E1548801-1093758-1--></P>
+<P><!--BOLOC E1548801-1093770-1--><CODE>Mary,Ellen,MaryE@company.com,x742</CODE><!--EOLOC E1548801-1093770-1--></P>
+<P><!--BOLOC E1548801-1093789-1-->If a data value contains a comma, place quotation marks around the value, as follows:<!--EOLOC E1548801-1093789-1--></P>
+<P><!--BOLOC E1548801-1093838-1--><CODE>John,Smith,"Anytown, MA","(603) 993-0000"</CODE><!--EOLOC E1548801-1093838-1--></P></DIV><!-- class="sect2" -->
+<DIV class=sect2><A id=sthref293 name=sthref293></A>
+<H3 id=autoId20 class=sect2><SPAN class=secnum>3.8.5</SPAN> <!--BOLOC E1548801-1090761-1-->Getting Databank Records<!--EOLOC E1548801-1090761-1--></H3>
+<P><!--BOLOC E1548801-1090766-1-->To get <A id=sthref294 name=sthref294></A>Databank records to use with a script:<!--EOLOC E1548801-1090766-1--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548801-998897-1-->Open or create a script project.<!--EOLOC E1548801-998897-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548803-998907-10-->Configure the Databank to use with a script in the Assets Script Properties.<!--EOLOC E1548803-998907-10--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-998924-1-->Select the script node where you want to use the Databank record.<!--EOLOC E1548801-998924-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-998934-1-->Select the <SPAN class=bold>Script</SPAN> menu and then select <SPAN class=bold>Other</SPAN> from the <SPAN class=bold>Add</SPAN> sub menu.<!--EOLOC E1548801-998934-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-998973-1-->Expand the General node and select Get Next Databank Record.<!--EOLOC E1548801-998973-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-998983-1-->Click <SPAN class=bold>OK</SPAN>.<!--EOLOC E1548801-998983-1--></P></LI>
+<LI>
+<P><!--BOLOC E1548703-999002-11-->Select the Databank <CODE>avitek</CODE> alias to specify the Databank file to get the record from.<!--EOLOC E1548703-999002-11--></P></LI>
+<LI>
+<P><!--BOLOC E1548801-999012-1-->Click <SPAN class=bold>OK</SPAN>. A GetNextDatabankRecord: <SPAN class=italic>databank alias</SPAN> node will be added to the script.<!--EOLOC E1548801-999012-1--></P>
+<P><!--BOLOC E1548801-999050-1-->In the Java Code view, the <CODE>getDatabank("</CODE><CODE><SPAN class=codeinlineitalic>databank alias</SPAN></CODE><CODE>").getNextDataBankRecord()</CODE> method will be added to the script code:<!--EOLOC E1548801-999050-1--></P><PRE class=oac_no_warn xml:space="preserve">getDatabank("avitek").getNextDatabankRecord();
+
+</PRE></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref295 name=sthref295></A>
+<H3 id=autoId21 class=sect2><SPAN class=secnum>3.8.6</SPAN> <!--BOLOC E1548702-1002431-4-->Mapping Script Parameters to Databank Fields<!--EOLOC E1548702-1002431-4--></H3>
+<P><!--BOLOC E1548702-1002436-4-->After configuring a databank in a script, you can map the databank fields to specific script parameters.<!--EOLOC E1548702-1002436-4--></P>
+<P><!--BOLOC E1548702-1002442-4-->To map databank fields to script parameters:<!--EOLOC E1548702-1002442-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1002457-4-->Expand the [4] Oracle WebLogic Server - Medical Record Sample Application script tree node.<!--EOLOC E1548702-1002457-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002471-4-->Right-click the <CODE>usernameInput</CODE> parameter and select <SPAN class=bold>Substitute Variable</SPAN>. The Substitute Variable window opens with the databank field names listed as follows:<!--EOLOC E1548702-1002471-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref296 name=sthref296></A>Figure 3-18 <!--BOLOC E1548702-1002500-4-->Substitute Variable Window<!--EOLOC E1548702-1002500-4--></P><IMG title="Description of Figure 3-18 follows" alt="Description of Figure 3-18 follows" src="img/os_subvariable.gif" width=648 longDesc="img_text/os_subvariable.htm" height=642><BR><A id=sthref297 href="img_text/os_subvariable.htm" name=sthref297>Description of "Figure 3-18 Substitute Variable Window"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1002543-4-->Select the Username field and click <SPAN class=bold>Finish</SPAN>. The parameter value changes to a databank variable in double braces{{db.avitek.Username,fred#@golf.com}} as follows:<!--EOLOC E1548702-1002543-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref298 name=sthref298></A>Figure 3-19 <!--BOLOC E1548702-1002571-4-->Script Parameter with a Mapped Databank Variable<!--EOLOC E1548702-1002571-4--></P><IMG title="Description of Figure 3-19 follows" alt="Description of Figure 3-19 follows" src="img/os_postdata2.gif" width=560 longDesc="img_text/os_postdata2.htm" height=101><BR><A id=sthref299 href="img_text/os_postdata2.htm" name=sthref299>Description of "Figure 3-19 Script Parameter with a Mapped Databank Variable"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1002614-4-->Right-click the <CODE>passwordInput</CODE> parameter and select <SPAN class=bold>Substitute Variable</SPAN>. The Substitute Variable window opens with the databank field names listed.<!--EOLOC E1548702-1002614-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002643-4-->Select the Password field and click <SPAN class=bold>Finish</SPAN>. The parameter value changes to a databank variable in double braces{{db.avitek.Password,weblogic}} as follows: <!--EOLOC E1548702-1002643-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref300 name=sthref300></A>Figure 3-20 <!--BOLOC E1548702-1002668-4-->Script Parameters with Multiple Mapped Databank Variables<!--EOLOC E1548702-1002668-4--></P><IMG title="Description of Figure 3-20 follows" alt="Description of Figure 3-20 follows" src="img/os_postdata3.gif" width=557 longDesc="img_text/os_postdata3.htm" height=102><BR><A id=sthref301 href="img_text/os_postdata3.htm" name=sthref301>Description of "Figure 3-20 Script Parameters with Multiple Mapped Databank Variables"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1002718-4-->Save the script.<!--EOLOC E1548702-1002718-4--></P></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref302 name=sthref302></A>
+<H3 id=autoId22 class=sect2><SPAN class=secnum>3.8.7</SPAN> <!--BOLOC E1548702-1002728-4-->Inserting a Text Matching Test<A id=sthref303 name=sthref303></A><A id=sthref304 name=sthref304></A><!--EOLOC E1548702-1002728-4--></H3>
+<P><!--BOLOC E1548702-1002738-4-->Now we want to insert a Text Matching text case that verifies that the login results were successful.<!--EOLOC E1548702-1002738-4--></P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1002753-4-->Select the http://localhost:7011/medrec/loginPatient.action node under the [4] Oracle WebLogic Server - Medical Record Sample Application script tree node. The page appears in the Details view.<!--EOLOC E1548702-1002753-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002774-4-->Select <SPAN class=bold>Add</SPAN> from the <SPAN class=bold>Script</SPAN> menu then select <SPAN class=bold>Other</SPAN>.<!--EOLOC E1548702-1002774-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002813-4-->Select <SPAN class=bold>Text Matching Test</SPAN> in the HTTP Tests folder and click <SPAN class=bold>OK</SPAN>.<!--EOLOC E1548702-1002813-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002842-4-->Enter HTTPMatch as the test name.<!--EOLOC E1548702-1002842-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002852-4-->Enter <CODE>Successfully logged in! Click here to continue</CODE> as the Text to Match.<!--EOLOC E1548702-1002852-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002871-4-->Make sure the <SPAN class=bold>Source</SPAN> options is <SPAN class=bold>HTML Display Contents</SPAN>. <!--EOLOC E1548702-1002871-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002900-4-->Make sure the <SPAN class=bold>Pass When</SPAN> option is <SPAN class=bold>Pass if Present</SPAN>.<!--EOLOC E1548702-1002900-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002929-4-->Make sure the <SPAN class=bold>Match</SPAN> option is <SPAN class=bold>Exact</SPAN>.<!--EOLOC E1548702-1002929-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1002958-4-->Click <SPAN class=bold>OK</SPAN>. The Text Matching test node appears in the script tree at the end of the Step Group as follows:<!--EOLOC E1548702-1002958-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref305 name=sthref305></A>Figure 3-21 <!--BOLOC E1548702-1002977-4-->Script Tree with a Text Matching Test Node<!--EOLOC E1548702-1002977-4--></P><IMG title="Description of Figure 3-21 follows" alt="Description of Figure 3-21 follows" src="img/os_postdata4.gif" width=557 longDesc="img_text/os_postdata4.htm" height=153><BR><A id=sthref306 href="img_text/os_postdata4.htm" name=sthref306>Description of "Figure 3-21 Script Tree with a Text Matching Test Node"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1003027-4-->Save the script.<!--EOLOC E1548702-1003027-4--></P></LI></OL></DIV><!-- class="sect2" -->
+<DIV class=sect2><!-- infolevel="all" infotype="General" --><A id=sthref307 name=sthref307></A>
+<H3 id=autoId23 class=sect2><SPAN class=secnum>3.8.8</SPAN> <!--BOLOC E1548702-1003037-4-->Playing Back the Script with Iterations<A id=sthref308 name=sthref308></A><A id=sthref309 name=sthref309></A><!--EOLOC E1548702-1003037-4--></H3>
+<P><!--BOLOC E1548702-1003047-4-->Now that the script has a databank mapped to the Post Data parameters, we can play back the script with multiple iterations to use all of the values in the databank file. <!--EOLOC E1548702-1003047-4--></P>
+<P>To play back the script with iterations:</P>
+<OL>
+<LI>
+<P><!--BOLOC E1548702-1003062-4-->Select <SPAN class=bold>Iterate</SPAN> from the <SPAN class=bold>Script</SPAN> menu. The Iterations dialog box opens as follows: <!--EOLOC E1548702-1003062-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=sthref310 name=sthref310></A>Figure 3-22 <!--BOLOC E1548702-1003091-4-->Iterations Dialog Box<!--EOLOC E1548702-1003091-4--></P><IMG title="Description of Figure 3-22 follows" alt="Description of Figure 3-22 follows" src="img/os_iterate.gif" width=600 longDesc="img_text/os_iterate.htm" height=550><BR><A id=sthref311 href="img_text/os_iterate.htm" name=sthref311>Description of "Figure 3-22 Iterations Dialog Box"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1003153-4-->Make sure <SPAN class=bold>Use Databanks<A id=sthref312 name=sthref312></A></SPAN> is selected.<!--EOLOC E1548702-1003153-4--></P></LI>
+<LI>
+<P>Make sure <SPAN class=bold>Range</SPAN> is set to <SPAN class=bold>All Records</SPAN>.</P></LI>
+<LI>
+<P>Make sure the <SPAN class=bold>Starting Record</SPAN> is set to 1.</P></LI>
+<LI>
+<P>Make sure the <SPAN class=bold>Run no more than [] iterations</SPAN> is selected and set to 1.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1003175-4-->Click the <SPAN class=bold>OK</SPAN> button to playback the script with multiple iterations.<!--EOLOC E1548702-1003175-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1003194-4-->Watch the Details view as the script plays back the script several times using a different data value for the login each time. <!--EOLOC E1548702-1003194-4--></P></LI>
+<LI>
+<P>View the playback results in the Results view. At the end of playback the Details view shows the results report similar to the following:</P>
+<DIV class=figure>
+<P class=titleinfigure><A id=CHDBAHFI name=CHDBAHFI></A>Figure 3-23 <!--BOLOC E1548702-1003214-4-->Results Report for Multiple Iterations<!--EOLOC E1548702-1003214-4--></P><IMG title="Description of Figure 3-23 follows" alt="Description of Figure 3-23 follows" src="img/os_httpresult.gif" width=525 longDesc="img_text/os_httpresult.htm" height=654><BR><A id=sthref313 href="img_text/os_httpresult.htm" name=sthref313>Description of "Figure 3-23 Results Report for Multiple Iterations"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P>Scroll the Results view and select one of the HTTP navigation nodes such as Get window[@index='0'] http://<SPAN class=italic>systemName</SPAN>:7011/medrec/index.action.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1003274-4-->Click the Comparison tab in the Details view. The Comparison tab for HTTP scripts lets you compare the recorded HTML content, Request Headers, Response Headers, and Cookies to the playback values as follows: <!--EOLOC E1548702-1003274-4--></P>
+<DIV class=figure>
+<P class=titleinfigure><A id=CHDCDAHI name=CHDCDAHI></A>Figure 3-24 <!--BOLOC E1548702-1003284-4-->Details View Showing the HTTP Test Comparison Tab<!--EOLOC E1548702-1003284-4--></P><IMG title="Description of Figure 3-24 follows" alt="Description of Figure 3-24 follows" src="img/os_compare2.gif" width=526 longDesc="img_text/os_compare2.htm" height=471><BR><A id=sthref314 href="img_text/os_compare2.htm" name=sthref314>Description of "Figure 3-24 Details View Showing the HTTP Test Comparison Tab"</A><BR><BR></DIV><!-- class="figure" --></LI>
+<LI>
+<P><!--BOLOC E1548702-1003327-4-->This completes the OpenScript tutorial. Save the script and close the OpenScript application.<!--EOLOC E1548702-1003327-4--></P></LI></OL></DIV><!-- class="sect2" --></DIV><!-- class="sect1" -->
+<DIV class=sect1><!-- infolevel="all" infotype="General" --><A id=sthref315 name=sthref315></A>
+<H2 id=autoId24 class=sect1><SPAN class=secnum>3.9</SPAN> <!--BOLOC E1548702-1003337-4-->Stopping the Avitek Medical Records Server<A id=sthref316 name=sthref316></A><!--EOLOC E1548702-1003337-4--></H2>
+<P><!--BOLOC E1548702-1003345-4-->When finished with the tutorial be sure to stop the sample Medical Records Server. If you want to try using scripts recorded against the sample Medical Records Server application in Oracle Load Testing or Oracle Test Manager tutorials, leave the Avitek Medical Records Server running until after completing those trials.<!--EOLOC E1548702-1003345-4--></P>
+<P><!--BOLOC E1548702-1003351-4-->To stop the Weblogic Server and Avitek Medical Records Server:<!--EOLOC E1548702-1003351-4--></P>
+<OL>
+<LI>
+<P>Select <SPAN class=bold>Programs</SPAN> from the <SPAN class=bold>Start</SPAN> menu and then select <SPAN class=bold>Sample</SPAN> from the <SPAN class=bold>Oracle Application Testing Suite</SPAN> menu.</P></LI>
+<LI>
+<P>Select <SPAN class=bold>Stop MedRec Application</SPAN>.</P></LI>
+<LI>
+<P><!--BOLOC E1548702-1003454-4-->Wait until the Weblogic server stops.<!--EOLOC E1548702-1003454-4--></P></LI>
+<LI>
+<P><!--BOLOC E1548702-1003464-4-->Close the command windows after the server stops. <!--EOLOC E1548702-1003464-4--></P></LI></OL></DIV><!-- class="sect1" --></DIV><!-- class="ind" -->
+<DIV class=footer>
+<HR>
+
+<TABLE class="simple oac_no_warn" cellSpacing=0 summary="" cellPadding=0 width="100%">
+<COLGROUP>
+<COL width="33%">
+<COL width=*>
+<COL width="33%">
+<TBODY>
+<TR>
+<TD align=left>
+<TABLE class="simple oac_no_warn" cellSpacing=0 summary="" cellPadding=0 width=98>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle><A href="chap2_fm.htm"><IMG alt="Go to previous page" src="../../dcommon/gifs/leftnav.gif" width=24 height=24><BR><SPAN class=icon>Previous</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="chap4_olt_fm.htm"><IMG alt="Go to next page" src="../../dcommon/gifs/rightnav.gif" width=24 height=24><BR><SPAN class=icon>Next</SPAN></A></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-SIZE: 90%" class=copyrightlogo align=middle><IMG alt=Oracle src="../../dcommon/gifs/oracle.gif" width=144 height=18><BR>Copyright&nbsp;©&nbsp;1997, 2010,&nbsp;Oracle&nbsp;and/or&nbsp;its&nbsp;affiliates.&nbsp;All&nbsp;rights&nbsp;reserved.<BR><A href="../../dcommon/html/cpyr.htm">Legal Notices</A></TD>
+<TD align=right>
+<TABLE class="icons oac_no_warn" cellSpacing=0 summary="" cellPadding=0 width=245>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle><A href="../../index.htm"><IMG alt="Go to Documentation Home" src="../../dcommon/gifs/doclib.gif" width=24 height=24><BR><SPAN class=icon>Home</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="../../nav/portal_booklist.htm"><IMG alt="Go to Book List" src="../../dcommon/gifs/booklist.gif" width=24 height=24><BR><SPAN class=icon>Book List</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="toc.htm"><IMG alt="Go to Table of Contents" src="../../dcommon/gifs/toc.gif" width=24 height=24><BR><SPAN class=icon>Contents</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="index.htm"><IMG alt="Go to Index" src="../../dcommon/gifs/index.gif" width=24 height=24><BR><SPAN class=icon>Index</SPAN></A></TD>
+<TD vAlign=top align=middle><A href="../../dcommon/html/feedback.htm"><IMG alt="Go to Feedback page" src="../../dcommon/gifs/feedbck2.gif" width=24 height=24><BR><SPAN class=icon>Contact Us</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><NOSCRIPT></NOSCRIPT>
+<DIV style="POSITION: fixed; OVERFLOW-X: hidden; OVERFLOW-Y: auto; WIDTH: 25%; BOTTOM: 0px; BACKGROUND: #a4c3df; TOP: 0px; LEFT: 0px">
+<DIV style="PADDING-BOTTOM: 1ex; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em; PADDING-TOP: 1ex">
+<DIV style="TEXT-ALIGN: right; COLOR: #039; CURSOR: pointer">Hide Navigation</DIV>
+<DIV>
+<P style="BORDER-BOTTOM: #999 1px solid; MARGIN-BOTTOM: 0px; CURSOR: pointer; FONT-WEIGHT: bold">This Document</P>
+<P style="PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id=tThisDocument><A href="toc.htm#BEGIN">Oracle® Application Testing Suite Getting Started Guide Version 9.20</A></P></DIV>
+<DIV>
+<P style="BORDER-BOTTOM: #999 1px solid; MARGIN-BOTTOM: 0px; CURSOR: pointer; FONT-WEIGHT: bold">This Page</P>
+<UL style="PADDING-BOTTOM: 0px; TEXT-INDENT: -0.25em; MARGIN: 0px; PADDING-LEFT: 1.5em; PADDING-RIGHT: 0px; PADDING-TOP: 0px" id=tThisPage>
+<LI><A href="#autoId0"> <!--BOLOC E1548702-998920-4-->Starting the Avitek Medical Records Sample Application<A id=sthref216 name=sthref216></A><!--EOLOC E1548702-998920-4--></A></LI>
+<LI><A href="#autoId1"> <!--BOLOC E1548702-999057-4-->Starting Oracle OpenScript<!--EOLOC E1548702-999057-4--></A></LI>
+<LI><A href="#autoId2"> <!--BOLOC E1548702-999126-4-->Example 1: Creating a Web Functional Test Script<A id=sthref219 name=sthref219></A><A id=sthref220 name=sthref220></A><!--EOLOC E1548702-999126-4--></A>
+<UL style="PADDING-BOTTOM: 0px; TEXT-INDENT: -0.25em; MARGIN: 0px; PADDING-LEFT: 1.5em; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+<LI><A href="#autoId3"> <!--BOLOC E1548702-999147-4-->Creating a Web Functional Test Script Project<!--EOLOC E1548702-999147-4--></A></LI>
+<LI><A href="#autoId4"> <!--BOLOC E1548702-999339-4-->Recording a Web Functional Test Script<A id=sthref225 name=sthref225></A><!--EOLOC E1548702-999339-4--></A></LI></UL></LI>
+<LI><A href="#autoId5"> <!--BOLOC E1548702-999784-4-->Example 2: Working with Scripts<!--EOLOC E1548702-999784-4--></A>
+<UL style="PADDING-BOTTOM: 0px; TEXT-INDENT: -0.25em; MARGIN: 0px; PADDING-LEFT: 1.5em; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+<LI><A href="#autoId6"> <!--BOLOC E1548702-999806-4-->Viewing Information About Script Items<A id=sthref229 name=sthref229></A><!--EOLOC E1548702-999806-4--></A></LI>
+<LI><A href="#autoId7"> <!--BOLOC E1548702-1000282-4-->Using the Java Code View<!--EOLOC E1548702-1000282-4--></A></LI></UL></LI>
+<LI><A href="#autoId8"> <!--BOLOC E1548702-1000377-4-->Example 3: Playing Back a Web Functional Test Script<A id=sthref243 name=sthref243></A><A id=sthref244 name=sthref244></A><!--EOLOC E1548702-1000377-4--></A></LI>
+<LI><A href="#autoId9"> <!--BOLOC E1548702-1000670-4-->Example 4: Adding Tests to the Script<A id=sthref253 name=sthref253></A><A id=sthref254 name=sthref254></A><!--EOLOC E1548702-1000670-4--></A>
+<UL style="PADDING-BOTTOM: 0px; TEXT-INDENT: -0.25em; MARGIN: 0px; PADDING-LEFT: 1.5em; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+<LI><A href="#autoId10"> <!--BOLOC E1548702-1000747-4-->Inserting a Server Response Test Case<A id=sthref256 name=sthref256></A><A id=sthref257 name=sthref257></A><!--EOLOC E1548702-1000747-4--></A></LI>
+<LI><A href="#autoId11"> <!--BOLOC E1548702-1001133-4-->Inserting a Table Test<A id=sthref266 name=sthref266></A><A id=sthref267 name=sthref267></A><!--EOLOC E1548702-1001133-4--></A></LI></UL></LI>
+<LI><A href="#autoId12"> Example 5: Creating an HTTP Test Script</A>
+<UL style="PADDING-BOTTOM: 0px; TEXT-INDENT: -0.25em; MARGIN: 0px; PADDING-LEFT: 1.5em; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+<LI><A href="#autoId13"> <!--BOLOC E1548702-1001679-4-->Creating an HTTP Script Project<!--EOLOC E1548702-1001679-4--></A></LI>
+<LI><A href="#autoId14"> <!--BOLOC E1548702-1001827-4-->Recording an HTTP Script<A id=sthref277 name=sthref277></A><!--EOLOC E1548702-1001827-4--></A></LI></UL></LI>
+<LI><A href="#autoId15"> Example 6: Creating an HTTP Test Script with Databanks<A id=sthref279 name=sthref279></A><A id=sthref280 name=sthref280></A></A>
+<UL style="PADDING-BOTTOM: 0px; TEXT-INDENT: -0.25em; MARGIN: 0px; PADDING-LEFT: 1.5em; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+<LI><A href="#autoId16"> <!--BOLOC E1548702-1001679-4-->Creating an HTTP Script Project<!--EOLOC E1548702-1001679-4--></A></LI>
+<LI><A href="#autoId17"> <!--BOLOC E1548702-1001827-4-->Recording an HTTP Script<A id=sthref283 name=sthref283></A><!--EOLOC E1548702-1001827-4--></A></LI>
+<LI><A href="#autoId18"> <!--BOLOC E1548702-1002033-4-->Viewing the Parameters in the Script<A id=sthref285 name=sthref285></A><A id=sthref286 name=sthref286></A><!--EOLOC E1548702-1002033-4--></A></LI>
+<LI><A href="#autoId19"> <!--BOLOC E1548702-1002154-4-->Configuring Databanks with OpenScript Scripts<A id=sthref290 name=sthref290></A><A id=sthref291 name=sthref291></A><!--EOLOC E1548702-1002154-4--></A></LI>
+<LI><A href="#autoId20"> <!--BOLOC E1548801-1090761-1-->Getting Databank Records<!--EOLOC E1548801-1090761-1--></A></LI>
+<LI><A href="#autoId21"> <!--BOLOC E1548702-1002431-4-->Mapping Script Parameters to Databank Fields<!--EOLOC E1548702-1002431-4--></A></LI>
+<LI><A href="#autoId22"> <!--BOLOC E1548702-1002728-4-->Inserting a Text Matching Test<A id=sthref303 name=sthref303></A><A id=sthref304 name=sthref304></A><!--EOLOC E1548702-1002728-4--></A></LI>
+<LI><A href="#autoId23"> <!--BOLOC E1548702-1003037-4-->Playing Back the Script with Iterations<A id=sthref308 name=sthref308></A><A id=sthref309 name=sthref309></A><!--EOLOC E1548702-1003037-4--></A></LI></UL></LI>
+<LI><A href="#autoId24"> <!--BOLOC E1548702-1003337-4-->Stopping the Avitek Medical Records Server<A id=sthref316 name=sthref316></A><!--EOLOC E1548702-1003337-4--></A></LI></UL></DIV></DIV></DIV>
+<DIV style="POSITION: fixed; WIDTH: 0.25em; DISPLAY: none; BACKGROUND: #a4c3df; HEIGHT: 84ex; TOP: 0px; CURSOR: pointer; LEFT: 0px" title="Show Navigation"></DIV></BODY></HTML>

@@ -1,0 +1,251 @@
+import oracle.oats.scripting.modules.basic.api.*;
+import oracle.oats.scripting.modules.browser.api.*;
+import oracle.oats.scripting.modules.functionalTest.api.*;
+import oracle.oats.scripting.modules.utilities.api.*;
+import oracle.oats.scripting.modules.utilities.api.sql.*;
+import oracle.oats.scripting.modules.utilities.api.xml.*;
+import oracle.oats.scripting.modules.utilities.api.file.*;
+import oracle.oats.scripting.modules.webdom.api.*;
+import oracle.oats.scripting.modules.formsFT.api.*;
+import oracle.oats.scripting.modules.applet.api.*;
+import lib.*;
+
+public class script extends IteratingVUserScript {
+	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
+	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
+	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
+	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
+	@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;
+	@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;
+	@FunctionLibrary("EBS_Reusable_Methods") lib.Subaru.EBSUpgrade.EBS_Reusable_Methods eBS_Reusable_Methods;
+
+	public void initialize() throws Exception {
+		
+		browser.launch();
+		//eBS_Reusable_Methods.login_EBS();
+		eBS_Reusable_Methods.login_EBS_SSO();
+		eBS_Reusable_Methods.expand_NodeFromList(new String[]{"System Administrator","Concurrent"}, "Requests");
+		forms.window("//forms:window[(@name='JOBS_QF')]").close();
+		forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);	
+		think(100);
+		  }
+
+	
+	public void run() throws Exception {
+		
+		eBS_Reusable_Methods.SwitchResponsibility("SOA Parts Purchasing Super User");
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Requisitions");
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Requisitions|Requisitions");
+		String needbydate=eBS_Reusable_Methods.getDateTimeFormat("format3");
+		forms.textField("//forms:textField[(@name='LINES_LINE_NUM_0')]").click();
+		//forms.textField("//forms:textField[(@name='LINES_ITEM_NUMBER_0')]").setText("J2010AG000JD");
+		forms.textField("//forms:textField[(@name='LINES_ITEM_NUMBER_0')]").setText("SOA821B400");
+		forms.textField("//forms:textField[(@name='LINES_ITEM_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.textField("//forms:textField[(@name='LINES_ITEM_REVISION_0')]").openDialog();
+		forms.textField("//forms:textField[(@name='LINES_ITEM_CATEGORY_0')]").click();
+		forms.textField("//forms:textField[(@name='LINES_QUANTITY_0')]").setText("2");
+		forms.textField("//forms:textField[(@name='LINES_NEED_BY_DATE_0')]").setText(needbydate);
+		forms.textField("//forms:textField[(@name='LINES_NEED_BY_DATE_0')]").invokeSoftKey("NEXT_FIELD");
+		
+		forms.textField("//forms:textField[(@name='LINES_DEST_ORGANIZATION_0')]").openDialog();
+		forms.window("//forms:window[(@name='HEADER_LINES')]").activate(true);
+		forms.listOfValues("//forms:listOfValues").select("AURORA RDC|102");
+		forms.textField("//forms:textField[(@name='LINES_DELIVER_TO_LOCATION_0')]").openDialog();
+		forms.listOfValues("//forms:listOfValues").find("%");
+		forms.listOfValues("//forms:listOfValues").select("AURORA RDC|AURORA RDC");
+		forms.textField("//forms:textField[(@name='LINES_DEST_SUBINVENTORY_0')]").setFocus();
+		forms.window(450, "//forms:window[(@name='HEADER_LINES')]").clickToolBarButton("Save");
+		
+		String Reqnum=eBS_Reusable_Methods.GetText("PO_REQ_HDR_SEGMENT1_0");
+		info(Reqnum);	
+		eBS_Reusable_Methods.GetText("PO_REQ_HDR_DOCUMENT_TYPE_DISPLAY_0");
+		forms.button("//forms:button[(@name='CONTROL_APPROVAL_0')]").click();
+		forms.button("//forms:button[(@name='PO_APPROVE_WF_OK_BUTTON_0')]").click();
+		forms.window("//forms:window[(@name='HEADER_LINES')]").close();
+		
+		
+			
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Requisitions|Requisition Summary");		
+		forms.button("//forms:button[(@name='FIND_REQ_CLEAR_0')]").click();
+		forms.textField("//forms:textField[(@name='FIND_REQ_REQ_NUM_0')]").setText(Reqnum);
+		forms.textField("//forms:textField[(@name='FIND_REQ_REQ_NUM_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.button("//forms:button[(@name='FIND_REQ_FIND_0')]").click();
+		String Reqnumstatus=eBS_Reusable_Methods.GetText("REQ_HEADERS_FOLDER_AUTHORIZATION_STATUS_DSP_0");
+		info(Reqnumstatus);	
+		
+			
+		forms.window("//forms:window[(@name='REQ_HEADERS_FOLDER')]").selectMenu("Tools|View Approval through Workflow");
+		web.window("/web:window[@index='2' or @title='Oracle Workflow: Status Monitor']").waitForPage(null);
+		web.radioButton("/web:window[@index='2' or @title='Oracle Workflow: Status Monitor']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_radio[@id='N75:N79:0' or (@name='N75:selected' and @value='0') or @index='0']")
+							.select();
+		    
+
+		
+		for(int k=0;k<100;k++){
+			
+		String ApprovalStatus=web.element("/web:window[@index='2' or @title='Oracle Workflow: Status Monitor']/web:document[@index='0']/web:span[@id='N3:WfStatusNoterrText:0']").getAttribute("text");
+		info(ApprovalStatus);	
+		web.button("/web:window[@index='2' or @title='Oracle Workflow: Status Monitor']/web:document[@index='0']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:button[@id='GoButton' or @value='Go' or @index='0']").click();
+		web.window("/web:window[@index='2' or @title='Oracle Workflow: Status Monitor']").waitForPage(null);
+		//String Status=web.element("/web:window[@index='2' or @title='Oracle Workflow: Status Monitor']/web:document[@index='0']/web:span[@id='N76:WfStatusNoterrText:0']").getAttribute("text");
+	    //info(Status);
+		if (ApprovalStatus.contentEquals("Complete")){
+			web.link("/web:window[@index='2' or @title='Oracle Workflow: Status Monitor']/web:document[@index='0']/web:a[@text='Close Window' or @index='5']").click();
+			//web.confirmDialog("/web:dialog_confirm[@text='The webpage you are viewing is trying to close the tab.\n\nDo you want to close this tab?' and @index='0']").clickOk();
+		  break;	
+			}
+		think(5000);
+		info("delay for 10secs");
+		}
+			
+		
+		
+	  
+	
+		forms.window("//forms:window[(@name='REQ_HEADERS_FOLDER')]").close();
+		forms.button("//forms:button[(@name='FIND_REQ_FIND_0')]").click();
+		Reqnumstatus=eBS_Reusable_Methods.GetText("REQ_HEADERS_FOLDER_AUTHORIZATION_STATUS_DSP_0");
+		info("Requsition status is"      +Reqnumstatus);
+		
+		forms.window("//forms:window[(@name='REQ_HEADERS_FOLDER')]").close();
+		forms.window("//forms:window[(@name='FIND_REQ')]").close();
+		forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);
+		
+		
+		                ////  To AutoCreate and Approve Purchase order ////
+		
+		forms.button("//forms:button[(@name='NAV_CONTROLS_COLLAPSE_ALL_0')]").click();
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "AutoCreate");
+		forms.button("//forms:button[(@name='FIND_REQ_LINES_CLEAR_0')]").click();
+		forms.textField("//forms:textField[(@name='FIND_REQ_LINES_REQUISITION_NUMBER_0')]").setText(Reqnum);
+		forms.textField("//forms:textField[(@name='FIND_REQ_LINES_REQUISITION_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.button("//forms:button[(@name='FIND_REQ_LINES_FIND_0')]").click();
+		
+		forms.checkBox("//forms:checkBox[(@name='REQ_LINES_SELECT_LINE_0')]").check(true);
+		forms.button("//forms:button[(@name='ACTION_AUTOCREATE_BUTTON_0')]").click();
+		forms.textField("//forms:textField[(@name='NEW_DOCUMENT_DOCUMENT_NUMBER_0')]").setText(Reqnum);	
+		forms.textField("//forms:textField[(@name='NEW_DOCUMENT_DOCUMENT_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");	
+		forms.button("//forms:button[(@name='NEW_DOCUMENT_OK_0')]").click();
+		
+		forms.window("//forms:window[(@name='PO_HEADERS')]").activate(true);	
+		forms.textField("//forms:textField[(@name='PO_HEADERS_OPERATING_UNIT_0')]").setFocus();
+		forms.textField("//forms:textField[(@name='PO_HEADERS_SHIP_TO_LOCATION_0')]").openDialog();	
+		forms.listOfValues(807, "//forms:listOfValues").find("%");
+		forms.listOfValues(808, "//forms:listOfValues").select("AURORA RDC|AURORA RDC");
+		forms.textField("//forms:textField[(@name='PO_HEADERS_BILL_TO_LOCATION_0')]").setFocus();
+		forms.window("//forms:window[(@name='PO_HEADERS')]").clickToolBarButton("Save");
+		forms.button("//forms:button[(@name='PO_CONTROL_APPROVE_0')]").click();	
+		forms.button("//forms:button[(@name='PO_APPROVE_WF_OK_BUTTON_0')]").click();
+		
+		forms.textField("//forms:textField[(@name='PO_HEADERS_OPERATING_UNIT_0')]").invokeSoftKey("ENTER_QUERY");
+		forms.textField("//forms:textField[(@name='PO_HEADERS_SEGMENT1_0')]").setText(Reqnum);
+		forms.textField("//forms:textField[(@name='PO_HEADERS_SEGMENT1_0')]").invokeSoftKey("EXECUTE_QUERY");
+		String POnumstatus=eBS_Reusable_Methods.GetText("PO_HEADERS_STATUS_0");
+		info("Purchase order has been Approved and status is"    +POnumstatus);
+		forms.window("//forms:window[(@name='PO_HEADERS')]").close();	
+		forms.window("//forms:window[(@name='FIND_REQ_LINES')]").close();	
+			
+			
+										/////////////  Create inventory receipt ////////////////
+		
+		forms.button("//forms:button[(@name='NAV_CONTROLS_COLLAPSE_ALL_0')]").click();
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Receiving");
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Receiving|Receipts");
+		forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);
+		forms.listOfValues("//forms:listOfValues").select("102|AURORA RDC");
+		forms.textField("//forms:textField[(@name='FIND_PO_NUM_0')]").setText(Reqnum);
+		forms.textField("//forms:textField[(@name='FIND_PO_NUM_0')]").invokeSoftKey("NEXT_FIELD");
+        think(50);
+        forms.button("//forms:button[(@name='FIND_FIND_0')]").click();	
+        forms.window("//forms:window[(@name='HEADER')]").close();
+        
+        forms.checkBox("//forms:checkBox[(@name='RCV_TRANSACTION_LINE_CHKBOX_0')]").check(true);
+        forms.textField("//forms:textField[(@name='RCV_TRANSACTION_SUBINVENTORY_DSP_0')]").openDialog();
+        forms.window("//forms:window[(@name='RECEIPTS')]").activate(true);
+        forms.listOfValues("//forms:listOfValues").select("AVAILABLE|Available");
+        forms.window("//forms:window[(@name='RECEIPTS')]").clickToolBarButton("Save");	
+        forms.button("//forms:button[(@name='RCV_CONTROL_HEADER_BUT_0')]").click();
+        String Receiptnum=eBS_Reusable_Methods.GetText("HEADER_RECEIPT_NUM_0");
+        info("Receipt number is"     +Receiptnum);
+        forms.window("//forms:window[(@name='HEADER')]").close();
+        forms.window("//forms:window[(@name='RECEIPTS')]").close();
+       	
+			
+			            ////// Enter AP Invoice /////////////
+		
+        String Batchname=eBS_Reusable_Methods.generateUniqueData("P2P");
+        eBS_Reusable_Methods.SwitchResponsibility("SOA Parts Payables Manager");
+        forms.treeList("//forms:treeList[(@name='NAVIGATOR_LIST_0')]").selectItem("Invoices");
+        eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Invoices|Entry");
+		eBS_Reusable_Methods.selecttreelist("NAVIGATOR_LIST_0", "Invoices|Entry|Invoice Batches");
+		forms.textField("//forms:textField[(@name='BAT_SUM_FOLDER_BATCH_NAME_0')]").setText(Batchname);
+		forms.button("//forms:button[(@name='BAT_CONTROL_BLOCK_INVOICE_0')]").click();
+		
+		String Invoicenum=eBS_Reusable_Methods.generateUniqueData("INV");
+		String Invoicedate=eBS_Reusable_Methods.getDateTimeFormat("format2");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_QUICK_PO_NUMBER_0')]").click();
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_QUICK_PO_NUMBER_0')]").setText(Reqnum);
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_QUICK_PO_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_DATE_0')]").click();
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_DATE_0')]").setText(Invoicedate);
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_DATE_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_NUM_0')]").setText(Invoicenum);
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_AMOUNT_DSP_0')]").setText(".02");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_AMOUNT_DSP_0')]").invokeSoftKey("NEXT_FIELD");
+		
+		forms.tab("//forms:tab[(@name='TAB_INVOICE_SUM_REGIONS')]").select("2 Lines");	
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_AMOUNT_DISP_0')]").click();
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_AMOUNT_DISP_0')]").setText(".02");
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_AMOUNT_DISP_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_PO_LINE_NUMBER_0')]").click();
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_PO_LINE_NUMBER_0')]").setText("1");
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_PO_LINE_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_PO_SHIPMENT_NUMBER_0')]").setText("1");
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_PO_SHIPMENT_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.button("//forms:button[(@name='LINE_SUM_CONTROL_DISTRIBUTIONS_0')]").click();
+		String DistAcctnum=eBS_Reusable_Methods.GetText("D_SUM_FOLDER_DIST_CODE_COMBINATION_DISP_0");
+		info("distribution acctnumber is "+DistAcctnum);
+		forms.window("//forms:window[(@name='DIST_SUMMARY')]").close();
+		
+		forms.button("//forms:button[(@name='INV_SUM_CONTROL_ACTIONS_0')]").click();
+		forms.checkBox("//forms:checkBox[(@name='INV_SUM_ACTIONS_APPROVE_0')]").check(true);
+		forms.button("//forms:button[(@name='INV_SUM_ACTIONS_OK_BUTTON_0')]").click();
+		String Invoicestatus=eBS_Reusable_Methods.GetText("INV_SUM_FOLDER_APPROVAL_STATUS_DISPLAY_0");
+		
+		
+		
+										//// Entering AP Payment ///////////////
+		
+		forms.button("//forms:button[(@name='INV_SUM_CONTROL_ACTIONS_0')]").click();
+		forms.checkBox("//forms:checkBox[(@name='INV_SUM_ACTIONS_PAY_0')]").check(true);
+		forms.button("//forms:button[(@name='INV_SUM_ACTIONS_OK_BUTTON_0')]").click();
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_CHECK_DATE_0')]").click();
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_CHECK_DATE_0')]").setText(Invoicedate);
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_CHECK_DATE_0')]").invokeSoftKey("NEXT_FIELD");
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_CURRENT_BANK_ACCOUNT_NAME_0')]").click();
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_CURRENT_BANK_ACCOUNT_NAME_0')]").openDialog();
+		forms.listOfValues("//forms:listOfValues").find("%");
+		forms.listOfValues(1091, "//forms:listOfValues").select("PNC BANK - PARTS|030000075|USD|N|Y|PNC BANK|PNC BANK");
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_PAYMENT_PROFILE_NAME_0')]").click();
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_PAYMENT_PROFILE_NAME_0')]").openDialog();
+		forms.window("//forms:window[(@name='PAYMENTS_SUM_FOLDER_WINDOW')]").activate(true);
+		forms.listOfValues(1097, "//forms:listOfValues").select("SOA_PNC_NACHA_EFT_FORMAT|Electronic|SOA_PNC_EFT_FORMAT|N||");
+		forms.textField("//forms:textField[(@name='PAY_SUM_FOLDER_PAYMENT_DOCUMENT_NAME_0')]").click();
+		forms.window("//forms:window[(@name='PAYMENTS_SUM_FOLDER_WINDOW')]").clickToolBarButton("Save");
+		forms.choiceBox(1104, "//forms:choiceBox").clickButton("OK");
+		Invoicenum=eBS_Reusable_Methods.GetText("VIEW_INV_PAY_INVOICE_NUM_0");
+		info(Invoicenum);
+		forms.window("//forms:window[(@name='PAYMENTS_SUM_FOLDER_WINDOW')]").close();
+		forms.window("//forms:window[(@name='INVOICES_SUM_FOLDER_WINDOW')]").close();
+		forms.window("//forms:window[(@name='BAT_SUM_FOLDER')]").close();
+		
+		                                          //////////// Post to GL /////////////////////////
+		
+		eBS_Reusable_Methods.SubmitorCreateAccountingJob("Create Accounting","Subaru of America");
+		
+		}
+
+	public void finish() throws Exception {
+		eBS_Reusable_Methods.ERPLogout();
+	}
+}

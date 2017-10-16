@@ -1,0 +1,651 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Add Contact</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/tableUtils.js"></SCRIPT>
+
+<SCRIPT id=oaf_detachScript type=text/javascript src="/OA_HTML/cabo/oajsLibs/detachTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richAdvancedTable.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("https://erpint.fin.yahoo.com:8000/OA_HTML/help?locale=en_US&group=AP:CONTENTS:US&topic=US/POS/@pos_supplier_help_home", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event,\\'DefaultFormName\\',[\\'InactiveDate\\'])','ATinitRichTableUI(\\'RespTable\\');ATaddEventToPPROnLoad();ATinitRichTableUI(\\'SuppTableRN\\');ATinitRichTableUI(\\'SiteRestrictionTableRN\\');ATinitRichTableUI(\\'ContRestTableRN\\');ATinitRichTableUI(\\'AddrforContAdvTable\\');Linit();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/pos/supplier/webui/ByrAddCntctPG&amp;PosPrfChgReq.SuppId=18743803&amp;PosPrfChgReq.SupplierName=RED%20LANTERN%20STRATEGYINC&amp;PosPrfChgReq.ComingFrom=ByrAddCont&amp;PosPrfChgReq.VendorId=455487&amp;PosPrfChgReq.Refresh=Y&amp;_ti=1540455680&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;OAMC=G&amp;oapc=21&amp;oas=su9HC6IcvwKLO7Z3ZvNRoA..><INPUT id=_AM_TX_ID_FIELD value=41GMI18cY type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormName5G4yvXFW type=hidden name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFFirstNameLov value=NU_UBUH1j type=hidden name=lovAutoClearHFFirstNameLov><INPUT id=lovAutoClearHFLastNameLov value=Nq-0OwnA8 type=hidden name=lovAutoClearHFLastNameLov><INPUT id=lovAutoClearHFsuppName value=NZLX32cM1 type=hidden name=lovAutoClearHFsuppName><INPUT id=lovAutoClearHFAddrName value=NnOPLFvjz type=hidden name=lovAutoClearHFAddrName>
+<SCRIPT language=javascript>function LOCAddrDetFrm(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('AddrforContAdvTable'); visitedList['AddrDetFrm'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCPartySiteId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('AddrforContAdvTable'); visitedList['PartySiteId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCPartyId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('AddrforContAdvTable'); visitedList['PartyId'] = 'v';if (visitedList['AddrName'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('AddrName', rowNum ));LOCAddrName(rowNum, visitedList);}} if (this.id != LcurrentElement) LfetchString = ''; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCPartyAddrId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('AddrforContAdvTable'); visitedList['PartyAddrId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOClocId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('AddrforContAdvTable'); visitedList['locId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCAddrName(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('AddrforContAdvTable'); visitedList['AddrName'] = 'v';if (visitedList['AddrDetFrm'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('AddrDetFrm', rowNum ));LOCAddrDetFrm(rowNum, visitedList);}}if (visitedList['PartySiteId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('PartySiteId', rowNum ));LOCPartySiteId(rowNum, visitedList);}}if (visitedList['PartyAddrId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('PartyAddrId', rowNum ));LOCPartyAddrId(rowNum, visitedList);}}if (visitedList['locId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('locId', rowNum ));LOClocId(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldAddrName value=AddrName::PartyIdcrwAszrG type=hidden name=lovCriteriaHiddenFieldAddrName><INPUT id=lovPassiveCriteriaHFAddrName type=hidden name=lovPassiveCriteriaHFAddrName><INPUT id=BASE_FORM_NAME value=DefaultFormNameUrAcczg4 type=hidden name=BASE_FORM_NAME><INPUT id=lovTableHiddenFieldAddrName value=AddrforContAdvTable type=hidden name=lovTableHiddenFieldAddrName><INPUT id=lovOnClickJSHiddenFieldAddrName type=hidden name=lovOnClickJSHiddenFieldAddrName><INPUT id=lovOnClickJSExecutedHiddenFieldAddrName value=N type=hidden name=lovOnClickJSExecutedHiddenFieldAddrName><INPUT id=lovJSHiddenFieldAddrName type=hidden name=lovJSHiddenFieldAddrName>
+<SCRIPT language=javascript>function LcustomOnChangeAddrName(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+</SPAN><SPAN id=PageLayoutRN>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=xbl><IMG title="Customized corporate branding image for Oracle Applications" border=0 alt="Customized corporate branding image for Oracle Applications" src="/OA_MEDIA/yahoo_logo.gif"></TD>
+<TD class=x86><SPAN style="POSITION: relative" title=Payables><SPAN class=x4j>Payables</SPAN></SPAN>
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fskyros\\x2Ft.gif";var _axm;t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=14></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD>
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SNAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Navigator alt=Navigator src="/OA_MEDIA/navigator.png"></DIV></A></DIV></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1540455680&amp;oapc=21&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=lUVla9UPZ7VZPrkMkAdwTw..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1540455680&amp;oapc=21&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=lUVla9UPZ7VZPrkMkAdwTw..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrAddCntctPG%26PosPrfChgReq.SuppId%3D18743803%26PosPrfChgReq.SupplierName%3DRED%2520LANTERN%2520STRATEGYINC%26PosPrfChgReq.ComingFrom%3DByrAddCont%26PosPrfChgReq.VendorId%3D455487%26PosPrfChgReq.Refresh%3DY%26transactionid%3D1540455680%26retainAM%3DY%26addBreadCrumb%3DY%26OAMC%3DG%26oas%3Db69xbqYz1AQ0Z1kGHZz1vA..&amp;_ti=1540455680&amp;oapc=21&amp;OAIG=7867&amp;menu=Y&amp;oas=czBmCG7i-gTrhfutc-9OjQ..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrAddCntctPG%26PosPrfChgReq.SuppId%3D18743803%26PosPrfChgReq.SupplierName%3DRED%2520LANTERN%2520STRATEGYINC%26PosPrfChgReq.ComingFrom%3DByrAddCont%26PosPrfChgReq.VendorId%3D455487%26PosPrfChgReq.Refresh%3DY%26transactionid%3D1540455680%26retainAM%3DY%26addBreadCrumb%3DY%26OAMC%3DG%26oas%3Db69xbqYz1AQ0Z1kGHZz1vA..&amp;_ti=1540455680&amp;oapc=21&amp;OAIG=7867&amp;menu=Y&amp;oas=czBmCG7i-gTrhfutc-9OjQ..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=WLMkCqI2HI6A34DS9Sxdjw.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('7','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=WLMkCqI2HI6A34DS9Sxdjw.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>7</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD><A class=x84 href="javascript:top.help_window()">
+<DIV><IMG title=Help border=0 alt=Help src="/OA_MEDIA/help.png"></DIV></A></TD>
+<TD><A class=x84 href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OALogout.jsp%3FcloseWindow%3Dtrue%26menu%3DY')">
+<DIV><IMG title="Close Window" border=0 alt="Close Window" src="/OA_MEDIA/Close.png"></DIV></A></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=3></TD></TR>
+<TR>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9n>
+<DIV>
+<DIV class=pagetopborderleft></DIV>
+<DIV class=pagetopbordermiddle></DIV>
+<DIV class=pagetopborderright></DIV></DIV></DIV>
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<DIV class=x6v>
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=xl><NOBR><A href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrCntctDirPG%26retainAM%3DY%26_ti%3D1540455680%26OAMC%3D84817_68_0%26menu%3DY%26oaMenuLevel%3D4%26bcrumb%3DY%26oapc%3D21%26oas%3D6A9JhktRSKQuCxO3569sog..')">Suppliers: Contact Directory</A>&nbsp;&nbsp;&gt;</NOBR><SPAN class=xm> <NOBR></NOBR></SPAN></DIV></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV id=p_SwanPageLayout class=x7z>
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Create Contact</H1></TD>
+<TD vAlign=bottom noWrap align=right>
+<TABLE id=PageBtnBarRN class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn class=x7p title=Cancel onclick="submitForm('DefaultFormName',0,{'_FORM_SUBMIT_BUTTON':'cancelBtniBXcBPgq'});return false" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON accessKey=p id=applyBtn class=x7p title=Apply onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'applyBtn5gJd1fwd'});return false" type=submit>A<SPAN class=xq>p</SPAN>ply</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD>
+<TABLE id=ReqFieldRN border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Row>
+<TD id=AstCell><SPAN id=ReqTextRN><SPAN id=RequiredFieldIcon class=xg>*</SPAN>
+<SCRIPT id=spacer1>t('6','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=6 height=1><SPAN id=RequiredFieldText class=x5i>Indicates required field</SPAN></SPAN></TD></TR></TBODY></TABLE></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV>
+<TABLE id=detailRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:2}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=ContTitle__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Contact Title</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><SELECT id=ContTitle class=x8 onchange="" name=ContTitle><OPTION selected></OPTION><OPTION value=AP22mJ5kGs>AP</OPTION><OPTION value=DOTT.HQtZe5jo>Dottore</OPTION><OPTION value=DOTT.SSE44ktfEV7>Dottoressa</OPTION><OPTION value=DR.hnnBURXk>Dr.</OPTION><OPTION value=MISS_Ll7DrQX>Miss</OPTION><OPTION value=MR.l3BOWTtH>Mr.</OPTION><OPTION value=MRS.KIga102A>Mrs.</OPTION><OPTION value=MS.D7XzZl8Q>Ms.</OPTION><OPTION value="SIG. AIbmqO0NE">Signora</OPTION><OPTION value=SIG.MSn10L4q>Signore</OPTION><OPTION value="SIG. NA0EkzK-m6">Signorina</OPTION><OPTION value=SIR5_AccRuz>Sir</OPTION><OPTION value="SR. D.0NkO_W95">Sr. D.</OPTION><OPTION value="SRA. DNA7zE0sVrn">Sra. Dna</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=FirstName__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>First Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=FirstName class=x8 onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onchange="" maxLength=150 size=0 type=text name=FirstName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=MiddleName__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Middle Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=MiddleName class=x8 onchange="" maxLength=60 size=0 type=text name=MiddleName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=LastName__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc><SPAN class=xg title=Required>*</SPAN>&nbsp;Last Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=LastName class=x8 onchange="" maxLength=150 size=0 type=text name=LastName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=AltContactName__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Alternate Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=AltContactName class=x8 title="Alternate Name" onchange="" maxLength=240 size=0 type=text name=AltContactName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=JobTitle__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Job Title</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=JobTitle class=x8 title="Job Title" onchange="" size=0 type=text name=JobTitle>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=Department__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Department</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=Department class=x8 title=Department onchange="" size=0 type=text name=Department>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=Email__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Email Address</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap>
+<SCRIPT>function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);}</SCRIPT>
+<INPUT id=Email class=x8 onchange="_uixspu('DefaultFormName',0,'updateEmail','Email',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_Email_updateEmailZbNskZGS','evtSrcRowIdx':'0ID6_EAnK','evtSrcRowId':'ByrSuppAM.PosContInfoAM.PosContInfoVOjeOuZqYm'});return true;" maxLength=2000 size=0 type=text name=Email>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=Url__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Url</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=Url class=x8 title=Url onchange="" maxLength=2000 size=0 type=text name=Url>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=messageLayout__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><INPUT id=ContactPartyId type=hidden name=ContactPartyId></TD></TR>
+<TR id=PhAreaCode__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Phone Area Code</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=PhAreaCode class=x8 onchange="" maxLength=10 size=10 type=text name=PhAreaCode>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=PhNumber__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Phone Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=PhNumber class=x8 onchange="" maxLength=40 size=14 type=text name=PhNumber>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=PhExtn__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Phone Extension</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=PhExtn class=x8 onchange="" maxLength=20 size=10 type=text name=PhExtn>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=AltAreaCode__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Alternate Phone Area Code</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=AltAreaCode class=x8 title="Alternate Phone Area Code" onchange="" maxLength=10 size=0 type=text name=AltAreaCode>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=AltPhoneNumber__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Alternate Phone Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=AltPhoneNumber class=x8 title="Alternate Phone Number" onchange="" maxLength=40 size=0 type=text name=AltPhoneNumber>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=FaxAreaCode__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Fax Area Code</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=FaxAreaCode class=x8 onchange="" maxLength=10 size=10 type=text name=FaxAreaCode>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=FaxNo__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Fax Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=FaxNo class=x8 onchange="" maxLength=40 size=14 type=text name=FaxNo>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=InactiveDate__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Inactive Date</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap>
+<DIV class=OraDatePickerOuterDiv>
+<SCRIPT>var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>var _dfLenient=1;var _df2DYS=1950;</SCRIPT>
+
+<SCRIPT>if(window['_dfs'] == (void 0)){var _dfs=new Object();}_dfs["InactiveDate"]=['dd-MMM-yyyy HH:mm:ss','dd-MMM-yyyy']</SCRIPT>
+<INPUT onblur=_dfb(this,1) id=InactiveDate class=x8 title="Inactive Date" onchange="" maxLength=20 size=20 type=text name=InactiveDate txtiptic="yes" placeholder="(22-Aug-2017 19:45:00)">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1>
+<SCRIPT>var _jspDir='/OA_HTML/cabo/jsps/a.jsp';var _configName='OAConfig';var _enc='UTF-8';var _contextURI='/OA_HTML';</SCRIPT>
+
+<SCRIPT>var _uixLocaleTZ=0;var _uixLocaleTZId="";var _firstDOW=1;</SCRIPT>
+<A id=InactiveDate:dateButton onclick="_ldp('DefaultFormName','InactiveDate'); return false" href="#"><IMG border=0 align=absMiddle src="/OA_HTML/cabo/images/alta/input_date.png" width=12 height=12></A></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=createAccountRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">User Account</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<TABLE id=region1 border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:1}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=CreateUserAccount__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Create User Account for this Contact</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SPAN id=CreateUserAccount__xc_0><INPUT id=CreateUserAccount title="Create User Account For The Contact" onclick="_uixspu('DefaultFormName',0,'createAcctChange','CreateUserAccount',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_CreateUserAccount_createAcctChangexbPohOZx','evtSrcRowIdx':'0ID6_EAnK','evtSrcRowId':'ByrSuppAM.PosAddContactVOnullQjAjwbIS','serverValidate':'0g8ZUW44-'});return true;" value=on type=checkbox name=CreateUserAccount></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7c><INPUT id=suppVendorId type=hidden name=suppVendorId></DIV>
+<DIV class=x7c><INPUT id=suppPartyId type=hidden name=suppPartyId></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=addrRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Addresses For the Contact</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV><SPAN id=AddrforContAdvTable title="Addresses linked to this contact">
+<DIV id=loadDiv:AddrforContAdvTable>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:AddrforContAdvTable><INPUT id=fullAMName:AddrforContAdvTable value=oracle.apps.pos.supplier.server.ByrSuppAM type=hidden><INPUT id=tid:AddrforContAdvTable value=1540455680 type=hidden><INPUT id=fullCustRef:AddrforContAdvTable value=/oracle/apps/pos/supplier/webui/ByrAddCntctPG.addrRN.AddrforContAdvTable type=hidden>
+<DIV id=surroundingDiv:AddrforContAdvTable>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:AddrforContAdvTable title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:AddrforContAdvTable onfocus="TUdetachTableForwardFocusLoop('AddrforContAdvTable');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:AddrforContAdvTable onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:AddrforContAdvTable><IMG title="Attach Table: Addresses linked to this contact" border=0 alt="Attach Table: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=AddrforContAdvTable:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" title="Add Another Row: Addresses linked to this contact" onclick="_addRowSubmit('DefaultFormName',1,'addRows','AddrforContAdvTable','1hczUc8lx','AddrforContAdvTable');return false" href="javascript:void(0);"><IMG id=addTableRow class=OraTableControlBarIcon title="Add Another Row: Addresses linked to this contact" alt="Add Another Row: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/new_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Addresses linked to this contact" onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Addresses linked to this contact"><IMG id=AddrforContAdvTable:detachIcon class=OraTableControlBarIcon title="Detach Table: Addresses linked to this contact" alt="Detach Table: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Addresses linked to this contact"></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=AddrforContAdvTable:refreshIcon title="Refresh Table: Addresses linked to this contact" onclick="_tableRefresh('DefaultFormName','tablerefresh','AddrforContAdvTable',1,' ',' ','AddrforContAdvTable')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Addresses linked to this contact" alt="Refresh Table: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:AddrforContAdvTable class=x9i onclick="TUreset('AddrforContAdvTable');" href="javascript:void(0)" name=reset:ena:AddrforContAdvTable><IMG title="Reset Table Settings: Addresses linked to this contact" border=0 alt="Reset Table Settings: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:AddrforContAdvTable class=x9i title="Reset Table Settings Disabled: Addresses linked to this contact" border=0 name=reset:dis:AddrforContAdvTable alt="Reset Table Settings Disabled: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_AddrforContAdvTable'].invokeMenuUsingKey(this,event);" id=settings:AddrforContAdvTable class=x9j role=button onclick="menus['settings_AddrforContAdvTable'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:AddrforContAdvTable><IMG title="Table Settings: Addresses linked to this contact" border=0 alt="Table Settings: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_AddrforContAdvTable class=x9u role=menu submitfun="TUMenuOKAction('settings_AddrforContAdvTable' ,'AddrforContAdvTable');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:AddrNameCol aria-checked=true class=x9t onmouseover="menus['settings_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].clickOnMenuItem(\\'menuItem:AddrNameCol\\',event);','TUmenuSelection(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\',\\'menuItem:AddrNameCol\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AddrNameCol:select title=Hide border=0 name=menuItem:AddrNameCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Address Name</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:AddrNameCol tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderUp(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:AddrNameCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:AddrNameCol tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderDown(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:AddrNameCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:AddrDetailsCol aria-checked=true class=x9t onmouseover="menus['settings_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].clickOnMenuItem(\\'menuItem:AddrDetailsCol\\',event);','TUmenuSelection(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\',\\'menuItem:AddrDetailsCol\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AddrDetailsCol:select title=Hide border=0 name=menuItem:AddrDetailsCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Address Details</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:AddrDetailsCol tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderUp(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:AddrDetailsCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:AddrDetailsCol tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderDown(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:AddrDetailsCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:DffColumn aria-checked=true class=x9t onmouseover="menus['settings_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].clickOnMenuItem(\\'menuItem:DffColumn\\',event);','TUmenuSelection(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\',\\'menuItem:DffColumn\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:DffColumn:select title=Hide border=0 name=menuItem:DffColumn:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Contact Descriptive Flexfield</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:DffColumn tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderUp(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:DffColumn><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:DffColumn tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderDown(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:DffColumn><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:RemoveCol aria-checked=true class=x9t onmouseover="menus['settings_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].clickOnMenuItem(\\'menuItem:RemoveCol\\',event);','TUmenuSelection(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\',\\'menuItem:RemoveCol\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:RemoveCol:select title=Hide border=0 name=menuItem:RemoveCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:RemoveCol tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderUp(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:RemoveCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:RemoveCol tabIndex=-1 onclick="return _chain('menus[\\'settings_AddrforContAdvTable\\'].reorderDown(this,event)','TUreorder(\\'settings_AddrforContAdvTable\\',\\'AddrforContAdvTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:RemoveCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_AddrforContAdvTable']= new Menu();menus['settings_AddrforContAdvTable'].initMenu('settings_AddrforContAdvTable');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_AddrforContAdvTable'].invokeMenuUsingKey(this,event);" id=freeze:AddrforContAdvTable class=x9j role=button onclick="menus['freeze_AddrforContAdvTable'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:AddrforContAdvTable><IMG title="Column Freeze: Addresses linked to this contact" border=0 alt="Column Freeze: Addresses linked to this contact" src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_AddrforContAdvTable class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_AddrforContAdvTable'].focusMenu(event, this);" id=AddrforContAdvTable:unfreeze class=x9t onmouseover="menus['freeze_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_AddrforContAdvTable'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('AddrforContAdvTable');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=AddrforContAdvTable:unfreeze:select border=0 name=AddrforContAdvTable:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:AddrNameCol:freeze class=x9t onmouseover="menus['freeze_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_AddrforContAdvTable'].closeMenuOnAction(this,event);ATfreezeMenuSelection('AddrforContAdvTable','menuItem:AddrNameCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AddrNameCol:freeze:select border=0 name=menuItem:AddrNameCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Address Name</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:AddrDetailsCol:freeze class=x9t onmouseover="menus['freeze_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_AddrforContAdvTable'].closeMenuOnAction(this,event);ATfreezeMenuSelection('AddrforContAdvTable','menuItem:AddrDetailsCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AddrDetailsCol:freeze:select border=0 name=menuItem:AddrDetailsCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Address Details</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:DffColumn:freeze class=x9t onmouseover="menus['freeze_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_AddrforContAdvTable'].closeMenuOnAction(this,event);ATfreezeMenuSelection('AddrforContAdvTable','menuItem:DffColumn:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:DffColumn:freeze:select border=0 name=menuItem:DffColumn:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Contact Descriptive Flexfield</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_AddrforContAdvTable'].focusMenu(event, this);" id=menuItem:RemoveCol:freeze class=x9t onmouseover="menus['freeze_AddrforContAdvTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_AddrforContAdvTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_AddrforContAdvTable'].closeMenuOnAction(this,event);ATfreezeMenuSelection('AddrforContAdvTable','menuItem:RemoveCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:RemoveCol:freeze:select border=0 name=menuItem:RemoveCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_AddrforContAdvTable']= new Menu();menus['freeze_AddrforContAdvTable'].initMenu('freeze_AddrforContAdvTable');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:AddrforContAdvTable class=x9i title="Column Freeze is disabled for table Addresses linked to this contact. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:AddrforContAdvTable alt="Column Freeze is disabled for table Addresses linked to this contact. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'AddrforContAdvTable')" id=contentDiv:AddrforContAdvTable class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=AddrforContAdvTable:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="1" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="advanced" initialWidth="undefined" initialOWidth="undefined">
+<COLGROUP>
+<COL id=AddrNameCol:col>
+<COL id=AddrDetailsCol:col>
+<COL id=DffColumn:col>
+<COL id=RemoveCol:col>
+<TBODY>
+<TR>
+<TH id=AddrNameCol class="x1z x50 x9h" scope=col type="leaf" sortvalue="05naSGKHL" oaondragstart="dragStartOnRichTableColumn(AddrforContAdvTable)"><SPAN id=AddrNameSortHdr class=x2b>Address Name
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt,parent) {if( ((typeof TUfromDragEvent != 'undefined') && TUfromDragEvent)  || ((typeof TUhideEvt != 'undefined') && TUhideEvt) ) {TUfromDragEvent = false ; TUhideEvt = false;return;}if(parent!=null && parent.tagName =='TH' && parent.getAttribute('sortvalue') != null) {  val = parent.getAttribute('sortvalue'); } var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN><A style="POSITION: absolute; DISPLAY: none" id=AddrNameCol:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('AddrforContAdvTable','AddrNameCol');return false" href="javascript:void(0)" name=AddrNameCol:h><IMG title="Hide : Address Name" border=0 alt="Hide : Address Name" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=AddrDetailsCol class="x1z x50 x9h" scope=col type="leaf" sortvalue="1ZOdKBy7o" oaondragstart="dragStartOnRichTableColumn(AddrforContAdvTable)"><SPAN id=AddrDetailsSortHdr class=x2c>Address Details</SPAN><A style="POSITION: absolute; DISPLAY: none" id=AddrDetailsCol:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('AddrforContAdvTable','AddrDetailsCol');return false" href="javascript:void(0)" name=AddrDetailsCol:h><IMG title="Hide : Address Details" border=0 alt="Hide : Address Details" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=DffColumn class="x21 x50 x9h" scope=col type="leaf" sortvalue="3dOYX108z" oaondragstart="dragStartOnRichTableColumn(AddrforContAdvTable)"><SPAN id=sortableHeader1 class=x2c>Contact Descriptive Flexfield</SPAN><A style="POSITION: absolute; DISPLAY: none" id=DffColumn:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('AddrforContAdvTable','DffColumn');return false" href="javascript:void(0)" name=DffColumn:h><IMG title="Hide : Contact Descriptive Flexfield" border=0 alt="Hide : Contact Descriptive Flexfield" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=RemoveCol class="x21 x50 x9h" scope=col type="leaf" sortvalue="4LK6ClR2E" oaondragstart="dragStartOnRichTableColumn(AddrforContAdvTable)"><SPAN id=RemoveSortHdr class=x2c>Remove</SPAN><A style="POSITION: absolute; DISPLAY: none" id=RemoveCol:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('AddrforContAdvTable','RemoveCol');return false" href="javascript:void(0)" name=RemoveCol:h><IMG title="Hide : Remove" border=0 alt="Hide : Remove" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR>
+<TD class="x1t x50" noWrap>No results found.</TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1x x50"><BR></TD>
+<TD class="x1x x50"><BR></TD></TR>
+<SCRIPT>function _addRowSubmit(formName, validate, event, table, sze,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:event,source:table,size:sze,partialTargets:ptgt });}</SCRIPT>
+</TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:AddrforContAdvTable')" id=scrollDiv:AddrforContAdvTable>
+<DIV id=scrollDivContent:AddrforContAdvTable></DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:AddrforContAdvTable onfocus="TUdetachTableReturnFocusLoop('AddrforContAdvTable');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:AddrforContAdvTable></DIV></DIV></DIV>
+<SCRIPT language=javascript>function _richTblRefresh(formName,validate,ptgt,table,event,val) { _submitPartialChange(formName,validate,{event:event,source:table,partialTargets:ptgt,value:val});  }</SCRIPT>
+
+<SCRIPT language=javascript>function _tableRefresh(formName, tablerefresh, src, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:tablerefresh,source:src,value:val,size:sze,partialTargets:partialTargets});}</SCRIPT>
+<INPUT id=direction:AddrforContAdvTable type=hidden name=direction:AddrforContAdvTable></SPAN>
+<SCRIPT>var _AddrforContAdvTable_value=0;</SCRIPT>
+<SPAN id=AddrforContAdvTable-hv><INPUT value=0 type=hidden name=AddrforContAdvTable:length></SPAN></DIV>
+<DIV class=x7c><INPUT id=PartyId value=18743803gpF-KDFE type=hidden name=PartyId></DIV>
+<DIV class=x7c>
+<SCRIPT id=OaFocusJavascriptCall:AddrforContAdvTable language=javascript></SCRIPT>
+</DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog data="{autoPosition:0,px:-1,py:-1};" isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=1540455680&amp;oapc=21&amp;oas=Qt1q6M7O4MNWKbD6tpeqAQ.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/pos/supplier/webui/ByrAddCntctPG:::yo1T6eGf type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,2)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=2></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right><FOOTER style="DISPLAY: none" id=oaffooterbuttons>
+<TABLE id=PageBtnBarRN_uixr class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn_uixr class=x7p title=Cancel onclick="submitForm('DefaultFormName',0,{'_FORM_SUBMIT_BUTTON':'cancelBtniBXcBPgq'});return false" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON accessKey=p id=applyBtn_uixr class=x7p title=Apply onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'applyBtn5gJd1fwd'});return false" type=submit>A<SPAN class=xq>p</SPAN>ply</BUTTON></TD></TR></TBODY></TABLE></FOOTER></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N18>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\\'DefaultFormName\\',0,{\\'serverValidate\\':\\'1VNz2Sij5\\',event:\\'about\\'});return false;',this,event,true)" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=_fwkActBtnName_Email_updateEmail$$serverUnvalidated value=falsevSyJr1hY type=hidden name=_fwkActBtnName_Email_updateEmail$$serverUnvalidated><INPUT id=_fwkActBtnName_CreateUserAccount_createAcctChange$$serverUnvalidated value=truew3rW-iwP type=hidden name=_fwkActBtnName_CreateUserAccount_createAcctChange$$serverUnvalidated><INPUT id=RespTable$$unvalidated value=falseqAFzCP8f type=hidden name=RespTable$$unvalidated><INPUT id=RespTable$$serverUnvalidated value=falsebvVGh0bf type=hidden name=RespTable$$serverUnvalidated><INPUT id=SuppTableRN$$unvalidated value=falseR6QtsKv0 type=hidden name=SuppTableRN$$unvalidated><INPUT id=SuppTableRN$$serverUnvalidated value=falsedjsCbCdA type=hidden name=SuppTableRN$$serverUnvalidated><INPUT id=ModifySitesBtn$$unvalidated value=true5E1Zfmdv type=hidden name=ModifySitesBtn$$unvalidated><INPUT id=ModifySitesBtn$$serverUnvalidated value=truemTNQNbXU type=hidden name=ModifySitesBtn$$serverUnvalidated><INPUT id=ModifySitesBtn$$processFormDataCalled value=trueXGIGuZlM type=hidden name=ModifySitesBtn$$processFormDataCalled><INPUT id=SiteRestrictionTableRN$$unvalidated value=false9yhX4OEi type=hidden name=SiteRestrictionTableRN$$unvalidated><INPUT id=SiteRestrictionTableRN$$serverUnvalidated value=falseayn6E7Uc type=hidden name=SiteRestrictionTableRN$$serverUnvalidated><INPUT id=ModifyContBtn$$unvalidated value=trueyh-8NrWg type=hidden name=ModifyContBtn$$unvalidated><INPUT id=ModifyContBtn$$serverUnvalidated value=true4BXq1Sbv type=hidden name=ModifyContBtn$$serverUnvalidated><INPUT id=ModifyContBtn$$processFormDataCalled value=truevImXSdug type=hidden name=ModifyContBtn$$processFormDataCalled><INPUT id=ContRestTableRN$$unvalidated value=falsekct7idau type=hidden name=ContRestTableRN$$unvalidated><INPUT id=ContRestTableRN$$serverUnvalidated value=falseet3j7gyv type=hidden name=ContRestTableRN$$serverUnvalidated><INPUT id=_fwkActBtnName_contactDff_update_dff$$serverUnvalidated value=false_dkjfjLr type=hidden name=_fwkActBtnName_contactDff_update_dff$$serverUnvalidated><INPUT id=_fwkActBtnName_Remove_deleteAddrForCont$$serverUnvalidated value=falseEIFjCccw type=hidden name=_fwkActBtnName_Remove_deleteAddrForCont$$serverUnvalidated><INPUT id=AddrforContAdvTable$$unvalidated value=falseOYfqDP2A type=hidden name=AddrforContAdvTable$$unvalidated><INPUT id=AddrforContAdvTable$$serverUnvalidated value=falserdL1gs89 type=hidden name=AddrforContAdvTable$$serverUnvalidated><INPUT id=openPopupSourceId value=xp8eW36W type=hidden name=openPopupSourceId><INPUT id=cancelBtn$$unvalidated value=truehcW0H1Lc type=hidden name=cancelBtn$$unvalidated><INPUT id=cancelBtn$$serverUnvalidated value=trueAC8vVuui type=hidden name=cancelBtn$$serverUnvalidated><INPUT id=cancelBtn$$processFormDataCalled value=truejunaxRIx type=hidden name=cancelBtn$$processFormDataCalled><INPUT id=applyBtn$$unvalidated value=falseQ141txM1 type=hidden name=applyBtn$$unvalidated><INPUT id=applyBtn$$serverUnvalidated value=falsejyO3JRsK type=hidden name=applyBtn$$serverUnvalidated><INPUT id=applyBtn$$processFormDataCalled value=truezpRGlAyV type=hidden name=applyBtn$$processFormDataCalled><INPUT id=_pkByrSuppAM.PosAddContactVOUserName value={!!nullT6M3qYN4 type=hidden name=_pkByrSuppAM.PosAddContactVOUserName><INPUT id=FORM_MAC_LIST value=evtSrcRowIdx^_FORM^cancelBtn$$serverUnvalidated^serverValidate^cancelBtn$$processFormDataCalled^lovAutoClearHFAddrName^lovAutoClearHFFirstNameLov^applyBtn$$processFormDataCalled^_pkByrSuppAM.PosAddContactVOUserName^_fwkActBtnName_CreateUserAccount_createAcctChange$$serverUnvalidated^SuppTableRN$$serverUnvalidated^_AM_TX_ID_FIELD^ModifyContBtn$$processFormDataCalled^ModifyContBtn$$serverUnvalidated^lovCriteriaHiddenFieldAddrName^evtSrcRowId^SiteRestrictionTableRN$$unvalidated^_fwkAbsolutePageName^SuppTableRN$$unvalidated^applyBtn$$serverUnvalidated^_fwkActBtnName_contactDff_update_dff$$serverUnvalidated^ModifySitesBtn$$serverUnvalidated^SiteRestrictionTableRN$$serverUnvalidated^cancelBtn$$unvalidated^ModifySitesBtn$$processFormDataCalled^_FORM_SUBMIT_BUTTON^_fwkActBtnName_Remove_deleteAddrForCont$$serverUnvalidated^ModifyContBtn$$unvalidated^AddrforContAdvTable$$serverUnvalidated^applyBtn$$unvalidated^ContTitle^_FORMEVENT^RespTable$$unvalidated^lovAutoClearHFsuppName^PartyId^RespTable$$serverUnvalidated^BASE_FORM_NAME^_fwkActBtnName_Email_updateEmail$$serverUnvalidated^ContRestTableRN$$unvalidated^lovAutoClearHFLastNameLov^ModifySitesBtn$$unvalidated^openPopupSourceId^AddrforContAdvTable$$unvalidated^ContRestTableRN$$serverUnvalidated***size;T^value;T@@@FORM_MAC_LIST***@@@ContactPartyId^CreateUserAccount^InactiveDate^FaxNo^lovOnClickJSHiddenFieldAddrName^Department^partialTargets^lovPassiveCriteriaHFAddrName^MiddleName^PhAreaCode^AltAreaCode^lovOnClickJSExecutedHiddenFieldAddrName^lovJSHiddenFieldAddrName^Url^lovTableHiddenFieldAddrName^AddrforContAdvTable:length^suppPartyId^LastName^AltPhoneNumber^PhExtn^source^FirstName^suppVendorId^event^FaxAreaCode^PhNumber^AltContactName^direction:AddrforContAdvTable^FORM_MAC_LIST^Email^JobTitleXns5W1e03fkMOtFeRRS4uA.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=source><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=size>
+<SCRIPT>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","source","partialTargets","partial","value","state","size"];</SCRIPT>
+
+<SCRIPT>var _DefaultFormName_Validations=['new Utf8Format(150).validate(%value%)','new Utf8Format(60).validate(%value%)','_isEmpty(%value%)','new Utf8Format(240).validate(%value%)','new Utf8Format(2000).validate(%value%)','new Utf8Format(10).validate(%value%)','new Utf8Format(40).validate(%value%)','new Utf8Format(20).validate(%value%)','new SimpleDateFormat([\\'dd-MMM-yyyy HH:mm:ss\\',\\'dd-MMM-yyyy\\']).validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"FirstName",0,1,1,"MiddleName",0,1,0,"LastName",0,1,2,"LastName",1,0,3,"AltContactName",0,1,4,"Email",0,1,4,"Url",0,1,5,"PhAreaCode",0,1,6,"PhNumber",0,1,7,"PhExtn",0,1,5,"AltAreaCode",0,1,6,"AltPhoneNumber",0,1,5,"FaxAreaCode",0,1,6,"FaxNo",0,1,8,"InactiveDate",2,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'FirstName':'First\\x20Name','MiddleName':'Middle\\x20Name','LastName':'Last\\x20Name','AltContactName':'Alternate\\x20Name','Email':'Email\\x20Address','Url':'Url','PhAreaCode':'Phone\\x20Area\\x20Code','PhNumber':'Phone\\x20Number','PhExtn':'Phone\\x20Extension','AltAreaCode':'Alternate\\x20Phone\\x20Area\\x20Code','AltPhoneNumber':'Alternate\\x20Phone\\x20Number','FaxAreaCode':'Fax\\x20Area\\x20Code','FaxNo':'Fax\\x20Number','InactiveDate':'Inactive\\x20Date'};var _DefaultFormName_Patterns={'InactiveDate':'dd-MMM-yyyy HH:mm:ss'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is too long.','A value must be entered for "%label%".','Value "%value%" in "%label%" is not a date and time formatted as "%pattern%".:::::Value "%value%" in "%label%" is not a valid time due to Day Light Savings Time.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<SCRIPT id=OaFocusJavascriptFunc_AddrforContAdvTable language=javascript>function _setFocusAfterAddRows_AddrforContAdvTable(tableName, childName) { var proxy = new TableProxy(tableName); var tableLength = proxy.length; var myElement = proxy.getFormElement(childName, tableLength - 1); myElement.focus(); }</SCRIPT>
+
+<DIV style="Z-INDEX: 50; VISIBILITY: hidden" id=LLAOutput>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE id=lovSuggestTable border=1 cellSpacing=0 cellPadding=2 width="100%"></TABLE></DIV></TD>
+<TD class=OraRightShadowBg vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG align=top src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=center align=left>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR class=OraBottomShadowBg>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG align=left src="/OA_MEDIA/btmshdw.gif" width=5 height=13></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 717px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=true;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpint.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) -->
+<DIV style="Z-INDEX: 45; POSITION: absolute; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: transparent; MARGIN: 0pt; DISPLAY: none; BORDER-COLLAPSE: separate; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none" id=OpaqueDiv:Reorder></DIV></BODY></HTML>

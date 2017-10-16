@@ -1,0 +1,24 @@
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>UMPS JS frame</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<SCRIPT type=text/javascript>
+		try {
+				var rtLib = parent.parent.umps_config["enableRTLib"];
+				var umpsUrl = parent.parent.umps_config["umpsUrl"];
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				var umpsWidgetPath = (rtLib)?"RealTimeEventLib_"+Math.round(parent.parent.umps_config["sfdcVersion"]):parent.parent.umps_config["umpsWidgetPath"];
+				var sessionId = (parent.parent.umps_config["randomMask"] && !parent.parent.umps_config["popOut"])?parent.parent.Sfdc.String.decryptXOR(parent.parent.umps_config["xoredSessionId"], parent.parent.umps_config["randomMask"]):parent.parent.umps_config["sessionId"]; 
+				script.src = umpsUrl + '/umps/'+umpsWidgetPath+'/js/sfdc_umps_script.js?cflag=' + sessionId;
+				document.getElementsByTagName("head")[0].appendChild(script);
+		}catch(e){}
+	</SCRIPT>
+
+<SCRIPT type=text/javascript src="https://umps1-c2-phx.salesforce.com/umps/UMPSWidget_184/js/sfdc_umps_script.js?cflag=00DQ000000EeLQg!ARUAQIke_i9Vri2VtmgNZQxMuwZcyDJboQ8ynF3a4MTeVyctSEat27_t9JFFQIwmoXlo0sfJlyTk8mJMoVRDZ0XGAENkOSxE"></SCRIPT>
+
+<SCRIPT type=text/javascript src="https://umps1-c2-phx.salesforce.com/umps/UMPSWidget_184/js/jiffy.js?cflag=1"></SCRIPT>
+
+<SCRIPT type=text/javascript src="https://umps1-c2-phx.salesforce.com/umps/UMPSWidget_184/js/dist/umps-min.js?cflag=184.36"></SCRIPT>
+
+<SCRIPT type=text/javascript src="https://umps1-c2-phx.salesforce.com/umps/UMPSWidget_184/js/locales/en_US.js?cflag=184.36"></SCRIPT>
+</HEAD>
+<BODY><IFRAME id=api_iframe src="https://2.umps1-c2-phx.salesforce.com/umps/UMPSWidget_184/_js.html?cflag=184.36&amp;order=2&amp;parentUrl=https://cs3.salesforce.com&amp;connectUrl=https://cs3.salesforce.com" name=api_iframe frameborder="0"></IFRAME><IFRAME id=api_iframe_dummy src="https://0.umps1-c2-phx.salesforce.com/umps/UMPSWidget_184/_js.html?cflag=184.36&amp;order=2&amp;parentUrl=https://cs3.salesforce.com&amp;connectUrl=https://cs3.salesforce.com" name=api_iframe_dummy frameborder="0"></IFRAME></BODY></HTML>

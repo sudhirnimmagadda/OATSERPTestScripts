@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Library-Class: lib.Yahoo.EBS_Reusable.Web_Reusable_Methods
+

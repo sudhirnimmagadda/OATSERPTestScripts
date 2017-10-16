@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model _object_hashcode_="21322806">
+	<element type="oracle.oats.scripting.models.RecordedElement" id="1" _field_name_="root" _object_hashcode_="12834259">
+		<java.util.ArrayList _field_name_="problems" _object_hashcode_="26848183"/>
+		<java.util.HashMap _field_name_="attrs" _object_hashcode_="30967413"/>
+		<java.util.ArrayList _field_name_="children" _object_hashcode_="6519195"/>
+		
+		</element>
+	
+	</model>

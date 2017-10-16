@@ -1,0 +1,8 @@
+<HTML dir=ltr lang=en-US><HEAD><TITLE>Search and Select List of Values</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT language=javascript>document.onkeydown=_noReload;var _blockReload=1;</SCRIPT>
+</HEAD><FRAMESET title=Content frameSpacing=0 border=0 onunload=_checkUnload(event) frameBorder=0 onload="window.document.title=window.frames[0].document.title; _sizeWin(window.frames[0],0,25,{W:750,H:550})" rows=100%,*><FRAME title=Content noResize marginHeight=0 longDesc=# src="/OA_HTML/OA.jsp?region=/oracle/apps/iby/lov/webui/ExtBankBranchesLovRN&amp;regionCode=BranchNameSelect&amp;regionAppId=673&amp;lovBaseItemName=BranchNameSelect&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=208335856&amp;label=Branch%20Name&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.iby.fundcapture.setup.components.server.ExtBankAccountsAM&amp;amUsageMode=1&amp;lovMainCriteria=BankBranchName&amp;Criteria=BranchNameSelect.BankBranchName&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/iby/fundcapture/setup/components/webui/CreateExtBankAcctPG.BranchNameSelect_/oracle/apps/iby/lov/webui/ExtBankBranchesLovRN&amp;baseCompMode=11.5.10&amp;event=lovFilter&amp;source=BranchNameSelect&amp;searchText=&amp;oapc=29&amp;configName=OAConfig&amp;contextURI=/OA_HTML&amp;enc=UTF-8&amp;oas=7vK5vv03GH8zp0RK-sSn0Q.." frameBorder=0 marginWidth=5><NOFRAMES></NOFRAMES></FRAMESET></HTML>

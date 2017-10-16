@@ -1,0 +1,407 @@
+<HTML class=" ext-strict" xmlns:ui="http://www.salesforce.com/ui/accent/sfdccmp/ui" xmlns:config="http://www.salesforce.com/ui/accent/sfdccmp/ui" xmlns:facet="http://www.salesforce.com/ui/accent/sfdccmp/ui" xmlns:data="http://www.salesforce.com/ui/accent/sfdccmp/data" xmlns:chatter="http://www.salesforce.com/ui/accent/sfdccmp/chatter" xmlns:sfdc="http://www.salesforce.com/ui/accent/sfdccmp/sfdc" xmlns:ui = "http://www.salesforce.com/ui/accent/sfdccmp/ui" xmlns:config = "http://www.salesforce.com/ui/accent/sfdccmp/ui" xmlns:facet = "http://www.salesforce.com/ui/accent/sfdccmp/ui" xmlns:data = "http://www.salesforce.com/ui/accent/sfdccmp/data" xmlns:chatter = "http://www.salesforce.com/ui/accent/sfdccmp/chatter" xmlns:sfdc = "http://www.salesforce.com/ui/accent/sfdccmp/sfdc"><HEAD><TITLE>Salesforce - Enterprise Edition</TITLE>
+<SCRIPT type=text/javascript src="/static/111213/js/perf/stub.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript?rel=1506383177000"></SCRIPT>
+<LINK class=component rel=stylesheet type=text/css href="/faces/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/table.xcss/DATB/eAEz2rRkV-jyGdIAEoQD8g__">
+<SCRIPT type=text/javascript src="/jslibrary/1501092696000/ui-sfdc-javascript-impl/SfdcCore.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/EXT/ext-3.2.2/ext.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/jslibrary/1504299188000/sfdc/main.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/jslibrary/jslabels/1506384222000/en_US.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/jslibrary/1500591790000/sfdc/Chatter.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/jslibrary/1500591790000/sfdc/ChatterDefer.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/jslibrary/1500591790000/sfdc/Zen.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/static/111213/js/picklist4.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="/jslibrary/1500591790000/sfdc/VFState.js"></SCRIPT>
+<LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1505427148000/Theme3/default/ie8/zen-componentsCompatible.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1505427148000/Theme3/default/ie8/elements.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1505427148000/Theme3/default/ie8/common.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1503968736000/Theme3/ie8/dStandard.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1503968736000/Theme3/00DQ000000EeLQg/005Q000000PpndU/ie8/dCustom0.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1505427148000/Theme3/default/ie8/extended.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1505427148000/Theme3/default/ie8/setup.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1505427148000/Theme3/default/ie8/chatterCore.css"><LINK class=user rel=stylesheet type=text/css href="/sCSS/41.0/sprites/1505427148000/Theme3/default/ie8/chatterExtended.css">
+<SCRIPT>window.sfdcPage = new ApexDetailPage();
+UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"Theme3","salesforceURL":"https://cs3.salesforce.com","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"admin@ahatis.com.pnctest","userId":"005Q000000PpndU","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"(?:[^.]+).cs3.visual.force.com","auraDomain":"cs3.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"","isDefaultNetwork":true,"labelLastModified":"1506384222000","today":"9/26/2017 5:05 PM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":true},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":true},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":true},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":true},{"index":226,"name":"ShowDevContextMenu","value":true},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":true},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":true},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":true},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":true},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":true},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var MOTIF_KEY='Custom22';</SCRIPT>
+<LINK rel="shortcut icon" href="https://cs3.salesforce.com/favicon.ico">
+<SCRIPT src="/jslibrary/1500591790000/sfdc/Security.js"></SCRIPT>
+
+<SCRIPT>ClientHash.prototype.needsClientHash('sid_Client','000000PpndU000000EeLQg','209.131.62.124','/servlet/servlet.ClientHashValidator?ResponseRequestedURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM');</SCRIPT>
+</HEAD>
+<BODY class="hasMotif Custom22Tab  sfdcBody brandQuaternaryBgr  ext-ie ext-ie8" onfocus=if(this.bodyOnFocus)bodyOnFocus(); onunload=if(this.bodyOnUnload)bodyOnUnload(); onload=if(this.bodyOnLoad)bodyOnLoad(); onbeforeunload="if(this.bodyOnBeforeUnload){var s=bodyOnBeforeUnload();if(s)return s;}"><!-- Main Body Starts Here -->
+<FORM id=sessiontimeout onsubmit="if (window.ffInAlert) { return false; }" method=post name=sessiontimeout><INPUT id=continueButton value="Continue Working" type=hidden name=continueButton><INPUT id=doNotTimeoutLocation value=/page/timeoutrefresh.jsp type=hidden name=doNotTimeoutLocation><INPUT id=doTimeoutLocation value=https://test.salesforce.com/?ec=301&amp;startURL=https%3A%2F%2Fcttpm2012.cs3.visual.force.com%2Fpage%2Ftimeoutrefresh.jsp&amp;stbdtimeout=1 type=hidden name=doTimeoutLocation><INPUT id=logoutButton value=Logout type=hidden name=logoutButton><INPUT id=timeoutText value="For security reasons, your salesforce.com session is about to time out.<br><br>What would you like to do?" type=hidden name=timeoutText></FORM>
+<SCRIPT>var secondsLeftValue=7177,secondsPopupValue=7147,lastPageActivityTime=(new Date).getTime(),forceLogout=false;function startSessionTimer(){schedulePopup(7177,7147)}function schedulePopup(a,b){null!=timeoutUniqueId&&clearTimeout(timeoutUniqueId);forceLogout&&null!=redirectUniqueId&&clearTimeout(redirectUniqueId);if (forceLogout) {redirectUniqueId=setTimeout(logout,1E3*a);}timeoutUniqueId=setTimeout(alertTimeout,1E3*b)}function logout(){(forceLogout && "function"==typeof getRTimeout)?getRTimeout():doLogout()} function doLogout(){window.location="https://cs3.salesforce.com/secur/logout.jsp"}var alertWindow=null,parentWindow=null,timeoutUniqueId=null;redirectUniqueId=null;function updateSessionTimeouts(a,b){"undefined"!=typeof a&&(secondsLeftValue=a);"undefined"!=typeof b&&(secondsPopupValue=b);lastPageActivityTime=(new Date).getTime();schedulePopup(secondsLeftValue,secondsPopupValue);if(window.Sfdc&&Sfdc.require&&"undefined"!=typeof SFDCSessionVars){Sfdc.require("SfdcApp.SfdcSession",function(){SfdcApp.SfdcSession.updateExpires({oid:SFDCSessionVars.oid,uid:UserContext.userId,expire:lastPageActivityTime+(secondsLeftValue*1000)})});}}function updateRedirectTimeouts(a){"undefined"!=typeof a&&(secondsLeftValue=a);null!=redirectUniqueId&&clearTimeout(redirectUniqueId);redirectUniqueId=setTimeout(logout,1E3*(secondsLeftValue));}function alertTimeout(){"function"==typeof getSTimeout?getSTimeout():doAlertTimeout()}function doAlertTimeout(){timeoutUniqueId=null;alertWindow=window.open("/page/timeoutwarn.jsp","_sTocttpm2012_cs3_visual_force_com","width=360,height=280,location=no,dependent=no,resizable=yes,toolbar=no,status=no,directories=no,menubar=no,scrollbars=yes",!1);parentWindow=window;!alertWindow&&forceLogout&&setTimeout(parentWindow.doLogout,25E3);document.body.onfocus=alertFocus}function checkSessionTimeout(){var a=(new Date).getTime();5>=secondsLeftValue-(a-lastPageActivityTime)/1E3?(a=window.location.pathname+window.location.hash,window.location.search&&1<window.location.search.length&&(a+=window.location.search),a="/?ec=302&startURL="+encodeURIComponent(a),top.location=a):(lastPageActivityTime=a,startSessionTimer())}function alertFocus(){alertWindow&&(alertWindow.closed?(alertWindow=null,document.body.onfocus=closePopup):alertWindow.focus())}</SCRIPT>
+<A class="navSkipLink zen-skipLink zen-assistiveText" href="#skiplink">Skip to main content</A>
+<DIV id=contentWrapper>
+<DIV id=AppBodyHeader class=bPageHeader>
+<TABLE id=phHeader class="phHeader phHeaderCustomLogo brandZeronaryBgr phTabSetCustomLogo" border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=left>
+<DIV style="HEIGHT: 55px"><IMG id=phHeaderLogoImage title="" alt="" src="https://c.cs3.content.force.com/servlet/servlet.ImageServer?id=015Q0000000V18w&amp;oid=00DQ000000EeLQg&amp;lastMod=1500037769000" width=158 onload="javascript:scaleImage(this, 55,300);this.scaled=true;" height=55 scaled="true"></DIV><IMG class=spacer title="" alt="" src="/img/s.gif" width=1 height=1></TD>
+<TD class=searchCell>
+<FORM id=phSearchForm onsubmit="if (window.ffInAlert) { return false; }" method=get name=sbsearch action=/_ui/search/ui/UnifiedSearchResults><INPUT id=searchType value=2 type=hidden name=searchType><INPUT id=sen0 value=a02 type=hidden name=sen><INPUT id=sen1 value=a01 type=hidden name=sen><INPUT id=sen2 value=a04 type=hidden name=sen><INPUT id=sen3 value=a03 type=hidden name=sen><INPUT id=sen4 value=a06 type=hidden name=sen><INPUT id=sen5 value=a05 type=hidden name=sen><INPUT id=sen6 value=a07 type=hidden name=sen><INPUT id=sen7 value=a09 type=hidden name=sen><INPUT id=sen8 value=00O type=hidden name=sen><INPUT id=sen9 value=001 type=hidden name=sen><INPUT id=sen10 value=a0A type=hidden name=sen><INPUT id=sen11 value=005 type=hidden name=sen><INPUT id=sen12 value=a0C type=hidden name=sen>
+<DIV id=phSearchContainer class=headerSearchContainer>
+<DIV class=headerSearchLeftRoundedCorner>
+<DIV class=searchBoxClearContainer><INPUT aria-haspopup=true aria-expanded=false id=phSearchInput title=Search... role=combobox maxLength=100 size=20 type=text name=str autocomplete="off" placeholder="Search..." aria-autocomplete="list"><A style="VISIBILITY: hidden" id=phSearchClearButton class=headerSearchClearButton title="Clear search terms" href="javascript: void(0);" name=phSearchClearButton></A></DIV>
+<DIV id=searchButtonContainer class=headerSearchRightRoundedCorner><INPUT id=phSearchButton value=Search type=button></DIV></DIV></DIV></FORM></TD>
+<TD class="right vtop">
+<DIV class=multiforce>
+<DIV class=messages>
+<DIV class=msgContent><SPAN class="pageMsg textOnly normalImportance"><SPAN class="subMsg normalImportance">Sandbox: </SPAN><SPAN class="subMsg normalImportance">pnctest</SPAN></SPAN></DIV></DIV>
+<DIV class=navLinks>
+<DIV class=linkElements>
+<DIV id=userNav class="menuButton menuButtonRounded" title="User menu for ahatis adm"><DIV id=userNavButton class=menuButtonButton><SPAN id=userNavLabel class=menuButtonLabel tabIndex=0>ahatis adm</SPAN><DIV id=userNav-arrow class="userNav-buttonArrow mbrButtonArrow"></DIV><DIV class="userNavButton-tr mbrButton-tr mbrButton-rc"></DIV><DIV class="userNavButton-tl mbrButton-tl mbrButton-rc"></DIV><DIV class="userNavButton-btm mbrButton-btm mbrButton-rc"></DIV></DIV>
+<DIV id=userNavMenu class=menuButtonMenu>
+<DIV class="userNavMenu-tr mbrMenu-tr mbrMenu-rc"></DIV>
+<DIV class="userNavMenu-tl mbrMenu-tl mbrMenu-rc"></DIV>
+<DIV id=userNav-menuItems class=mbrMenuItems><A class="menuButtonMenuLink firstMenuItem" title="My Profile" href="https://cs3.salesforce.com/_ui/core/userprofile/UserProfilePage">My Profile</A><A class=menuButtonMenuLink title="My Settings" href="https://cs3.salesforce.com/ui/setup/Setup?setupid=PersonalSetup">My Settings</A><A class="debugLogLink menuButtonMenuLink" title="Developer Console (New Window)" href="javascript:openPopupFocus%28%27https%3A%2F%2Fcs3.salesforce.com%2F_ui%2Fcommon%2Fapex%2Fdebug%2FApexCSIPage%27%2C%20%27DeveloperConsole%27%2C%201000%2C%20800%2C%20%27width%3D1000%2Cheight%3D800%2Cresizable%3Dyes%2Ctoolbar%3Dno%2Cstatus%3Dno%2Cscrollbars%3Dyes%2Cmenubar%3Dno%2Cdirectories%3Dyes%2Clocation%3Dno%2Cdependant%3Dno%27%2C%20false%2C%20false%29%3B">Developer Console</A><A class=menuButtonMenuLink title=Logout href="https://cs3.salesforce.com/secur/logout.jsp">Logout</A></DIV>
+<DIV class="userNavMenu-br mbrMenu-br mbrMenu-rc"></DIV>
+<DIV class="userNavMenu-bc mbrMenu-bc"></DIV>
+<DIV class="userNavMenu-bl mbrMenu-bl mbrMenu-rc"></DIV></DIV></DIV>
+<SCRIPT>new MenuButtonRounded('userNav', false,16);</SCRIPT>
+<A id=setupLink title=Setup href="https://cs3.salesforce.com/setup/forcecomHomepage.apexp?setupid=ForceCom&amp;retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM">Setup</A><A class=brandZeronaryFgr title="Help &amp; Training (New Window)" href="javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?language=en_US&amp;release=210.6.9&amp;instance=CS3%27, %27Help%27, 1024, 768, %27width=1024,height=768,resizable=yes,toolbar=yes,status=yes,scrollbars=yes,menubar=yes,directories=no,location=yes,dependant=no%27, false, false);">Help &amp; Training</A></DIV></DIV>
+<DIV id=toolbar><!-- TabSet drop down -->
+<DIV id=tsid class="menuButton menuButtonRounded appSwitcher" title="Force.com App Menu"><DIV id=tsidButton class=menuButtonButton><SPAN id=tsidLabel class=menuButtonLabel tabIndex=0>Trade Promotion Management</SPAN><DIV id=tsid-arrow class="tsid-buttonArrow mbrButtonArrow"></DIV><DIV class="tsidButton-tr mbrButton-tr mbrButton-rc"></DIV><DIV class="tsidButton-tl mbrButton-tl mbrButton-rc"></DIV><DIV class="tsidButton-btm mbrButton-btm mbrButton-rc"></DIV></DIV>
+<DIV id=tsidMenu class=menuButtonMenu>
+<DIV class="tsidMenu-tr mbrMenu-tr mbrMenu-rc"></DIV>
+<DIV class="tsidMenu-tl mbrMenu-tl mbrMenu-rc"></DIV>
+<DIV id=tsid-menuItems class=mbrMenuItems><A class="menuButtonMenuLink firstMenuItem" href="https://cs3.salesforce.com/home/home.jsp?tsid=02uF0000000mxnL">Sales</A><A class=menuButtonMenuLink href="https://cs3.salesforce.com/home/home.jsp?tsid=02uF0000000mxnR">Service</A><A class=menuButtonMenuLink href="https://cs3.salesforce.com/home/home.jsp?tsid=02uF0000000mxnS">Marketing</A><A class=menuButtonMenuLink href="https://cs3.salesforce.com/home/home.jsp?tsid=02uF0000000mxnT">Salesforce Chatter</A><A class=menuButtonMenuLink href="https://cs3.salesforce.com/app/mgmt/applauncher/appLauncher.apexp?tsid=02uF0000000W4yd">App Launcher</A>
+<HR class=menuSeparator>
+<A class=menuButtonMenuLink href="https://appexchange.salesforce.com" target=_blank>AppExchange</A><A class=menuButtonMenuLink href="http://developer.force.com" target=_blank>Developer Community</A><A class=menuButtonMenuLink href="https://success.salesforce.com" target=_blank>Success Community</A></DIV>
+<DIV class="tsidMenu-br mbrMenu-br mbrMenu-rc"></DIV>
+<DIV class="tsidMenu-bc mbrMenu-bc"></DIV>
+<DIV class="tsidMenu-bl mbrMenu-bl mbrMenu-rc"></DIV></DIV></DIV>
+<SCRIPT>new MenuButtonRounded('tsid', false,16);</SCRIPT>
+</DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV class=zen>
+<DIV id=tabContainer class="brdPalette zen-headerBottom zen-hasTabOrganizer" role=navigation>
+<DIV class="zen-corner zen-cornerLeft"></DIV>
+<DIV class="zen-corner zen-cornerRight"></DIV>
+<H1 class=zen-assistiveText>Tab Navigation</H1><NAV>
+<UL id=tabBar class="zen-inlineList zen-tabMenu">
+<LI id=home_Tab class=zen-firstItem><A title="Home Tab" href="https://cs3.salesforce.com/home/home.jsp">Home</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=Chatter_Tab><A title="Chatter Tab" href="https://cs3.salesforce.com/_ui/core/chatter/ui/ChatterPage">Chatter</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=Account_Tab><A title="Accounts Tab" href="https://cs3.salesforce.com/001/o">Accounts</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=Contact_Tab><A title="Contacts Tab" href="https://cs3.salesforce.com/003/o">Contacts</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=01rF0000000W9nc_Tab class="zen-active brandPrimaryBgr wt-Trade-Promotion-Management primaryPalette"><A class=brandPrimaryFgr title="Trade Promotion Management Tab - Selected" href="https://cs3.salesforce.com/servlet/servlet.Integration?lid=01rF0000000W9nc&amp;ic=1&amp;linkToken=VmpFPSxNakF4Tnkwd09TMHpNRlF3TURvd05UbzFNUzQ0TURCYSxTdVpvZWp3N2Z6dkZHRFBlcWE2M0o1LFlXWmtNR0po">Trade Promotion Management</A>
+<DIV class=zen-tabCornerRight></DIV><SPAN class=zen-assistiveText>(Currently Selected)</SPAN></LI>
+<LI id=01rQ00000009X6p_Tab class=wt-Promotion-Calendar><A title="Promotion Calendar Tab" href="https://cs3.salesforce.com/servlet/servlet.Integration?lid=01rQ00000009X6p&amp;ic=1&amp;linkToken=VmpFPSxNakF4Tnkwd09TMHpNRlF3TURvd05UbzFNUzQ0TURCYSxTdVpvZWp3N2Z6dkZHRFBlcWE2M0o1LFlXWmtNR0po">Promotion Calendar</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=01rF0000000W9nT_Tab class=wt-Business_Plan><A title="Business Plans Tab" href="https://cs3.salesforce.com/a05/o">Business Plans</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=report_Tab><A title="Reports Tab" href="https://cs3.salesforce.com/00O/o">Reports</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=Dashboard_Tab><A title="Dashboards Tab" href="https://cs3.salesforce.com/01Z/o">Dashboards</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=01rF0000000W9nZ_Tab class=wt-Settlement><A title="Settlements Tab" href="https://cs3.salesforce.com/a0G/o">Settlements</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=01rF0000000W9na_Tab class=wt-TPM_Batch_Log><A title="TPM Batch Logs Tab" href="https://cs3.salesforce.com/a0H/o">TPM Batch Logs</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=01rQ0000000DeKv_Tab class=wt-LE-Lock><A title="LE Lock Tab" href="https://cs3.salesforce.com/servlet/servlet.Integration?lid=01rQ0000000DeKv&amp;ic=1&amp;linkToken=VmpFPSxNakF4Tnkwd09TMHpNRlF3TURvd05UbzFNUzQ0TURCYSxTdVpvZWp3N2Z6dkZHRFBlcWE2M0o1LFlXWmtNR0po">LE Lock</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=AllTab_Tab><A href="https://cs3.salesforce.com/home/showAllTabs.jsp">&nbsp;<IMG class=allTabsArrow title="All Tabs" alt="All Tabs" src="/img/s.gif">&nbsp;</A>
+<DIV class=zen-tabCornerRight></DIV></LI>
+<LI id=MoreTabs_Tab class="zen-moreTabs zen-notNeeded zen-lastItem" data-uidSfdc="18"><A id=zen-moreTabsAssistiveLink class=zen-assistiveLink title="More Tabs Menu (Closed)" href="javascript:void(0);" data-uidSfdc="19"><B></B></A>
+<UL id=MoreTabs_List></UL>
+<DIV class=zen-tabCornerRight></DIV></LI></UL></NAV></DIV></DIV></DIV>
+<DIV class="bodyDiv brdPalette brandPrimaryBrd">
+<TABLE id=bodyTable class=outer border=0 cellSpacing=0 cellPadding=0 width="100%"><!-- Start page content table -->
+<TBODY>
+<TR>
+<TD id=sidebarCell class=" sidebarCell sidebarCollapsible"><A id=handlebarContainer class="handlebarContainer zen" title="Click to Close Sidebar [Alt+S]" href="javascript:void(0);"><SPAN class=zen-assistiveText>Click to Close Sidebar</SPAN><SPAN id=pinIndicator class=indicator></SPAN><SPAN id=pinIndicator2 class=indicator></SPAN><SPAN id=handle class=pinBox>&nbsp;</SPAN></A>
+<DIV id=sidebarDiv class="collapsible sidebar">
+<DIV class="linksModule sidebarModule">
+<DIV class="sidebarModuleHeader brandPrimaryBgr">
+<H2 class=brandPrimaryFgr>Admin Links</H2></DIV>
+<DIV class=sidebarModuleBody>
+<UL>
+<LI><A href="https://cttpm2012.cs3.visual.force.com/apex/TPMBatchScheduler?id=005Q000000PpndU">TPM Batch Scheduler</A></LI>
+<LI><A href="https://cttpm2012.cs3.visual.force.com/apex/TPMBatchRunner?id=005Q000000PpndU">TPM Batch Runner</A></LI></UL></DIV></DIV>
+<DIV class="createNewModule sidebarModule">
+<DIV class="sidebarModuleBody sidebarModuleBodyNoHeader">
+<DIV id=createNew class=menuButton><DIV id=createNewButton class=menuButtonButton><SPAN id=createNewLabel class=menuButtonLabel tabIndex=0>Create New...</SPAN></DIV>
+<DIV id=createNewMenu class=menuButtonMenu><A class="menuButtonMenuLink firstMenuItem eventMru" href="https://cs3.salesforce.com/00U/e?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM"><IMG class=mruIcon title=Event alt=Event src="/img/s.gif">Event</A><A class="taskMru menuButtonMenuLink" href="https://cs3.salesforce.com/00T/e?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM"><IMG class=mruIcon title=Task alt=Task src="/img/s.gif">Task</A><A class="accountMru menuButtonMenuLink" href="https://cs3.salesforce.com/001/e?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM"><IMG class=mruIcon title=Account alt=Account src="/img/s.gif">Account</A><A class="contactMru menuButtonMenuLink" href="https://cs3.salesforce.com/003/e?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM"><IMG class=mruIcon title=Contact alt=Contact src="/img/s.gif">Contact</A><A class="Custom64Mru menuButtonMenuLink" href="https://cs3.salesforce.com/a05/e?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM"><IMG class=mruIcon title="Business Plan" alt="Business Plan" src="/img/s.gif">Business Plan</A><A class="reportMru menuButtonMenuLink" href="https://cs3.salesforce.com/reportbuilder/reportType.apexp"><IMG class=mruIcon title=Report alt=Report src="/img/s.gif">Report</A><A class="menuButtonMenuLink Custom90Mru" href="https://cs3.salesforce.com/a0G/e?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM"><IMG class=mruIcon title=Settlement alt=Settlement src="/img/s.gif">Settlement</A><A class="Custom18Mru menuButtonMenuLink" href="https://cs3.salesforce.com/a0H/e?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM"><IMG class=mruIcon title="TPM Batch Log" alt="TPM Batch Log" src="/img/s.gif">TPM Batch Log</A></DIV></DIV>
+<SCRIPT>new MenuButton('createNew', false);</SCRIPT>
+</DIV></DIV>
+<DIV class="recentItemModule sidebarModule">
+<DIV class="sidebarModuleHeader brandPrimaryBgr">
+<H2 class=brandPrimaryFgr>Recent Items</H2></DIV>
+<DIV class=sidebarModuleBody>
+<DIV id=urlQueryStr class=hidden data-urlquerystr="retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM&amp;isAjaxRequest=1&amp;renderMode=RETRO&amp;nocache=1506470751822&amp;hl=a02Q0000004ksLj%3A%2Ca02Q0000004ksH7%3A%2C001F0000018pDHt%3A%2Ca02Q0000004ksK6%3A%2Ca02Q0000004ksLh%3A%2Ca02Q0000004ksNd%3A%2Ca02Q0000004ksK4%3A%2Ca02Q0000004ksIk%3A%2Ca02Q0000004ksM0%3A%2Ca02Q0000004ksKN%3A%2C"></DIV>
+<DIV id=36 class="mruList individualPalette" data-uidSfdc="36" data-hovdata="dir=chatterHover-right">
+<DIV id=hoverItem37 class=accountBlock data-uidSfdc="37" data-hovid="001F0000018pDHt">
+<DIV id=mru001F0000018pDHt class=mruItem><A accessKey=1 class=accountMru title=[Alt+1] tabIndex=0 href="https://cs3.salesforce.com/001F0000018pDHt"><IMG class=mruIcon title="Account: Kroger" alt="Account: Kroger" src="/img/s.gif"><SPAN class=mruText>Kroger</SPAN></A></DIV></DIV>
+<DIV id=hoverItem38 class=Custom7Block data-uidSfdc="38" data-hovid="a02Q0000004ksNd">
+<DIV id=mrua02Q0000004ksNd class=mruItem><A accessKey=2 class=Custom7Mru title=[Alt+2] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksNd"><IMG class=mruIcon title="Base Plan: BP1673523" alt="Base Plan: BP1673523" src="/img/s.gif"><SPAN class=mruText>BP1673523</SPAN></A></DIV></DIV>
+<DIV id=hoverItem39 class=Custom7Block data-uidSfdc="39" data-hovid="a02Q0000004ksM0">
+<DIV id=mrua02Q0000004ksM0 class=mruItem><A accessKey=3 class=Custom7Mru title=[Alt+3] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksM0"><IMG class=mruIcon title="Base Plan: BP1673422" alt="Base Plan: BP1673422" src="/img/s.gif"><SPAN class=mruText>BP1673422</SPAN></A></DIV></DIV>
+<DIV id=hoverItem40 class=Custom7Block data-uidSfdc="40" data-hovid="a02Q0000004ksLj">
+<DIV id=mrua02Q0000004ksLj class=mruItem><A accessKey=4 class=Custom7Mru title=[Alt+4] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksLj"><IMG class=mruIcon title="Base Plan: BP1673405" alt="Base Plan: BP1673405" src="/img/s.gif"><SPAN class=mruText>BP1673405</SPAN></A></DIV></DIV>
+<DIV id=hoverItem41 class=Custom7Block data-uidSfdc="41" data-hovid="a02Q0000004ksLh">
+<DIV id=mrua02Q0000004ksLh class=mruItem><A accessKey=5 class=Custom7Mru title=[Alt+5] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksLh"><IMG class=mruIcon title="Base Plan: BP1673403" alt="Base Plan: BP1673403" src="/img/s.gif"><SPAN class=mruText>BP1673403</SPAN></A></DIV></DIV>
+<DIV id=hoverItem42 class=Custom7Block data-uidSfdc="42" data-hovid="a02Q0000004ksKN">
+<DIV id=mrua02Q0000004ksKN class=mruItem><A accessKey=6 class=Custom7Mru title=[Alt+6] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksKN"><IMG class=mruIcon title="Base Plan: BP1673321" alt="Base Plan: BP1673321" src="/img/s.gif"><SPAN class=mruText>BP1673321</SPAN></A></DIV></DIV>
+<DIV id=hoverItem43 class=Custom7Block data-uidSfdc="43" data-hovid="a02Q0000004ksK6">
+<DIV id=mrua02Q0000004ksK6 class=mruItem><A accessKey=7 class=Custom7Mru title=[Alt+7] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksK6"><IMG class=mruIcon title="Base Plan: BP1673304" alt="Base Plan: BP1673304" src="/img/s.gif"><SPAN class=mruText>BP1673304</SPAN></A></DIV></DIV>
+<DIV id=hoverItem44 class=Custom7Block data-uidSfdc="44" data-hovid="a02Q0000004ksK4">
+<DIV id=mrua02Q0000004ksK4 class=mruItem><A accessKey=8 class=Custom7Mru title=[Alt+8] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksK4"><IMG class=mruIcon title="Base Plan: BP1673302" alt="Base Plan: BP1673302" src="/img/s.gif"><SPAN class=mruText>BP1673302</SPAN></A></DIV></DIV>
+<DIV id=hoverItem45 class=Custom7Block data-uidSfdc="45" data-hovid="a02Q0000004ksIk">
+<DIV id=mrua02Q0000004ksIk class=mruItem><A accessKey=9 class=Custom7Mru title=[Alt+9] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksIk"><IMG class=mruIcon title="Base Plan: BP1673220" alt="Base Plan: BP1673220" src="/img/s.gif"><SPAN class=mruText>BP1673220</SPAN></A></DIV></DIV>
+<DIV id=hoverItem46 class=Custom7Block data-uidSfdc="46" data-hovid="a02Q0000004ksH7">
+<DIV id=mrua02Q0000004ksH7 class=mruItem><A accessKey=0 class=Custom7Mru title=[Alt+0] tabIndex=0 href="https://cs3.salesforce.com/a02Q0000004ksH7"><IMG class=mruIcon title="Base Plan: BP1673119" alt="Base Plan: BP1673119" src="/img/s.gif"><SPAN class=mruText>BP1673119</SPAN></A></DIV></DIV></DIV></DIV></DIV>
+<DIV class="linksModule sidebarModule">
+<DIV class="sidebarModuleHeader brandPrimaryBgr">
+<H2 class=brandPrimaryFgr>Custom Links</H2></DIV>
+<DIV class=sidebarModuleBody>
+<UL></UL></DIV></DIV>
+<DIV class="messageModule sidebarModule">
+<DIV class="sidebarModuleHeader brandPrimaryBgr">
+<H2 class=brandPrimaryFgr>Messages and Alerts</H2></DIV>
+<DIV class=sidebarModuleBody></DIV></DIV>
+<DIV class="recycleBinModule sidebarModule">
+<DIV class="sidebarModuleBody sidebarModuleBodyNoHeader"><A href="https://cs3.salesforce.com/search/UndeletePage"><IMG class=recycleIcon title="Recycle Bin" alt="Recycle Bin" src="/img/s.gif"><SPAN class=recycleText>Recycle Bin</SPAN></A></DIV></DIV></DIV></TD>
+<TD id=bodyCell class=oRight><!-- Start page content --><A name=skiplink><IMG class="skiplink skipLinkTargetInner zen-skipLinkTarget" title="Content Starts Here" alt="Content Starts Here" src="/img/s.gif" width=1 height=1></A><SPAN id=thePage></SPAN> 
+<STYLE>
+        .btn {
+            text-decoration:none;
+            line-height:125%;
+            padding:0px 0px 5px 0px;
+        }
+		.c1 {width:125px}
+		.c2 {width:100%}
+	</STYLE>
+
+<DIV class=bPageTitle>
+<DIV class="ptBody secondaryPalette brandSecondaryBrd">
+<DIV class=content><IMG class=pageTitleIcon src="/img/s.gif">
+<H1 class=pageType>Account</H1><SPAN class=titleSeparatingColon>:</SPAN>
+<H2 class=pageDescription>Kroger</H2>
+<DIV class=blank></DIV></DIV></DIV></DIV><SPAN id=thePage:feedaccount>
+<SCRIPT>chatter.getToolbox().setToken('VmpFPSxNakF4Tnkwd09TMHpNRlF3TURvd05UbzFNUzQ0TWpoYSxSWDZXVlU5T0RwSjhXdXh6Z3VMLUNvLE1XTm1NVEJr');</SCRIPT>
+<SPAN class=bPageTitle>
+<DIV id=section_header class=metadata>
+<DIV id=feedLinks class="feedLinks zen">
+<UL class=zen-inlineList>
+<LI>
+<DIV class=chatterShowHideFeed>
+<SCRIPT>chatter.getToolbox().setToken('VmpFPSxNakF4Tnkwd09TMHpNRlF3TURvd05UbzFNUzQ0TWpoYSxSWDZXVlU5T0RwSjhXdXh6Z3VMLUNvLE1XTm1NVEJr');</SCRIPT>
+<SPAN id=showFeedLink class=showFeedLink><A class=innerLink onclick="chatter.getFeed().toggle('{&quot;subjectId&quot;:&quot;001F0000018pDHt&quot;,&quot;feedType&quot;:&quot;ENTITY&quot;,&quot;writable&quot;:&quot;ReadWrite&quot;,&quot;numFeedItems&quot;:20,&quot;canSortFeed&quot;:true,&quot;sortByComments&quot;:true,&quot;showFeedTitle&quot;:false,&quot;isDropDownFiltersVisible&quot;:true,&quot;alwaysShowFullText&quot;:false,&quot;isShowMoreOfThis&quot;:false,&quot;isCompactFeed&quot;:false,&quot;isSingleFeedItemMode&quot;:false,&quot;feedfilter&quot;:&quot;all&quot;,&quot;keyprefix&quot;:&quot;&quot;}', false);" href="javascript:%20void%280%29%3B"><IMG title="Show Feed" alt="Show Feed" src="/img/s.gif"><SPAN class=linkText>Show Feed</SPAN></A></SPAN><SPAN style="DISPLAY: none" id=hideFeedLink class=hideFeedLink><A class=innerLink onclick="chatter.getFeed().toggle('{&quot;subjectId&quot;:&quot;001F0000018pDHt&quot;,&quot;feedType&quot;:&quot;ENTITY&quot;,&quot;writable&quot;:&quot;ReadWrite&quot;,&quot;numFeedItems&quot;:20,&quot;canSortFeed&quot;:true,&quot;sortByComments&quot;:true,&quot;showFeedTitle&quot;:false,&quot;isDropDownFiltersVisible&quot;:true,&quot;alwaysShowFullText&quot;:false,&quot;isShowMoreOfThis&quot;:false,&quot;isCompactFeed&quot;:false,&quot;isSingleFeedItemMode&quot;:false,&quot;feedfilter&quot;:&quot;all&quot;,&quot;keyprefix&quot;:&quot;&quot;}', false);" href="javascript:%20void%280%29%3B"><IMG title="Hide Feed" alt="Hide Feed" src="/img/s.gif"><SPAN class=linkText>Hide Feed</SPAN></A></SPAN></DIV></LI></UL></DIV>
+<DIV class=clearingBox></DIV></DIV></SPAN>
+<DIV id=chatterfeedshell class=chatterfeedshell></DIV>
+<SCRIPT>try { chatter.getFeed().initializeFeedFilterReset();} catch(e) {}</SCRIPT>
+</SPAN>
+<FORM id=thePage:tpmform encType=application/x-www-form-urlencoded method=post name=thePage:tpmform action=https://cttpm2012.cs3.visual.force.com/apex/TPM?id=001F0000018pDHtIAM><INPUT value=thePage:tpmform type=hidden name=thePage:tpmform> <SPAN id=thePage:tpmform:accountpanel>
+<DIV class=apexp>
+<DIV id=thePage:tpmform:j_id4 class="bPageBlock brandSecondaryBrd apexDefaultPageBlock secondaryPalette">
+<DIV class=pbHeader>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=pbTitle>
+<H2 class=mainTitle>Account</H2></TD>
+<TD id=thePage:tpmform:j_id4:planbuttons class="pbButton "><INPUT id=thePage:tpmform:j_id4:planbuttons:j_id5 class=btn onclick="A4J.AJAX.Submit('thePage:tpmform',event,{'similarityGroupingId':'thePage:tpmform:j_id4:planbuttons:j_id5','parameters':{'thePage:tpmform:j_id4:planbuttons:j_id5':'thePage:tpmform:j_id4:planbuttons:j_id5'} } );return false;" value="Go to Settlements" type=button name=thePage:tpmform:j_id4:planbuttons:j_id5></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT>function twistSection(twisty, sectionId) {
+   var parentDiv = twisty;
+   while (parentDiv.tagName != 'DIV') { parentDiv = parentDiv.parentNode; }
+   var div = parentDiv.nextSibling; 
+   var elemWasOn = false; 
+   if (div.style.display != 'none') { 
+       div.style.display = 'none'; 
+       twisty.className ='showListButton';
+       twisty.alt = twisty.title = 'Show Section - '+twisty.name;
+       elemWasOn = true; 
+   } else {
+       div.style.display = 'block'; 
+       twisty.className = 'hideListButton';
+       twisty.alt = twisty.title = 'Hide Section - '+twisty.name;
+   } 
+  return !elemWasOn;
+}
+var registeredSections = new Array();
+function registerTwistableSection(headerId, mainTableId) {
+   var obj = new Object();
+   obj.headerId = headerId;
+   obj.mainTableId = mainTableId;
+   registeredSections[registeredSections.length] = obj;
+}
+function twistAllSections(on) {
+   for (var i = 0; i < registeredSections.length; i++) {
+      var obj = registeredSections[i];
+      var img;
+      img = document.getElementById('img_' + obj.headerId);
+    if (on && 'showListButton' == img.className) {
+         twistSection(img, obj.headerId, obj.mainTableId);
+     } else if (!on && 'hideListButton' == img.className) {
+         twistSection(img, obj.headerId, obj.mainTableId);
+       }
+   }
+}
+function toggleSection(headerId, on){
+    var sectionHead = document.getElementById('head_'+headerId+'_thePage_tpmform_j_id4');
+    var body = sectionHead.nextSibling;
+    var disp = on ? 'block' : 'none';
+    sectionHead.style.display = disp;
+    body.style.display = disp;
+}
+function registerTwistableSections_thePage_tpmform_j_id4() {
+registerTwistableSection('thePage_tpmform_j_id4_j_id6', 'thePage_tpmform_j_id4');
+}
+registerTwistableSections_thePage_tpmform_j_id4();
+</SCRIPT>
+
+<DIV class=pbBody>
+<DIV id=thePage:tpmform:j_id4:j_id6>
+<DIV class=pbSubsection>
+<TABLE class=detailList border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TH class="labelCol vfLabelColTextWrap  first " scope=row>Account Owner</TH>
+<TD class="dataCol  first "><SPAN id=thePage:tpmform:j_id4:j_id6:j_id7><A onblur="LookupHoverDetail.getHover('lookup005Q000000Pprhkacc1').hide();" id=lookup005Q000000Pprhkacc1 onfocus="LookupHoverDetail.getHover('lookup005Q000000Pprhkacc1', '/005Q000000Pprhk/m?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM&amp;isAjaxRequest=1&amp;nocache=1506470751880').show();" onmouseover="LookupHoverDetail.getHover('lookup005Q000000Pprhkacc1', '/005Q000000Pprhk/m?retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM&amp;isAjaxRequest=1&amp;nocache=1506470751880').show();" onmouseout="LookupHoverDetail.getHover('lookup005Q000000Pprhkacc1').hide();" href="https://cs3.salesforce.com/005Q000000Pprhk">Paige Stageberg</A></SPAN></TD>
+<TH class="labelCol vfLabelColTextWrap  first " scope=row>Phone</TH>
+<TD class="dataCol  first "><SPAN id=thePage:tpmform:j_id4:j_id6:j_id8>&nbsp;</SPAN></TD></TR>
+<TR>
+<TH class="labelCol vfLabelColTextWrap  last " scope=row>Account Name</TH>
+<TD class="dataCol  last "><SPAN id=thePage:tpmform:j_id4:j_id6:j_id9>Kroger</SPAN></TD>
+<TH class="labelCol vfLabelColTextWrap  last " scope=row>Website</TH>
+<TD class="dataCol  last "><SPAN id=thePage:tpmform:j_id4:j_id6:j_id10>&nbsp;</SPAN></TD></TR></TBODY></TABLE></DIV></DIV></DIV>
+<DIV class="pbFooter secondaryPalette">
+<DIV class=bg></DIV></DIV></DIV></DIV><SPAN id=thePage:tpmform:mainmessages></SPAN>
+<TABLE style="VERTICAL-ALIGN: top" id=thePage:tpmform:plangrid>
+<TBODY>
+<TR>
+<TD class=c1>
+<DIV class=apexp>
+<DIV class=individualPalette>
+<DIV class=Custom64Block>
+<DIV id=thePage:tpmform:j_id36 class="bPageBlock brandSecondaryBrd apexDefaultPageBlock secondaryPalette">
+<DIV class=pbHeader>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=pbTitle>
+<H2 class=mainTitle>Business Plans</H2></TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></DIV>
+<DIV class=pbBody>
+<TABLE style="WHITE-SPACE: nowrap; VERTICAL-ALIGN: top" id=thePage:tpmform:j_id36:j_id37 class=list border=0 cellSpacing=0 cellPadding=0>
+<COLGROUP span=2></COLGROUP>
+<THEAD>
+<TR class=headerRow>
+<TH id=thePage:tpmform:j_id36:j_id37:j_id38header class=headerRow colSpan=1 scope=col>
+<DIV id=thePage:tpmform:j_id36:j_id37:j_id38header:sortDiv>Action</DIV></TH>
+<TH id=thePage:tpmform:j_id36:j_id37:j_id44header class=headerRow colSpan=1 scope=col>
+<DIV id=thePage:tpmform:j_id36:j_id37:j_id44header:sortDiv>Business Plan</DIV></TH></TR></THEAD>
+<TBODY id=thePage:tpmform:j_id36:j_id37:tb>
+<TR onblur="if (window.hiOff){hiOff(this);}" class="dataRow even  first " onfocus="if (window.hiOn){hiOn(this);}" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} ">
+<TD id=thePage:tpmform:j_id36:j_id37:0:j_id38 class="dataCell  " colSpan=1>
+<SCRIPT language=Javascript type=text/javascript>function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {adp[i].parentNode.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var ps = pvp.split(',');for (var i = 0,ii = 0;i < ps.length;i++,ii++) {var p = document.createElement("input");p.type = "hidden";p.name = ps[i];p.value = ps[i + 1];f.appendChild(p);adp[ii] = p;i += 1;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};</SCRIPT>
+<A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:0:j_id39,thePage:tpmform:j_id36:j_id37:0:j_id39,planid,a05F000000F7GWzIAN','_blank');}return false" href="#">View</A>&nbsp;|&nbsp;<A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:0:j_id42,thePage:tpmform:j_id36:j_id37:0:j_id42,planid,a05F000000F7GWzIAN','');}return false" href="#">Edit</A></TD>
+<TD id=thePage:tpmform:j_id36:j_id37:0:j_id44 class="dataCell  " colSpan=1>​<A title="Kroger FY 2014:9/29/2013-9/27/2014" href="https://cttpm2012.cs3.visual.force.com/apex/PromotionCalendarGantt?id=a05F000000F7GWzIAN&amp;accid=001F0000018pDHtIAM">FY 2014:&nbsp;Premier Nutrition</A></TD></TR>
+<TR onblur="if (window.hiOff){hiOff(this);}" class=" dataRow odd " onfocus="if (window.hiOn){hiOn(this);}" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} ">
+<TD id=thePage:tpmform:j_id36:j_id37:1:j_id38 class="dataCell  " colSpan=1><A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:1:j_id39,thePage:tpmform:j_id36:j_id37:1:j_id39,planid,a05F000000IiCaKIAV','_blank');}return false" href="#">View</A>&nbsp;|&nbsp;<A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:1:j_id42,thePage:tpmform:j_id36:j_id37:1:j_id42,planid,a05F000000IiCaKIAV','');}return false" href="#">Edit</A></TD>
+<TD id=thePage:tpmform:j_id36:j_id37:1:j_id44 class="dataCell  " colSpan=1>​<A title="FY2015 Kroger:9/28/2014-9/26/2015" href="https://cttpm2012.cs3.visual.force.com/apex/PromotionCalendarGantt?id=a05F000000IiCaKIAV&amp;accid=001F0000018pDHtIAM">FY 2015:&nbsp;Premier Nutrition</A></TD></TR>
+<TR onblur="if (window.hiOff){hiOff(this);}" class="dataRow even " onfocus="if (window.hiOn){hiOn(this);}" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} ">
+<TD id=thePage:tpmform:j_id36:j_id37:2:j_id38 class="dataCell  " colSpan=1><A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:2:j_id39,thePage:tpmform:j_id36:j_id37:2:j_id39,planid,a05F000000dgsEnIAI','_blank');}return false" href="#">View</A>&nbsp;|&nbsp;<A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:2:j_id42,thePage:tpmform:j_id36:j_id37:2:j_id42,planid,a05F000000dgsEnIAI','');}return false" href="#">Edit</A></TD>
+<TD id=thePage:tpmform:j_id36:j_id37:2:j_id44 class="dataCell  " colSpan=1>​<A title="FY2016 Kroger:9/27/2015-10/1/2016" href="https://cttpm2012.cs3.visual.force.com/apex/PromotionCalendarGantt?id=a05F000000dgsEnIAI&amp;accid=001F0000018pDHtIAM">FY 2016:&nbsp;Premier Nutrition</A></TD></TR>
+<TR onblur="if (window.hiOff){hiOff(this);}" class=" dataRow odd " onfocus="if (window.hiOn){hiOn(this);}" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} ">
+<TD id=thePage:tpmform:j_id36:j_id37:3:j_id38 class="dataCell  " colSpan=1><A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:3:j_id39,thePage:tpmform:j_id36:j_id37:3:j_id39,planid,a05F0000019sm1pIAA','_blank');}return false" href="#">View</A>&nbsp;|&nbsp;<A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:3:j_id42,thePage:tpmform:j_id36:j_id37:3:j_id42,planid,a05F0000019sm1pIAA','');}return false" href="#">Edit</A></TD>
+<TD id=thePage:tpmform:j_id36:j_id37:3:j_id44 class="dataCell  " colSpan=1>​<A title="FY2017 Kroger:10/2/2016-9/30/2017" href="https://cttpm2012.cs3.visual.force.com/apex/PromotionCalendarGantt?id=a05F0000019sm1pIAA&amp;accid=001F0000018pDHtIAM">FY 2017:&nbsp;Premier Nutrition</A></TD></TR>
+<TR onblur="if (window.hiOff){hiOff(this);}" class="dataRow even  last " onfocus="if (window.hiOn){hiOn(this);}" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} ">
+<TD id=thePage:tpmform:j_id36:j_id37:4:j_id38 class="dataCell  " colSpan=1><A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:4:j_id39,thePage:tpmform:j_id36:j_id37:4:j_id39,planid,a05Q0000006uEnmIAE','_blank');}return false" href="#">View</A>&nbsp;|&nbsp;<A style="COLOR: blue" onclick="if(typeof jsfcljs == 'function'){jsfcljs(document.getElementById('thePage:tpmform'),'thePage:tpmform:j_id36:j_id37:4:j_id42,thePage:tpmform:j_id36:j_id37:4:j_id42,planid,a05Q0000006uEnmIAE','');}return false" href="#">Edit</A></TD>
+<TD id=thePage:tpmform:j_id36:j_id37:4:j_id44 class="dataCell  " colSpan=1>​<A title="FY2018 Kroger:10/1/2017-9/29/2018" href="https://cttpm2012.cs3.visual.force.com/apex/PromotionCalendarGantt?id=a05Q0000006uEnmIAE&amp;accid=001F0000018pDHtIAM">FY 2018:&nbsp;Premier Nutrition</A></TD></TR></TBODY></TABLE><INPUT class=btn value="Add Plan" type=submit name=thePage:tpmform:j_id36:j_id48></DIV>
+<DIV class="pbFooter secondaryPalette">
+<DIV class=bg></DIV></DIV></DIV></DIV></DIV></DIV></TD>
+<TD class=c2><SPAN id=thePage:tpmform:promopanel></SPAN></TD></TR></TBODY></TABLE></SPAN><SPAN style="VISIBILITY: hidden" id=thePage:tpmform:j_id120><SPAN class="dateInput dateOnlyInput"><INPUT id=thePage:tpmform:j_id121 onfocus="DatePicker.pickDate(true, 'thePage:tpmform:j_id121', false);" size=12 type=text name=thePage:tpmform:j_id121><SPAN class=dateFormat>[&nbsp;<A href="javascript:DatePicker.insertDate('9/26/2017', 'thePage:tpmform:j_id121', true);">9/26/2017</A>&nbsp;]</SPAN></SPAN></SPAN>
+<DIV id=thePage:tpmform:j_id123></DIV></FORM><SPAN style="DISPLAY: none" id=ajax-view-state-page-container><SPAN style="DISPLAY: none" id=ajax-view-state><INPUT id=com.salesforce.visualforce.ViewState value=i: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 type=hidden name=com.salesforce.visualforce.ViewState><INPUT id=com.salesforce.visualforce.ViewStateVersion value=201709252346170221 type=hidden name=com.salesforce.visualforce.ViewStateVersion><INPUT id=com.salesforce.visualforce.ViewStateMAC value=AGV5SnViMjVqWlNJNklrRmZablJHZFdKWlRISjBOVzkzVVU0ek1FZG1RMEY0UzNaemJqSjZOR3BDTFZwaWRXNVZVVlZYY1RSY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkZFd01EQXdNREJGWlV4Uloxd2lMRndpZGx3aU9sd2lNREF3TURBd01EQXdNREF3TURBd1hDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05WRXdNREF3TURCUWNHNWtWVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFV3TmpRM01EYzFNVGt5TlN3aVpYaHdJam93ZlE9PS4uR3VXMGtfNjM1ZEZGMEt6U1hUMVVsTjlTcGZZVFZGZXZGX3IyUnZTMi0wZz0= type=hidden name=com.salesforce.visualforce.ViewStateMAC><INPUT id=com.salesforce.visualforce.ViewStateCSRF value=VmpFPSxNakF4Tnkwd09TMHpNRlF3TURvd05UbzFNUzQ1TWpWYSx5SHFaZHN2MHNfSllDZldwNHNCaDNoLFl6Vmpaamhp type=hidden name=com.salesforce.visualforce.ViewStateCSRF></SPAN></SPAN>
+<SCRIPT type=text/javascript>Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["thePage:tpmform"]);
+
+});</SCRIPT>
+ <!-- Body events -->
+<SCRIPT type=text/javascript>function bodyOnLoad(){setFocusOnLoad();if (typeof(startSessionTimer)!='undefined') {startSessionTimer(); };if (typeof(ActivityReminder)!='undefined') {ActivityReminder.initialize([], false, false);};if ((window.sfdcPage) && (sfdcPage.executeOnloadQueue)){sfdcPage.executeOnloadQueue();};SearchClickLoggingUtil.setClickLoggingServletPath("/_ui/search/logging/SearchClickLoggingServlet");new UnifiedSearchAutoCompleteElement("phSearchInput","/_ui/common/search/client/ui/UnifiedSearchAutoCompleteServlet",1,{},true,null,"phSearchForm",["div","searchOwner","asPhrase","sen"],{},true,3,100);new UnifiedSearchButton("searchButtonContainer", "phSearchButton", "headerSearchRightRoundedCornerMouseOver", "phSearchForm");SfdcApp.MruHovers.global_data.url='retURL=%2Fapex%2Fcttpm2012__TPM%3Fid%3D001F0000018pDHtIAM&isAjaxRequest=1&renderMode=RETRO&nocache=1506470751822';if (document.getElementById('sidebarDiv')){ Sidebar.prototype.theSidebar = new Sidebar(document.getElementById('sidebarDiv'), true, true,false); };if(window.PreferenceBits){window.PreferenceBits.prototype.csrfToken="VmpFPSxNakF4Tnkwd09TMHpNRlF3TURvd05UbzFNUzQ1TVRSYSxSWVZQVi1QMVBIZzVWUFpVUFlOVEFmLE1HVXdaalF3";};}function bodyOnBeforeUnload(){if ((window.sfdcPage) && (sfdcPage.executeOnBeforeUnloadQueue)){sfdcPage.executeOnBeforeUnloadQueue();};}function bodyOnFocus(){closePopupOnBodyFocus();}function bodyOnUnload(){}</SCRIPT>
+
+<DIV id=datePicker class=datePicker>
+<DIV class=dateBar><IMG onblur="this.className = 'calLeft';" class=calLeft onfocus="this.className = 'calLeftOn';" onmouseover="this.className = 'calLeftOn';" title="Previous Month" onmouseout="this.className = 'calLeft';" onclick=DatePicker.datePicker.prevMonth(); alt="Previous Month" src="/img/s.gif"><SELECT id=calMonthPicker title=Month name=calMonthPicker><OPTION selected value=0>January</OPTION> <OPTION value=1>February</OPTION> <OPTION value=2>March</OPTION> <OPTION value=3>April</OPTION> <OPTION value=4>May</OPTION> <OPTION value=5>June</OPTION> <OPTION value=6>July</OPTION> <OPTION value=7>August</OPTION> <OPTION value=8>September</OPTION> <OPTION value=9>October</OPTION> <OPTION value=10>November</OPTION> <OPTION value=11>December</OPTION></SELECT><IMG onblur="this.className = 'calRight';" class=calRight onfocus="this.className = 'calRightOn';" onmouseover="this.className = 'calRightOn';" title="Next Month" onmouseout="this.className = 'calRight';" onclick=DatePicker.datePicker.nextMonth(); alt="Next Month" src="/img/s.gif"><SELECT id=calYearPicker title=Year name=calYearPicker><OPTION selected value=2016>2016</OPTION> <OPTION value=2017>2017</OPTION> <OPTION value=2018>2018</OPTION> <OPTION value=2019>2019</OPTION> <OPTION value=2020>2020</OPTION> <OPTION value=2021>2021</OPTION> <OPTION value=2022>2022</OPTION></SELECT></DIV>
+<DIV class=calBody>
+<TABLE id=datePickerCalendar class=calDays border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TH class=dayOfWeek scope=col>Sun</TH>
+<TH class=dayOfWeek scope=col>Mon</TH>
+<TH class=dayOfWeek scope=col>Tue</TH>
+<TH class=dayOfWeek scope=col>Wed</TH>
+<TH class=dayOfWeek scope=col>Thu</TH>
+<TH class=dayOfWeek scope=col>Fri</TH>
+<TH class=dayOfWeek scope=col>Sat</TH></TR>
+<TR id=calRow1 class=calRow>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD></TR>
+<TR id=calRow2 class=calRow>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD></TR>
+<TR id=calRow3 class=calRow>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD></TR>
+<TR id=calRow4 class=calRow>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD></TR>
+<TR id=calRow5 class=calRow>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD></TR>
+<TR id=calRow6 class=calRow>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD>
+<TD onblur=hiOff(this); onfocus=hiOn(this); onmouseover=hiOn(this); onmouseout=hiOff(this); onclick=DatePicker.datePicker.selectDate(this);>&nbsp;</TD></TR></TBODY></TABLE>
+<DIV class=buttonBar><A class=calToday onclick="DatePicker.datePicker.selectDate('today');return false;" href="javascript:%20void%280%29%3B">Today</A></DIV></DIV></DIV><!-- End page content --></TD></TR></TBODY></TABLE></DIV>
+<DIV class="bPageFooter noTableFooter">
+<DIV><SPAN class=brandQuaternaryFgr>Copyright © 2000-2017 salesforce.com, inc. All rights reserved.</SPAN>&nbsp;|&nbsp;<A class=brandQuaternaryFgr title="Privacy Statement (New Window)" href="http://www.salesforce.com/company/privacy.jsp" target=_blank>Privacy Statement</A>&nbsp;|&nbsp;<A class=brandQuaternaryFgr title="Security Statement (New Window)" href="http://www.salesforce.com/company/security.jsp" target=_blank>Security Statement</A>&nbsp;|&nbsp;<A class=brandQuaternaryFgr title="Terms of Use (New Window)" href="http://www.salesforce.com/company/msa.jsp" target=_blank>Terms of Use</A>&nbsp;|&nbsp;<A class=brandQuaternaryFgr title="508 Compliance (New Window)" href="javascript:openPopupFocusEscapePounds(%27https://help.salesforce.com/apex/htdoor?loc=help&amp;target=accessibility_overview.htm&amp;section=accessibility&amp;language=en_US&amp;release=210.6.9&amp;instance=CS3%27, %27Help%27, 1024, 768, %27width=1024,height=768,resizable=yes,toolbar=yes,status=yes,scrollbars=yes,menubar=yes,directories=no,location=yes,dependant=no%27, false, false);">508 Compliance</A></DIV></DIV>
+<DIV></DIV></DIV>
+<SCRIPT>var SFDCSessionVars={"uid":"005Q000000PpndU","server":"https://test.salesforce.com/login/sessionserver208.html","act":"u","host":"test.salesforce.com","oid":"00DQ000000EeLQg","exp":1506477928000};</SCRIPT>
+
+<SCRIPT>var SFDCMktUrl='https://login.salesforce.com/17181/logo180.png';</SCRIPT>
+
+<SCRIPT>(function(){var s=document.createElement('SCRIPT');s.async=true;s.defer=true;s.src='/jslibrary/1500591790000/sfdc/SfdcSessionBase208.js';(document.body||document.getElementsByTagName('script')[0]).appendChild(s);})();</SCRIPT>
+
+<SCRIPT defer src="/jslibrary/1500591790000/sfdc/SfdcSessionBase208.js" async="true"></SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -999px; LEFT: -999px" title=sessionserver src="https://test.salesforce.com/login/sessionserver208.html"></IFRAME>
+<SCRIPT>(function(){var s=document.createElement('SCRIPT');s.async=true;s.defer=true;s.src='/jslibrary/1500591790000/sfdc/MarketingSurveyResponse.js';(document.body||document.getElementsByTagName('script')[0]).appendChild(s);})();</SCRIPT>
+
+<SCRIPT defer src="/jslibrary/1500591790000/sfdc/MarketingSurveyResponse.js" async="true"></SCRIPT>
+<!-- page generation time: 619ms --><SPAN style="DISPLAY: none" id=vfcscript></SPAN></BODY></HTML>

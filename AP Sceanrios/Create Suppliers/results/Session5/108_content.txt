@@ -1,0 +1,1267 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Tax Details</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/tableUtils.js"></SCRIPT>
+
+<SCRIPT id=oaf_detachScript type=text/javascript src="/OA_HTML/cabo/oajsLibs/detachTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richAdvancedTable.js"></SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event,\'DefaultFormName\',[\'posSiteStatus\',\'posSiteName\',\'posOUName\'])','CTinitRichTableUI(\'TaxRegRN.ZxRegTableRN\');CTaddEventToPPROnLoad();ATinitRichTableUI(\'ZxAssocFiscalClassifTableRN\');ATaddEventToPPROnLoad();CTinitRichTableUI(\'TaxRN\');Linit();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/pos/supplier/webui/ByrTaxDtPG&amp;retainAM=Y&amp;_ti=1714013320&amp;OAMC=84817_66_0&amp;menu=Y&amp;oaMenuLevel=4&amp;oapc=11&amp;oas=EX0laushPE9vvRan_tOK4Q..><INPUT id=_AM_TX_ID_FIELD value=39IFJZh2i type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormNameW2Fzqase type=hidden name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFincomeTaxType value=NOfrT1AZQ type=hidden name=lovAutoClearHFincomeTaxType>
+<SCRIPT language=javascript>function LOCincTaxType(visitedList){visitedList['incTaxType'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCincomeTaxType(visitedList){ visitedList['incomeTaxType'] = 'v';if (visitedList['incTaxType'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].incTaxType);LOCincTaxType(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldincomeTaxType value=incomeTaxTypepUEZ8fJK type=hidden name=lovCriteriaHiddenFieldincomeTaxType><INPUT id=lovPassiveCriteriaHFincomeTaxType type=hidden name=lovPassiveCriteriaHFincomeTaxType><INPUT id=BASE_FORM_NAME value=DefaultFormNameu210r5Bg type=hidden name=BASE_FORM_NAME><INPUT id=lovOnClickJSHiddenFieldincomeTaxType type=hidden name=lovOnClickJSHiddenFieldincomeTaxType><INPUT id=lovOnClickJSExecutedHiddenFieldincomeTaxType value=N type=hidden name=lovOnClickJSExecutedHiddenFieldincomeTaxType><INPUT id=lovJSHiddenFieldincomeTaxType type=hidden name=lovJSHiddenFieldincomeTaxType>
+<SCRIPT language=javascript>function LcustomOnChangeincomeTaxType(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFinvTaxGroupName value=NQs-Ezrwi type=hidden name=lovAutoClearHFinvTaxGroupName>
+<SCRIPT language=javascript>function LOCtaxGroupid(visitedList){visitedList['taxGroupid'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCinvTaxGroupName(visitedList){ visitedList['invTaxGroupName'] = 'v';if (visitedList['taxGroupid'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].taxGroupid);LOCtaxGroupid(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldinvTaxGroupName value=invTaxGroupNameILOGIRIb type=hidden name=lovCriteriaHiddenFieldinvTaxGroupName><INPUT id=lovPassiveCriteriaHFinvTaxGroupName type=hidden name=lovPassiveCriteriaHFinvTaxGroupName><INPUT id=lovOnClickJSHiddenFieldinvTaxGroupName type=hidden name=lovOnClickJSHiddenFieldinvTaxGroupName><INPUT id=lovOnClickJSExecutedHiddenFieldinvTaxGroupName value=N type=hidden name=lovOnClickJSExecutedHiddenFieldinvTaxGroupName><INPUT id=lovJSHiddenFieldinvTaxGroupName type=hidden name=lovJSHiddenFieldinvTaxGroupName>
+<SCRIPT language=javascript>function LcustomOnChangeinvTaxGroupName(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFpayTaxGroupName value=N8a65arfP type=hidden name=lovAutoClearHFpayTaxGroupName>
+<SCRIPT language=javascript>function LOCpaytaxGroupid(visitedList){visitedList['paytaxGroupid'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCpayTaxGroupName(visitedList){ visitedList['payTaxGroupName'] = 'v';if (visitedList['paytaxGroupid'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].paytaxGroupid);LOCpaytaxGroupid(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldpayTaxGroupName value=payTaxGroupNamecKX5_nh- type=hidden name=lovCriteriaHiddenFieldpayTaxGroupName><INPUT id=lovPassiveCriteriaHFpayTaxGroupName type=hidden name=lovPassiveCriteriaHFpayTaxGroupName><INPUT id=lovOnClickJSHiddenFieldpayTaxGroupName type=hidden name=lovOnClickJSHiddenFieldpayTaxGroupName><INPUT id=lovOnClickJSExecutedHiddenFieldpayTaxGroupName value=N type=hidden name=lovOnClickJSExecutedHiddenFieldpayTaxGroupName><INPUT id=lovJSHiddenFieldpayTaxGroupName type=hidden name=lovJSHiddenFieldpayTaxGroupName>
+<SCRIPT language=javascript>function LcustomOnChangepayTaxGroupName(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFDefRepCountryName value=NTz0Im8C2 type=hidden name=lovAutoClearHFDefRepCountryName>
+<SCRIPT language=javascript>function LOCDefRepCountryCode(visitedList){visitedList['DefRepCountryCode'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCDefRepCountryName(visitedList){ visitedList['DefRepCountryName'] = 'v';if (visitedList['DefRepCountryCode'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].DefRepCountryCode);LOCDefRepCountryCode(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldDefRepCountryName value=DefRepCountryNameZ0ezM65A type=hidden name=lovCriteriaHiddenFieldDefRepCountryName><INPUT id=lovPassiveCriteriaHFDefRepCountryName type=hidden name=lovPassiveCriteriaHFDefRepCountryName><INPUT id=lovOnClickJSHiddenFieldDefRepCountryName type=hidden name=lovOnClickJSHiddenFieldDefRepCountryName><INPUT id=lovOnClickJSExecutedHiddenFieldDefRepCountryName value=N type=hidden name=lovOnClickJSExecutedHiddenFieldDefRepCountryName><INPUT id=lovJSHiddenFieldDefRepCountryName type=hidden name=lovJSHiddenFieldDefRepCountryName>
+<SCRIPT language=javascript>function LcustomOnChangeDefRepCountryName(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFDefRepRegType value=N6s7C8Zkz type=hidden name=lovAutoClearHFDefRepRegType>
+<SCRIPT language=javascript>function LOCFvDefRepRegType(visitedList){visitedList['FvDefRepRegType'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCDefRepRegType(visitedList){ visitedList['DefRepRegType'] = 'v';if (visitedList['FvDefRepRegType'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].FvDefRepRegType);LOCFvDefRepRegType(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldDefRepRegType value=DefRepRegType2DBi6Qe6 type=hidden name=lovCriteriaHiddenFieldDefRepRegType><INPUT id=lovPassiveCriteriaHFDefRepRegType type=hidden name=lovPassiveCriteriaHFDefRepRegType><INPUT id=lovOnClickJSHiddenFieldDefRepRegType type=hidden name=lovOnClickJSHiddenFieldDefRepRegType><INPUT id=lovOnClickJSExecutedHiddenFieldDefRepRegType value=N type=hidden name=lovOnClickJSExecutedHiddenFieldDefRepRegType><INPUT id=lovJSHiddenFieldDefRepRegType type=hidden name=lovJSHiddenFieldDefRepRegType>
+<SCRIPT language=javascript>function LcustomOnChangeDefRepRegType(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFFcTypeCode value=NoRA-yyv0 type=hidden name=lovAutoClearHFFcTypeCode>
+<SCRIPT language=javascript>function LOCClassCategory(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('ZxAssocFiscalClassifTableRN'); visitedList['ClassCategory'] = 'v'; if (visitedList['FcCode'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('FcCode', rowNum ));LOCFcCode(rowNum, visitedList);}} if (this.id != LcurrentElement) LfetchString = ''; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCClassTypeLevelCode(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('ZxAssocFiscalClassifTableRN'); visitedList['ClassTypeLevelCode'] = 'v'; if (visitedList['FcCode'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('FcCode', rowNum ));LOCFcCode(rowNum, visitedList);}} if (this.id != LcurrentElement) LfetchString = ''; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCFcTypeCode(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('ZxAssocFiscalClassifTableRN'); visitedList['FcTypeCode'] = 'v';if (visitedList['ClassCategory'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('ClassCategory', rowNum ));LOCClassCategory(rowNum, visitedList);}}if (visitedList['ClassTypeLevelCode'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('ClassTypeLevelCode', rowNum ));LOCClassTypeLevelCode(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldFcTypeCode value=FcTypeCode9j0PRD8V type=hidden name=lovCriteriaHiddenFieldFcTypeCode><INPUT id=lovPassiveCriteriaHFFcTypeCode type=hidden name=lovPassiveCriteriaHFFcTypeCode><INPUT id=lovTableHiddenFieldFcTypeCode value=ZxAssocFiscalClassifTableRN type=hidden name=lovTableHiddenFieldFcTypeCode><INPUT id=lovOnClickJSHiddenFieldFcTypeCode type=hidden name=lovOnClickJSHiddenFieldFcTypeCode><INPUT id=lovOnClickJSExecutedHiddenFieldFcTypeCode value=N type=hidden name=lovOnClickJSExecutedHiddenFieldFcTypeCode><INPUT id=lovJSHiddenFieldFcTypeCode type=hidden name=lovJSHiddenFieldFcTypeCode>
+<SCRIPT language=javascript>function LcustomOnChangeFcTypeCode(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFFcCode value=Ni_4zjSWn type=hidden name=lovAutoClearHFFcCode>
+<SCRIPT language=javascript>function LOCSubmitFcName(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('ZxAssocFiscalClassifTableRN'); visitedList['SubmitFcName'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCFcCode(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('ZxAssocFiscalClassifTableRN'); visitedList['FcCode'] = 'v';if (visitedList['SubmitFcName'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('SubmitFcName', rowNum ));LOCSubmitFcName(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldFcCode value=FcCode::ClassCategory::ClassTypeLevelCode2DZSZbFF type=hidden name=lovCriteriaHiddenFieldFcCode><INPUT id=lovPassiveCriteriaHFFcCode type=hidden name=lovPassiveCriteriaHFFcCode><INPUT id=lovTableHiddenFieldFcCode value=ZxAssocFiscalClassifTableRN type=hidden name=lovTableHiddenFieldFcCode><INPUT id=lovOnClickJSHiddenFieldFcCode type=hidden name=lovOnClickJSHiddenFieldFcCode><INPUT id=lovOnClickJSExecutedHiddenFieldFcCode value=N type=hidden name=lovOnClickJSExecutedHiddenFieldFcCode><INPUT id=lovJSHiddenFieldFcCode type=hidden name=lovJSHiddenFieldFcCode>
+<SCRIPT language=javascript>function LcustomOnChangeFcCode(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFinvSiteTaxGroupName value=Ny39Ldk6J type=hidden name=lovAutoClearHFinvSiteTaxGroupName>
+<SCRIPT language=javascript>function LOCinvSiteTaxGroupid(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('N74'); visitedList['invSiteTaxGroupid'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCinvSiteTaxGroupName(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('N74'); visitedList['invSiteTaxGroupName'] = 'v';if (visitedList['invSiteTaxGroupid'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('invSiteTaxGroupid', rowNum ));LOCinvSiteTaxGroupid(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldinvSiteTaxGroupName value=invSiteTaxGroupNamem19auYW_ type=hidden name=lovCriteriaHiddenFieldinvSiteTaxGroupName><INPUT id=lovPassiveCriteriaHFinvSiteTaxGroupName type=hidden name=lovPassiveCriteriaHFinvSiteTaxGroupName><INPUT id=lovTableHiddenFieldinvSiteTaxGroupName value=N74 type=hidden name=lovTableHiddenFieldinvSiteTaxGroupName><INPUT id=lovOnClickJSHiddenFieldinvSiteTaxGroupName type=hidden name=lovOnClickJSHiddenFieldinvSiteTaxGroupName><INPUT id=lovOnClickJSExecutedHiddenFieldinvSiteTaxGroupName value=N type=hidden name=lovOnClickJSExecutedHiddenFieldinvSiteTaxGroupName><INPUT id=lovJSHiddenFieldinvSiteTaxGroupName type=hidden name=lovJSHiddenFieldinvSiteTaxGroupName>
+<SCRIPT language=javascript>function LcustomOnChangeinvSiteTaxGroupName(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFpaySiteTaxGroupName value=NwHHjS7Md type=hidden name=lovAutoClearHFpaySiteTaxGroupName>
+<SCRIPT language=javascript>function LOCpaySiteTaxGroupid(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('N74'); visitedList['paySiteTaxGroupid'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCpaySiteTaxGroupName(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('N74'); visitedList['paySiteTaxGroupName'] = 'v';if (visitedList['paySiteTaxGroupid'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('paySiteTaxGroupid', rowNum ));LOCpaySiteTaxGroupid(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldpaySiteTaxGroupName value=paySiteTaxGroupNameuyidF6pA type=hidden name=lovCriteriaHiddenFieldpaySiteTaxGroupName><INPUT id=lovPassiveCriteriaHFpaySiteTaxGroupName type=hidden name=lovPassiveCriteriaHFpaySiteTaxGroupName><INPUT id=lovTableHiddenFieldpaySiteTaxGroupName value=N74 type=hidden name=lovTableHiddenFieldpaySiteTaxGroupName><INPUT id=lovOnClickJSHiddenFieldpaySiteTaxGroupName type=hidden name=lovOnClickJSHiddenFieldpaySiteTaxGroupName><INPUT id=lovOnClickJSExecutedHiddenFieldpaySiteTaxGroupName value=N type=hidden name=lovOnClickJSExecutedHiddenFieldpaySiteTaxGroupName><INPUT id=lovJSHiddenFieldpaySiteTaxGroupName type=hidden name=lovJSHiddenFieldpaySiteTaxGroupName>
+<SCRIPT language=javascript>function LcustomOnChangepaySiteTaxGroupName(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+</SPAN><SPAN id=PageLayoutRN class=xcm>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=xbl><IMG title="Customized corporate branding image for Oracle Applications" border=0 alt="Customized corporate branding image for Oracle Applications" src="/OA_MEDIA/yahoo_logo.gif"></TD>
+<TD class=x86><SPAN style="POSITION: relative" title=Payables><SPAN class=x4j>Payables</SPAN></SPAN>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fskyros\x2Ft.gif";var _axm;t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=14></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD>
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SNAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Navigator alt=Navigator src="/OA_MEDIA/navigator.png"></DIV></A></DIV></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1714013320&amp;oapc=11&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=fufzUNH0PVNyxbsXNI1e5A..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1714013320&amp;oapc=11&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=fufzUNH0PVNyxbsXNI1e5A..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrTaxDtPG%26retainAM%3DY%26transactionid%3D1714013320%26OAMC%3D84817_66_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3D06-PFk6-O4Yz0l8prBWscA..&amp;_ti=1714013320&amp;oapc=11&amp;OAIG=7867&amp;menu=Y&amp;oas=-5RnYq8J9xNJgekzTXhv7Q..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FByrTaxDtPG%26retainAM%3DY%26transactionid%3D1714013320%26OAMC%3D84817_66_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3D06-PFk6-O4Yz0l8prBWscA..&amp;_ti=1714013320&amp;oapc=11&amp;OAIG=7867&amp;menu=Y&amp;oas=-5RnYq8J9xNJgekzTXhv7Q..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=ncPfwdtbjoV-dMMdIOVRxA.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('7','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=ncPfwdtbjoV-dMMdIOVRxA.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>7</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD></TD>
+<TD><A class=x84 href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OALogout.jsp%3FcloseWindow%3Dtrue%26menu%3DY')">
+<DIV><IMG title="Close Window" border=0 alt="Close Window" src="/OA_MEDIA/Close.png"></DIV></A></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=3></TD></TR>
+<TR>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=bottom colSpan=4 align=left>
+<DIV class=x9k>
+<DIV>
+<TABLE class=x1k border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=x1m noWrap><A id=POS_HT_SP_B_SUPP title=Suppliers href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/SuppSummPG%26OASF%3DPOS_HT_SP_B_SUPP%26retainAM%3DN%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_14_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3Dui_eCjuZCgV07x6al6DlSg..')" name=POS_HT_SP_B_SUPP>Suppliers</A></TD>
+<TD width="100%">
+<DIV class=OraTabBarSpace>
+<DIV class=OraTabBarSpaceBottom></DIV>
+<DIV class=OraTabBarSpaceRight></DIV></DIV></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<TABLE class=x6v border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD rowSpan=2>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=0></TD>
+<TD vAlign=top rowSpan=2>
+<TABLE class=x1i border=0 cellSpacing=0 cellPadding=0 width=150>
+<TBODY>
+<TR>
+<TD background=/OA_HTML/></TD>
+<TD class=x77>
+<DIV style="MARGIN-TOP: 10px"></DIV>
+<DIV class=x7t>
+<UL style="LIST-STYLE-TYPE: disc" class=x4p>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_SIDE_BAR class=xh title="Quick Update" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/QuickUpdatePG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_64_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3DZJ86TdPmMhMkHDoK-hRN1A..')" name=POS_HT_SP_B_SIDE_BAR>Quick Update</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p></UL></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_CP class=xh title="Company Profile" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/OrganizationPG%26retainAM%3DY%26OASF%3DPOS_HT_SP_B_ORG%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_65_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3D0A0g5qqulf93ypiEKoNwQg..')" name=POS_HT_SP_B_CP>Company Profile</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_ORG class=xh title=Organization href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/OrganizationPG%26retainAM%3DY%26OASF%3DPOS_HT_SP_B_ORG%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_65_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DvJbR50PasfbrnbjHuGelZw..')" name=POS_HT_SP_B_ORG>Organization</A></SPAN></LI>
+<LI class=x78><SPAN class=x4n><A id=POS_HT_SP_B_TAX_DT class=xh title="Tax Details" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrTaxDtPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_66_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3Dpw10MZ43uMvE5iRAeDCn4Q..')" name=POS_HT_SP_B_TAX_DT>Tax Details</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_ADDR_BK class=xh title="Address Book" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAddrBkPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_67_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DHG4GTgm_XfaHwxGbEP95vA..')" name=POS_HT_SP_B_ADDR_BK>Address Book</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_CONT_DIR class=xh title="Contact Directory" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrCntctDirPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_68_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3D30XVumkjkR7mbBpERRj5uw..')" name=POS_HT_SP_B_CONT_DIR>Contact Directory</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_BUS_CLSS class=xh title="Business Classification" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/BusClassPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_69_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DxB8ttkr57Yuqy4WGS0p_cw..')" name=POS_HT_SP_B_BUS_CLSS>Business Classification</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_PS class=xh title="Products &amp; Services" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/components/webui/PosPSMainPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_70_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DjnEA3Qbq2HjGcZsn5szTzg..')" name=POS_HT_SP_B_PS>Products &amp; Services</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_SBD_BUYER_MAIN class=xh title="Banking Details" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/sbd/webui/ByrMainPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_75_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DBMPZVM4AfHip80aXdkmw4w..')" name=POS_SBD_BUYER_MAIN>Banking Details</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_SURVEY_PG class=xh title=Surveys href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/survey/webui/SurveysPG%26ISPMODE%3DBUYER%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_85_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DApMao6BfbktPF3jPoHY1EQ..')" name=POS_SURVEY_PG>Surveys</A></SPAN></LI></UL></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_AH class=xh title="Approval History" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ApprovalHistoryPG%26retainAM%3DY%26submitFunc%3DSuppProfile%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_91_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3DLqqRmHKVbNzG97xYKJEbWw..')" name=POS_HT_SP_B_AH>Approval History</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p></UL></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_TC class=xh title="Terms and Control" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAcctPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_92_0%26menu%3DY%26oaMenuLevel%3D3%26oas%3DWxpXHa4YWwPYJWeqbmcO8g..')" name=POS_HT_SP_B_TC>Terms and Control</A></SPAN>
+<UL style="LIST-STYLE-TYPE: circle" class=x4p>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_ACCT class=xh title=Accounting href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrAcctPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_92_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DaLfx-lVml1u4mgyYTP23tA..')" name=POS_HT_SP_B_ACCT>Accounting</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_TAX_RPT class=xh title="Tax and Reporting" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrTaxRptPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_93_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DNOmPQw2F1EOEjGtwNU_K6g..')" name=POS_HT_SP_B_TAX_RPT>Tax and Reporting</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_PURCH class=xh title=Purchasing href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrPurchPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_94_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3D6MorQmVGB4SrQ5AK2tv3RA..')" name=POS_HT_SP_B_PURCH>Purchasing</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_RCV class=xh title=Receiving href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrRcvPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_95_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DunWHj3fvp1elAs5PFzJp8Q..')" name=POS_HT_SP_B_RCV>Receiving</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_PAY class=xh title="Payment Details" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/sbd/webui/ByrPayPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_96_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DXgTEWOS_8RRBix1EojAFow..')" name=POS_HT_SP_B_PAY>Payment Details</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_RELATIONSHIP class=xh title=Relationship href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/PosRelationshipSetupPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_97_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3DVJGlvOpuCEGr5ZUSdb4aUA..')" name=POS_HT_SP_B_RELATIONSHIP>Relationship</A></SPAN></LI>
+<LI class=x78><SPAN class=x4o><A id=POS_HT_SP_B_INV_MNG class=xh title="Invoice Management" href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/ByrInvPG%26retainAM%3DY%26_ti%3D1714013320%26oapc%3D11%26OAMC%3D84817_103_0%26menu%3DY%26oaMenuLevel%3D4%26oas%3D-463HILmHCBlTqwK4W9A6g..')" name=POS_HT_SP_B_INV_MNG>Invoice Management</A></SPAN></LI></UL></LI></UL></DIV></TD>
+<TD background=/OA_HTML/></TD></TR>
+<TR>
+<TD><IMG border=0 alt="" src="/OA_HTML/" width=0 height=0></TD>
+<TD background=/OA_HTML/ width="100%"></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/" width=0 height=0></TD></TR></TBODY></TABLE></TD>
+<TD vAlign=top width="100%">
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD id=p_SwanPageLayout class=x7z vAlign=top width="100%">
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Update CA VENTURES LLC - 236732: Tax Details</H1></TD>
+<TD vAlign=bottom noWrap align=right>
+<TABLE id=pageBtnRN class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON id=cancelBtn class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'_FORM_SUBMIT_BUTTON\':\'cancelBtnCcHIO30_\'});return false',this,event,true)" type=submit>Cancel</BUTTON></TD>
+<TD><BUTTON accessKey=S id=saveBtn class=x7p title=Save onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'saveBtnq4oKmRoS'});return false" type=submit><SPAN class=xq>S</SPAN>ave</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><INPUT id=invCurrCode type=hidden name=invCurrCode>
+<DIV></DIV>
+<TABLE id=IncomeTaxRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Income Tax</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<TABLE id=SuppTaxDtRN border=0 cellSpacing=0 cellPadding=0 align=center>
+<TBODY>
+<TR id=SuppTaxDtRL>
+<TD id=LeftCell vAlign=top align=left><INPUT id=incTaxType type=hidden name=incTaxType>
+<TABLE id=region27 border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:3}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=taxPayerID__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Taxpayer ID</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=taxPayerID class=x8 title="Taxpayer ID" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onchange="" value=CA27-0692423 maxLength=20 size=0 type=text name=taxPayerID>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=federal__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Reportable</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SPAN id=federal__xc_0>
+<SCRIPT>function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);}</SCRIPT>
+<INPUT id=federal title=Federal onclick="_uixspu('DefaultFormName',1,'fedTaxChecked','federal',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_federal_fedTaxCheckedkNZYeeTg','evtSrcRowIdx':'0OPTtdyty','evtSrcRowId':'ByrSuppAM.SupplierVOpLULIJ21'});return true;" value=on type=checkbox name=federal><SPAN class="OraFieldText OraCheckboxText">Federal</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=stateRptFlag1__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc></SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SPAN id=stateRptFlag1__xc_0><INPUT id=stateRptFlag1 title=State value=on type=checkbox name=stateRptFlag1><SPAN class="OraFieldText OraCheckboxText">State</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=region29>
+<TABLE id=region30 border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:3}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=messageLayout1__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap>
+<SCRIPT id=item1>t('100','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=100 height=1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=RightCell vAlign=top align=left>
+<TABLE id=region28 border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:3}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=allwTaxWthld__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Allow Withholding Tax</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SPAN id=allwTaxWthld__xc_0><INPUT id=allwTaxWthld title="Allow with holding Tax" onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'0OPTtdyty','evtSrcRowId':'ByrSuppAM.SupplierVOpLULIJ21',event:'awtChecked',source:'allwTaxWthld'});return true;" value=on type=checkbox name=allwTaxWthld></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><INPUT id=taxGroupid type=hidden name=taxGroupid><INPUT id=paytaxGroupid type=hidden name=paytaxGroupid></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=TransactionTaxRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Transaction Tax</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<TABLE id=InvCtrlRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=7></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H3 class=x45 type="OraHeader">Default Controls</H3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c><SPAN id=DefText class=x0>Update the values that default to all invoices and tax registration records of this party or party site.</SPAN>
+<DIV></DIV>
+<SCRIPT id=Spacer>t('1','13')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=13>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=RoundingLevelCode__xc_>
+<TD noWrap align=right><SPAN class=xc>Rounding Level</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><SELECT id=RoundingLevelCode class=x4 onchange="" name=RoundingLevelCode><OPTION selected></OPTION><OPTION value=HEADERk4bvjiCU>Header</OPTION><OPTION value=LINE3dT5RIa5>Line</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD height=0></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR id=RoundingRuleCode__xc_>
+<TD noWrap align=right><SPAN class=xc>Rounding Rule</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><SELECT id=RoundingRuleCode class=x4 onchange="" name=RoundingRuleCode><OPTION value=DOWNCDazwJGU>Down</OPTION><OPTION value=NEAREST-zKzJ7AZ>Nearest</OPTION><OPTION selected value=UP4rtscPPf>Up</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=InclusiveTaxFlag__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SPAN id=InclusiveTaxFlag__xc_0><INPUT id=InclusiveTaxFlag value=on type=checkbox name=InclusiveTaxFlag><SPAN class="OraFieldText OraCheckboxText">Set Invoice Values as Tax Inclusive</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV>
+<TABLE id=TaxRegRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=7></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H3 class=x45 type="OraHeader">Tax Registrations</H3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV>
+<DIV></DIV>
+<SCRIPT id=Spacer1>t('1','13')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=13>
+<DIV></DIV>
+<TABLE id=ZxDefRegDefaultRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:2}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=DefRepCountryName__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Default Reporting Country Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap>
+<SCRIPT>var _jspDir='/OA_HTML/cabo/jsps/a.jsp';</SCRIPT>
+
+<SCRIPT>var _configName='OAConfig';var _enc='UTF-8';var _contextURI='/OA_HTML';</SCRIPT>
+
+<SCRIPT>function _lovClose(f,p,pt){var s=submitForm;if(pt)s=_submitPartialChange;return s(f,0,p);}</SCRIPT>
+
+<DIV id=DefRepCountryName__xc_0 class=OraLOVOuterDiv><SPAN id=DefRepCountryName__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=DefRepCountryName class=x4 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}LlookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1714013320&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', 'TerritoryShortName', new Array('TerritoryCode', 'TerritoryShortName'), new Array('1', '1'), new Array(&quot;Country Code&quot;, &quot;Country Name&quot;), new Array('DefRepCountryName', 'DefRepCountryCode'), new Array('TerritoryShortName', 'TerritoryCode'), new Array('DefRepCountryName') , 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCDefRepCountryName(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'DefRepCountryName\',0,_getInputField(event),1,1);',this,event,true)" maxLength=80 size=25 type=text name=DefRepCountryName autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('DefRepCountryName',0,document.forms['DefaultFormName']['DefRepCountryName'],1,1,{'F':'DefaultFormName','N':'DefRepCountryName','L':'DefRepCountryName','D':'/OA_HTML/OA.jsp?region=/oracle/apps/zx/lov/webui/ZxCountryCodesLovRN&amp;regionCode=DefRepCountryName&amp;regionAppId=177&amp;lovBaseItemName=DefRepCountryName&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1714013320&amp;OAFunc=POS_HT_SP_B_TAX_DT&amp;label=Default%20Reporting%20Country%20Name&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=LovTerritoryShortName&amp;Criteria=DefRepCountryName.LovTerritoryShortName&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/ByrTaxDtPG.DefRepCountryName_/oracle/apps/zx/lov/webui/ZxCountryCodesLovRN&amp;baseCompMode=11.5.10&amp;oapc=11&amp;oas=xPcgYyj_30NuN5LU8wbNzg..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Default Reporting Country Name" border=0 alt="Search: Default Reporting Country Name" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=DefRepRegNumber__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Default Reporting Registration Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap><INPUT id=DefRepRegNumber class=x4 onchange="" maxLength=50 size=35 type=text name=DefRepRegNumber>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=DefRepRegType__xc_>
+<TD width="50%" noWrap align=right><SPAN class=xc>Default Reporting Tax Registration Type</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="50%" noWrap>
+<DIV id=DefRepRegType__xc_0 class=OraLOVOuterDiv><SPAN id=DefRepRegType__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=DefRepRegType class=x4 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}LlookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1714013320&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', 'LookupCode', new Array('LookupCode'), new Array('1'), new Array(&quot;Tax Registration Type&quot;), new Array('DefRepRegType', 'FvDefRepRegType'), new Array('LookupCode', 'LookupCode'), new Array('DefRepRegType') , 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCDefRepRegType(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'DefRepRegType\',0,_getInputField(event),1,1);',this,event,true)" maxLength=30 size=25 type=text name=DefRepRegType autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('DefRepRegType',0,document.forms['DefaultFormName']['DefRepRegType'],1,1,{'F':'DefaultFormName','N':'DefRepRegType','L':'DefRepRegType','D':'/OA_HTML/OA.jsp?region=/oracle/apps/zx/lov/webui/ZxRegTypeLovRN&amp;regionCode=DefRepRegType&amp;regionAppId=177&amp;lovBaseItemName=DefRepRegType&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1714013320&amp;OAFunc=POS_HT_SP_B_TAX_DT&amp;label=Default%20Reporting%20Tax%20Registration%20Type&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=LovRegType&amp;Criteria=DefRepRegType.LovRegType&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/ByrTaxDtPG.DefRepRegType_/oracle/apps/zx/lov/webui/ZxRegTypeLovRN&amp;baseCompMode=11.5.10&amp;oapc=11&amp;oas=MfJ7ioX5BmPlIDQU5dI4rQ..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Default Reporting Tax Registration Type" border=0 alt="Search: Default Reporting Tax Registration Type" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=ZxMesgLayoutRN__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><INPUT id=DefRepCountryCode type=hidden name=DefRepCountryCode><INPUT id=FvDefRepRegType type=hidden name=FvDefRepRegType></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT id=Spacer2>t('1','13')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=13>
+<DIV></DIV>
+<TABLE id=ZxTableLayout border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=ZxSpacerRow>
+<TD id=Fndcellformat height=5 vAlign=center align=left></TD></TR>
+<TR id=ZxTableRow>
+<TD id=ZxTableCell width="100%"><SPAN id=TaxRegRN.ZxRegTableRN title="Search Results">
+<DIV id=loadDiv:TaxRegRN.ZxRegTableRN>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:TaxRegRN.ZxRegTableRN><INPUT id=fullAMName:TaxRegRN.ZxRegTableRN value=oracle.apps.pos.supplier.server.ByrSuppAM type=hidden><INPUT id=tid:TaxRegRN.ZxRegTableRN value=1714013320 type=hidden><INPUT id=fullCustRef:TaxRegRN.ZxRegTableRN value=/oracle/apps/pos/supplier/webui/ByrTaxDtPG.TaxRegRN.ZxRegTableRN type=hidden>
+<DIV id=surroundingDiv:TaxRegRN.ZxRegTableRN>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:TaxRegRN.ZxRegTableRN title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:TaxRegRN.ZxRegTableRN onfocus="TUdetachTableForwardFocusLoop('TaxRegRN.ZxRegTableRN');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:TaxRegRN.ZxRegTableRN onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:TaxRegRN.ZxRegTableRN><IMG title="Attach Table: Search Results" border=0 alt="Attach Table: Search Results" src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="80%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=TaxRegRN.ZxRegTableRN:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap><SPAN id=ZxCreateRN><BUTTON id=Create class=x7p title="Create Tax Registration Details" onclick="submitForm('DefaultFormName',0,{'_FORM_SUBMIT_BUTTON':'Createburr-nPk'});return false" type=submit>Create</BUTTON></SPAN></TD>
+<TD vAlign=center>&nbsp;|&nbsp;</TD>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Search Results" onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Search Results"><IMG id=TaxRegRN.ZxRegTableRN:detachIcon class=OraTableControlBarIcon title="Detach Table: Search Results" alt="Detach Table: Search Results" src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Search Results"></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=TaxRegRN.ZxRegTableRN:refreshIcon title="Refresh Table: Search Results" onclick="_tableRefresh('DefaultFormName','tablerefresh','N36',1,' ',' ','TaxRegRN.ZxRegTableRN')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Search Results" alt="Refresh Table: Search Results" src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:TaxRegRN.ZxRegTableRN class=x9i onclick="TUreset('TaxRegRN.ZxRegTableRN');" href="javascript:void(0)" name=reset:ena:TaxRegRN.ZxRegTableRN><IMG title="Reset Table Settings: Search Results" border=0 alt="Reset Table Settings: Search Results" src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:TaxRegRN.ZxRegTableRN class=x9i title="Reset Table Settings Disabled: Search Results" border=0 name=reset:dis:TaxRegRN.ZxRegTableRN alt="Reset Table Settings Disabled: Search Results" src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].invokeMenuUsingKey(this,event);" id=settings:TaxRegRN.ZxRegTableRN class=x9j role=button onclick="menus['settings_TaxRegRN__ZxRegTableRN'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:TaxRegRN.ZxRegTableRN><IMG title="Table Settings: Search Results" border=0 alt="Table Settings: Search Results" src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_TaxRegRN__ZxRegTableRN class=x9u role=menu submitfun="TUMenuOKAction('settings_TaxRegRN.ZxRegTableRN' ,'TaxRegRN.ZxRegTableRN');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:TaxRegimeCode aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:TaxRegimeCode\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:TaxRegimeCode\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:TaxRegimeCode:select title=Hide border=0 name=menuItem:TaxRegimeCode:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Regime Code</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:TaxRegimeCode tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:TaxRegimeCode><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:TaxRegimeCode tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:TaxRegimeCode><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:Tax aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:Tax\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:Tax\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:Tax:select title=Hide border=0 name=menuItem:Tax:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Tax</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:Tax tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:Tax><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:Tax tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:Tax><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:TaxJurisdictionCode aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:TaxJurisdictionCode\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:TaxJurisdictionCode\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:TaxJurisdictionCode:select title=Hide border=0 name=menuItem:TaxJurisdictionCode:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Tax Jurisdiction Code</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:TaxJurisdictionCode tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:TaxJurisdictionCode><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:TaxJurisdictionCode tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:TaxJurisdictionCode><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:RegistrationNumber aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:RegistrationNumber\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:RegistrationNumber\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:RegistrationNumber:select title=Hide border=0 name=menuItem:RegistrationNumber:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Registration Number</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:RegistrationNumber tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:RegistrationNumber><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:RegistrationNumber tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:RegistrationNumber><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:TaxAuthorityId aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:TaxAuthorityId\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:TaxAuthorityId\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:TaxAuthorityId:select title=Hide border=0 name=menuItem:TaxAuthorityId:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Issuing Tax Authority</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:TaxAuthorityId tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:TaxAuthorityId><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:TaxAuthorityId tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:TaxAuthorityId><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:Active aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:Active\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:Active\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:Active:select title=Hide border=0 name=menuItem:Active:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Active</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:Active tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:Active><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:Active tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:Active><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:UpdateRegistration aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:UpdateRegistration\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:UpdateRegistration\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:UpdateRegistration:select title=Hide border=0 name=menuItem:UpdateRegistration:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Update</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:UpdateRegistration tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:UpdateRegistration><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:UpdateRegistration tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:UpdateRegistration><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:ZxSwitcherRN aria-checked=true class=x9t onmouseover="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].clickOnMenuItem(\'menuItem:ZxSwitcherRN\',event);','TUmenuSelection(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\',\'menuItem:ZxSwitcherRN\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:ZxSwitcherRN:select title=Hide border=0 name=menuItem:ZxSwitcherRN:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:ZxSwitcherRN tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:ZxSwitcherRN><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:ZxSwitcherRN tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRegRN__ZxRegTableRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRegRN__ZxRegTableRN\',\'TaxRegRN.ZxRegTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:ZxSwitcherRN><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_TaxRegRN__ZxRegTableRN']= new Menu();menus['settings_TaxRegRN__ZxRegTableRN'].initMenu('settings_TaxRegRN__ZxRegTableRN');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].invokeMenuUsingKey(this,event);" id=freeze:TaxRegRN.ZxRegTableRN class=x9j role=button onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:TaxRegRN.ZxRegTableRN><IMG title="Column Freeze: Search Results" border=0 alt="Column Freeze: Search Results" src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_TaxRegRN__ZxRegTableRN class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=TaxRegRN.ZxRegTableRN:unfreeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('TaxRegRN.ZxRegTableRN');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=TaxRegRN.ZxRegTableRN:unfreeze:select border=0 name=TaxRegRN.ZxRegTableRN:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:TaxRegimeCode:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:TaxRegimeCode:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:TaxRegimeCode:freeze:select border=0 name=menuItem:TaxRegimeCode:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Regime Code</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:Tax:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:Tax:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:Tax:freeze:select border=0 name=menuItem:Tax:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Tax</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:TaxJurisdictionCode:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:TaxJurisdictionCode:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:TaxJurisdictionCode:freeze:select border=0 name=menuItem:TaxJurisdictionCode:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Tax Jurisdiction Code</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:RegistrationNumber:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:RegistrationNumber:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:RegistrationNumber:freeze:select border=0 name=menuItem:RegistrationNumber:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Registration Number</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:TaxAuthorityId:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:TaxAuthorityId:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:TaxAuthorityId:freeze:select border=0 name=menuItem:TaxAuthorityId:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Issuing Tax Authority</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:Active:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:Active:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:Active:freeze:select border=0 name=menuItem:Active:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Active</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:UpdateRegistration:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:UpdateRegistration:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:UpdateRegistration:freeze:select border=0 name=menuItem:UpdateRegistration:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Update</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRegRN__ZxRegTableRN'].focusMenu(event, this);" id=menuItem:ZxSwitcherRN:freeze class=x9t onmouseover="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRegRN__ZxRegTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRegRN__ZxRegTableRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRegRN.ZxRegTableRN','menuItem:ZxSwitcherRN:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:ZxSwitcherRN:freeze:select border=0 name=menuItem:ZxSwitcherRN:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_TaxRegRN__ZxRegTableRN']= new Menu();menus['freeze_TaxRegRN__ZxRegTableRN'].initMenu('freeze_TaxRegRN__ZxRegTableRN');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:TaxRegRN.ZxRegTableRN class=x9i title="Column Freeze is disabled for table Search Results. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:TaxRegRN.ZxRegTableRN alt="Column Freeze is disabled for table Search Results. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR>
+<TD>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'TaxRegRN.ZxRegTableRN')" id=contentDiv:TaxRegRN.ZxRegTableRN class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=TaxRegRN.ZxRegTableRN:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="1" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="classic" reinit="true" initialWidth="undefined" initialOWidth="undefined">
+<TBODY>
+<TR>
+<TH id=TaxRegimeCode class="x1z x50 x9h" scope=col sortvalue="0SpAphMd7" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13406 class=x2c>Regime Code
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt,parent) {if( ((typeof TUfromDragEvent != 'undefined') && TUfromDragEvent)  || ((typeof TUhideEvt != 'undefined') && TUhideEvt) ) {TUfromDragEvent = false ; TUhideEvt = false;return;}if(parent!=null && parent.tagName =='TH' && parent.getAttribute('sortvalue') != null) {  val = parent.getAttribute('sortvalue'); } var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN><A style="POSITION: absolute; DISPLAY: none" id=TaxRegimeCode:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','TaxRegimeCode');return false" href="javascript:void(0)" name=TaxRegimeCode:h><IMG title="Hide : Regime Code" border=0 alt="Hide : Regime Code" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=Tax class="x1z x50 x9h" scope=col sortvalue="1X3Nn_ycD" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13407 class=x2c>Tax</SPAN><A style="POSITION: absolute; DISPLAY: none" id=Tax:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','Tax');return false" href="javascript:void(0)" name=Tax:h><IMG title="Hide : Tax" border=0 alt="Hide : Tax" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=TaxJurisdictionCode class="x1z x50 x9h" scope=col sortvalue="2PhnuyJOe" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13408 class=x2c>Tax Jurisdiction Code</SPAN><A style="POSITION: absolute; DISPLAY: none" id=TaxJurisdictionCode:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','TaxJurisdictionCode');return false" href="javascript:void(0)" name=TaxJurisdictionCode:h><IMG title="Hide : Tax Jurisdiction Code" border=0 alt="Hide : Tax Jurisdiction Code" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=RegistrationNumber class="x1z x50 x9h" scope=col sortvalue="36B6HkDzi" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13409 class=x2c>Registration Number</SPAN><A style="POSITION: absolute; DISPLAY: none" id=RegistrationNumber:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','RegistrationNumber');return false" href="javascript:void(0)" name=RegistrationNumber:h><IMG title="Hide : Registration  Number" border=0 alt="Hide : Registration  Number" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=TaxAuthorityId class="x1z x50 x9h" scope=col sortvalue="4O-ZQgbpS" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13410 class=x2c>Issuing Tax Authority</SPAN><A style="POSITION: absolute; DISPLAY: none" id=TaxAuthorityId:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','TaxAuthorityId');return false" href="javascript:void(0)" name=TaxAuthorityId:h><IMG title="Hide : Issuing Tax Authority" border=0 alt="Hide : Issuing Tax Authority" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=Active class="x1z x50 x9h" scope=col sortvalue="5jlPnbFJ5" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13411 class=x2c>Active</SPAN><A style="POSITION: absolute; DISPLAY: none" id=Active:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','Active');return false" href="javascript:void(0)" name=Active:h><IMG title="Hide : Active" border=0 alt="Hide : Active" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=UpdateRegistration class="x21 x50 x9h" scope=col sortvalue="6q2uQF5NB" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13412 class=x2c>Update</SPAN><A style="POSITION: absolute; DISPLAY: none" id=UpdateRegistration:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','UpdateRegistration');return false" href="javascript:void(0)" name=UpdateRegistration:h><IMG title="Hide : Update" border=0 alt="Hide : Update" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=ZxSwitcherRN class="x1z x50 x9h" scope=col sortvalue="7Gv8C6NNL" oaondragstart="dragStartOnRichTableColumn(TaxRegRN.ZxRegTableRN)"><SPAN id=OASH__13413 class=x2c>Remove</SPAN><A style="POSITION: absolute; DISPLAY: none" id=ZxSwitcherRN:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRegRN.ZxRegTableRN','ZxSwitcherRN');return false" href="javascript:void(0)" name=ZxSwitcherRN:h><IMG title="Hide : Remove" border=0 alt="Hide : Remove" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR>
+<TD class="x1t x50">No results found.</TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1x x50"><BR></TD>
+<TD class="x1t x50"><BR></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:TaxRegRN.ZxRegTableRN')" id=scrollDiv:TaxRegRN.ZxRegTableRN>
+<DIV id=scrollDivContent:TaxRegRN.ZxRegTableRN></DIV></DIV></TD></TR></TBODY></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:TaxRegRN.ZxRegTableRN onfocus="TUdetachTableReturnFocusLoop('TaxRegRN.ZxRegTableRN');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:TaxRegRN.ZxRegTableRN></DIV></DIV></DIV>
+<SCRIPT language=javascript>function _richTblRefresh(formName,validate,ptgt,table,event,val) { _submitPartialChange(formName,validate,{event:event,source:table,partialTargets:ptgt,value:val});  }</SCRIPT>
+
+<SCRIPT language=javascript>function _tableRefresh(formName, tablerefresh, src, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:tablerefresh,source:src,value:val,size:sze,partialTargets:partialTargets});}</SCRIPT>
+<INPUT id=direction:N36 type=hidden name=direction:N36></SPAN><SPAN id=TaxRegRN.ZxRegTableRN-hv><INPUT value=0 type=hidden name=N36:length></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV>
+<TABLE id=AssociatedRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=7></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H3 class=x45 type="OraHeader">Associated Fiscal Classifications</H3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV><INPUT id=FcPartyId type=hidden name=FcPartyId>
+<DIV></DIV><SPAN id=ZxKeyRN>
+<TABLE id=Row border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD id=AstCell><SPAN id=ReqTextRN><SPAN id=RequiredFieldIcon class=xg>*</SPAN>
+<SCRIPT id=spacer1>t('6','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=6 height=1><SPAN id=RequiredFieldText class=x5i>Indicates required field</SPAN></SPAN></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<TABLE id=DateTipAssocFis border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="/OA_HTML/cabo/images/skyros/tip.png" width=16 height=16></TD>
+<TD class=x5h vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5i vAlign=top width="100%"></TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=ZxAssocFiscalClassifTableRN title="Associated Fiscal Classifications">
+<DIV id=loadDiv:ZxAssocFiscalClassifTableRN>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:ZxAssocFiscalClassifTableRN><INPUT id=fullAMName:ZxAssocFiscalClassifTableRN value=oracle.apps.pos.supplier.server.ByrSuppAM type=hidden><INPUT id=tid:ZxAssocFiscalClassifTableRN value=1714013320 type=hidden><INPUT id=fullCustRef:ZxAssocFiscalClassifTableRN value=/oracle/apps/pos/supplier/webui/ByrTaxDtPG.AssociatedRN.ZxAssocFiscalClassifTableRN type=hidden>
+<DIV id=surroundingDiv:ZxAssocFiscalClassifTableRN>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:ZxAssocFiscalClassifTableRN title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:ZxAssocFiscalClassifTableRN onfocus="TUdetachTableForwardFocusLoop('ZxAssocFiscalClassifTableRN');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:ZxAssocFiscalClassifTableRN onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:ZxAssocFiscalClassifTableRN><IMG title="Attach Table: Associated Fiscal Classifications" border=0 alt="Attach Table: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=ZxAssocFiscalClassifTableRN:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" title="Add Another Row: Associated Fiscal Classifications" onclick="_addRowSubmit('DefaultFormName',0,'addRows','ZxAssocFiscalClassifTableRN','1BYY0splZ','ZxAssocFiscalClassifTableRN');return false" href="javascript:void(0);"><IMG id=addTableRow1 class=OraTableControlBarIcon title="Add Another Row: Associated Fiscal Classifications" alt="Add Another Row: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/new_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Associated Fiscal Classifications" onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Associated Fiscal Classifications"><IMG id=ZxAssocFiscalClassifTableRN:detachIcon class=OraTableControlBarIcon title="Detach Table: Associated Fiscal Classifications" alt="Detach Table: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Associated Fiscal Classifications"></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=ZxAssocFiscalClassifTableRN:refreshIcon title="Refresh Table: Associated Fiscal Classifications" onclick="_tableRefresh('DefaultFormName','tablerefresh','ZxAssocFiscalClassifTableRN',0,' ',' ','ZxAssocFiscalClassifTableRN')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Associated Fiscal Classifications" alt="Refresh Table: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:ZxAssocFiscalClassifTableRN class=x9i onclick="TUreset('ZxAssocFiscalClassifTableRN');" href="javascript:void(0)" name=reset:ena:ZxAssocFiscalClassifTableRN><IMG title="Reset Table Settings: Associated Fiscal Classifications" border=0 alt="Reset Table Settings: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:ZxAssocFiscalClassifTableRN class=x9i title="Reset Table Settings Disabled: Associated Fiscal Classifications" border=0 name=reset:dis:ZxAssocFiscalClassifTableRN alt="Reset Table Settings Disabled: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_ZxAssocFiscalClassifTableRN'].invokeMenuUsingKey(this,event);" id=settings:ZxAssocFiscalClassifTableRN class=x9j role=button onclick="menus['settings_ZxAssocFiscalClassifTableRN'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:ZxAssocFiscalClassifTableRN><IMG title="Table Settings: Associated Fiscal Classifications" border=0 alt="Table Settings: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_ZxAssocFiscalClassifTableRN class=x9u role=menu submitfun="TUMenuOKAction('settings_ZxAssocFiscalClassifTableRN' ,'ZxAssocFiscalClassifTableRN');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:FcTypeCpdeCol aria-checked=true class=x9t onmouseover="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].clickOnMenuItem(\'menuItem:FcTypeCpdeCol\',event);','TUmenuSelection(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\',\'menuItem:FcTypeCpdeCol\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:FcTypeCpdeCol:select title=Hide border=0 name=menuItem:FcTypeCpdeCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Fiscal Classification Type Code</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:FcTypeCpdeCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderUp(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:FcTypeCpdeCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:FcTypeCpdeCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderDown(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:FcTypeCpdeCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:FcCodecol aria-checked=true class=x9t onmouseover="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px; BACKGROUND: lightgray"><IMG id=menuItem:FcCodecol:select title=Hide border=0 name=menuItem:FcCodecol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Fiscal Classification Code</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:FcCodecol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderUp(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:FcCodecol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:FcCodecol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderDown(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:FcCodecol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:FcNameCol aria-checked=true class=x9t onmouseover="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].clickOnMenuItem(\'menuItem:FcNameCol\',event);','TUmenuSelection(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\',\'menuItem:FcNameCol\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:FcNameCol:select title=Hide border=0 name=menuItem:FcNameCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Fiscal Classification Name</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:FcNameCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderUp(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:FcNameCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:FcNameCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderDown(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:FcNameCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:EffectiveFromCol aria-checked=true class=x9t onmouseover="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px; BACKGROUND: lightgray"><IMG id=menuItem:EffectiveFromCol:select title=Hide border=0 name=menuItem:EffectiveFromCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Effective From</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:EffectiveFromCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderUp(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:EffectiveFromCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:EffectiveFromCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderDown(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:EffectiveFromCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:EffectiveToCol aria-checked=true class=x9t onmouseover="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].clickOnMenuItem(\'menuItem:EffectiveToCol\',event);','TUmenuSelection(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\',\'menuItem:EffectiveToCol\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:EffectiveToCol:select title=Hide border=0 name=menuItem:EffectiveToCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Effective To</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:EffectiveToCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderUp(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:EffectiveToCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:EffectiveToCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderDown(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:EffectiveToCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:EnableSwitcherCol aria-checked=true class=x9t onmouseover="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].clickOnMenuItem(\'menuItem:EnableSwitcherCol\',event);','TUmenuSelection(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\',\'menuItem:EnableSwitcherCol\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:EnableSwitcherCol:select title=Hide border=0 name=menuItem:EnableSwitcherCol:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:EnableSwitcherCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderUp(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:EnableSwitcherCol><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:EnableSwitcherCol tabIndex=-1 onclick="return _chain('menus[\'settings_ZxAssocFiscalClassifTableRN\'].reorderDown(this,event)','TUreorder(\'settings_ZxAssocFiscalClassifTableRN\',\'ZxAssocFiscalClassifTableRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:EnableSwitcherCol><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_ZxAssocFiscalClassifTableRN']= new Menu();menus['settings_ZxAssocFiscalClassifTableRN'].initMenu('settings_ZxAssocFiscalClassifTableRN');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].invokeMenuUsingKey(this,event);" id=freeze:ZxAssocFiscalClassifTableRN class=x9j role=button onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:ZxAssocFiscalClassifTableRN><IMG title="Column Freeze: Associated Fiscal Classifications" border=0 alt="Column Freeze: Associated Fiscal Classifications" src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_ZxAssocFiscalClassifTableRN class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=ZxAssocFiscalClassifTableRN:unfreeze class=x9t onmouseover="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('ZxAssocFiscalClassifTableRN');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=ZxAssocFiscalClassifTableRN:unfreeze:select border=0 name=ZxAssocFiscalClassifTableRN:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:FcTypeCpdeCol:freeze class=x9t onmouseover="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].closeMenuOnAction(this,event);ATfreezeMenuSelection('ZxAssocFiscalClassifTableRN','menuItem:FcTypeCpdeCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:FcTypeCpdeCol:freeze:select border=0 name=menuItem:FcTypeCpdeCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Fiscal Classification Type Code</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:FcCodecol:freeze class=x9t onmouseover="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].closeMenuOnAction(this,event);ATfreezeMenuSelection('ZxAssocFiscalClassifTableRN','menuItem:FcCodecol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:FcCodecol:freeze:select border=0 name=menuItem:FcCodecol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Fiscal Classification Code</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:FcNameCol:freeze class=x9t onmouseover="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].closeMenuOnAction(this,event);ATfreezeMenuSelection('ZxAssocFiscalClassifTableRN','menuItem:FcNameCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:FcNameCol:freeze:select border=0 name=menuItem:FcNameCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Fiscal Classification Name</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:EffectiveFromCol:freeze class=x9t onmouseover="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].closeMenuOnAction(this,event);ATfreezeMenuSelection('ZxAssocFiscalClassifTableRN','menuItem:EffectiveFromCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:EffectiveFromCol:freeze:select border=0 name=menuItem:EffectiveFromCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Effective From</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:EffectiveToCol:freeze class=x9t onmouseover="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].closeMenuOnAction(this,event);ATfreezeMenuSelection('ZxAssocFiscalClassifTableRN','menuItem:EffectiveToCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:EffectiveToCol:freeze:select border=0 name=menuItem:EffectiveToCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Effective To</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_ZxAssocFiscalClassifTableRN'].focusMenu(event, this);" id=menuItem:EnableSwitcherCol:freeze class=x9t onmouseover="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_ZxAssocFiscalClassifTableRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_ZxAssocFiscalClassifTableRN'].closeMenuOnAction(this,event);ATfreezeMenuSelection('ZxAssocFiscalClassifTableRN','menuItem:EnableSwitcherCol:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:EnableSwitcherCol:freeze:select border=0 name=menuItem:EnableSwitcherCol:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Remove</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_ZxAssocFiscalClassifTableRN']= new Menu();menus['freeze_ZxAssocFiscalClassifTableRN'].initMenu('freeze_ZxAssocFiscalClassifTableRN');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:ZxAssocFiscalClassifTableRN class=x9i title="Column Freeze is disabled for table Associated Fiscal Classifications. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:ZxAssocFiscalClassifTableRN alt="Column Freeze is disabled for table Associated Fiscal Classifications. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR>
+<TD>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'ZxAssocFiscalClassifTableRN')" id=contentDiv:ZxAssocFiscalClassifTableRN class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=ZxAssocFiscalClassifTableRN:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="0" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="advanced">
+<COLGROUP>
+<COL id=FcTypeCpdeCol:col>
+<COL id=FcCodecol:col>
+<COL id=FcNameCol:col>
+<COL id=EffectiveFromCol:col>
+<COL id=EffectiveToCol:col>
+<COL id=EnableSwitcherCol:col>
+<TBODY>
+<TR>
+<TH id=FcTypeCpdeCol class="x1z x50 x9h" scope=col type="leaf" sortvalue="0SpAphMd7" oaondragstart="dragStartOnRichTableColumn(ZxAssocFiscalClassifTableRN)"><SPAN id=FcTypeCodeHeader class=x2c>Fiscal Classification Type Code</SPAN><A style="POSITION: absolute; DISPLAY: none" id=FcTypeCpdeCol:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('ZxAssocFiscalClassifTableRN','FcTypeCpdeCol');return false" href="javascript:void(0)" name=FcTypeCpdeCol:h><IMG title="Hide : Fiscal Classification Type Code" border=0 alt="Hide : Fiscal Classification Type Code" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=FcCodecol class="x1z x50 x9h" scope=col noWrap type="leaf" sortvalue="1X3Nn_ycD" oaondragstart="dragStartOnRichTableColumn(ZxAssocFiscalClassifTableRN)"><SPAN class=xg title=Required>*</SPAN><SPAN id=FcCodeHeader class=x2c>Fiscal Classification Code</SPAN></TH>
+<TH id=FcNameCol class="x1z x50 x9h" scope=col type="leaf" sortvalue="2PhnuyJOe" oaondragstart="dragStartOnRichTableColumn(ZxAssocFiscalClassifTableRN)"><SPAN id=FcNameHeader class=x2c>Fiscal Classification Name</SPAN><A style="POSITION: absolute; DISPLAY: none" id=FcNameCol:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('ZxAssocFiscalClassifTableRN','FcNameCol');return false" href="javascript:void(0)" name=FcNameCol:h><IMG title="Hide : Fiscal Classification Name" border=0 alt="Hide : Fiscal Classification Name" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=EffectiveFromCol class="x1z x50 x9h" scope=col noWrap type="leaf" sortvalue="36B6HkDzi" oaondragstart="dragStartOnRichTableColumn(ZxAssocFiscalClassifTableRN)"><SPAN class=xg title=Required>*</SPAN><SPAN id=EffectiveFromHeader class=x2c>Effective From</SPAN></TH>
+<TH id=EffectiveToCol class="x1z x50 x9h" scope=col type="leaf" sortvalue="4O-ZQgbpS" oaondragstart="dragStartOnRichTableColumn(ZxAssocFiscalClassifTableRN)"><SPAN id=EffectiveToHeader class=x2c>Effective To</SPAN><A style="POSITION: absolute; DISPLAY: none" id=EffectiveToCol:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('ZxAssocFiscalClassifTableRN','EffectiveToCol');return false" href="javascript:void(0)" name=EffectiveToCol:h><IMG title="Hide : Effective To" border=0 alt="Hide : Effective To" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=EnableSwitcherCol class="x21 x50 x9h" scope=col type="leaf" sortvalue="5jlPnbFJ5" oaondragstart="dragStartOnRichTableColumn(ZxAssocFiscalClassifTableRN)"><SPAN id=SwitcherHeader class=x2c>Remove</SPAN><A style="POSITION: absolute; DISPLAY: none" id=EnableSwitcherCol:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('ZxAssocFiscalClassifTableRN','EnableSwitcherCol');return false" href="javascript:void(0)" name=EnableSwitcherCol:h><IMG title="Hide : Remove" border=0 alt="Hide : Remove" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR>
+<TD class="x1t x50" noWrap>No results found.</TD>
+<TD class="x1t x50" noWrap><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1x x50"><BR></TD></TR>
+<SCRIPT>function _addRowSubmit(formName, validate, event, table, sze,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:event,source:table,size:sze,partialTargets:ptgt });}</SCRIPT>
+</TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:ZxAssocFiscalClassifTableRN')" id=scrollDiv:ZxAssocFiscalClassifTableRN>
+<DIV id=scrollDivContent:ZxAssocFiscalClassifTableRN></DIV></DIV></TD></TR></TBODY></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:ZxAssocFiscalClassifTableRN onfocus="TUdetachTableReturnFocusLoop('ZxAssocFiscalClassifTableRN');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:ZxAssocFiscalClassifTableRN></DIV></DIV></DIV><INPUT id=direction:ZxAssocFiscalClassifTableRN type=hidden name=direction:ZxAssocFiscalClassifTableRN></SPAN>
+<SCRIPT>var _ZxAssocFiscalClassifTableRN_value=0;</SCRIPT>
+<SPAN id=ZxAssocFiscalClassifTableRN-hv><INPUT value=0 type=hidden name=ZxAssocFiscalClassifTableRN:length></SPAN>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT id=OaFocusJavascriptCall:ZxAssocFiscalClassifTableRN language=javascript></SCRIPT>
+</DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=sitesRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Supplier Sites</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV><SPAN id=SiteSrchRN>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=row align=left>
+<TD id=cell21>
+<TABLE id=posSiteStatus__xc_ border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Site Status</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><SELECT id=posSiteStatus class=x8 title="Site Status" onchange="" name=posSiteStatus><OPTION selected value=POS_HT_SP_ACTIVE9B68wIE4>Active</OPTION><OPTION value=POS_HT_SP_INACTIVEMtDMonvV>Inactive</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-SIZE: 0px" id=space21>
+<SCRIPT id=space111>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=10 height=1></TD>
+<TD id=cell1>
+<TABLE id=posSiteName__xc_ border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Site Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=posSiteName class=x8 title="Site Name" onchange="" size=0 type=text name=posSiteName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-SIZE: 0px" id=space>
+<SCRIPT id=space1>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=10 height=1></TD>
+<TD id=cell2>
+<TABLE id=posOUName__xc_ border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Operating Unit</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=posOUName class=x8 title="Operating Unit" onchange="" size=0 type=text name=posOUName>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD style="FONT-SIZE: 0px" id=space2>
+<SCRIPT id=space11>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=10 height=1></TD>
+<TD id=cell3><BUTTON id=btnGo class=x7p title=Go onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',1,{\'_FORM_SUBMIT_BUTTON\':\'btnGoOUQ04TOf\'});return false',this,event,true)" type=submit>Go</BUTTON></TD></TR>
+<TR>
+<TD height=0></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR id=spaceRow>
+<TD style="FONT-SIZE: 0px" id=spaceHeight>
+<SCRIPT id=space3>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<TABLE id=awtFlagTip border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="/OA_HTML/cabo/images/skyros/tip.png" width=16 height=16></TD>
+<TD class=x5h vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5i vAlign=top width="100%">The Allow Withholding Tax option is enabled only when the Withholding Tax option is enabled in both the supplier and payables options for the operating unit.</TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=TaxRN title=Tax>
+<DIV id=loadDiv:TaxRN>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:TaxRN><INPUT id=fullAMName:TaxRN value=oracle.apps.pos.supplier.server.ByrSuppAM type=hidden><INPUT id=tid:TaxRN value=1714013320 type=hidden><INPUT id=fullCustRef:TaxRN value=/oracle/apps/pos/supplier/webui/ByrTaxDtPG.TaxRN type=hidden>
+<DIV id=surroundingDiv:TaxRN>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:TaxRN title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:TaxRN onfocus="TUdetachTableForwardFocusLoop('TaxRN');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:TaxRN onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:TaxRN><IMG title="Attach Table: Tax" border=0 alt="Attach Table: Tax" src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=TaxRN:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap><SPAN id=tableBtnLytRN><BUTTON id=createSitesBtn class=x7p title="Create Sites" onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'createSitesBtnY8dmuu9S'});return false" type=submit>Create</BUTTON></SPAN></TD>
+<TD vAlign=center>&nbsp;|&nbsp;</TD>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Tax" onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Tax"><IMG id=TaxRN:detachIcon class=OraTableControlBarIcon title="Detach Table: Tax" alt="Detach Table: Tax" src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Tax"></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=TaxRN:refreshIcon title="Refresh Table: Tax" onclick="_tableRefresh('DefaultFormName','tablerefresh','N74',1,' ',' ','TaxRN')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Tax" alt="Refresh Table: Tax" src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:TaxRN class=x9i onclick="TUreset('TaxRN');" href="javascript:void(0)" name=reset:ena:TaxRN><IMG title="Reset Table Settings: Tax" border=0 alt="Reset Table Settings: Tax" src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:TaxRN class=x9i title="Reset Table Settings Disabled: Tax" border=0 name=reset:dis:TaxRN alt="Reset Table Settings Disabled: Tax" src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_TaxRN'].invokeMenuUsingKey(this,event);" id=settings:TaxRN class=x9j role=button onclick="menus['settings_TaxRN'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:TaxRN><IMG title="Table Settings: Tax" border=0 alt="Table Settings: Tax" src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_TaxRN class=x9u role=menu submitfun="TUMenuOKAction('settings_TaxRN' ,'TaxRN');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_TaxRN'].focusMenu(event, this);" id=menuItem:SiteName1 aria-checked=true class=x9t onmouseover="menus['settings_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRN\'].clickOnMenuItem(\'menuItem:SiteName1\',event);','TUmenuSelection(\'settings_TaxRN\',\'TaxRN\',\'menuItem:SiteName1\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:SiteName1:select title=Hide border=0 name=menuItem:SiteName1:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Site Name</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:SiteName1 tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:SiteName1><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:SiteName1 tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:SiteName1><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRN'].focusMenu(event, this);" id=menuItem:OuName1 aria-checked=true class=x9t onmouseover="menus['settings_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRN\'].clickOnMenuItem(\'menuItem:OuName1\',event);','TUmenuSelection(\'settings_TaxRN\',\'TaxRN\',\'menuItem:OuName1\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:OuName1:select title=Hide border=0 name=menuItem:OuName1:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Operating Unit</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:OuName1 tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:OuName1><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:OuName1 tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:OuName1><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRN'].focusMenu(event, this);" id=menuItem:AllowTaxHold aria-checked=true class=x9t onmouseover="menus['settings_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRN\'].clickOnMenuItem(\'menuItem:AllowTaxHold\',event);','TUmenuSelection(\'settings_TaxRN\',\'TaxRN\',\'menuItem:AllowTaxHold\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AllowTaxHold:select title=Hide border=0 name=menuItem:AllowTaxHold:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Allow Tax Withholding</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:AllowTaxHold tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:AllowTaxHold><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:AllowTaxHold tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:AllowTaxHold><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRN'].focusMenu(event, this);" id=menuItem:invSiteTaxGroupName aria-checked=true class=x9t onmouseover="menus['settings_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRN\'].clickOnMenuItem(\'menuItem:invSiteTaxGroupName\',event);','TUmenuSelection(\'settings_TaxRN\',\'TaxRN\',\'menuItem:invSiteTaxGroupName\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:invSiteTaxGroupName:select title=Hide border=0 name=menuItem:invSiteTaxGroupName:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Invoice Withholding Tax Group</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:invSiteTaxGroupName tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:invSiteTaxGroupName><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:invSiteTaxGroupName tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:invSiteTaxGroupName><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRN'].focusMenu(event, this);" id=menuItem:paySiteTaxGroupName aria-checked=true class=x9t onmouseover="menus['settings_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRN\'].clickOnMenuItem(\'menuItem:paySiteTaxGroupName\',event);','TUmenuSelection(\'settings_TaxRN\',\'TaxRN\',\'menuItem:paySiteTaxGroupName\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:paySiteTaxGroupName:select title=Hide border=0 name=menuItem:paySiteTaxGroupName:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Payment Withholding Tax Group</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:paySiteTaxGroupName tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:paySiteTaxGroupName><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:paySiteTaxGroupName tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:paySiteTaxGroupName><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_TaxRN'].focusMenu(event, this);" id=menuItem:updateSwtchrRN aria-checked=true class=x9t onmouseover="menus['settings_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settings_TaxRN\'].clickOnMenuItem(\'menuItem:updateSwtchrRN\',event);','TUmenuSelection(\'settings_TaxRN\',\'TaxRN\',\'menuItem:updateSwtchrRN\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:updateSwtchrRN:select title=Hide border=0 name=menuItem:updateSwtchrRN:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Update Transaction Tax</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:updateSwtchrRN tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderUp(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=up:menuItem:updateSwtchrRN><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:updateSwtchrRN tabIndex=-1 onclick="return _chain('menus[\'settings_TaxRN\'].reorderDown(this,event)','TUreorder(\'settings_TaxRN\',\'TaxRN\')',this,event)" href="javascript:void(0)" name=down:menuItem:updateSwtchrRN><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_TaxRN']= new Menu();menus['settings_TaxRN'].initMenu('settings_TaxRN');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_TaxRN'].invokeMenuUsingKey(this,event);" id=freeze:TaxRN class=x9j role=button onclick="menus['freeze_TaxRN'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:TaxRN><IMG title="Column Freeze: Tax" border=0 alt="Column Freeze: Tax" src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_TaxRN class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_TaxRN'].focusMenu(event, this);" id=TaxRN:unfreeze class=x9t onmouseover="menus['freeze_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRN'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('TaxRN');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=TaxRN:unfreeze:select border=0 name=TaxRN:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRN'].focusMenu(event, this);" id=menuItem:SiteName1:freeze class=x9t onmouseover="menus['freeze_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRN','menuItem:SiteName1:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:SiteName1:freeze:select border=0 name=menuItem:SiteName1:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Site Name</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRN'].focusMenu(event, this);" id=menuItem:OuName1:freeze class=x9t onmouseover="menus['freeze_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRN','menuItem:OuName1:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:OuName1:freeze:select border=0 name=menuItem:OuName1:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Operating Unit</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRN'].focusMenu(event, this);" id=menuItem:AllowTaxHold:freeze class=x9t onmouseover="menus['freeze_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRN','menuItem:AllowTaxHold:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AllowTaxHold:freeze:select border=0 name=menuItem:AllowTaxHold:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Allow Tax Withholding</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRN'].focusMenu(event, this);" id=menuItem:invSiteTaxGroupName:freeze class=x9t onmouseover="menus['freeze_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRN','menuItem:invSiteTaxGroupName:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:invSiteTaxGroupName:freeze:select border=0 name=menuItem:invSiteTaxGroupName:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Invoice Withholding Tax Group</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRN'].focusMenu(event, this);" id=menuItem:paySiteTaxGroupName:freeze class=x9t onmouseover="menus['freeze_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRN','menuItem:paySiteTaxGroupName:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:paySiteTaxGroupName:freeze:select border=0 name=menuItem:paySiteTaxGroupName:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Payment Withholding Tax Group</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_TaxRN'].focusMenu(event, this);" id=menuItem:updateSwtchrRN:freeze class=x9t onmouseover="menus['freeze_TaxRN'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_TaxRN'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_TaxRN'].closeMenuOnAction(this,event);CTfreezeMenuSelection('TaxRN','menuItem:updateSwtchrRN:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:updateSwtchrRN:freeze:select border=0 name=menuItem:updateSwtchrRN:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Update Transaction Tax</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_TaxRN']= new Menu();menus['freeze_TaxRN'].initMenu('freeze_TaxRN');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:TaxRN class=x9i title="Column Freeze is disabled for table Tax. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:TaxRN alt="Column Freeze is disabled for table Tax. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'TaxRN')" id=contentDiv:TaxRN class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=TaxRN:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="1" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="classic">
+<TBODY>
+<TR>
+<TH id=SiteName1 class="x1z x50 x9h" scope=col sortvalue="0SpAphMd7" oaondragstart="dragStartOnRichTableColumn(TaxRN)"><SPAN id=OASH__13414 class=x2c>Site Name</SPAN><A style="POSITION: absolute; DISPLAY: none" id=SiteName1:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRN','SiteName1');return false" href="javascript:void(0)" name=SiteName1:h><IMG title="Hide : Site Name" border=0 alt="Hide : Site Name" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=OuName1 class="x1z x50 x9h" scope=col sortvalue="1X3Nn_ycD" oaondragstart="dragStartOnRichTableColumn(TaxRN)"><SPAN id=OASH__13415 class=x2c>Operating Unit</SPAN><A style="POSITION: absolute; DISPLAY: none" id=OuName1:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRN','OuName1');return false" href="javascript:void(0)" name=OuName1:h><IMG title="Hide : Operating Unit" border=0 alt="Hide : Operating Unit" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=AllowTaxHold class="x21 x50 x9h" scope=col sortvalue="2PhnuyJOe" oaondragstart="dragStartOnRichTableColumn(TaxRN)"><SPAN id=OASH__13416 class=x2c>Allow Tax Withholding</SPAN><A style="POSITION: absolute; DISPLAY: none" id=AllowTaxHold:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRN','AllowTaxHold');return false" href="javascript:void(0)" name=AllowTaxHold:h><IMG title="Hide : Allow Tax Withholding" border=0 alt="Hide : Allow Tax Withholding" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=invSiteTaxGroupName class="x1z x50 x9h" scope=col sortvalue="36B6HkDzi" oaondragstart="dragStartOnRichTableColumn(TaxRN)"><SPAN id=OASH__13417 class=x2c>Invoice Withholding Tax Group</SPAN><A style="POSITION: absolute; DISPLAY: none" id=invSiteTaxGroupName:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRN','invSiteTaxGroupName');return false" href="javascript:void(0)" name=invSiteTaxGroupName:h><IMG title="Hide : Invoice Withholding Tax Group" border=0 alt="Hide : Invoice Withholding Tax Group" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=paySiteTaxGroupName class="x1z x50 x9h" scope=col sortvalue="4O-ZQgbpS" oaondragstart="dragStartOnRichTableColumn(TaxRN)"><SPAN id=OASH__13418 class=x2c>Payment Withholding Tax Group</SPAN><A style="POSITION: absolute; DISPLAY: none" id=paySiteTaxGroupName:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRN','paySiteTaxGroupName');return false" href="javascript:void(0)" name=paySiteTaxGroupName:h><IMG title="Hide : Payment Withholding Tax Group" border=0 alt="Hide : Payment Withholding Tax Group" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=updateSwtchrRN class="x1z x50 x9h" scope=col sortvalue="5jlPnbFJ5" oaondragstart="dragStartOnRichTableColumn(TaxRN)"><SPAN id=OASH__13419 class=x2c>Update Transaction Tax</SPAN><A style="POSITION: absolute; DISPLAY: none" id=updateSwtchrRN:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('TaxRN','updateSwtchrRN');return false" href="javascript:void(0)" name=updateSwtchrRN:h><IMG title="Hide : Update Transaction Tax" border=0 alt="Hide : Update Transaction Tax" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR>
+<TD class="x1t x50">No results found.</TD>
+<TD class="x1t x50"><BR></TD>
+<TD class="x1x x50"><BR></TD>
+<TD class="x1t x50" noWrap><BR></TD>
+<TD class="x1t x50" noWrap><BR></TD>
+<TD class="x1t x50"><BR></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:TaxRN')" id=scrollDiv:TaxRN>
+<DIV id=scrollDivContent:TaxRN></DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:TaxRN onfocus="TUdetachTableReturnFocusLoop('TaxRN');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:TaxRN></DIV></DIV></DIV><INPUT id=direction:N74 type=hidden name=direction:N74></SPAN>
+<SCRIPT>var _N74_value=0;</SCRIPT>
+<SPAN id=TaxRN-hv><INPUT value=0 type=hidden name=N74:length></SPAN>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog data="{autoPosition:0,px:-1,py:-1};" isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=1714013320&amp;oapc=11&amp;oas=Qpp6Qfd_QExjdaJung2ALA.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/pos/supplier/webui/ByrTaxDtPG:::pZekCJl_ type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,2)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=2></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right><FOOTER style="DISPLAY: none" id=oaffooterbuttons>
+<TABLE id=pageBtnRN_uixr class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON id=cancelBtn_uixr class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'_FORM_SUBMIT_BUTTON\':\'cancelBtnCcHIO30_\'});return false',this,event,true)" type=submit>Cancel</BUTTON></TD>
+<TD><BUTTON accessKey=S id=saveBtn_uixr class=x7p title=Save onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'saveBtnq4oKmRoS'});return false" type=submit><SPAN class=xq>S</SPAN>ave</BUTTON></TD></TR></TBODY></TABLE></FOOTER></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N120>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'serverValidate\':\'1xrbhGqCR\',event:\'about\'});return false;',this,event,true)" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=_fwkActBtnName_federal_fedTaxChecked$$serverUnvalidated value=falseU6nB4kzx type=hidden name=_fwkActBtnName_federal_fedTaxChecked$$serverUnvalidated><INPUT id=_fwkActBtnName_allwTaxWthld_awtChecked$$serverUnvalidated value=falseTPkaMyd7 type=hidden name=_fwkActBtnName_allwTaxWthld_awtChecked$$serverUnvalidated><INPUT id=_fwkActBtnName_UpdateRegistration_update$$serverUnvalidated value=false3qtwclAD type=hidden name=_fwkActBtnName_UpdateRegistration_update$$serverUnvalidated><INPUT id=_fwkActBtnName_RemoveEnabled_update$$serverUnvalidated value=falseNnehFpC8 type=hidden name=_fwkActBtnName_RemoveEnabled_update$$serverUnvalidated><INPUT id=Create$$unvalidated value=trueBeo2KiMs type=hidden name=Create$$unvalidated><INPUT id=Create$$serverUnvalidated value=falseGU12UKsd type=hidden name=Create$$serverUnvalidated><INPUT id=Create$$processFormDataCalled value=trueivflPi4a type=hidden name=Create$$processFormDataCalled><INPUT id=N36$$unvalidated value=false0CE-nYV- type=hidden name=N36$$unvalidated><INPUT id=N36$$serverUnvalidated value=falseD17YXEln type=hidden name=N36$$serverUnvalidated><INPUT id=ZxAssocFiscalClassifTableRN$$unvalidated value=truetRuth4Y6 type=hidden name=ZxAssocFiscalClassifTableRN$$unvalidated><INPUT id=ZxAssocFiscalClassifTableRN$$serverUnvalidated value=falsehNGcRLPg type=hidden name=ZxAssocFiscalClassifTableRN$$serverUnvalidated><INPUT id=btnGo$$unvalidated value=false_UoqRNsz type=hidden name=btnGo$$unvalidated><INPUT id=btnGo$$serverUnvalidated value=falseqQkFFKyM type=hidden name=btnGo$$serverUnvalidated><INPUT id=btnGo$$processFormDataCalled value=trueLRnEyTMH type=hidden name=btnGo$$processFormDataCalled><INPUT id=_fwkActBtnName_AllowTaxHold_siteAwtChecked$$serverUnvalidated value=falseUpQRZn3m type=hidden name=_fwkActBtnName_AllowTaxHold_siteAwtChecked$$serverUnvalidated><INPUT id=_fwkActBtnName_updTranTax_update$$serverUnvalidated value=false64etGtqD type=hidden name=_fwkActBtnName_updTranTax_update$$serverUnvalidated><INPUT id=createSitesBtn$$unvalidated value=falsenxnCGX0n type=hidden name=createSitesBtn$$unvalidated><INPUT id=createSitesBtn$$serverUnvalidated value=false7EaRcvJg type=hidden name=createSitesBtn$$serverUnvalidated><INPUT id=createSitesBtn$$processFormDataCalled value=trueHWV5MqqR type=hidden name=createSitesBtn$$processFormDataCalled><INPUT id=N74$$unvalidated value=falsezzYKv2XL type=hidden name=N74$$unvalidated><INPUT id=N74$$serverUnvalidated value=falseVJor-gWK type=hidden name=N74$$serverUnvalidated><INPUT id=openPopupSourceId value=XbYdQ0Zn type=hidden name=openPopupSourceId><INPUT id=cancelBtn$$unvalidated value=trueWpyEAAyT type=hidden name=cancelBtn$$unvalidated><INPUT id=cancelBtn$$serverUnvalidated value=trueRajphudK type=hidden name=cancelBtn$$serverUnvalidated><INPUT id=cancelBtn$$processFormDataCalled value=truewmoatHXG type=hidden name=cancelBtn$$processFormDataCalled><INPUT id=saveBtn$$unvalidated value=falseqdWRXqai type=hidden name=saveBtn$$unvalidated><INPUT id=saveBtn$$serverUnvalidated value=false-F4SXG4C type=hidden name=saveBtn$$serverUnvalidated><INPUT id=saveBtn$$processFormDataCalled value=truet0ZST9ZH type=hidden name=saveBtn$$processFormDataCalled><INPUT id=_pkByrSuppAM.MaintainPartyTaxProfilesAM.MaintainPartyTaxProfilesVOPartyTaxProfileId value={!!xGSpTjd0hyNfiAZZFFIcDwm9pKR4e_ type=hidden name=_pkByrSuppAM.MaintainPartyTaxProfilesAM.MaintainPartyTaxProfilesVOPartyTaxProfileId><INPUT id=FORM_MAC_LIST value=evtSrcRowIdx^saveBtn$$processFormDataCalled^lovCriteriaHiddenFieldpaySiteTaxGroupName^_FORM^ZxAssocFiscalClassifTableRN$$serverUnvalidated^_fwkActBtnName_federal_fedTaxChecked$$serverUnvalidated^Operation^cancelBtn$$serverUnvalidated^serverValidate^lovAutoClearHFFcCode^cancelBtn$$processFormDataCalled^lovCriteriaHiddenFieldincomeTaxType^saveBtn$$serverUnvalidated^N74$$serverUnvalidated^_fwkActBtnName_updTranTax_update$$serverUnvalidated^Create$$processFormDataCalled^ZxAssocFiscalClassifTableRN$$unvalidated^lovCriteriaHiddenFieldDefRepCountryName^lovAutoClearHFpaySiteTaxGroupName^RoundingLevelCode^_AM_TX_ID_FIELD^lovCriteriaHiddenFieldinvSiteTaxGroupName^_fwkActBtnName_RemoveEnabled_update$$serverUnvalidated^lovCriteriaHiddenFieldFcCode^btnGo$$unvalidated^RoundingRuleCode^evtSrcRowId^lovAutoClearHFDefRepRegType^_fwkActBtnName_UpdateRegistration_update$$serverUnvalidated^lovAutoClearHFDefRepCountryName^btnGo$$processFormDataCalled^N74$$unvalidated^_fwkAbsolutePageName^N36$$unvalidated^lovCriteriaHiddenFieldFcTypeCode^lovAutoClearHFinvSiteTaxGroupName^Create$$serverUnvalidated^_fwkActBtnName_allwTaxWthld_awtChecked$$serverUnvalidated^cancelBtn$$unvalidated^_FORM_SUBMIT_BUTTON^createSitesBtn$$serverUnvalidated^FormPartyTaxProfileId^N36$$serverUnvalidated^lovAutoClearHFincomeTaxType^lovCriteriaHiddenFieldpayTaxGroupName^lovAutoClearHFpayTaxGroupName^lovCriteriaHiddenFieldDefRepRegType^_fwkActBtnName_AllowTaxHold_siteAwtChecked$$serverUnvalidated^_FORMEVENT^lovCriteriaHiddenFieldinvTaxGroupName^lovAutoClearHFinvTaxGroupName^createSitesBtn$$processFormDataCalled^BASE_FORM_NAME^FormRegistrationId^posSiteStatus^createSitesBtn$$unvalidated^btnGo$$serverUnvalidated^Create$$unvalidated^lovAutoClearHFFcTypeCode^openPopupSourceId^_pkByrSuppAM.MaintainPartyTaxProfilesAM.MaintainPartyTaxProfilesVOPartyTaxProfileId^saveBtn$$unvalidated***size;T^value;T@@@FORM_MAC_LIST***@@@lovOnClickJSHiddenFieldDefRepCountryName^lovOnClickJSHiddenFieldpayTaxGroupName^lovPassiveCriteriaHFinvSiteTaxGroupName^posSiteName^invCurrCode^lovOnClickJSHiddenFieldinvTaxGroupName^lovPassiveCriteriaHFDefRepRegType^lovTableHiddenFieldFcTypeCode^lovOnClickJSHiddenFieldinvSiteTaxGroupName^lovPassiveCriteriaHFpayTaxGroupName^taxGroupid^lovOnClickJSExecutedHiddenFieldDefRepRegType^lovTableHiddenFieldinvSiteTaxGroupName^lovOnClickJSExecutedHiddenFieldpaySiteTaxGroupName^lovOnClickJSHiddenFieldDefRepRegType^N74:length^lovPassiveCriteriaHFinvTaxGroupName^lovPassiveCriteriaHFFcTypeCode^FvDefRepRegType^lovTableHiddenFieldFcCode^lovJSHiddenFieldDefRepCountryName^posOUName^FcPartyId^lovOnClickJSExecutedHiddenFieldFcTypeCode^direction:N74^FORM_MAC_LIST^source^lovPassiveCriteriaHFDefRepCountryName^DefRepRegType^lovPassiveCriteriaHFincomeTaxType^federal^InclusiveTaxFlag^lovOnClickJSExecutedHiddenFieldFcCode^lovOnClickJSExecutedHiddenFieldincomeTaxType^lovOnClickJSExecutedHiddenFieldinvSiteTaxGroupName^lovOnClickJSHiddenFieldFcCode^ZxAssocFiscalClassifTableRN:length^lovOnClickJSHiddenFieldincomeTaxType^lovJSHiddenFieldDefRepRegType^taxPayerID^N36:length^direction:N36^lovJSHiddenFieldpaySiteTaxGroupName^incTaxType^lovJSHiddenFieldpayTaxGroupName^DefRepCountryCode^lovPassiveCriteriaHFpaySiteTaxGroupName^allwTaxWthld^paytaxGroupid^lovJSHiddenFieldinvTaxGroupName^lovOnClickJSExecutedHiddenFieldpayTaxGroupName^lovOnClickJSHiddenFieldpaySiteTaxGroupName^DefRepRegNumber^direction:ZxAssocFiscalClassifTableRN^lovTableHiddenFieldpaySiteTaxGroupName^lovJSHiddenFieldFcCode^DefRepCountryName^partialTargets^lovPassiveCriteriaHFFcCode^stateRptFlag1^lovOnClickJSExecutedHiddenFieldinvTaxGroupName^lovOnClickJSExecutedHiddenFieldDefRepCountryName^lovJSHiddenFieldFcTypeCode^lovJSHiddenFieldincomeTaxType^lovJSHiddenFieldinvSiteTaxGroupName^event^lovOnClickJSHiddenFieldFcTypeCode-2L_Ci7eqjxq1YB-v5GvfQ.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=source><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=FormPartyTaxProfileId><INPUT type=hidden name=FormRegistrationId><INPUT type=hidden name=Operation><INPUT type=hidden name=searchText><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=size>
+<SCRIPT>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","source","partialTargets","partial","FormPartyTaxProfileId","FormRegistrationId","Operation","searchText","value","state","size"];</SCRIPT>
+
+<SCRIPT>var _DefaultFormName_Validations=['new Utf8Format(20).validate(%value%)','new Utf8Format(80).validate(%value%)','new Utf8Format(50).validate(%value%)','new Utf8Format(30).validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"taxPayerID",0,1,1,"DefRepCountryName",0,1,2,"DefRepRegNumber",0,1,3,"DefRepRegType",0,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'taxPayerID':'Taxpayer\x20ID','DefRepCountryName':'Default\x20Reporting\x20Country\x20Name','DefRepRegNumber':'Default\x20Reporting\x20Registration\x20Number','DefRepRegType':'Default\x20Reporting\x20Tax\x20Registration\x20Type'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is too long.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<SCRIPT id=OaFocusJavascriptFunc_ZxAssocFiscalClassifTableRN language=javascript>function _setFocusAfterAddRows_ZxAssocFiscalClassifTableRN(tableName, childName) { var proxy = new TableProxy(tableName); var tableLength = proxy.length; var myElement = proxy.getFormElement(childName, tableLength - 1); myElement.focus(); }</SCRIPT>
+
+<DIV style="Z-INDEX: 50; VISIBILITY: hidden" id=LLAOutput>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE id=lovSuggestTable border=1 cellSpacing=0 cellPadding=2 width="100%"></TABLE></DIV></TD>
+<TD class=OraRightShadowBg vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG align=top src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=center align=left>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR class=OraBottomShadowBg>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG align=left src="/OA_MEDIA/btmshdw.gif" width=5 height=13></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 1327px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=true;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpint.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) --></BODY></HTML>

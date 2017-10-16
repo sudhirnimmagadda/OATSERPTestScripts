@@ -1,0 +1,652 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Create Supplier</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript>function clearFlexChildren(){lovClearValue(document.DefaultFormName.OrgProfileQuickFlex0);}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event,\'DefaultFormName\')','Linit();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<SCRIPT id=_blockOnEverySubmitScript>_blockOnEverySubmit=true;</SCRIPT>
+
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};_navDirty=1;</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/pos/supplier/webui/SuppCrtPG&amp;OAMC=G&amp;_ti=376542294&amp;retainAM=Y&amp;addBreadCrumb=S&amp;oapc=7&amp;oas=r90QZGrsB_n7mevUNlDNoQ..><INPUT id=_AM_TX_ID_FIELD value=2OpexNIdR type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormNameS5YUkD22 type=hidden name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFEmployeeName value=N9DCJvTyq type=hidden name=lovAutoClearHFEmployeeName>
+<SCRIPT language=javascript>function LOCEmployeeId(visitedList){visitedList['EmployeeId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCEmployeePartyId(visitedList){visitedList['EmployeePartyId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCempNum(visitedList){visitedList['empNum'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCEmployeeName(visitedList){ visitedList['EmployeeName'] = 'v';if (visitedList['EmployeeId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].EmployeeId);LOCEmployeeId(visitedList);}if (visitedList['EmployeePartyId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].EmployeePartyId);LOCEmployeePartyId(visitedList);}if (visitedList['empNum'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].empNum);LOCempNum(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldEmployeeName value=EmployeeNameCZUAR2Bc type=hidden name=lovCriteriaHiddenFieldEmployeeName><INPUT id=lovPassiveCriteriaHFEmployeeName type=hidden name=lovPassiveCriteriaHFEmployeeName><INPUT id=BASE_FORM_NAME value=DefaultFormNameq2B1S-Ak type=hidden name=BASE_FORM_NAME><INPUT id=lovOnClickJSHiddenFieldEmployeeName type=hidden name=lovOnClickJSHiddenFieldEmployeeName><INPUT id=lovOnClickJSExecutedHiddenFieldEmployeeName value=N type=hidden name=lovOnClickJSExecutedHiddenFieldEmployeeName><INPUT id=lovJSHiddenFieldEmployeeName type=hidden name=lovJSHiddenFieldEmployeeName>
+<SCRIPT language=javascript>function LcustomOnChangeEmployeeName(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFdefaultOU value=N4EGBf795 type=hidden name=lovAutoClearHFdefaultOU>
+<SCRIPT language=javascript>function LOCdefaultOrgId(visitedList){visitedList['defaultOrgId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCdefaultOU(visitedList){ visitedList['defaultOU'] = 'v';if (visitedList['defaultOrgId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].defaultOrgId);LOCdefaultOrgId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFielddefaultOU value=defaultOUIYN5KlMb type=hidden name=lovCriteriaHiddenFielddefaultOU><INPUT id=lovPassiveCriteriaHFdefaultOU type=hidden name=lovPassiveCriteriaHFdefaultOU><INPUT id=lovOnClickJSHiddenFielddefaultOU type=hidden name=lovOnClickJSHiddenFielddefaultOU><INPUT id=lovOnClickJSExecutedHiddenFielddefaultOU value=N type=hidden name=lovOnClickJSExecutedHiddenFielddefaultOU><INPUT id=lovJSHiddenFielddefaultOU type=hidden name=lovJSHiddenFielddefaultOU>
+<SCRIPT language=javascript>function LcustomOnChangedefaultOU(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFtaxCountry value=Nq0AhTXy8 type=hidden name=lovAutoClearHFtaxCountry>
+<SCRIPT language=javascript>function LOCcountryOriginCode(visitedList){visitedList['countryOriginCode'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCtaxCountry(visitedList){ visitedList['taxCountry'] = 'v';if (visitedList['countryOriginCode'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].countryOriginCode);LOCcountryOriginCode(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldtaxCountry value=taxCountryp-Hq2mRT type=hidden name=lovCriteriaHiddenFieldtaxCountry><INPUT id=lovPassiveCriteriaHFtaxCountry type=hidden name=lovPassiveCriteriaHFtaxCountry><INPUT id=lovOnClickJSHiddenFieldtaxCountry type=hidden name=lovOnClickJSHiddenFieldtaxCountry><INPUT id=lovOnClickJSExecutedHiddenFieldtaxCountry value=N type=hidden name=lovOnClickJSExecutedHiddenFieldtaxCountry><INPUT id=lovJSHiddenFieldtaxCountry type=hidden name=lovJSHiddenFieldtaxCountry>
+<SCRIPT language=javascript>function LcustomOnChangetaxCountry(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFsupplierDff4 value=N0qNeArp0 type=hidden name=lovAutoClearHFsupplierDff4>
+<SCRIPT language=javascript>function LOCsupplierDff4HiddenFlexId(visitedList){visitedList['supplierDff4HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCsupplierDff4(visitedList){ visitedList['supplierDff4'] = 'v';if (visitedList['supplierDff4HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff4HiddenFlexId);LOCsupplierDff4HiddenFlexId(visitedList);}if (visitedList['supplierDff4HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff4HiddenFlexId);LOCsupplierDff4HiddenFlexId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldsupplierDff4 value=supplierDff4ouw65x09 type=hidden name=lovCriteriaHiddenFieldsupplierDff4><INPUT id=lovPassiveCriteriaHFsupplierDff4 type=hidden name=lovPassiveCriteriaHFsupplierDff4><INPUT id=lovOnClickJSHiddenFieldsupplierDff4 type=hidden name=lovOnClickJSHiddenFieldsupplierDff4><INPUT id=lovOnClickJSExecutedHiddenFieldsupplierDff4 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldsupplierDff4><INPUT id=lovJSHiddenFieldsupplierDff4 type=hidden name=lovJSHiddenFieldsupplierDff4>
+<SCRIPT language=javascript>function LcustomOnChangesupplierDff4(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFsupplierDff5 value=NItAnR2Ve type=hidden name=lovAutoClearHFsupplierDff5>
+<SCRIPT language=javascript>function LOCsupplierDff5HiddenFlexId(visitedList){visitedList['supplierDff5HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCsupplierDff5(visitedList){ visitedList['supplierDff5'] = 'v';if (visitedList['supplierDff5HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff5HiddenFlexId);LOCsupplierDff5HiddenFlexId(visitedList);}if (visitedList['supplierDff5HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff5HiddenFlexId);LOCsupplierDff5HiddenFlexId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldsupplierDff5 value=supplierDff59a0LeVgh type=hidden name=lovCriteriaHiddenFieldsupplierDff5><INPUT id=lovPassiveCriteriaHFsupplierDff5 type=hidden name=lovPassiveCriteriaHFsupplierDff5><INPUT id=lovOnClickJSHiddenFieldsupplierDff5 type=hidden name=lovOnClickJSHiddenFieldsupplierDff5><INPUT id=lovOnClickJSExecutedHiddenFieldsupplierDff5 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldsupplierDff5><INPUT id=lovJSHiddenFieldsupplierDff5 type=hidden name=lovJSHiddenFieldsupplierDff5>
+<SCRIPT language=javascript>function LcustomOnChangesupplierDff5(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFsupplierDff10 value=NHNMBJuuT type=hidden name=lovAutoClearHFsupplierDff10>
+<SCRIPT language=javascript>function LOCsupplierDff10HiddenFlexId(visitedList){visitedList['supplierDff10HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCsupplierDff10(visitedList){ visitedList['supplierDff10'] = 'v';if (visitedList['supplierDff10HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff10HiddenFlexId);LOCsupplierDff10HiddenFlexId(visitedList);}if (visitedList['supplierDff10HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff10HiddenFlexId);LOCsupplierDff10HiddenFlexId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldsupplierDff10 value=supplierDff10wz96Elxi type=hidden name=lovCriteriaHiddenFieldsupplierDff10><INPUT id=lovPassiveCriteriaHFsupplierDff10 type=hidden name=lovPassiveCriteriaHFsupplierDff10><INPUT id=lovOnClickJSHiddenFieldsupplierDff10 type=hidden name=lovOnClickJSHiddenFieldsupplierDff10><INPUT id=lovOnClickJSExecutedHiddenFieldsupplierDff10 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldsupplierDff10><INPUT id=lovJSHiddenFieldsupplierDff10 type=hidden name=lovJSHiddenFieldsupplierDff10>
+<SCRIPT language=javascript>function LcustomOnChangesupplierDff10(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFsupplierDff11 value=Nkh3vGua0 type=hidden name=lovAutoClearHFsupplierDff11>
+<SCRIPT language=javascript>function LOCsupplierDff11HiddenFlexId(visitedList){visitedList['supplierDff11HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCsupplierDff11(visitedList){ visitedList['supplierDff11'] = 'v';if (visitedList['supplierDff11HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff11HiddenFlexId);LOCsupplierDff11HiddenFlexId(visitedList);}if (visitedList['supplierDff11HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff11HiddenFlexId);LOCsupplierDff11HiddenFlexId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldsupplierDff11 value=supplierDff11roSuatV1 type=hidden name=lovCriteriaHiddenFieldsupplierDff11><INPUT id=lovPassiveCriteriaHFsupplierDff11 type=hidden name=lovPassiveCriteriaHFsupplierDff11><INPUT id=lovOnClickJSHiddenFieldsupplierDff11 type=hidden name=lovOnClickJSHiddenFieldsupplierDff11><INPUT id=lovOnClickJSExecutedHiddenFieldsupplierDff11 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldsupplierDff11><INPUT id=lovJSHiddenFieldsupplierDff11 type=hidden name=lovJSHiddenFieldsupplierDff11>
+<SCRIPT language=javascript>function LcustomOnChangesupplierDff11(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFsupplierDff12 value=Nc7ojuzA6 type=hidden name=lovAutoClearHFsupplierDff12>
+<SCRIPT language=javascript>function LOCsupplierDff12HiddenFlexId(visitedList){visitedList['supplierDff12HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCsupplierDff12(visitedList){ visitedList['supplierDff12'] = 'v';if (visitedList['supplierDff12HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff12HiddenFlexId);LOCsupplierDff12HiddenFlexId(visitedList);}if (visitedList['supplierDff12HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff12HiddenFlexId);LOCsupplierDff12HiddenFlexId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldsupplierDff12 value=supplierDff12UNyESV7q type=hidden name=lovCriteriaHiddenFieldsupplierDff12><INPUT id=lovPassiveCriteriaHFsupplierDff12 type=hidden name=lovPassiveCriteriaHFsupplierDff12><INPUT id=lovOnClickJSHiddenFieldsupplierDff12 type=hidden name=lovOnClickJSHiddenFieldsupplierDff12><INPUT id=lovOnClickJSExecutedHiddenFieldsupplierDff12 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldsupplierDff12><INPUT id=lovJSHiddenFieldsupplierDff12 type=hidden name=lovJSHiddenFieldsupplierDff12>
+<SCRIPT language=javascript>function LcustomOnChangesupplierDff12(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFsupplierDff13 value=N7Q1pUzJy type=hidden name=lovAutoClearHFsupplierDff13>
+<SCRIPT language=javascript>function LOCsupplierDff13HiddenFlexId(visitedList){visitedList['supplierDff13HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCsupplierDff13(visitedList){ visitedList['supplierDff13'] = 'v';if (visitedList['supplierDff13HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff13HiddenFlexId);LOCsupplierDff13HiddenFlexId(visitedList);}if (visitedList['supplierDff13HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff13HiddenFlexId);LOCsupplierDff13HiddenFlexId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldsupplierDff13 value=supplierDff13gGDfmiRU type=hidden name=lovCriteriaHiddenFieldsupplierDff13><INPUT id=lovPassiveCriteriaHFsupplierDff13 type=hidden name=lovPassiveCriteriaHFsupplierDff13><INPUT id=lovOnClickJSHiddenFieldsupplierDff13 type=hidden name=lovOnClickJSHiddenFieldsupplierDff13><INPUT id=lovOnClickJSExecutedHiddenFieldsupplierDff13 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldsupplierDff13><INPUT id=lovJSHiddenFieldsupplierDff13 type=hidden name=lovJSHiddenFieldsupplierDff13>
+<SCRIPT language=javascript>function LcustomOnChangesupplierDff13(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+<INPUT id=lovAutoClearHFsupplierDff14 value=NuKsmswl8 type=hidden name=lovAutoClearHFsupplierDff14>
+<SCRIPT language=javascript>function LOCsupplierDff14HiddenFlexId(visitedList){visitedList['supplierDff14HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCsupplierDff14(visitedList){ visitedList['supplierDff14'] = 'v';if (visitedList['supplierDff14HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff14HiddenFlexId);LOCsupplierDff14HiddenFlexId(visitedList);}if (visitedList['supplierDff14HiddenFlexId'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].supplierDff14HiddenFlexId);LOCsupplierDff14HiddenFlexId(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldsupplierDff14 value=supplierDff144pcPjpjT type=hidden name=lovCriteriaHiddenFieldsupplierDff14><INPUT id=lovPassiveCriteriaHFsupplierDff14 type=hidden name=lovPassiveCriteriaHFsupplierDff14><INPUT id=lovOnClickJSHiddenFieldsupplierDff14 type=hidden name=lovOnClickJSHiddenFieldsupplierDff14><INPUT id=lovOnClickJSExecutedHiddenFieldsupplierDff14 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldsupplierDff14><INPUT id=lovJSHiddenFieldsupplierDff14 type=hidden name=lovJSHiddenFieldsupplierDff14>
+<SCRIPT language=javascript>function LcustomOnChangesupplierDff14(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+</SPAN><SPAN id=pageLayoutRN>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=xbl><IMG title="Customized corporate branding image for Oracle Applications" border=0 alt="Customized corporate branding image for Oracle Applications" src="/OA_MEDIA/yahoo_logo.gif"></TD>
+<TD class=x86><SPAN style="POSITION: relative" title=Payables><SPAN class=x4j>Payables</SPAN></SPAN>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fskyros\x2Ft.gif";var _axm;t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=0 height=14></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD>
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SNAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Navigator alt=Navigator src="/OA_MEDIA/navigator.png"></DIV></A></DIV></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=376542294&amp;oapc=7&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=OZFgIUFMUXH5hamQ8zqofw..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=376542294&amp;oapc=7&amp;OAMC=84817_13_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=OZFgIUFMUXH5hamQ8zqofw..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\'settingsMenu\'].closeMenuOnAction(this,event);','location.href=\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FSuppCrtPG%26OAMC%3DG%26transactionid%3D376542294%26retainAM%3DY%26addBreadCrumb%3DS%26oas%3DYzzbOkzHuXPm8BxPLdXlSA..&amp;_ti=376542294&amp;oapc=7&amp;OAIG=7867&amp;menu=Y&amp;oas=9-qHxgghHw9tlmTDdCnBWA..\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fpos%2Fsupplier%2Fwebui%2FSuppCrtPG%26OAMC%3DG%26transactionid%3D376542294%26retainAM%3DY%26addBreadCrumb%3DS%26oas%3DYzzbOkzHuXPm8BxPLdXlSA..&amp;_ti=376542294&amp;oapc=7&amp;OAIG=7867&amp;menu=Y&amp;oas=9-qHxgghHw9tlmTDdCnBWA..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=t7yjVkBNbAOptWPrrkG0kg.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('7','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=t7yjVkBNbAOptWPrrkG0kg.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>7</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD></TD>
+<TD><A class=x84 href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OALogout.jsp%3FcloseWindow%3Dtrue%26menu%3DY')">
+<DIV><IMG title="Close Window" border=0 alt="Close Window" src="/OA_MEDIA/Close.png"></DIV></A></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=3></TD></TR>
+<TR>
+<TD colSpan=3></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9n>
+<DIV>
+<DIV class=pagetopborderleft></DIV>
+<DIV class=pagetopbordermiddle></DIV>
+<DIV class=pagetopborderright></DIV></DIV></DIV>
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<DIV class=x6v>
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=xl><NOBR><A href="javascript:_submitNav('DefaultFormName','https%3A//erpint.fin.yahoo.com%3A8000/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/pos/supplier/webui/SuppSummPG%26OAHP%3DPOS_HT_SP_HP%26OASF%3DPOS_HT_SP_B_SUPP%26OAPB%3DAP_PAY_PRODUCT_BRAND%26_ti%3D376542294%26language_code%3DUS%26CallFromForm%3D%5C%27Y%5C%27%26bcrumb%3DY%26oapc%3D7%26oas%3D7u4maKtzi14fuoa13KIi8g..')">Suppliers</A>&nbsp;&nbsp;&gt;</NOBR><SPAN class=xm> <NOBR></NOBR></SPAN></DIV></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV id=p_SwanPageLayout class=x7z>
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Create Supplier</H1></TD>
+<TD vAlign=bottom noWrap align=right>
+<TABLE id=pageBtnRN class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'_FORM_SUBMIT_BUTTON\':\'cancelBtndpIWdEOY\'});return false',this,event,true)" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON accessKey=p id=applyBtn class=x7p title=Apply onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'applyBtne_r1yZmr'});return false" type=submit>A<SPAN class=xq>p</SPAN>ply</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD>
+<TABLE id=ReqFieldRN border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Row>
+<TD id=AstCell><SPAN id=ReqTextRN><SPAN id=RequiredFieldIcon class=xg>*</SPAN>
+<SCRIPT id=spacer1>t('6','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=6 height=1><SPAN id=RequiredFieldText class=x5i>Indicates required field</SPAN></SPAN></TD></TR></TBODY></TABLE></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV>
+<SCRIPT id=spacer1>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10>
+<DIV></DIV>
+<TABLE id=SupplierTypeRN border=0 cellSpacing=0 cellPadding=0 width="100%" data="{columns:1}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=SuppType__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Supplier Type</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap>
+<SCRIPT>function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);}</SCRIPT>
+<SELECT onblur="if(!_pprChoiceAction(event))return true;_uixspu('DefaultFormName',0,'typeChanged','SuppType',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_SuppType_typeChangedOVmBpLNR','evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0HWPLSQ1F'});return false;" id=SuppType class=x2 title="Supplier Type" onclick="if(!_pprChoiceAction(event))return true;_uixspu('DefaultFormName',0,'typeChanged','SuppType',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_SuppType_typeChangedOVmBpLNR','evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0HWPLSQ1F'});return false;" onchange="return _pprChoiceChangeEvent(event);" name=SuppType><OPTION selected value=POS_HT_SP_STD_SUPPwvLdQWhM>Standard supplier</OPTION><OPTION value=POS_HT_SP_EMP_SUPPI2Q5Q5H9>Supplier used to process expense payments to internal employees</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=messageLayout3__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap>
+<SCRIPT id=item1>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=region1 border=0 cellSpacing=0 cellPadding=0 width=100 data="{columns:2}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=messageLayout1__xc_>
+<TD vAlign=top noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SPAN id=OrgRN><SPAN id=SupplierDetailsRN>
+<TABLE id=OrgQuickCreateMessageCompLayout border=0 cellSpacing=0 cellPadding=0 width="1%" data="{columns:1}">
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=organization_name__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN class=xg title=Required>*</SPAN>&nbsp;Organization Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=organization_name class=x4 title="Organization Name" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onchange="" value="NEW ASURION CORPORATION" maxLength=240 size=0 type=text name=organization_name>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=alias__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Alias</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=alias class=x4 title=Alias onchange="" maxLength=240 size=0 type=text name=alias>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=org_name_pronunciation__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Alternate Supplier Name</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=org_name_pronunciation class=x4 title="Organization Name Phonetic" onchange="" value="DBA: NEW CUSTOMER SERVICE COMPAN" maxLength=320 size=0 type=text name=org_name_pronunciation>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=duns_number__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>D-U-N-S Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=duns_number class=x4 title="D-U-N-S Number" onchange="" maxLength=30 size=0 type=text name=duns_number>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=url__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>URL</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><INPUT id=url class=x4 title=URL onchange="" maxLength=2000 size=0 type=text name=url>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD colSpan=2></TD>
+<TD><SPAN class=x2w>Must include: http://</SPAN></TD></TR>
+<TR id=OrgProfileQuickFlex0__xc_>
+<TD width="37%" noWrap align=right><SPAN class=xc>Context Value</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top width="63%" noWrap><SELECT onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',0,{event:'FLEX_CONTEXT_CHANGEDOrgProfileQuickFlex',source:'OrgProfileQuickFlex0'});return false;" id=OrgProfileQuickFlex0 class=x8 onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',0,{event:'FLEX_CONTEXT_CHANGEDOrgProfileQuickFlex',source:'OrgProfileQuickFlex0'});return false;" onchange="return _pprChoiceChangeEvent(event);" name=OrgProfileQuickFlex0><OPTION selected></OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><INPUT id=OrgProfileQuickFlexFlex_Read_Only_Flag value=falseYVjQi4vK type=hidden name=OrgProfileQuickFlexFlex_Read_Only_Flag></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=messageLayout2__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SPAN id=region2><INPUT id=countryOriginCode type=hidden name=countryOriginCode>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=taxCountry__xc_>
+<TD noWrap align=right><SPAN class=xc>Tax Country</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<SCRIPT>var _jspDir='/OA_HTML/cabo/jsps/a.jsp';</SCRIPT>
+
+<SCRIPT>var _configName='OAConfig';var _enc='UTF-8';var _contextURI='/OA_HTML';</SCRIPT>
+
+<SCRIPT>function _lovClose(f,p,pt){var s=submitForm;if(pt)s=_submitPartialChange;return s(f,0,p);}</SCRIPT>
+
+<DIV id=taxCountry__xc_0 class=OraLOVOuterDiv><SPAN id=taxCountry__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=taxCountry class=x8 title="Tax Country" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}LlookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', 'TerritoryShortName', new Array('TerritoryShortName', 'TerritoryCode'), new Array('1', '1'), new Array(&quot;Country Name&quot;, &quot;Country Code&quot;), new Array('taxCountry', 'countryOriginCode'), new Array('TerritoryShortName', 'TerritoryCode'), new Array('taxCountry') , 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCtaxCountry(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'taxCountry\',0,_getInputField(event),1,1);',this,event,true)" maxLength=240 size=0 type=text name=taxCountry autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('taxCountry',0,document.forms['DefaultFormName']['taxCountry'],1,1,{'F':'DefaultFormName','N':'taxCountry','L':'taxCountry','D':'/OA_HTML/OA.jsp?region=/oracle/apps/pos/supplier/webui/SuppCrtPG.region21&amp;regionCode=taxCountry&amp;regionAppId=177&amp;lovBaseItemName=taxCountry&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Tax%20Country&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=TerritoryShortName&amp;Criteria=taxCountry.TerritoryShortName&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.taxCountry_/oracle/apps/pos/supplier/webui/SuppCrtPG.region21&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=jtXl3QUVpTHQrxdFSm2nww..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Tax Country" border=0 alt="Search: Tax Country" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD height=0></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR id=taxRegNum__xc_>
+<TD noWrap align=right><SPAN class=xc>Tax Registration Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=taxRegNum class=x8 title="Tax Registration Number" onchange="" maxLength=50 size=0 type=text name=taxRegNum>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD height=0></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR id=taxPayId__xc_>
+<TD noWrap align=right><SPAN class=xc>Taxpayer ID</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=taxPayId class=x8 title="Taxpayer ID" onchange="" maxLength=30 size=0 type=text name=taxPayId>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD height=0></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD>
+<TABLE id=supplierDff border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=supplierDff9__xc_>
+<TD noWrap align=right><SPAN class=xc>Country</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><SELECT onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',0,{event:'FLEX_CONTEXT_CHANGEDsupplierDff',source:'supplierDff9'});return false;" id=supplierDff9 class=x8 onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',0,{event:'FLEX_CONTEXT_CHANGEDsupplierDff',source:'supplierDff9'});return false;" onchange="return _pprChoiceChangeEvent(event);" name=supplierDff9><OPTION></OPTION><OPTION value=DEuYT0loAq>DE</OPTION><OPTION value=ES5mO-eI6G>ES</OPTION><OPTION value=FRjbmoWcJ0>FR</OPTION><OPTION value=IRREbHhUic>IR</OPTION><OPTION value=ITQYl8a3Hd>IT</OPTION><OPTION value=KELKOO6B8hk38f>KELKOO</OPTION><OPTION value=NLIXwSBrqK>NL</OPTION><OPTION value=UKSycnFcUf>UK</OPTION><OPTION selected value=USSoJ-NuBk>US</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR>
+<TD colSpan=2></TD>
+<TD><SPAN class=x2w>US Vendor Category</SPAN></TD></TR><INPUT id=supplierDffFlex_Read_Only_Flag value=falseFEZ59Ez3 type=hidden name=supplierDffFlex_Read_Only_Flag>
+<TR id=supplierDff0__xc_>
+<TD noWrap align=right><SPAN class=xc>Legacy Vendor Number</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=supplierDff0 class=x8 onchange="" maxLength=150 size=25 type=text name=supplierDff0>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=supplierDff1__xc_>
+<TD noWrap align=right><SPAN class=xc>Notes</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=supplierDff1 class=x8 onchange="" maxLength=150 size=50 type=text name=supplierDff1>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=supplierDff2__xc_>
+<TD noWrap align=right><SPAN class=xc>Vendor Portal Ref#</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<SCRIPT>var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I12_2_6_0_0.js"></SCRIPT>
+<INPUT id=supplierDff2 class=xa onchange="" maxLength=36 size=15 type=text name=supplierDff2>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=supplierDff3__xc_>
+<TD noWrap align=right><SPAN class=xc>Type of Service</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=supplierDff3 class=x8 onchange="" maxLength=150 size=35 type=text name=supplierDff3>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=supplierDff4__xc_>
+<TD noWrap align=right><SPAN class=xc>Exclude Vendors</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<DIV id=supplierDff4__xc_0 class=OraLOVOuterDiv><SPAN id=supplierDff4__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=supplierDff4 class=x8 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', new Array(), 50, 10, 'startsWith', 1 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCsupplierDff4(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'supplierDff4\',0,_getInputField(event),1,1);',this,event,true)" maxLength=1 size=1 type=text name=supplierDff4 autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('supplierDff4',0,document.forms['DefaultFormName']['supplierDff4'],1,1,{'F':'DefaultFormName','N':'supplierDff4','L':'supplierDff4','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=supplierDff&amp;regionAppId=177&amp;lovBaseItemName=supplierDff4&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Exclude%20Vendors&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=supplierDff4.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.supplierDff4_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=C_UyN-oc-lcL0M0zMM25MA..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Exclude Vendors" border=0 alt="Search: Exclude Vendors" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=supplierDff4HiddenFlexId type=hidden name=supplierDff4HiddenFlexId>
+<TR id=supplierDff5__xc_>
+<TD noWrap align=right><SPAN class=xc>Preferred Supplier</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<DIV id=supplierDff5__xc_0 class=OraLOVOuterDiv><SPAN id=supplierDff5__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=supplierDff5 class=x8 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', new Array(), 50, 10, 'startsWith', 1 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCsupplierDff5(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'supplierDff5\',0,_getInputField(event),1,1);',this,event,true)" maxLength=1 size=1 type=text name=supplierDff5 autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('supplierDff5',0,document.forms['DefaultFormName']['supplierDff5'],1,1,{'F':'DefaultFormName','N':'supplierDff5','L':'supplierDff5','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=supplierDff&amp;regionAppId=177&amp;lovBaseItemName=supplierDff5&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Preferred%20Supplier&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=supplierDff5.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.supplierDff5_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=X0iQt3NdszpTA83F2EEsjg..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Preferred Supplier" border=0 alt="Search: Preferred Supplier" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=supplierDff5HiddenFlexId type=hidden name=supplierDff5HiddenFlexId>
+<TR id=supplierDff6__xc_>
+<TD noWrap align=right><SPAN class=xc>Procurement Level 1</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=supplierDff6 class=x8 onchange="" maxLength=150 size=50 type=text name=supplierDff6>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=supplierDff7__xc_>
+<TD noWrap align=right><SPAN class=xc>Procurement Level 2</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=supplierDff7 class=x8 onchange="" maxLength=150 size=50 type=text name=supplierDff7>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=supplierDff8__xc_>
+<TD noWrap align=right><SPAN class=xc>Procurement Level 3</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap><INPUT id=supplierDff8 class=x8 onchange="" maxLength=150 size=50 type=text name=supplierDff8>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR>
+<TR id=supplierDff10__xc_>
+<TD noWrap align=right><SPAN class=xc>Vendor Category 1</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<DIV id=supplierDff10__xc_0 class=OraLOVOuterDiv><SPAN id=supplierDff10__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=supplierDff10 class=x8 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCsupplierDff10(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'supplierDff10\',0,_getInputField(event),1,1);',this,event,true)" maxLength=30 size=30 type=text name=supplierDff10 autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('supplierDff10',0,document.forms['DefaultFormName']['supplierDff10'],1,1,{'F':'DefaultFormName','N':'supplierDff10','L':'supplierDff10','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=supplierDff&amp;regionAppId=177&amp;lovBaseItemName=supplierDff10&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Vendor%20Category%201&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=supplierDff10.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.supplierDff10_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=hm_mmG4gIh9Pd7Lh77PvxQ..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Vendor Category 1" border=0 alt="Search: Vendor Category 1" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=supplierDff10HiddenFlexId type=hidden name=supplierDff10HiddenFlexId>
+<TR id=supplierDff11__xc_>
+<TD noWrap align=right><SPAN class=xc>Vendor Category 2</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<DIV id=supplierDff11__xc_0 class=OraLOVOuterDiv><SPAN id=supplierDff11__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=supplierDff11 class=x8 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCsupplierDff11(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'supplierDff11\',0,_getInputField(event),1,1);',this,event,true)" maxLength=30 size=30 type=text name=supplierDff11 autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('supplierDff11',0,document.forms['DefaultFormName']['supplierDff11'],1,1,{'F':'DefaultFormName','N':'supplierDff11','L':'supplierDff11','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=supplierDff&amp;regionAppId=177&amp;lovBaseItemName=supplierDff11&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Vendor%20Category%202&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=supplierDff11.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.supplierDff11_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=nWxTZU44wKZ6IaCz3B9D5g..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Vendor Category 2" border=0 alt="Search: Vendor Category 2" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=supplierDff11HiddenFlexId type=hidden name=supplierDff11HiddenFlexId>
+<TR id=supplierDff12__xc_>
+<TD noWrap align=right><SPAN class=xc>Independent Contractor</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<DIV id=supplierDff12__xc_0 class=OraLOVOuterDiv><SPAN id=supplierDff12__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=supplierDff12 class=x8 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCsupplierDff12(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'supplierDff12\',0,_getInputField(event),1,1);',this,event,true)" maxLength=80 size=15 type=text name=supplierDff12 autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('supplierDff12',0,document.forms['DefaultFormName']['supplierDff12'],1,1,{'F':'DefaultFormName','N':'supplierDff12','L':'supplierDff12','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=supplierDff&amp;regionAppId=177&amp;lovBaseItemName=supplierDff12&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Independent%20Contractor&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=supplierDff12.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.supplierDff12_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=uAuxic6m2Bu4lvHjHXfCag..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Independent Contractor" border=0 alt="Search: Independent Contractor" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=supplierDff12HiddenFlexId type=hidden name=supplierDff12HiddenFlexId>
+<TR id=supplierDff13__xc_>
+<TD noWrap align=right><SPAN class=xc>Vendor Type</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<DIV id=supplierDff13__xc_0 class=OraLOVOuterDiv><SPAN id=supplierDff13__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=supplierDff13 class=x8 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCsupplierDff13(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'supplierDff13\',0,_getInputField(event),1,1);',this,event,true)" maxLength=25 size=25 type=text name=supplierDff13 autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('supplierDff13',0,document.forms['DefaultFormName']['supplierDff13'],1,1,{'F':'DefaultFormName','N':'supplierDff13','L':'supplierDff13','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=supplierDff&amp;regionAppId=177&amp;lovBaseItemName=supplierDff13&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Vendor%20Type&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=supplierDff13.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.supplierDff13_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=uqxI-hwAoHfyEatBrOcY1Q..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Vendor Type" border=0 alt="Search: Vendor Type" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=supplierDff13HiddenFlexId type=hidden name=supplierDff13HiddenFlexId>
+<TR id=supplierDff14__xc_>
+<TD noWrap align=right><SPAN class=xc>Employee SVP Approval</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=top noWrap>
+<DIV id=supplierDff14__xc_0 class=OraLOVOuterDiv><SPAN id=supplierDff14__xc_1><INPUT style="BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BORDER-BOTTOM: #dee4e7 0px solid; BORDER-LEFT: #dee4e7 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom; BORDER-TOP: #dee4e7 0px solid; BORDER-RIGHT: #dee4e7 0px solid" id=supplierDff14 class=x8 onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari || _agent.isEdge) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="var eventStore = (event) ? event : ((window.event) ? (window.event) : null); if((_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 40) || (_agent.isIE &amp;&amp; window.event.altKey &amp;&amp; _getKC(eventStore) == 38)) {return false;}else if((event.altKey &amp;&amp; _getKC(eventStore) == 40) || (event.altKey &amp;&amp; _getKC(eventStore) == 38)) { return false;}LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=376542294&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.pos.supplier.server.ByrSuppAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" onchange="return _chain('LOCsupplierDff14(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown>0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\'hidden\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\'supplierDff14\',0,_getInputField(event),1,1);',this,event,true)" maxLength=80 size=50 type=text name=supplierDff14 autocomplete="off" txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1><A onclick="return _LovInputVTF('supplierDff14',0,document.forms['DefaultFormName']['supplierDff14'],1,1,{'F':'DefaultFormName','N':'supplierDff14','L':'supplierDff14','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=supplierDff&amp;regionAppId=177&amp;lovBaseItemName=supplierDff14&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=376542294&amp;OAFunc=POS_HT_SP_B_ORG_CRT&amp;label=Employee%20SVP%20Approval&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.pos.supplier.server.ByrSuppAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=supplierDff14.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/pos/supplier/webui/SuppCrtPG.supplierDff14_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=7&amp;oas=8wzmJu4n_43Cx0TdchAfNQ..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG title="Search: Employee SVP Approval" border=0 alt="Search: Employee SVP Approval" align=absMiddle src="/OA_HTML/cabo/images/alta/func_search_16_ena.png" width=12 height=12></A></SPAN></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR><INPUT id=supplierDff14HiddenFlexId type=hidden name=supplierDff14HiddenFlexId></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog data="{autoPosition:0,px:-1,py:-1};" isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=376542294&amp;oapc=7&amp;oas=iYt2mx7LVVvVzr58n-qeCg.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/pos/supplier/webui/SuppCrtPG:::8-yFSVAA type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,2)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=2></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right><FOOTER style="DISPLAY: none" id=oaffooterbuttons>
+<TABLE id=pageBtnRN_uixr class=x6y border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l id=cancelBtn_uixr class=x7p title=Cancel onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'_FORM_SUBMIT_BUTTON\':\'cancelBtndpIWdEOY\'});return false',this,event,true)" type=submit>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON accessKey=p id=applyBtn_uixr class=x7p title=Apply onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'applyBtne_r1yZmr'});return false" type=submit>A<SPAN class=xq>p</SPAN>ply</BUTTON></TD></TR></TBODY></TABLE></FOOTER></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N90>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'serverValidate\':\'1aXxCmUAW\',event:\'about\'});return false;',this,event,true)" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=_fwkActBtnName_SuppType_typeChanged$$serverUnvalidated value=trueYS_EwiS1 type=hidden name=_fwkActBtnName_SuppType_typeChanged$$serverUnvalidated><INPUT id=openPopupSourceId value=3oyn8RYt type=hidden name=openPopupSourceId><INPUT id=cancelBtn$$unvalidated value=truebuxQugzF type=hidden name=cancelBtn$$unvalidated><INPUT id=cancelBtn$$serverUnvalidated value=trueCqSbIUBn type=hidden name=cancelBtn$$serverUnvalidated><INPUT id=cancelBtn$$processFormDataCalled value=trueCf9PnLQl type=hidden name=cancelBtn$$processFormDataCalled><INPUT id=applyBtn$$unvalidated value=falsetk--gZm8 type=hidden name=applyBtn$$unvalidated><INPUT id=applyBtn$$serverUnvalidated value=falsevOiNRXfF type=hidden name=applyBtn$$serverUnvalidated><INPUT id=applyBtn$$processFormDataCalled value=truem34UAv1x type=hidden name=applyBtn$$processFormDataCalled><INPUT id=_pkByrSuppAM.HzPuiOrganizationProfileQuickAM1.HzPuiOrganizationProfileQuickVOPartyId value={!!vxebFxyVNPt2b3MMVhZh.QYZChU2AQ type=hidden name=_pkByrSuppAM.HzPuiOrganizationProfileQuickAM1.HzPuiOrganizationProfileQuickVOPartyId><INPUT id=_pkByrSuppAM.HzPuiOrganizationProfileQuickAM1.HzPuiOrganizationProfileQuickURLVOContactPointId value={!!xXnrHEE-CGHbOG9FKAm.xASG24a300 type=hidden name=_pkByrSuppAM.HzPuiOrganizationProfileQuickAM1.HzPuiOrganizationProfileQuickURLVOContactPointId><INPUT id=FORM_MAC_LIST value=evtSrcRowIdx^lovAutoClearHFsupplierDff10^_FORM^cancelBtn$$serverUnvalidated^serverValidate^cancelBtn$$processFormDataCalled^lovAutoClearHFdefaultOU^lovAutoClearHFsupplierDff5^lovAutoClearHFsupplierDff4^applyBtn$$processFormDataCalled^supplierDffFlex_Read_Only_Flag^lovCriteriaHiddenFieldtaxCountry^_AM_TX_ID_FIELD^lovCriteriaHiddenFieldsupplierDff14^lovCriteriaHiddenFieldsupplierDff13^lovCriteriaHiddenFieldsupplierDff12^_fwkActBtnName_SuppType_typeChanged$$serverUnvalidated^lovCriteriaHiddenFieldsupplierDff11^evtSrcRowId^lovCriteriaHiddenFieldsupplierDff10^_pkByrSuppAM.HzPuiOrganizationProfileQuickAM1.HzPuiOrganizationProfileQuickVOPartyId^OrgProfileQuickFlexFlex_Read_Only_Flag^_pkByrSuppAM.HzPuiOrganizationProfileQuickAM1.HzPuiOrganizationProfileQuickURLVOContactPointId^_fwkAbsolutePageName^lovCriteriaHiddenFielddefaultOU^applyBtn$$serverUnvalidated^cancelBtn$$unvalidated^_FORM_SUBMIT_BUTTON^lovCriteriaHiddenFieldEmployeeName^applyBtn$$unvalidated^lovAutoClearHFtaxCountry^_FORMEVENT^SuppType^lovAutoClearHFEmployeeName^BASE_FORM_NAME^supplierDff9^lovCriteriaHiddenFieldsupplierDff5^lovCriteriaHiddenFieldsupplierDff4^lovAutoClearHFsupplierDff14^lovAutoClearHFsupplierDff13^openPopupSourceId^lovAutoClearHFsupplierDff12^lovAutoClearHFsupplierDff11***@@@FORM_MAC_LIST***@@@supplierDff14HiddenFlexId^supplierDff12HiddenFlexId^supplierDff8^supplierDff7^lovJSHiddenFielddefaultOU^supplierDff6^supplierDff5^supplierDff4^supplierDff3^lovPassiveCriteriaHFtaxCountry^supplierDff2^supplierDff1^supplierDff0^lovPassiveCriteriaHFdefaultOU^FORM_MAC_LIST^taxCountry^lovOnClickJSHiddenFieldsupplierDff5^lovOnClickJSHiddenFieldsupplierDff4^lovOnClickJSHiddenFielddefaultOU^lovOnClickJSExecutedHiddenFielddefaultOU^lovPassiveCriteriaHFEmployeeName^lovOnClickJSHiddenFieldEmployeeName^url^countryOriginCode^supplierDff4HiddenFlexId^lovOnClickJSHiddenFieldtaxCountry^lovPassiveCriteriaHFsupplierDff5^supplierDff10HiddenFlexId^lovPassiveCriteriaHFsupplierDff4^OrgProfileQuickFlex0^lovOnClickJSExecutedHiddenFieldtaxCountry^evtSrcRowIdx^event^lovOnClickJSExecutedHiddenFieldsupplierDff5^lovOnClickJSExecutedHiddenFieldsupplierDff4^duns_number^lovOnClickJSExecutedHiddenFieldEmployeeName^partialTargets^lovJSHiddenFieldsupplierDff5^lovJSHiddenFieldsupplierDff4^lovJSHiddenFieldEmployeeName^lovOnClickJSExecutedHiddenFieldsupplierDff14^lovOnClickJSExecutedHiddenFieldsupplierDff13^lovOnClickJSExecutedHiddenFieldsupplierDff12^lovOnClickJSExecutedHiddenFieldsupplierDff11^lovOnClickJSExecutedHiddenFieldsupplierDff10^supplierDff13HiddenFlexId^organization_name^lovJSHiddenFieldtaxCountry^supplierDff5HiddenFlexId^taxRegNum^org_name_pronunciation^supplierDff11HiddenFlexId^supplierDff14^supplierDff13^supplierDff12^evtSrcRowId^taxPayId^supplierDff11^supplierDff10^alias^source^lovPassiveCriteriaHFsupplierDff14^lovPassiveCriteriaHFsupplierDff13^lovOnClickJSHiddenFieldsupplierDff14^lovPassiveCriteriaHFsupplierDff12^lovJSHiddenFieldsupplierDff14^lovOnClickJSHiddenFieldsupplierDff13^lovPassiveCriteriaHFsupplierDff11^lovJSHiddenFieldsupplierDff13^lovOnClickJSHiddenFieldsupplierDff12^lovPassiveCriteriaHFsupplierDff10^lovJSHiddenFieldsupplierDff12^lovOnClickJSHiddenFieldsupplierDff11^lovJSHiddenFieldsupplierDff11^lovOnClickJSHiddenFieldsupplierDff10^lovJSHiddenFieldsupplierDff100p0O-wM-zKbfHvGSeVseDQ.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=source><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=searchText>
+<SCRIPT>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","source","partialTargets","partial","searchText"];</SCRIPT>
+
+<SCRIPT>var _DefaultFormName_Validations=['new Utf8Format(240).validate(%value%)','_isEmpty(%value%)','new Utf8Format(320).validate(%value%)','new Utf8Format(30).validate(%value%)','new Utf8Format(2000).validate(%value%)','new Utf8Format(50).validate(%value%)','new Utf8Format(150).validate(%value%)','new DecimalFormat().validate(%value%)','new Utf8Format(1).validate(%value%)','new Utf8Format(80).validate(%value%)','new Utf8Format(25).validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"organization_name",0,1,1,"organization_name",1,0,0,"alias",0,1,2,"org_name_pronunciation",0,1,3,"duns_number",0,1,4,"url",0,1,0,"taxCountry",0,1,5,"taxRegNum",0,1,3,"taxPayId",0,1,6,"supplierDff0",0,1,6,"supplierDff1",0,1,7,"supplierDff2",2,1,6,"supplierDff3",0,1,8,"supplierDff4",0,1,8,"supplierDff5",0,1,6,"supplierDff6",0,1,6,"supplierDff7",0,1,6,"supplierDff8",0,1,3,"supplierDff10",0,1,3,"supplierDff11",0,1,9,"supplierDff12",0,1,10,"supplierDff13",0,1,9,"supplierDff14",0,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'organization_name':'Organization\x20Name','alias':'Alias','org_name_pronunciation':'Alternate\x20Supplier\x20Name','duns_number':'D\x2DU\x2DN\x2DS\x20Number','url':'URL','taxCountry':'Tax\x20Country','taxRegNum':'Tax\x20Registration\x20Number','taxPayId':'Taxpayer\x20ID','supplierDff0':'Legacy\x20Vendor\x20Number','supplierDff1':'Notes','supplierDff2':'Vendor\x20Portal\x20Ref\x23','supplierDff3':'Type\x20of\x20Service','supplierDff4':'Exclude\x20Vendors','supplierDff5':'Preferred\x20Supplier','supplierDff6':'Procurement\x20Level\x201','supplierDff7':'Procurement\x20Level\x202','supplierDff8':'Procurement\x20Level\x203','supplierDff10':'Vendor\x20Category\x201','supplierDff11':'Vendor\x20Category\x202','supplierDff12':'Independent\x20Contractor','supplierDff13':'Vendor\x20Type','supplierDff14':'Employee\x20SVP\x20Approval'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is too long.','A value must be entered for "%label%".','Value "%value%" in "%label%" is not a number.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV style="Z-INDEX: 50; POSITION: absolute; VISIBILITY: hidden" id=LLAOutput>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE style="BORDER-LEFT: #d6dfe6 1px solid" id=lovSuggestTable class=OraNoBorderTableContent border=1 cellSpacing=0 cellPadding=2 width="100%"></TABLE></DIV></TD>
+<TD class=OraRightShadowBg vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG align=top src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=center align=left>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR class=OraBottomShadowBg>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG align=left src="/OA_MEDIA/btmshdw.gif" width=5 height=13></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 728px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=true;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpint.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) --></BODY></HTML>

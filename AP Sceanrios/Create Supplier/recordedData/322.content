@@ -1,0 +1,404 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Search and Select List of Values</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/tableUtils.js"></SCRIPT>
+
+<SCRIPT id=oaf_detachScript type=text/javascript src="/OA_HTML/cabo/oajsLibs/detachTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+</HEAD>
+<BODY class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event)','CTinitRichTableUI(\\'CountryLovTable\\');CTaddEventToPPROnLoad();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e><NOSCRIPT></NOSCRIPT><NOSCRIPT></NOSCRIPT>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<SCRIPT>var _jspDir='/OA_HTML/cabo/jsps/a.jsp';</SCRIPT>
+
+<SCRIPT>var _configName='OAConfig';var _enc='UTF-8';var _contextURI='/OA_HTML';</SCRIPT>
+<NOSCRIPT></NOSCRIPT><SPAN id=CountryLovRN>
+<DIV class=x7y>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Search and Select: Country</H1></TD>
+<TD vAlign=bottom noWrap align=right>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fskyros\\x2Ft.gif";var _axm;t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=0></TD>
+<TD><BUTTON accessKey=l class=x7p onclick="_LovInputCBF();return false" type=button>Cance<SPAN class=xq>l</SPAN></BUTTON></TD>
+<TD><BUTTON class=x7p onclick="_LovInputSBF();return false" type=button>Select</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<FORM style="MARGIN: 0px" id=_LOVResFrm method=post name=_LOVResFrm action=/OA_HTML/OA.jsp?region=/oracle/apps/iby/lov/webui/CountryLovRN&amp;regionCode=Country&amp;regionAppId=673&amp;lovBaseItemName=Country&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=765824128&amp;label=Country&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.iby.fundcapture.setup.components.server.ExtBankAccountsAM&amp;amUsageMode=1&amp;lovMainCriteria=TerritoryName&amp;Criteria=Country.TerritoryName..BankCountryCode.TerritoryCode&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/iby/fundcapture/setup/components/webui/CreateExtBankAcctPG.Country_/oracle/apps/iby/lov/webui/CountryLovRN&amp;baseCompMode=11.5.10&amp;configName=OAConfig&amp;contextURI=/OA_HTML&amp;enc=UTF-8&amp;oapc=40&amp;oas=N7sX6j1MWBjdvIg0w-hkeQ..>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Search</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(2,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2 height=0></TD>
+<TD vAlign=top><SPAN id=N2 class=x0>To define your search criteria, select an item from the drop down list and enter a value in the text field, then select the "Go" button. You may use a % symbol to return all values available in the list.</SPAN> </TD>
+<TD vAlign=top></TD>
+<TD>
+<SCRIPT>t(2,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2 height=0></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT>t(void 0,'8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" height=8>
+<DIV></DIV><SPAN class=x0>Search By</SPAN> <SELECT id=categoryChoice class=x8 title="Search Category" onchange="" name=categoryChoice><OPTION selected value=TerritoryName9RvBboQ9>Name</OPTION><OPTION value=TerritoryCode8fv67DaI>Code</OPTION></SELECT> <INPUT class=x8 title="Search Term" onkeypress="return _chain('return _LovInputSOE(event, \\'_LOVResFrm\\', \\'lovFilter\\', \\'Country\\');','return _submitOnEnter(event, \\'_LOVResFrm\\');',this,event,true)" size=25 type=text name=searchText><BUTTON class=x7p onclick="submitForm('_LOVResFrm',1,{'searchAreaMode':'akSUKskR',event:'lovFilter',source:'Country'});return false;" type=button>Go</BUTTON> </DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Results</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV class=x7c>
+<SCRIPT language=javascript>var _LovLI='CountryLovRN';var _LovSC='stateCheckCallBack';</SCRIPT>
+</DIV>
+<DIV class=x7c><SPAN id=lovResultHeader class=x0></SPAN></DIV>
+<DIV>
+<DIV id=CountryLovTable_p13n><A id=N11 class=xh title="Personalize /oracle/apps/iby/lov/webui/CountryLovRN.CountryLovTable" href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Fiby%252Flov%252Fwebui%252FCountryLovRN.CountryLovTable%26is%3D0%26io%3D51%26ir%3D20639%26ia%3D200%26iu%3D122032%26te%3DoailwCountryLovRN.CountryLovTable%26pv%3DCLS%26amMode%3D7%26baseAM%3Doracle.apps.iby.lov.server.CountryLovAM%26baseRC%3D%2Foracle%2Fapps%2Fiby%2Flov%2Fwebui%2FCountryLovRN%26baseAppId%3D673%26_ti%3D765824128%26oapc%3D40%26oas%3DxkHFKayIwVqNCIwTQanYuA..%22)">Personalize Table: (CountryLovTable)</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=CountryLovTable title="Results: Country" navchoiceid="M__Id">
+<DIV id=loadDiv:CountryLovTable>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:CountryLovTable><INPUT id=fullAMName:CountryLovTable value=oracle.apps.iby.fundcapture.setup.components.server.ExtBankAccountsAM type=hidden><INPUT id=tid:CountryLovTable value=765824128 type=hidden><INPUT id=fullCustRef:CountryLovTable value=/oracle/apps/iby/lov/webui/CountryLovRN.CountryLovTable type=hidden>
+<DIV id=surroundingDiv:CountryLovTable>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="97%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=CountryLovTable:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%"></TD>
+<TD style="DISPLAY: none" vAlign=center align=right>
+<SCRIPT>function _navBarSubmit(formName, gotoEvent, navBar, vld, val, sze, partialTargets,tableName,direction,tableId,override){if(typeof(override) != 'undefined' && override != null && override && override != 'false'){ var choiceID = document.getElementById(tableId).getAttribute('navchoiceid'); var choiceBean = document.getElementById(choiceID); var curIdx = choiceBean.selectedIndex; if(direction =='F') { if(choiceBean.options[curIdx+1]) { val = choiceBean.options[curIdx+1].value;}}  else if(direction=='B'){if(choiceBean.options[curIdx-1]) { val = choiceBean.options[curIdx-1].value;}} }var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}if(tableName!=null){document.getElementById('direction:'+tableName).value = direction;}  var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:gotoEvent,source:navBar,value:val,size:sze,partialTargets:partialTargets});}function _navChoiceSubmit(choice, formName, gotoEvent, navBar, vld, size, partialTargets,tableName){if(tableName != null) { document.getElementById('direction:'+tableName).value = 'N'; }if (!_navBarSubmit(formName, gotoEvent, navBar, vld, choice.options[choice.selectedIndex].value, size, partialTargets)){choice.selectedIndex = choice._lastValue;}}</SCRIPT>
+
+<TABLE id=CountryLovTable-nb border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD vAlign=center noWrap><SELECT id=M__Id class=x8 onfocus="this._lastValue = this.selectedIndex" title="Select record set" onchange="_navChoiceSubmit(this, '_LOVResFrm','goto','N1',0,null,'CountryLovTable','N1')"><OPTION selected value=1,10>1-10</OPTION><OPTION value=11,10>11-20</OPTION><OPTION value=21,10>21-30</OPTION><OPTION value=31,10>More...</OPTION></SELECT>
+<SCRIPT language=javascript>_setSelectIndexById("M__Id",0);document.getElementById('CountryLovTable').setAttribute('navchoiceid','M__Id');</SCRIPT>
+</TD>
+<TD>
+<SCRIPT>t(5,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD vAlign=center noWrap><A class=x49 title="Next 10" onclick="_navBarSubmit('_LOVResFrm', 'goto','N1',0,'31iOIYEvjD', '109w16lyx9','CountryLovTable','N1','F','CountryLovTable','override');return false" href="#">Next 10</A></TD>
+<TD>
+<SCRIPT>t(5,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD vAlign=center><A onclick="_navBarSubmit('_LOVResFrm', 'goto','N1',0,'31iOIYEvjD', '109w16lyx9','CountryLovTable','N1','F','CountryLovTable','override');return false" href="#"><IMG title="Select to view next set" border=0 alt="Select to view next set" src="/OA_HTML/cabo/images/skyros/next_n.png"></A></TD></TR></TBODY></TABLE></TD>
+<TD style="PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px" vAlign=center noWrap>Rows 1 to 30</TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style="Z-INDEX: 10; POSITION: relative; HEIGHT: 350px; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'CountryLovTable')" id=contentDiv:CountryLovTable class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" id=CountryLovTable:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="97%" policy="scroll" qbeenabled="false" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="classic" initialWidth="undefined" releaseTxt="Release for 1 to 10:Release for 11 to 20:Release for 21 to 30:Release for 31 to 40:" options="1,10:11,10:21,10:31,10" next="_navBarSubmit('_LOVResFrm', 'goto','N1',0,'31iOIYEvjD', '109w16lyx9','CountryLovTable','N1','F','CountryLovTable','override');return false" prev="_navBarSubmit('_LOVResFrm', 'goto','N1',0,'11X-rmwwmJ', '109w16lyx9','CountryLovTable','N1','B','CountryLovTable','override');return false" hdrfixed="true" lovTbl="true" verticalscroll="true" _frmName="_LOVResFrm" records="10" block="10" initialOWidth="undefined">
+<TBODY>
+<TR>
+<TH style="WORD-BREAK: keep-all" class="x21 x50" width="1%" scope=col noWrap specialcolumn="true"><BR></TH>
+<TH id=N7 class="x21 x50 x9h" scope=col><SPAN id=OASH__11969 class=x2c>Quick Select
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt,parent) {if( ((typeof TUfromDragEvent != 'undefined') && TUfromDragEvent)  || ((typeof TUhideEvt != 'undefined') && TUhideEvt) ) {TUfromDragEvent = false ; TUhideEvt = false;return;}if(parent!=null && parent.tagName =='TH' && parent.getAttribute('sortvalue') != null) {  val = parent.getAttribute('sortvalue'); } var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN></TH>
+<TH id=TerritoryName class="x28 x5g x9h" onclick="_tableSortSubmit('_LOVResFrm',0,'sort','N1','1zcqsnhEN','ascending','CountryLovTable');return false" scope=col noWrap><SPAN id=OASH__11970 class=x2b>Name</SPAN><A id=TerritoryName_S onclick="return false;" href="#"><IMG title="Sorted in ascending order" border=0 alt="Sorted in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_selected.png" width=14 height=14></A></TH>
+<TH id=TerritoryCode class="x1z x50 x9h" scope=col><SPAN id=OASH__11971 class=x2c>Code</SPAN></TH></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx" width="1%"><SPAN onchange="handleTableSingleSelection('N1:N8:0')"><INPUT id=N1:N8:0 class=xo title=Select value=0 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','0');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:0 title=Name>Afghanistan</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:0 title=Code>AF</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:1')"><INPUT id=N1:N8:1 class=xo title=Select value=1 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','1');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:1 title=Name>Aland Islands</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:1 title=Code>AX</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:2')"><INPUT id=N1:N8:2 class=xo title=Select value=2 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','2');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:2 title=Name>Albania</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:2 title=Code>AL</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:3')"><INPUT id=N1:N8:3 class=xo title=Select value=3 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','3');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:3 title=Name>Algeria</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:3 title=Code>DZ</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:4')"><INPUT id=N1:N8:4 class=xo title=Select value=4 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','4');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:4 title=Name>American Samoa</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:4 title=Code>AS</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:5')"><INPUT id=N1:N8:5 class=xo title=Select value=5 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','5');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:5 title=Name>Andorra</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:5 title=Code>AD</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:6')"><INPUT id=N1:N8:6 class=xo title=Select value=6 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','6');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:6 title=Name>Angola</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:6 title=Code>AO</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:7')"><INPUT id=N1:N8:7 class=xo title=Select value=7 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','7');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:7 title=Name>Anguilla</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:7 title=Code>AI</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:8')"><INPUT id=N1:N8:8 class=xo title=Select value=8 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','8');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:8 title=Name>Antarctica</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:8 title=Code>AQ</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:9')"><INPUT id=N1:N8:9 class=xo title=Select value=9 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','9');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:9 title=Name>Antigua and Barbuda</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:9 title=Code>AG</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:10')"><INPUT id=N1:N8:10 class=xo title=Select value=10 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','10');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:10 title=Name>Argentina</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:10 title=Code>AR</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:11')"><INPUT id=N1:N8:11 class=xo title=Select value=11 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','11');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:11 title=Name>Armenia</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:11 title=Code>AM</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:12')"><INPUT id=N1:N8:12 class=xo title=Select value=12 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','12');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:12 title=Name>Aruba</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:12 title=Code>AW</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:13')"><INPUT id=N1:N8:13 class=xo title=Select value=13 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','13');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:13 title=Name>Australia</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:13 title=Code>AU</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:14')"><INPUT id=N1:N8:14 class=xo title=Select value=14 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','14');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:14 title=Name>Austria</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:14 title=Code>AT</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:15')"><INPUT id=N1:N8:15 class=xo title=Select value=15 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','15');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:15 title=Name>Azerbaijan</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:15 title=Code>AZ</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:16')"><INPUT id=N1:N8:16 class=xo title=Select value=16 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','16');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:16 title=Name>Bahamas</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:16 title=Code>BS</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:17')"><INPUT id=N1:N8:17 class=xo title=Select value=17 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','17');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:17 title=Name>Bahrain</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:17 title=Code>BH</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:18')"><INPUT id=N1:N8:18 class=xo title=Select value=18 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','18');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:18 title=Name>Bangladesh</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:18 title=Code>BD</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:19')"><INPUT id=N1:N8:19 class=xo title=Select value=19 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','19');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:19 title=Name>Barbados</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:19 title=Code>BB</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:20')"><INPUT id=N1:N8:20 class=xo title=Select value=20 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','20');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:20 title=Name>Belarus</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:20 title=Code>BY</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:21')"><INPUT id=N1:N8:21 class=xo title=Select value=21 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','21');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:21 title=Name>Belgium</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:21 title=Code>BE</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:22')"><INPUT id=N1:N8:22 class=xo title=Select value=22 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','22');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:22 title=Name>Belize</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:22 title=Code>BZ</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:23')"><INPUT id=N1:N8:23 class=xo title=Select value=23 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','23');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:23 title=Name>Benin</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:23 title=Code>BJ</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:24')"><INPUT id=N1:N8:24 class=xo title=Select value=24 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','24');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:24 title=Name>Bermuda</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:24 title=Code>BM</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:25')"><INPUT id=N1:N8:25 class=xo title=Select value=25 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','25');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:25 title=Name>Bhutan</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:25 title=Code>BT</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:26')"><INPUT id=N1:N8:26 class=xo title=Select value=26 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','26');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:26 title=Name>Bolivia, Plurinational State of</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:26 title=Code>BO</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:27')"><INPUT id=N1:N8:27 class=xo title=Select value=27 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','27');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:27 title=Name>Bonaire, Sint Eustatius and Saba</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:27 title=Code>BQ</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:28')"><INPUT id=N1:N8:28 class=xo title=Select value=28 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','28');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:28 title=Name>Bosnia and Herzegovina</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:28 title=Code>BA</SPAN></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N1:N8:29')"><INPUT id=N1:N8:29 class=xo title=Select value=29 type=radio name=N1:selected></SPAN></TD>
+<TD class="x1x x50 xjx"><A class=xh onclick="_LovInputQSF('N1','29');" href="#"><IMG title="Quick Select" border=0 alt="Quick Select" align=middle src="/OA_HTML/cabo/images/cache/cqs.gif"></A></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryName:29 title=Name>Botswana</SPAN></TD>
+<TD class="x1t x50"><SPAN id=N1:TerritoryCode:29 title=Code>BW</SPAN></TD></TR></TBODY></TABLE>
+<TABLE style="POSITION: relative; PADDING-BOTTOM: 10px; PADDING-TOP: 10px" id=CountryLovTable:animate width="100%" height=100>
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD>
+<TABLE>
+<TBODY>
+<TR>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD>
+<DIV id=CountryLovTable:ptr></DIV></TD>
+<TD style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px" id=CountryLovTable:animateText class=OraTableCellText></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; WIDTH: 746px; HEIGHT: 351px; OVERFLOW: auto; TOP: 29px" onscroll="TUtableScroll('scrollDiv:CountryLovTable')" id=scrollDiv:CountryLovTable scrolltorow="0">
+<DIV style="WIDTH: 706px; HEIGHT: 1173px" id=scrollDivContent:CountryLovTable></DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="97%"></TABLE></DIV>
+<DIV style="BORDER-BOTTOM: #333333 1px solid; POSITION: absolute; BORDER-LEFT: #333333 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: infobackground; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; DISPLAY: none; COLOR: infotext; BORDER-TOP: #333333 1px solid; BORDER-RIGHT: #333333 1px solid; PADDING-TOP: 3px" id=tableHint:CountryLovTable></DIV>
+<DIV style="DISPLAY: none" id=loadCover:CountryLovTable></DIV></DIV></DIV>
+<SCRIPT language=javascript>function _richTblRefresh(formName,validate,ptgt,table,event,val) { _submitPartialChange(formName,validate,{event:event,source:table,partialTargets:ptgt,value:val});  }</SCRIPT>
+
+<SCRIPT language=javascript>function _tableRefresh(formName, tablerefresh, src, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:tablerefresh,source:src,value:val,size:sze,partialTargets:partialTargets});}</SCRIPT>
+<INPUT id=viewPortHeight:CountryLovTable value=350px type=hidden name=viewPortHeight:CountryLovTable>
+<SCRIPT language=javascript>
+var contentDiv = document.getElementById('contentDiv:CountryLovTable');
+var contentDivContent = document.getElementById('CountryLovTable:Content');
+var scrollDiv = document.getElementById('scrollDiv:CountryLovTable');
+var scrollDivContent = document.getElementById('scrollDivContent:CountryLovTable');
+var height = getTableHeight(contentDivContent,10,true); contentDiv.style.height= height +'px';
+scrollDiv.style.height = contentDiv.offsetHeight  + 'px' ;
+scrollDivContent.style.height = contentDiv.scrollHeight  + 'px';
+scrollDiv.style.width = contentDiv.offsetWidth  + 17 + 'px';
+scrollDivContent.style.width = contentDivContent.clientWidth +'px';
+scrollDiv.style.display='';
+var posRefDiv = document.getElementById('posrefdiv:CountryLovTable');
+setScrollBarTop(contentDiv,scrollDiv,'CountryLovTable');
+var SCROLL_BAR_THICKNESS = 17;
+var lowerCtrlBar = document.getElementById('CountryLovTable:LowerControlBar');
+if(lowerCtrlBar !=null)  { lowerCtrlBar.style.position = 'relative'; lowerCtrlBar.style.top=contentDivContent.rows[0].offsetHeight + 'px'; }
+var viewPortElem = document.getElementById('viewPortHeight:CountryLovTable'); if(viewPortElem.value == null || viewPortElem.value == '') { viewPortElem.value=contentDiv.style.height;}
+</SCRIPT>
+<INPUT id=direction:N1 type=hidden name=direction:N1>
+<SCRIPT language=javascript>correctChoiceSelection('CountryLovTable','1')</SCRIPT>
+</SPAN>
+<SCRIPT>var _N1_value=21;</SCRIPT>
+<SPAN id=CountryLovTable-hv><INPUT value=30 type=hidden name=N1:length></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV>
+<DIV class=x7c><INPUT id=_FORM value=_LOVResFrm8xv_5CMr type=hidden name=_FORM></DIV>
+<DIV class=x7c><A class=xh onclick="submitForm('_LOVResFrm',0,{'serverValidate':'1WiBqRhZC',event:'about'});return false;" href="#">About this Page</A></DIV>
+<DIV class=x7c><INPUT id=tableNameFormValue value=N1 type=hidden name=tableNameFormValue></DIV>
+<DIV class=x7c><INPUT id=stateCheckForTable value=FFFF type=hidden name=stateCheckForTable></DIV>
+<DIV class=x7c><INPUT id=FORM_MAC_LIST value=categoryChoice^searchAreaMode^serverValidate^_FORM***size;T^value;T@@@tableNameFormValue^stateCheckForTable^FORM_MAC_LIST***@@@source^state^viewPortHeight:CountryLovTable^event^partialTargets^N1:selected^FORM_MAC_LIST^N1:length^searchText^direction:N1dYeBgwAxJe-re158amupsg.. type=hidden name=FORM_MAC_LIST></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><SPAN id=__LOVResFrm_Postscript><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=searchAreaMode><INPUT type=hidden name=value><INPUT type=hidden name=size><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=state><INPUT type=hidden name=serverValidate>
+<SCRIPT>var _reset_LOVResFrmNames=["event","source","searchAreaMode","value","size","partialTargets","partial","state","serverValidate"];</SCRIPT>
+
+<SCRIPT>function __LOVResFrmValidater(form){return true;}function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM></DIV></DIV></SPAN>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 756px; DISPLAY: none; HEIGHT: 699px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=false;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpptp1.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=false;</SCRIPT>
+</DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) --></BODY></HTML>

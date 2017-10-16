@@ -1,0 +1,63 @@
+<HTML dir=ltr><HEAD><TITLE>Certificate Error: Navigation Blocked</TITLE><LINK rel=stylesheet type=text/css href="ErrorPageTemplate.css">
+<META name=MS.LOCALE content=EN-US>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META content=Yes http-equiv=MSThemeCompatible>
+<SCRIPT language=javascript type=text/javascript src="errorPageStrings.js">
+</SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="httpErrorPagesScripts.js">
+</SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="invalidcert.js">
+</SCRIPT>
+</HEAD>
+<BODY class=securityError onload="BodyLoad(); initMoreInfo('infoBlockID');">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=730><!-- Main title -->
+<TBODY>
+<TR>
+<TD id=shieldIconAlign vAlign=top rowSpan=3 width=60 align=left><IMG id=shieldIcon alt="Shield icon" src="red_shield_48.png"> </TD>
+<TD id=mainTitleAlign vAlign=center width=* align=left>
+<H1 id=mainTitle>There is a problem with this website's security certificate.</H1></TD></TR>
+<TR>
+<TD>
+<H3>
+<DIV id=linkdiv name="linkdiv"></DIV></H3></TD></TR>
+<TR><!-- This row is for the the divider-->
+<TD id=errorCodeAlign class=errorCodeAndDivider align=right>&nbsp; 
+<DIV class=divider></DIV></TD></TR><!-- Error Body -->
+<TR>
+<TD></TD>
+<TD>
+<H3>
+<DIV style="DISPLAY: none" id=CertUnknownCA name="CertUnknownCA"></DIV>
+<DIV style="DISPLAY: block" id=CertExpired name="CertExpired">The security certificate presented by this website has expired or is not yet valid.</DIV>
+<DIV style="DISPLAY: none" id=CertCNMismatch name="CertCNMismatch"></DIV>
+<DIV style="DISPLAY: none" id=CertRevoked name="CertRevoked"></DIV><NOSCRIPT id=securityCert1></NOSCRIPT><BR><ID id=securityCert2>Security certificate problems may indicate an attempt to fool you or intercept any data you send to the server.</ID> </H3></TD></TR><!-- Recommendation-->
+<TR>
+<TD>&nbsp;</TD>
+<TD>
+<H2 id=recommendation><B>We recommend that you close this webpage and do not continue to this website. </B></H2></TD></TR><!-- close webpage-->
+<TR>
+<TD>&nbsp;</TD>
+<TD id=closeWebpageAlign vAlign=center align=left>
+<H4 id=closeWebpage><IMG class=actionIcon border=0 alt="Recommended icon" src="green_shield.png"><A href="javascript:closePage()">Click here to close this webpage.</A> </H4></TD></TR><!-- continue to site-->
+<TR>
+<TD>&nbsp;</TD>
+<TD id=continueToSiteAlign vAlign=center align=left>
+<H4 id=continueToSite><IMG id=ImgOverride class=actionIcon border=0 alt="Not recommended icon" src="red_shield.png"><A id=overridelink href="https://erpptp1.fin.yahoo.com:8000/OA_HTML/AppsLocalLogin.jsp" name=overridelink>Continue to this website (not recommended).</A> </H4></TD></TR><!-- InfoBlock -->
+<TR>
+<TD id=infoBlockAlign vAlign=top align=right>&nbsp; </TD>
+<TD id=moreInformationAlign vAlign=center align=left>
+<H4>
+<TABLE>
+<TBODY>
+<TR>
+<TD vAlign=top><A onclick="javascript:expandCollapse('infoBlockID', true); return false;" href="#"><IMG id=infoBlockIDImage class=actionIcon border=0 alt="More information" src="down.png"></A> </TD>
+<TD vAlign=top><SPAN id=moreInfoContainer><A href="javascript:expandCollapse('infoBlockID', true);">More information</A></SPAN><NOSCRIPT></NOSCRIPT></TD></TR></TBODY></TABLE></H4>
+<DIV style="DISPLAY: none" id=infoBlockID class=infoBlock>
+<P>
+<LI id=errorExpl1>If you arrived at this page by clicking a link, check the website address in the address bar to be sure that it is the address you were expecting. 
+<LI id=errorExpl2>When going to a website with an address such as https://example.com, try adding the 'www' to the address, https://www.example.com. 
+<LI id=errorExpl3>If you choose to ignore this error and continue, do not enter private information into the website. 
+<P></P>
+<P id=moreInfoSeeHelpPF>For more information, see "Certificate Errors" in Internet Explorer Help.</P></LI></DIV></TD></TR></TBODY></TABLE></BODY></HTML>

@@ -1,0 +1,15 @@
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD></HEAD>
+<BODY>
+<SCRIPT src="js/dist/umps-gateway-min.js?cflag=182.42"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+		var widgetVersion = 184.36;
+	    (function(o){var z=function z(c){c=c.replace(/[\\[]/,"\\\\[").replace(/[\\]]/,"\\\\]").replace(/</,"&lt;").replace(/>/,"&gt;");var d="[\\\\?&]"+c+"=([^&#]*)";var a=new RegExp(d);var b=a.exec(window.location.href);if(b==null){return""}else{return b[1]}};var q=function q(){umpsxdomain.receiveMessage(function(b){var c=b.data;
+var e=JSON.parse(c);if(e.method=="abort"){var a=HttpGateway.getXhrById(e.uuid);if(a){a.abort()}}else{var d=new HttpGateway(e.uuid);d.sendRequest(e.url,e.method,e.data,e.timeout,e.headers)}},y,window.parent);if(window.chrome){window.setTimeout(function(){s(JSON.stringify({originCheck:window.location.origin}))
+},10000)}};var u=function u(a){if(!a){return false}var b=a.split("@")[0];if(b.search(/^https?\\:\\/\\//)!=-1){b=b.match(/^https?\\:\\/\\/([^\\/\\\\?#]+)(?:[\\/\\\\?#]|$)/i,"")}else{b=b.match(/^([^\\/\\\\?#]+)(?:[\\/?#]|$)/i,"")}return b[1].match(".salesforce.com$")==".salesforce.com"||b[1].match(".cloudforce.com$")==".cloudforce.com"||b[1].match(".visual.force.com$")==".visual.force.com"
+};var t=function t(b){var a;b=b.split("@")[0];if(b.search(/^https?\\:\\/\\//)!=-1){b=b.match(/^https?\\:\\/\\/([^\\/\\\\?#]+)(?:[\\/\\\\?#]|$)/i,"")}else{b=b.match(/^([^\\/\\\\?#]+)(?:[\\/?#]|$)/i,"")}return b[1]};if(o.name!=="api_iframe_dummy"){var w=window.location.host;var y=z("parentUrl");var n=z("baseSfdcUrl");
+var x=z("popOut");var p=z("connectUrl");if(!x){x=""}var r="/umps/sfdc_umps_frame.html?cflag="+widgetVersion+x;var s=function(a){umpsxdomain.postMessage(a,y,window.parent)};if(!u(y)||y.match("^http")!="http"){}else{if(w.search(/^\\d+./)==0){q()}else{var v=document.createElement("IFRAME");v.id="umps_frame";
+v.name="umps_frame";v.className="iframe_js";v.src="https://"+t(y)+r;v.frameborder=0;document.body.appendChild(v)}}o.postToChild=s;o.sfdcUrl=y;o.baseSfdcUrl=n;o.connectUrl=p}})(window);
+
+	</SCRIPT>
+<IFRAME id=umps_frame class=iframe_js src="https://cs3.salesforce.com/umps/sfdc_umps_frame.html?cflag=184.36" name=umps_frame frameborder="0"></IFRAME></BODY></HTML>

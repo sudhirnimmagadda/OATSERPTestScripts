@@ -1,0 +1,680 @@
+<HTML style="VISIBILITY: visible" dir=ltr lang=en-US-ORACLE9I><HEAD><TITLE>Subledger Journal Entry Lines</TITLE>
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=generator content="Oracle UIX">
+<META name=viewport content=width=device-width,initial-scale=1.0><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/alta-desktopEXTN-custom-11_1_1_7_0-en-ltr-ie-8-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.'</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR122.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/tableUtils.js"></SCRIPT>
+
+<SCRIPT id=oaf_detachScript type=text/javascript src="/OA_HTML/cabo/oajsLibs/detachTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureHandler.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/popup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oaGestureLib.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richTable.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/FNDWFWorklistService.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript>function clearclearButton(){ lovClearValue(document.DefaultFormName.Value_0);lovClearValue(document.DefaultFormName.Value_1);lovClearValue(document.DefaultFormName.Value_2);lovClearValue(document.DefaultFormName.Value_3);lovClearValue(document.DefaultFormName.Value_4);}</SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("https://erpint.fin.yahoo.com:8000/OA_HTML/help?locale=en_US&group=AR:CONTENTS:US&topic=US/XLA/@XLA_linesinquiry_JeLinesSubledgerDDPG", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; CURSOR: default; MARGIN-RIGHT: 0px" class=xk onunload=_checkUnload(event) onload="return _chain('_checkLoad(event)','CTinitRichTableUI(\\'QueryRN.LinesInquiryTable\\');CTaddEventToPPROnLoad();Linit();;attachGestureToDocumentBody();',this,event)" onbeforeunload=_savePageStateIE()><IFRAME style="POSITION: absolute; VISIBILITY: hidden" id=_pprIFrame title="" height=0 src="/OA_HTML/cabo/images/skyros/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV style="POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; TOP: 0px; CURSOR: wait; LEFT: 0px" onkeydown="return false;" id=_pprBlockingDiv onkeypress="return false;" onkeyup="return false;" onclick="return _pprConsumeClick(event);"></DIV>
+<DIV style="BEHAVIOR: url(#default#download)" id=_uixDownload class=x3g></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<DIV style="Z-INDEX: -99999; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; VISIBILITY: hidden; OVERFLOW: auto" id=oafwindowsizediv></DIV>
+<DIV id=_oafOraBodyContainer class=x8e>
+<FORM style="MARGIN: 0px" id=DefaultFormName method=post name=DefaultFormName action="/OA_HTML/OA.jsp?page=/oracle/apps/xla/linesinquiry/webui/JeLinesSubledgerDrillDownPG&amp;language_code=US&amp;entityCode=TRANSACTIONS&amp;sourceIdInt1=98863840&amp;trxAppId=222&amp;ledgerId=41&amp;CallFromForm='Y'&amp;searchType=customize&amp;fwkQBSearchTypeSource=/oracle/apps/xla/linesinquiry/webui/JeLinesSubledgerDrillDownPG__QueryRN__602&amp;_ti=2032684219&amp;retainAM=N&amp;addBreadCrumb=N&amp;oapc=5&amp;oas=JDgl8XDmz1AugPU4t4orlQ.."><INPUT id=_AM_TX_ID_FIELD value=1u57klEVa type=hidden name=_AM_TX_ID_FIELD><INPUT id=_FORM value=DefaultFormNameYNhCJHzj type=hidden name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFValue_0 value=N0Yw87BVE type=hidden name=lovAutoClearHFValue_0>
+<SCRIPT language=javascript>function LOCValue_1(visitedList){visitedList['Value_1'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCValue_0(visitedList){ visitedList['Value_0'] = 'v';if (visitedList['Value_1'] == null) {var res = lovClearValue(document.forms['DefaultFormName'].Value_1);LOCValue_1(visitedList);}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldValue_0 value=Value_0IjJcg1HJ type=hidden name=lovCriteriaHiddenFieldValue_0><INPUT id=lovPassiveCriteriaHFValue_0 type=hidden name=lovPassiveCriteriaHFValue_0><INPUT id=BASE_FORM_NAME value=DefaultFormNamecIEJo9vM type=hidden name=BASE_FORM_NAME><INPUT id=lovOnClickJSHiddenFieldValue_0 type=hidden name=lovOnClickJSHiddenFieldValue_0><INPUT id=lovOnClickJSExecutedHiddenFieldValue_0 value=N type=hidden name=lovOnClickJSExecutedHiddenFieldValue_0><INPUT id=lovJSHiddenFieldValue_0 type=hidden name=lovJSHiddenFieldValue_0>
+<SCRIPT language=javascript>function LcustomOnChangeValue_0(){return _LovInputVTF(LcurrentElement,0, document.getElementsByName(LcurrentElement)[0],1,1);}</SCRIPT>
+</SPAN><SPAN id=PageLayoutRN>
+<DIV id=popUpMenuTempContainer>
+<DIV id=menuHoldingContainer></DIV></DIV>
+<DIV id=skipToContent><A class=xh title="Skip navigation elements to page contents" href="#oafcontent">Skip navigation elements to page contents</A></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE class=xgu border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=x83>
+<TD class=xbl><IMG title="Customized corporate branding image for Oracle Applications" border=0 alt="Customized corporate branding image for Oracle Applications" src="/OA_MEDIA/yahoo_logo.gif"></TD>
+<TD>
+<TABLE id=globalHeaderID align=right>
+<TBODY>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD>
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SNAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Navigator alt=Navigator src="/OA_MEDIA/navigator.png"></DIV></A></DIV></TD>
+<TD><LINK id=alta rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/OAFSlideoutMenu_skyros.css">
+<SCRIPT type=text/javascript>initializePopup(escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),false,'Loading...')</SCRIPT>
+
+<DIV style="POSITION: relative; DISPLAY: inline-block"><A aria-haspopup=true id=SFAV class=universalGlobalButton role=button href="#" data-displayMode="MED">
+<DIV style="TEXT-ALIGN: center"><IMG title=Favorites alt=Favorites src="/OA_MEDIA/favorites.png"></DIV></A></DIV></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true onkeydown="menus['settingsMenu'].invokeMenuUsingKey(this,event);" class=x84 title=Settings role=button onclick="menus['settingsMenu'].invokeMenu(this,event);" href="#">
+<DIV><IMG title=Settings border=0 alt=Settings src="/OA_MEDIA/preferences.png"></DIV></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settingsMenu class=x9u role=menu>
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Preferences class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=LhntK2DGaxj8_dlaKR8Rvw..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=LhntK2DGaxj8_dlaKR8Rvw..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Preferences:select border=0 name=Preferences:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Preferences</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=Diagnostics class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fxla%2Flinesinquiry%2Fwebui%2FJeLinesSubledgerDrillDownPG%26language_code%3DUS%26entityCode%3DTRANSACTIONS%26sourceIdInt1%3D98863840%26trxAppId%3D222%26ledgerId%3D41%26CallFromForm%3D%27Y%27%26searchType%3Dcustomize%26fwkQBSearchTypeSource%3D%2Foracle%2Fapps%2Fxla%2Flinesinquiry%2Fwebui%2FJeLinesSubledgerDrillDownPG__QueryRN__602%26transactionid%3D2032684219%26retainAM%3DN%26addBreadCrumb%3DN%26oas%3DIbGaMQoSxwMEPaPe8Sw3mw..&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;oas=iEWq71F0ZXd_ikHZTwTAgw..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Fxla%2Flinesinquiry%2Fwebui%2FJeLinesSubledgerDrillDownPG%26language_code%3DUS%26entityCode%3DTRANSACTIONS%26sourceIdInt1%3D98863840%26trxAppId%3D222%26ledgerId%3D41%26CallFromForm%3D%27Y%27%26searchType%3Dcustomize%26fwkQBSearchTypeSource%3D%2Foracle%2Fapps%2Fxla%2Flinesinquiry%2Fwebui%2FJeLinesSubledgerDrillDownPG__QueryRN__602%26transactionid%3D2032684219%26retainAM%3DN%26addBreadCrumb%3DN%26oas%3DIbGaMQoSxwMEPaPe8Sw3mw..&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;oas=iEWq71F0ZXd_ikHZTwTAgw..">
+<TD style="PADDING-LEFT: 7px"><IMG id=Diagnostics:select border=0 name=Diagnostics:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Diagnostics</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=ManageProxies class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/umx/proxy/webui/ManageProxiesPG&amp;_ri=0&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;oas=3XiEMz7V9ACwX3XyN53Geg..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/umx/proxy/webui/ManageProxiesPG&amp;_ri=0&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;oas=3XiEMz7V9ACwX3XyN53Geg..">
+<TD style="PADDING-LEFT: 7px"><IMG id=ManageProxies:select border=0 name=ManageProxies:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Manage Proxies</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settingsMenu'].focusMenu(event, this);" id=AccessRequests class=x9t onmouseover="menus['settingsMenu'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['settingsMenu'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settingsMenu\\'].closeMenuOnAction(this,event);','location.href=\\'OA.jsp?page=/oracle/apps/fnd/umx/accessRequest/webui/MyAppAccessPG&amp;_ri=0&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;oas=3S9u4GGD662APJ86O--CFQ..\\';',this,event)" showalt="Show" hidealt="Hide" href="OA.jsp?page=/oracle/apps/fnd/umx/accessRequest/webui/MyAppAccessPG&amp;_ri=0&amp;_ti=2032684219&amp;oapc=5&amp;menu=Y&amp;oas=3S9u4GGD662APJ86O--CFQ..">
+<TD style="PADDING-LEFT: 7px"><IMG id=AccessRequests:select border=0 name=AccessRequests:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Access Requests</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settingsMenu']= new Menu();menus['settingsMenu'].initMenu('settingsMenu');</SCRIPT>
+</DIV></TD>
+<TD>
+<DIV><A style="FONT-FAMILY: Helvetica, Tahoma, Verdana, Arial, FreeSans, sans-serif; COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: normal" id=SNTF class=x8c title=Notifications href="javascript:WFGetOpenWorklist('[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=6KK4a_6FrKGZO5iIMG3p9Q.., Notifications]')" name=Ntf>
+<DIV style="POSITION: relative; TOP: 2px; MARGIN-RIGHT: 3px" id=img role=button><IMG style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; MARGIN-RIGHT: 1px; BORDER-RIGHT: medium none" id=WfImg class=Menu_ItemLink alt="Workflow Notifications" align=left src="/OA_MEDIA/notification.png" onload="javascript:WFGetOpenWorklistCount('2','[My Worklist, Go To Full Worklist, No Open notifications found for this user., Loading..., OA.jsp?OAFunc=WF_WORKLIST&amp;oas=6KK4a_6FrKGZO5iIMG3p9Q.., Notifications]','M')"> 
+<DIV style="WIDTH: 17px; TOP: -6px; LEFT: -12px" id=NtfCount class=noti_bubble>2</DIV></DIV></A>
+<DIV style="POSITION: absolute; WIDTH: 278px; DISPLAY: none; VISIBILITY: visible; TOP: 35px; MARGIN-RIGHT: 4px" id=WorklistTable></DIV></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px">
+<DIV style="BORDER-LEFT: #a1bfde 1px solid; DISPLAY: inline"></DIV></TD>
+<TD class=x85><SPAN class=x2v>Logged In As </SPAN><SPAN class=x2u>OATSUSER</SPAN></TD>
+<TD><A class=x84 href="javascript:top.help_window()">
+<DIV><IMG title=Help border=0 alt=Help src="/OA_MEDIA/help.png"></DIV></A></TD>
+<TD><A class=x84 href="/OA_HTML/OALogout.jsp?closeWindow=true&amp;menu=Y">
+<DIV><IMG title="Close Window" border=0 alt="Close Window" src="/OA_MEDIA/Close.png"></DIV></A></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=pageHeader2 class=x88>
+<TD colSpan=2></TD></TR>
+<TR>
+<TD colSpan=2></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width="100%">
+<DIV class=x9n>
+<DIV>
+<DIV class=pagetopborderleft></DIV>
+<DIV class=pagetopbordermiddle></DIV>
+<DIV class=pagetopborderright></DIV></DIV></DIV>
+<DIV class=x9k>
+<DIV>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/skyros/navBarUnderTopTabsBg.gif)" id=OraGlobalHeader class=x75 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV id=oafcontent tabIndex=-1>
+<DIV>
+<DIV style="PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; HEIGHT: auto; PADDING-TOP: 6px" id=oafusercontent>
+<DIV class=x6v>
+<TABLE class=x7x border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD>
+<TD style="FONT-SIZE: 0px">
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fskyros\\x2Ft.gif";var _axm;t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5 height=1></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV id=p_SwanPageLayout class=x7z>
+<DIV>
+<DIV class=x6c>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H1 class=x1f type="OraHeader">Subledger Journal Entry Lines</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7b>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><SPAN id=QueryRN>
+<TABLE id=AdvSearchHeaderRN border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=xca height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7d border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR class=xbm>
+<TD width="100%">
+<H2 class=x7e type="OraHeader">Advanced Search</H2></TD>
+<TD vAlign=bottom noWrap align=right></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="xca x7b" height=8></TD></TR>
+<TR>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV class=x7b>
+<DIV><SPAN id=AdvancedSearchRN>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD><SPAN id=N698 class=x0>Specify parameters and values to filter the data that is displayed in your results set.</SPAN></TD></TR>
+<TR>
+<TD class="xca ">
+<SCRIPT>t(void 0,'10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" height=10></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=N8__xc_>
+<TD vAlign=center noWrap align=right><SPAN class=xc>Match</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=center noWrap><SPAN id=N8 onchange=""><INPUT class=xo onchange="" value=AND1RipZ8bu CHECKED type=radio name=advancedSearchRadioGroup><SPAN class=xo>All</SPAN><SPAN style="PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px"></SPAN><INPUT class=xo onchange="" value=ORmuxWhpFN type=radio name=advancedSearchRadioGroup><SPAN class=xo>Any</SPAN></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT>t(void 0,'4')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" height=4>
+<DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=absmiddle noWrap align=right>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD><INPUT id=N325 value=AISJI82gvPl type=hidden name=Condition_1><INPUT id=Value_1 type=hidden name=Value_1>
+<TABLE border=0 cellSpacing=0 cellPadding=0></TABLE></TD>
+<TD></TD></TR>
+<TR>
+<TD height=0></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=absmiddle noWrap align=right>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=item2__xc_>
+<TD vAlign=top noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top><LABEL id=item2 class="OraPromptText MessageComponentLayoutText" for=Value_2>Balancing Segment</LABEL></TD></TR></TBODY></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Condition_2__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SELECT id=Condition_2 class=x8 title="Search Criteria: Balancing Segment" onchange="" name=Condition_2><OPTION selected value=AISPUXMMEnF>is</OPTION><OPTION value=BNOTYcv8U29Y>is not</OPTION><OPTION value=CCONTAINoRbXEy8j>contains</OPTION><OPTION value=DSTARTeMpqlWMt>starts with</OPTION><OPTION value=EENDDgr9KvVu>ends with</OPTION><OPTION value=JNULLpULof2Ho>is not (include blanks)</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Value_2__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><INPUT id=Value_2 class=x8 title="Search Value: Balancing Segment" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onchange="" size=30 type=text name=Value_2>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD></TD></TR>
+<TR>
+<TD height=0></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=absmiddle noWrap align=right>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=item61__xc_>
+<TD vAlign=top noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top><LABEL id=item61 class="OraPromptText MessageComponentLayoutText" for=Value_3>Natural Account Segment</LABEL></TD></TR></TBODY></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Condition_3__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SELECT id=Condition_3 class=x8 title="Search Criteria: Natural Account Segment" onchange="" name=Condition_3><OPTION selected value=AISHO6d4yVB>is</OPTION><OPTION value=BNOTbhhlw4ra>is not</OPTION><OPTION value=CCONTAINVmSafevj>contains</OPTION><OPTION value=DSTARTsQHLHpdy>starts with</OPTION><OPTION value=EENDkRvzOdXt>ends with</OPTION><OPTION value=JNULLDwdxvzRF>is not (include blanks)</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Value_3__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><INPUT id=Value_3 class=x8 title="Search Value: Natural Account Segment" onchange="" size=30 type=text name=Value_3>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD></TD></TR>
+<TR>
+<TD height=0></TD></TR>
+<TR>
+<TD style="FONT-SIZE: 0px" width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=12></TD>
+<TD vAlign=absmiddle noWrap align=right>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=item3__xc_>
+<TD vAlign=top noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top><LABEL id=item3 class="OraPromptText MessageComponentLayoutText" for=Value_4>GL Date</LABEL></TD></TR></TBODY></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD vAlign=top>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Condition_4__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap><SELECT id=Condition_4 class=x8 title="Search Criteria: GL Date" onchange="" name=Condition_4><OPTION selected value=AIS02U-xHL6>is</OPTION><OPTION value=BNOTj7GFRta6>is not</OPTION><OPTION value=HAFTER_0Mf9iXj>after</OPTION><OPTION value=IBEFOREPbzztEYZ>before</OPTION><OPTION value=JNULLXgGvPp8d>is not (include blanks)</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD class="xca ">
+<SCRIPT>t('2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=2></TD>
+<TD>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=Value_4__xc_>
+<TD noWrap align=right></TD>
+<TD style="FONT-SIZE: 0px"></TD>
+<TD vAlign=top noWrap>
+<DIV class=OraDatePickerOuterDiv>
+<SCRIPT>var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I12_2_6_0_0.js"></SCRIPT>
+
+<SCRIPT>var _dfLenient=1;var _df2DYS=1950;</SCRIPT>
+
+<SCRIPT>if(window['_dfs'] == (void 0)){var _dfs=new Object();}_dfs["Value_4"]=['dd-MMM-yyyy','dd-MMM-yyyy']</SCRIPT>
+<INPUT onblur=_dfb(this,1) id=Value_4 class=x8 title="Search Value: GL Date" onchange="" maxLength=11 size=30 type=text name=Value_4 txtiptic="yes">
+<SCRIPT>t('8','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8 height=1>
+<SCRIPT>var _jspDir='/OA_HTML/cabo/jsps/a.jsp';var _configName='OAConfig';var _enc='UTF-8';var _contextURI='/OA_HTML';</SCRIPT>
+
+<SCRIPT>var _uixLocaleTZ=0;var _uixLocaleTZId="";var _firstDOW=1;</SCRIPT>
+<A id=Value_4:dateButton onclick="_ldp('DefaultFormName','Value_4'); return false" href="#"><IMG border=0 align=absMiddle src="/OA_HTML/cabo/images/alta/input_date.png" width=12 height=12></A></DIV>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD></TD></TR>
+<TR>
+<TD height=6></TD></TR>
+<TR>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD vAlign=top><BUTTON class=x7p title=Go onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'customizeSubmitButton2INTViwW'});return false" type=submit>Go</BUTTON>
+<SCRIPT>t(void 0,'5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" height=5><BUTTON class=x7p title=Clear onclick="return _chain('clearclearButton(); return false;','submitForm(\\'DefaultFormName\\',0,{\\'_FORM_SUBMIT_BUTTON\\':\\'clearButtonorCNiRm1\\'});return false',this,event,true)" type=submit>Clear</BUTTON></TD>
+<TD vAlign=top colSpan=2>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR id=N359__xc_>
+<TD vAlign=center noWrap align=right><SPAN class=xc>Add Another</SPAN></TD>
+<TD style="FONT-SIZE: 0px" width=8>
+<SCRIPT>t('8')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=8></TD>
+<TD vAlign=center noWrap><SELECT id=N359 class=x8 onchange="" name=addMorePickList><OPTION selected value=AccountedCrCV6jTcHbqd>Accounted CR</OPTION><OPTION value=AccountedDrCVKN0XDk_N>Accounted DR</OPTION><OPTION value=AccountingClassCVIPS2HvdM>Accounting Class</OPTION><OPTION value=CompSeqNameCVfrGIJA7w>Accounting Sequence Name</OPTION><OPTION value=CompSeqValueCVNISqWD17>Accounting Sequence Number</OPTION><OPTION value=ProdRuleNameCVaeyIsm7z>Application Accounting Definition</OPTION><OPTION value=ProdRuleVersionCVbkIA4mbL>Application Accounting Definition Version</OPTION><OPTION value=BalanceTypeCodeCVi5e9lqp0>Balance Type</OPTION><OPTION value=BalSegCVe6Dncxpg>Balancing Segment</OPTION><OPTION value=BudgetNameCVebggYb07>Budget</OPTION><OPTION value=CompletedDateCV_QMtwx_v>Completion Date</OPTION><OPTION value=CurrConvDateCVQ_LMu4tv>Conversion Date</OPTION><OPTION value=CurrConvTypeCodeCVCuoLo7vd>Conversion Type</OPTION><OPTION value=CostCenterSeqCV9mLb3tpT>Cost Center Segment</OPTION><OPTION value=CreatedByUserCVFu_5H6QO>Created By</OPTION><OPTION value=CreationDateCV5JU6sjwH>Creation Date</OPTION><OPTION value=CustomerNameCV7dir4As->Customer Name</OPTION><OPTION value=CustomerNumCVJZ_Ptzwh>Customer Number</OPTION><OPTION value=CustomerSiteCVwdaT_Pp->Customer Site</OPTION><OPTION value=CustomerTaxpayerIdCVAoMkr0in>Customer Taxpayer ID</OPTION><OPTION value=DocSequenceNameCVXdI65c8O>Document Sequence Name</OPTION><OPTION value=DocSequenceValueCVn-uD-gVY>Document Sequence Number</OPTION><OPTION value=EncumbranceTypeCViZwyozef>Encumbrance Type</OPTION><OPTION value=EnteredCrCVs7zIVLE_>Entered CR</OPTION><OPTION value=EnteredCurrencyCVHutWAVn8>Entered Currency</OPTION><OPTION value=EnteredDrCVWqQmyelx>Entered DR</OPTION><OPTION value=EventClassCVHVV_1PI2>Event Class</OPTION><OPTION value=EventCreatedByUserCVlaVWeJ8O>Event Created By</OPTION><OPTION value=EventCreationDateCV8wf8-6ed>Event Creation Date</OPTION><OPTION value=EventDateCVb-q9W_rs>Event Date</OPTION><OPTION value=EventTypeCVUia-mctO>Event Type</OPTION><OPTION value=PeriodNameCVdLppMTyI>General Ledger Period</OPTION><OPTION value=GlDateCV_bR5GUNX>GL Date</OPTION><OPTION value=UserJeCatNameCVEcbASDgC>Journal Category</OPTION><OPTION value=AeStatusCodeCV5eQDcaYP>Journal Entry Status</OPTION><OPTION value=AeTypeCodeCVA6g-3dmJ>Journal Entry Type</OPTION><OPTION value=LedgerNameCVbzYLaZTC>Ledger</OPTION><OPTION value=LedgerCurrencyCV5vt4pS0j>Ledger Currency</OPTION><OPTION value=LegalEntityTaxpayerIdCV76qBJhZW>Legal Entity Income Tax Registration</OPTION><OPTION value=LegalEntityNameCViGB3l8uh>Legal Entity Name</OPTION><OPTION value=MgtSegCVbIk1hqkX>Management Segment</OPTION><OPTION value=NaturalAcctSegCVcdulFKGK>Natural Account Segment</OPTION><OPTION value=PartyTypeCodeCVseH_GzfC>Party Type</OPTION><OPTION value=ReferenceDateCV2SYbB1lC>Reference Date</OPTION><OPTION value=CloseSeqNameCVIPAKYmo0>Reporting Sequence Name</OPTION><OPTION value=CloseSeqValueCVm_Cp8IUl>Reporting Sequence Number</OPTION><OPTION value=SupplierNameCV7v4G5vVf>Supplier Name</OPTION><OPTION value=SupplierNumCVa206n2tI>Supplier Number</OPTION><OPTION value=SupplierSiteCV29UBG3Du>Supplier Site</OPTION><OPTION value=SupplierTaxpayerIdCVgqOtQMBl>Supplier Taxpayer ID</OPTION><OPTION value=SR1CVDO1rP7Sc>SupportingReference1</OPTION><OPTION value=SR10CVRBgr5Mxr>SupportingReference10</OPTION><OPTION value=SR11CVacpBwcjK>SupportingReference11</OPTION><OPTION value=SR12CVCryRf4tv>SupportingReference12</OPTION><OPTION value=SR13CVORAD2Yry>SupportingReference13</OPTION><OPTION value=SR14CVSzK5sPZb>SupportingReference14</OPTION><OPTION value=SR15CVr7AFbOTP>SupportingReference15</OPTION><OPTION value=SR16CVNPF2I-Sz>SupportingReference16</OPTION><OPTION value=SR17CVlrP-BMMp>SupportingReference17</OPTION><OPTION value=SR18CV0JB3WN3R>SupportingReference18</OPTION><OPTION value=SR19CVhVtHwYrQ>SupportingReference19</OPTION><OPTION value=SR2CVa_xYtg4W>SupportingReference2</OPTION><OPTION value=SR20CVVmMHa4Sd>SupportingReference20</OPTION><OPTION value=SR21CVATos53OY>SupportingReference21</OPTION><OPTION value=SR22CVVU2f3BSb>SupportingReference22</OPTION><OPTION value=SR23CVu1y-kdkj>SupportingReference23</OPTION><OPTION value=SR24CVypJ7k4ex>SupportingReference24</OPTION><OPTION value=SR25CVCTxiR2rR>SupportingReference25</OPTION><OPTION value=SR26CVeesgpfkj>SupportingReference26</OPTION><OPTION value=SR27CVYTYnxIh5>SupportingReference27</OPTION><OPTION value=SR28CVgfLSPGmK>SupportingReference28</OPTION><OPTION value=SR29CV2T7Nb2ty>SupportingReference29</OPTION><OPTION value=SR3CVaRwTDu5W>SupportingReference3</OPTION><OPTION value=SR30CVs2gSCPXl>SupportingReference30</OPTION><OPTION value=SR31CVjcHjKEMq>SupportingReference31</OPTION><OPTION value=SR32CV6KccNY9j>SupportingReference32</OPTION><OPTION value=SR33CVU2df15WO>SupportingReference33</OPTION><OPTION value=SR34CV3Q-POgw2>SupportingReference34</OPTION><OPTION value=SR35CViH5rMyu_>SupportingReference35</OPTION><OPTION value=SR36CVai4Qzeq1>SupportingReference36</OPTION><OPTION value=SR37CVkgRKGXWu>SupportingReference37</OPTION><OPTION value=SR38CVqQGTgOQq>SupportingReference38</OPTION><OPTION value=SR39CVKJ8va82a>SupportingReference39</OPTION><OPTION value=SR4CVqVDxTe-M>SupportingReference4</OPTION><OPTION value=SR40CV3-QQO1kJ>SupportingReference40</OPTION><OPTION value=SR401CV67mAGjvU>SupportingReference401</OPTION><OPTION value=SR402CVQBuz54kH>SupportingReference402</OPTION><OPTION value=SR403CV79qBa02E>SupportingReference403</OPTION><OPTION value=SR404CVF9-hmyUM>SupportingReference404</OPTION><OPTION value=SR405CVpHfZDRP9>SupportingReference405</OPTION><OPTION value=SR406CVzoBRy1qr>SupportingReference406</OPTION><OPTION value=SR407CV23_jgheA>SupportingReference407</OPTION><OPTION value=SR408CVCExSV5Kk>SupportingReference408</OPTION><OPTION value=SR409CVK1Dv3lb5>SupportingReference409</OPTION><OPTION value=SR41CVLt1091qm>SupportingReference41</OPTION><OPTION value=SR410CVBzGeEcMi>SupportingReference410</OPTION><OPTION value=SR42CVbs-hLU6J>SupportingReference42</OPTION><OPTION value=SR43CVdysAazu9>SupportingReference43</OPTION><OPTION value=SR44CVzEl_wL4d>SupportingReference44</OPTION><OPTION value=SR45CVrmbaMbeQ>SupportingReference45</OPTION><OPTION value=SR46CVjgVpQNbZ>SupportingReference46</OPTION><OPTION value=SR47CVcEe4Dt3h>SupportingReference47</OPTION><OPTION value=SR48CVRtbPXKEe>SupportingReference48</OPTION><OPTION value=SR49CVYx4N-K0g>SupportingReference49</OPTION><OPTION value=SR5CVD2IbTZwc>SupportingReference5</OPTION><OPTION value=SR50CV7VRXZHzb>SupportingReference50</OPTION><OPTION value=SR6CVR7wum1YA>SupportingReference6</OPTION><OPTION value=SR601CVkwoTuPos>SupportingReference601</OPTION><OPTION value=SR602CVf1p2lY8->SupportingReference602</OPTION><OPTION value=SR603CVGxSmSEyr>SupportingReference603</OPTION><OPTION value=SR604CVVi8ni-lM>SupportingReference604</OPTION><OPTION value=SR605CVMyapCzwC>SupportingReference605</OPTION><OPTION value=SR606CVFh_MCnmW>SupportingReference606</OPTION><OPTION value=SR607CVg2UIHdGi>SupportingReference607</OPTION><OPTION value=SR608CVixk3t263>SupportingReference608</OPTION><OPTION value=SR609CV2hZmwMzq>SupportingReference609</OPTION><OPTION value=SR610CV4GwzfDbM>SupportingReference610</OPTION><OPTION value=SR611CV2uK0ZGG5>SupportingReference611</OPTION><OPTION value=SR612CVq9iqRK2s>SupportingReference612</OPTION><OPTION value=SR613CVLTwUbOGT>SupportingReference613</OPTION><OPTION value=SR614CVK0PVZWzu>SupportingReference614</OPTION><OPTION value=SR615CVCDTavh3e>SupportingReference615</OPTION><OPTION value=SR616CV-wSE1wba>SupportingReference616</OPTION><OPTION value=SR617CVJibSioaZ>SupportingReference617</OPTION><OPTION value=SR618CVsNDi2N12>SupportingReference618</OPTION><OPTION value=SR619CVFA5hTU5B>SupportingReference619</OPTION><OPTION value=SR620CVQoLa9T4K>SupportingReference620</OPTION><OPTION value=SR621CVgOSPqPah>SupportingReference621</OPTION><OPTION value=SR622CViexA1P4j>SupportingReference622</OPTION><OPTION value=SR623CVp2OdMlV1>SupportingReference623</OPTION><OPTION value=SR624CVNE_eEl21>SupportingReference624</OPTION><OPTION value=SR625CVmSy-Dd8i>SupportingReference625</OPTION><OPTION value=SR626CVDHy33CLR>SupportingReference626</OPTION><OPTION value=SR627CVUrsn8RgM>SupportingReference627</OPTION><OPTION value=SR628CVzk1fqPA8>SupportingReference628</OPTION><OPTION value=SR629CVE2vuTAFI>SupportingReference629</OPTION><OPTION value=SR630CVdYDVwbwX>SupportingReference630</OPTION><OPTION value=SR631CVw9iKgWzs>SupportingReference631</OPTION><OPTION value=SR632CVwioxvf62>SupportingReference632</OPTION><OPTION value=SR633CVwX_jzAcN>SupportingReference633</OPTION><OPTION value=SR634CVXv31hLng>SupportingReference634</OPTION><OPTION value=SR635CVyI2t_4Tp>SupportingReference635</OPTION><OPTION value=SR636CVD0BW33Ct>SupportingReference636</OPTION><OPTION value=SR637CVifx1fIfH>SupportingReference637</OPTION><OPTION value=SR638CVaQ7gkBoG>SupportingReference638</OPTION><OPTION value=SR639CVS4y2ON5V>SupportingReference639</OPTION><OPTION value=SR640CVOZfBRJfy>SupportingReference640</OPTION><OPTION value=SR7CVyk9L5c3e>SupportingReference7</OPTION><OPTION value=SR8CVExThoduC>SupportingReference8</OPTION><OPTION value=SR9CV7GtHjNmV>SupportingReference9</OPTION><OPTION value=TransactionNumberCVlQZkKc-_>Transaction Number</OPTION><OPTION value=GlTransferDateCVgo8GP0AU>Transfer To GL Date</OPTION><OPTION value=GlTransferStatusCodeCVGSAHrxPE>Transfer To GL Status</OPTION><OPTION value=UssglTrxCodeCVSrPW4geV>USSGL Transaction Code</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=5><BUTTON class=x7p title=Add onclick="submitForm('DefaultFormName',0,{'_FORM_SUBMIT_BUTTON':'addButtongngPAfAr'});return false" type=submit>Add</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV class=x8u></DIV>
+<DIV></DIV><SPAN id=QueryResultRN><SPAN id=QueryRN.LinesInquiryTable title="Journal Entry Lines">
+<DIV id=loadDiv:QueryRN.LinesInquiryTable>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD width="45%"></TD>
+<TD noWrap><IMG title=Loading... border=0 alt=Loading... align=middle src="cabo/images/alta/spinner.gif"></TD>
+<TD noWrap><SPAN style="BACKGROUND-COLOR: transparent; PADDING-LEFT: 20px; FONT-WEIGHT: bold" class=OraTableCellText>Loading...</SPAN></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: relative; PADDING-BOTTOM: 20px; opacity: 0" id=posrefdiv:QueryRN.LinesInquiryTable><INPUT id=fullAMName:QueryRN.LinesInquiryTable value=oracle.apps.xla.linesinquiry.server.LinesInquiryAM type=hidden><INPUT id=tid:QueryRN.LinesInquiryTable value=2032684219 type=hidden><INPUT id=fullCustRef:QueryRN.LinesInquiryTable value=/oracle/apps/xla/linesinquiry/webui/JeLinesSubledgerDrillDownPG.QueryRN.LinesInquiryTable type=hidden>
+<DIV id=surroundingDiv:QueryRN.LinesInquiryTable>
+<DIV style="PADDING-BOTTOM: 10px; DISPLAY: none; CURSOR: move; PADDING-TOP: 5px" id=table:QueryRN.LinesInquiryTable title="Detached Table">
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD style="DISPLAY: none"><SPAN class=OraDetachHdrTxt>Detached Table</SPAN></TD>
+<TD><A aria-hidden=true style="DISPLAY: none" id=forward:QueryRN.LinesInquiryTable onfocus="TUdetachTableForwardFocusLoop('QueryRN.LinesInquiryTable');" title="Return to bottom of the popup" href="#dummy" alt="Return to bottom of the popup"></A></TD>
+<TD><A style="FLOAT: right; CURSOR: pointer" id=surroundingDiv:close:QueryRN.LinesInquiryTable onclick=javascript:undetach(this) href="#" name=surroundingDiv:close:QueryRN.LinesInquiryTable><IMG title="Attach Table: Journal Entry Lines" border=0 alt="Attach Table: Journal Entry Lines" src="/OA_HTML/cabo/images/skyros/close_ena.png"></A></TD></TR></TBODY></TABLE></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD>
+<DIV id=QueryRN.LinesInquiryTable:ControlBar class=xc1>
+<TABLE class=x1q border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=x5a noWrap>Select Subledger Journal Entry Line:
+<SCRIPT>t(3,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=3 height=1></TD>
+<TD vAlign=center noWrap>
+<SCRIPT>t(void 0,'5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" height=5></TD>
+<TD vAlign=center rowSpan=2 noWrap><BUTTON id=ViewTransaction class=x7p title="View Transaction" onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'ViewTransactioniU-rIYOz'});return false" type=submit>View Transaction</BUTTON></TD>
+<TD vAlign=center rowSpan=2 noWrap>
+<SCRIPT>t(void 0,'5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" height=5></TD>
+<TD vAlign=center rowSpan=2 noWrap><BUTTON id=ViewJE class=x7p title="View Journal Entry" onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'ViewJEtev8U0KU'});return false" type=submit>View Journal Entry</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD vAlign=center>&nbsp;|&nbsp;</TD>
+<TD noWrap><SPAN id=exportRN><BUTTON id=N696:export:0 class=x7p title=Export onclick="return _chain('submitForm(\\'DefaultFormName\\',0,{\\'_FORM_SUBMIT_BUTTON\\':\\'exportMMI3RYMR\\',\\'serverValidate\\':\\'0DHd4a1NE\\',event:\\'EXPORT_BUTTON_SELECTED\\',source:\\'N696:export:0\\'});return false;','submitForm(\\'DefaultFormName\\',1,{\\'_FORM_SUBMIT_BUTTON\\':\\'exportMMI3RYMR\\'});return false',this,event,true)" type=submit>Export</BUTTON></SPAN></TD>
+<TD vAlign=center>&nbsp;|&nbsp;</TD>
+<TD style="PADDING-LEFT: 5px"></TD>
+<TD>
+<DIV><A style="DISPLAY: block; CURSOR: pointer" title="Detach Table: Journal Entry Lines" onclick=detachTable(this.firstChild) href="javascript:void(0);" undetachtitle="Attach Table: Journal Entry Lines"><IMG id=QueryRN.LinesInquiryTable:detachIcon class=OraTableControlBarIcon title="Detach Table: Journal Entry Lines" alt="Detach Table: Journal Entry Lines" src="/OA_HTML/cabo/images/skyros/maximize_ena.png" undetachtitle="Attach Table: Journal Entry Lines"></A></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD><A style="DISPLAY: block; CURSOR: pointer" id=QueryRN.LinesInquiryTable:refreshIcon title="Refresh Table: Journal Entry Lines" onclick="_tableRefresh('DefaultFormName','tablerefresh','N696',1,' ',' ','QueryRN.LinesInquiryTable')" href="javascript:void(0);"><IMG class=OraTableControlBarIcon title="Refresh Table: Journal Entry Lines" alt="Refresh Table: Journal Entry Lines" src="/OA_HTML/cabo/images/skyros/tablerefresh_ena.png"></A></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none"><A id=reset:ena:QueryRN.LinesInquiryTable class=x9i onclick="TUreset('QueryRN.LinesInquiryTable');" href="javascript:void(0)" name=reset:ena:QueryRN.LinesInquiryTable><IMG title="Reset Table Settings: Journal Entry Lines" border=0 alt="Reset Table Settings: Journal Entry Lines" src="/OA_HTML/cabo/images/skyros/reset_ena.png"></A></DIV></TD>
+<TD>
+<DIV><IMG id=reset:dis:QueryRN.LinesInquiryTable class=x9i title="Reset Table Settings Disabled: Journal Entry Lines" border=0 name=reset:dis:QueryRN.LinesInquiryTable alt="Reset Table Settings Disabled: Journal Entry Lines" src="/OA_HTML/cabo/images/skyros/reset_dis.png"></DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['settings_QueryRN__LinesInquiryTable'].invokeMenuUsingKey(this,event);" id=settings:QueryRN.LinesInquiryTable class=x9j role=button onclick="menus['settings_QueryRN__LinesInquiryTable'].invokeMenu(this,event);" href="javascript:void(0)" name=settings:QueryRN.LinesInquiryTable><IMG title="Table Settings: Journal Entry Lines" border=0 alt="Table Settings: Journal Entry Lines" src="/OA_HTML/cabo/images/skyros/action_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:settings_QueryRN__LinesInquiryTable class=x9u role=menu submitfun="TUMenuOKAction('settings_QueryRN.LinesInquiryTable' ,'QueryRN.LinesInquiryTable');" required="yes" reorder="enabled" selection="enabled">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:LedgerName aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:LedgerName\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:LedgerName\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:LedgerName:select title=Hide border=0 name=menuItem:LedgerName:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Ledger</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:LedgerName tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:LedgerName><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_dis.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:LedgerName tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:LedgerName><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:Account aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:Account\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:Account\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:Account:select title=Hide border=0 name=menuItem:Account:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Account</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:Account tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:Account><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:Account tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:Account><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountDescription aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:AccountDescription\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:AccountDescription\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountDescription:select title=Hide border=0 name=menuItem:AccountDescription:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>AccountDescription</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:AccountDescription tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:AccountDescription><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:AccountDescription tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:AccountDescription><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:GlDate aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:GlDate\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:GlDate\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:GlDate:select title=Hide border=0 name=menuItem:GlDate:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>GL Date</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:GlDate tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:GlDate><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:GlDate tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:GlDate><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountingClass aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:AccountingClass\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:AccountingClass\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountingClass:select title=Hide border=0 name=menuItem:AccountingClass:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Accounting Class</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:AccountingClass tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:AccountingClass><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:AccountingClass tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:AccountingClass><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountedDr aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:AccountedDr\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:AccountedDr\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountedDr:select title=Hide border=0 name=menuItem:AccountedDr:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Accounted DR</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:AccountedDr tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:AccountedDr><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:AccountedDr tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:AccountedDr><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountedCr aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:AccountedCr\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:AccountedCr\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountedCr:select title=Hide border=0 name=menuItem:AccountedCr:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Accounted CR</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:AccountedCr tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:AccountedCr><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:AccountedCr tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:AccountedCr><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_ena.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['settings_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:SupportingReferences aria-checked=true class=x9t onmouseover="menus['settings_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitemcheckbox tabIndex=0 onmouseout="menus['settings_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].clickOnMenuItem(\\'menuItem:SupportingReferences\\',event);','TUmenuSelection(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\',\\'menuItem:SupportingReferences\\')',this,event)" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:SupportingReferences:select title=Hide border=0 name=menuItem:SupportingReferences:select alt=Hide src="/OA_HTML/cabo/images/skyros/menu_toggle_icon_on.png" width=16 height=16></TD>
+<TD><SPAN class=OraMenuItemText>Supporting References</SPAN></TD>
+<TD><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=up:menuItem:SupportingReferences tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderUp(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=up:menuItem:SupportingReferences><IMG title="Move selected items up one in list" border=0 alt="Move selected items up one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderup_ena.png"></A><A style="PADDING-LEFT: 5px; PADDING-RIGHT: 5px" id=down:menuItem:SupportingReferences tabIndex=-1 onclick="return _chain('menus[\\'settings_QueryRN__LinesInquiryTable\\'].reorderDown(this,event)','TUreorder(\\'settings_QueryRN__LinesInquiryTable\\',\\'QueryRN.LinesInquiryTable\\')',this,event)" href="javascript:void(0)" name=down:menuItem:SupportingReferences><IMG title="Move selected items down one in list" border=0 alt="Move selected items down one in list" src="/OA_HTML/cabo/images/skyros/shuttlereorderdown_dis.png"></A></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['settings_QueryRN__LinesInquiryTable']= new Menu();menus['settings_QueryRN__LinesInquiryTable'].initMenu('settings_QueryRN__LinesInquiryTable');</SCRIPT>
+</DIV></TD>
+<TD>
+<SCRIPT>t(7,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=7 height=1></TD>
+<TD>
+<DIV style="DISPLAY: none">
+<DIV style="POSITION: relative"><A aria-haspopup=true style="WHITE-SPACE: nowrap" onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].invokeMenuUsingKey(this,event);" id=freeze:QueryRN.LinesInquiryTable class=x9j role=button onclick="menus['freeze_QueryRN__LinesInquiryTable'].invokeMenu(this,event);" href="javascript:void(0)" name=freeze:QueryRN.LinesInquiryTable><IMG title="Column Freeze: Journal Entry Lines" border=0 alt="Column Freeze: Journal Entry Lines" src="/OA_HTML/cabo/images/skyros/freeze_ena.png"><IMG style="BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN-LEFT: 4px; BORDER-TOP: 0px; BORDER-RIGHT: 0px" title="" alt="" src="/OA_HTML/cabo/images/skyros/dropdown_ena.png"></A>
+<DIV style="BACKGROUND-COLOR: #ffffff; DISPLAY: none" id=menuDiv:freeze_QueryRN__LinesInquiryTable class=x9u role=menu required="yes">
+<TABLE style="BORDER-COLLAPSE: collapse" role=presentation>
+<TBODY>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=QueryRN.LinesInquiryTable:unfreeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);TUinitiateColumnMeltDown('QueryRN.LinesInquiryTable');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=QueryRN.LinesInquiryTable:unfreeze:select border=0 name=QueryRN.LinesInquiryTable:unfreeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Unfreeze</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:LedgerName:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:LedgerName:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:LedgerName:freeze:select border=0 name=menuItem:LedgerName:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Ledger</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:Account:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:Account:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:Account:freeze:select border=0 name=menuItem:Account:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Account</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountDescription:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:AccountDescription:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountDescription:freeze:select border=0 name=menuItem:AccountDescription:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>AccountDescription</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:GlDate:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:GlDate:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:GlDate:freeze:select border=0 name=menuItem:GlDate:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>GL Date</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountingClass:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:AccountingClass:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountingClass:freeze:select border=0 name=menuItem:AccountingClass:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Accounting Class</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountedDr:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:AccountedDr:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountedDr:freeze:select border=0 name=menuItem:AccountedDr:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Accounted DR</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:AccountedCr:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:AccountedCr:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:AccountedCr:freeze:select border=0 name=menuItem:AccountedCr:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Accounted CR</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR>
+<TR onkeydown="menus['freeze_QueryRN__LinesInquiryTable'].focusMenu(event, this);" id=menuItem:SupportingReferences:freeze class=x9t onmouseover="menus['freeze_QueryRN__LinesInquiryTable'].mouseOverOnMenuItem(this,event)" role=menuitem tabIndex=0 onmouseout="menus['freeze_QueryRN__LinesInquiryTable'].mouseOutOnMenuItem(this,event)" onclick="menus['freeze_QueryRN__LinesInquiryTable'].closeMenuOnAction(this,event);CTfreezeMenuSelection('QueryRN.LinesInquiryTable','menuItem:SupportingReferences:freeze');" showalt="Show" hidealt="Hide" href="#">
+<TD style="PADDING-LEFT: 7px"><IMG id=menuItem:SupportingReferences:freeze:select border=0 name=menuItem:SupportingReferences:freeze:select alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD>
+<TD><SPAN class=OraMenuItemText>Supporting References</SPAN></TD>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/skyros/t.gif"></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT language=javascript>menus['freeze_QueryRN__LinesInquiryTable']= new Menu();menus['freeze_QueryRN__LinesInquiryTable'].initMenu('freeze_QueryRN__LinesInquiryTable');</SCRIPT>
+</DIV></DIV></TD>
+<TD>
+<DIV><IMG id=freeze:dis:QueryRN.LinesInquiryTable class=x9i title="Column Freeze is disabled for table Journal Entry Lines. Column freeze will be enabled only when the table has a horizontal scroll bar." border=0 name=freeze:dis:QueryRN.LinesInquiryTable alt="Column Freeze is disabled for table Journal Entry Lines. Column freeze will be enabled only when the table has a horizontal scroll bar." src="/OA_HTML/cabo/images/skyros/freeze_dis.png"></DIV></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style="Z-INDEX: 10; POSITION: relative; OVERFLOW: hidden" onkeydown=TUkeyScroll(event,this) onscroll="TUcontentScroll(this,'QueryRN.LinesInquiryTable')" id=contentDiv:QueryRN.LinesInquiryTable class=xc4 tabIndex=0 onmousewheel=TUmouseWheel(event) scrolly="0" scrollx="0" onwheel="TUmouseWheel(event)">
+<TABLE style="BORDER-TOP-WIDTH: 0px" onkeydown=TUkeyScroll(event,this) id=QueryRN.LinesInquiryTable:Content class=xby border=0 cellSpacing=0 cellPadding=1 width="100%" vdtn="1" fetchmore="false" hideshow="true" reorderable="true" hdrfixed="true" policy="scroll" horizontalscroll="true" qbeenabled="false" remode="0" resizable="true" ltext="Loading..." rtltext="Release To Load" ptltext="Pull Down To Load" tablestyle="classic" initialWidth="undefined" initialOWidth="undefined">
+<TBODY>
+<TR>
+<TH style="WORD-BREAK: keep-all" class="x21 x50" width="1%" scope=col noWrap specialcolumn="true"><BR></TH>
+<TH id=LedgerName class="x28 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N696','0hZJEyS8F','','QueryRN.LinesInquiryTable');return false" scope=col noWrap sortvalue="0hZJEyS8F" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__261 class=x2b>Ledger
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt,parent) {if( ((typeof TUfromDragEvent != 'undefined') && TUfromDragEvent)  || ((typeof TUhideEvt != 'undefined') && TUhideEvt) ) {TUfromDragEvent = false ; TUhideEvt = false;return;}if(parent!=null && parent.tagName =='TH' && parent.getAttribute('sortvalue') != null) {  val = parent.getAttribute('sortvalue'); } var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN><A id=LedgerName_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=LedgerName:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','LedgerName');return false" href="javascript:void(0)" name=LedgerName:h><IMG title="Hide : Ledger" border=0 alt="Hide : Ledger" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=Account class="x28 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N696','1YOqK0CyA','','QueryRN.LinesInquiryTable');return false" scope=col noWrap sortvalue="1YOqK0CyA" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__262 class=x2b>Account</SPAN><A id=Account_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=Account:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','Account');return false" href="javascript:void(0)" name=Account:h><IMG title="Hide : Account" border=0 alt="Hide : Account" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=AccountDescription class="x28 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N696','2aMtvf1nO','','QueryRN.LinesInquiryTable');return false" scope=col noWrap sortvalue="2aMtvf1nO" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__263 class=x2b>AccountDescription</SPAN><A id=AccountDescription_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=AccountDescription:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','AccountDescription');return false" href="javascript:void(0)" name=AccountDescription:h><IMG title="Hide : AccountDescription" border=0 alt="Hide : AccountDescription" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=GlDate class="x28 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N696','3_ZXAVsv0','','QueryRN.LinesInquiryTable');return false" scope=col noWrap sortvalue="3_ZXAVsv0" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__264 class=x2b>GL Date</SPAN><A id=GlDate_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=GlDate:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','GlDate');return false" href="javascript:void(0)" name=GlDate:h><IMG title="Hide : GL Date" border=0 alt="Hide : GL Date" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=AccountingClass class="x28 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N696','4qJG9WaFg','','QueryRN.LinesInquiryTable');return false" scope=col noWrap sortvalue="4qJG9WaFg" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__265 class=x2b>Accounting Class</SPAN><A id=AccountingClass_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=AccountingClass:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','AccountingClass');return false" href="javascript:void(0)" name=AccountingClass:h><IMG title="Hide : Accounting  Class" border=0 alt="Hide : Accounting  Class" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=AccountedDr class="x29 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N696','5RFAPyxsF','','QueryRN.LinesInquiryTable');return false" scope=col noWrap sortvalue="5RFAPyxsF" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__266 class=x2b>Accounted DR</SPAN><A id=AccountedDr_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=AccountedDr:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','AccountedDr');return false" href="javascript:void(0)" name=AccountedDr:h><IMG title="Hide : Accounted DR" border=0 alt="Hide : Accounted DR" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=AccountedCr class="x29 x5g x9h" onclick="_tableSortSubmit('DefaultFormName',1,'sort','N696','6NbCzTLaz','','QueryRN.LinesInquiryTable');return false" scope=col noWrap sortvalue="6NbCzTLaz" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__267 class=x2b>Accounted CR</SPAN><A id=AccountedCr_S onclick="return false;" href="#"><IMG title="Sort in ascending order" border=0 alt="Sort in ascending order" align=middle src="/OA_HTML/cabo/images/skyros/colSort_asc_ena.png" width=14 height=14></A><A style="POSITION: absolute; DISPLAY: none" id=AccountedCr:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','AccountedCr');return false" href="javascript:void(0)" name=AccountedCr:h><IMG title="Hide : Accounted CR" border=0 alt="Hide : Accounted CR" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH>
+<TH id=SupportingReferences class="x21 x50 x9h" scope=col sortvalue="7CgCONgcP" oaondragstart="dragStartOnRichTableColumn(QueryRN.LinesInquiryTable)"><SPAN id=OASH__268 class=x2c>Supporting References</SPAN><A style="POSITION: absolute; DISPLAY: none" id=SupportingReferences:h onmouseover="return false;" onmousemove="return false;" onmouseout="return false;" onclick="TUhideColumn('QueryRN.LinesInquiryTable','SupportingReferences');return false" href="javascript:void(0)" name=SupportingReferences:h><IMG title="Hide : Supporting References" border=0 alt="Hide : Supporting References" src="/OA_HTML/cabo/images/skyros/columnhide.png" width=16 height=16></A></TH></TR>
+<TR class=xf1>
+<TD class="x1x x50 xjx" width="1%"><SPAN onchange="handleTableSingleSelection('N696:N731:0')"><INPUT id=N696:N731:0 class=xo title=Select value=0 CHECKED type=radio name=N696:selected></SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:LedgerName:0 class=x1t title=Ledger>YAHOO! US</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:Account:0 class=x1t title=Account>110-130100-0000-0000-000-000000-000-0000</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountDescription:0 class=x1t title=AccountDescription>Yahoo! Holdings Inc.-A/R Trade-None-None-None-None-No Company-None</SPAN></TD>
+<TD class="x1t x50 xjx" noWrap><SPAN id=N696:GlDate:0 title="GL Date">19-Sep-2017</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountingClass:0 class=x1t title="Accounting  Class">Receivable</SPAN></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedDr:0 class=x1v title="Accounted DR">30.00</SPAN></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedCr:0 class=x1v></SPAN><BR></TD>
+<TD class="x1x x50 xjx"><A id=N696:SupportingReferences:0 onclick="submitForm('DefaultFormName',1,{'AeHeaderId':'101755186bGc0HbXm','AeLineNum':'180TZk74h','evtSrcRowId':'LinesInquiryAM.JeLinesInqVO11017551861222QNt-hN2v','evtSrcRowIdx':'0VRMzYwwv',event:'VIEW_AC',source:'SupportingReferences'});return false;" href="#" name=N696:SupportingReferences:0><IMG title="Supporting References" border=0 alt="Supporting References" align=middle src="/OA_MEDIA/eyeglasses_24x24_transparent.gif"></A></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N696:N731:1')"><INPUT id=N696:N731:1 class=xo title=Select value=1 type=radio name=N696:selected></SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:LedgerName:1 class=x1t title=Ledger>YAHOO! US</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:Account:1 class=x1t title=Account>110-130100-0000-0000-000-000000-000-0000</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountDescription:1 class=x1t title=AccountDescription>Yahoo! Holdings Inc.-A/R Trade-None-None-None-None-No Company-None</SPAN></TD>
+<TD class="x1t x50 xjx" noWrap><SPAN id=N696:GlDate:1 title="GL Date">19-Sep-2017</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountingClass:1 class=x1t title="Accounting  Class">Receivable</SPAN></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedDr:1 class=x1v></SPAN><BR></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedCr:1 class=x1v title="Accounted CR">30.00</SPAN></TD>
+<TD class="x1x x50 xjx"><A id=N696:SupportingReferences:1 onclick="submitForm('DefaultFormName',1,{'AeHeaderId':'101755186bGc0HbXm','AeLineNum':'22PDkpOjU','evtSrcRowId':'LinesInquiryAM.JeLinesInqVO11017551862222xuJAir4M','evtSrcRowIdx':'10YcThfYS',event:'VIEW_AC',source:'SupportingReferences'});return false;" href="#" name=N696:SupportingReferences:1><IMG title="Supporting References" border=0 alt="Supporting References" align=middle src="/OA_MEDIA/eyeglasses_24x24_transparent.gif"></A></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N696:N731:2')"><INPUT id=N696:N731:2 class=xo title=Select value=2 type=radio name=N696:selected></SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:LedgerName:2 class=x1t title=Ledger>YAHOO! US</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:Account:2 class=x1t title=Account>110-130100-0000-0000-000-000000-000-0000</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountDescription:2 class=x1t title=AccountDescription>Yahoo! Holdings Inc.-A/R Trade-None-None-None-None-No Company-None</SPAN></TD>
+<TD class="x1t x50 xjx" noWrap><SPAN id=N696:GlDate:2 title="GL Date">19-Sep-2017</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountingClass:2 class=x1t title="Accounting  Class">Receivable</SPAN></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedDr:2 class=x1v></SPAN><BR></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedCr:2 class=x1v title="Accounted CR">30.00</SPAN></TD>
+<TD class="x1x x50 xjx"><A id=N696:SupportingReferences:2 onclick="submitForm('DefaultFormName',1,{'AeHeaderId':'101755186bGc0HbXm','AeLineNum':'3HcvmqYy5','evtSrcRowId':'LinesInquiryAM.JeLinesInqVO110175518632221DHk0IAs','evtSrcRowIdx':'2-6itv0_n',event:'VIEW_AC',source:'SupportingReferences'});return false;" href="#" name=N696:SupportingReferences:2><IMG title="Supporting References" border=0 alt="Supporting References" align=middle src="/OA_MEDIA/eyeglasses_24x24_transparent.gif"></A></TD></TR>
+<TR class=xf0>
+<TD class="x1x x50 xjx"><SPAN onchange="handleTableSingleSelection('N696:N731:3')"><INPUT id=N696:N731:3 class=xo title=Select value=3 type=radio name=N696:selected></SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:LedgerName:3 class=x1t title=Ledger>YAHOO! US</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:Account:3 class=x1t title=Account>110-100300-1014-0000-000-000000-000-0000</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountDescription:3 class=x1t title=AccountDescription>Yahoo! Holdings Inc.-Receivables \\-Remainco-Morgan Stanley-None-None-None-No Company-None</SPAN></TD>
+<TD class="x1t x50 xjx" noWrap><SPAN id=N696:GlDate:3 title="GL Date">19-Sep-2017</SPAN></TD>
+<TD class="x1t x50 xjx"><SPAN id=N696:AccountingClass:3 class=x1t title="Accounting  Class">Revenue</SPAN></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedDr:3 class=x1v title="Accounted DR">30.00</SPAN></TD>
+<TD class="x1v x50 xjx"><SPAN id=N696:AccountedCr:3 class=x1v></SPAN><BR></TD>
+<TD class="x1x x50 xjx"><A id=N696:SupportingReferences:3 onclick="submitForm('DefaultFormName',1,{'AeHeaderId':'101755186bGc0HbXm','AeLineNum':'4kURtXsLm','evtSrcRowId':'LinesInquiryAM.JeLinesInqVO11017551864222wzHt1J_M','evtSrcRowIdx':'3NfT70I2M',event:'VIEW_AC',source:'SupportingReferences'});return false;" href="#" name=N696:SupportingReferences:3><IMG title="Supporting References" border=0 alt="Supporting References" align=middle src="/OA_MEDIA/eyeglasses_24x24_transparent.gif"></A></TD></TR></TBODY></TABLE></DIV>
+<DIV style="POSITION: absolute; DISPLAY: none; OVERFLOW: auto" onscroll="TUtableScroll('scrollDiv:QueryRN.LinesInquiryTable')" id=scrollDiv:QueryRN.LinesInquiryTable scrolltorow="0">
+<DIV id=scrollDivContent:QueryRN.LinesInquiryTable></DIV></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE><A aria-hidden=true style="DISPLAY: none" id=return:QueryRN.LinesInquiryTable onfocus="TUdetachTableReturnFocusLoop('QueryRN.LinesInquiryTable');" title="Return to top of the popup" href="#dummy" alt="Return to top of the popup"></A></DIV>
+<DIV style="DISPLAY: none" id=loadCover:QueryRN.LinesInquiryTable></DIV></DIV></DIV>
+<SCRIPT language=javascript>function _richTblRefresh(formName,validate,ptgt,table,event,val) { _submitPartialChange(formName,validate,{event:event,source:table,partialTargets:ptgt,value:val});  }</SCRIPT>
+
+<SCRIPT language=javascript>function _tableRefresh(formName, tablerefresh, src, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:tablerefresh,source:src,value:val,size:sze,partialTargets:partialTargets});}</SCRIPT>
+<INPUT id=direction:N696 type=hidden name=direction:N696>
+<SCRIPT language=javascript>correctChoiceSelection('QueryRN.LinesInquiryTable','1')</SCRIPT>
+</SPAN><SPAN id=QueryRN.LinesInquiryTable-hv><INPUT id=N696:JeCategoryName:0 value="Credit Memos0YNQ75g-" type=hidden name=N696:JeCategoryName:0><INPUT id=N696:DocSequenceId:0 type=hidden name=N696:DocSequenceId:0><INPUT id=N696:EncumbranceTypeId:0 type=hidden name=N696:EncumbranceTypeId:0><INPUT id=N696:EventClassCode:0 value=CREDIT_MEMOd5Qoaj9w type=hidden name=N696:EventClassCode:0><INPUT id=N696:EntityCode:0 value=TRANSACTIONSiWExMmXs type=hidden name=N696:EntityCode:0><INPUT id=N696:EventCreatedBy:0 value=135153bNqTqCYY type=hidden name=N696:EventCreatedBy:0><INPUT id=N696:EventTypeCode:0 value=CM_CREATEdTpZIsgG type=hidden name=N696:EventTypeCode:0><INPUT id=N696:CurrConvTypeCode:0 type=hidden name=N696:CurrConvTypeCode:0><INPUT id=N696:CustomerId:0 value=3046716EL9GRREV type=hidden name=N696:CustomerId:0><INPUT id=N696:CustomerId2:0 value=3046716a985oJ-o type=hidden name=N696:CustomerId2:0><INPUT id=N696:CustomerId3:0 value=3046716jXRDDO-L type=hidden name=N696:CustomerId3:0><INPUT id=N696:CustomerId4:0 value=30467160sXaXInB type=hidden name=N696:CustomerId4:0><INPUT id=N696:CustomerSiteId:0 value=6441904XvYvFW7b type=hidden name=N696:CustomerSiteId:0><INPUT id=N696:SupplierId:0 type=hidden name=N696:SupplierId:0><INPUT id=N696:SupplierId2:0 type=hidden name=N696:SupplierId2:0><INPUT id=N696:SupplierId3:0 type=hidden name=N696:SupplierId3:0><INPUT id=N696:SupplierId4:0 type=hidden name=N696:SupplierId4:0><INPUT id=N696:SupplierSiteId:0 type=hidden name=N696:SupplierSiteId:0><INPUT id=N696:ProductRuleTypeCode:0 value=SQI45N2n4 type=hidden name=N696:ProductRuleTypeCode:0><INPUT id=N696:AeStatusCode:0 value=FOaWPGSnT type=hidden name=N696:AeStatusCode:0><INPUT id=N696:AeTypeCode:0 value=STANDARDUEGpzpUc type=hidden name=N696:AeTypeCode:0><INPUT id=N696:LegalEntityId:0 value=49Hfaeidrp type=hidden name=N696:LegalEntityId:0><INPUT id=N696:LegalEntityId2:0 value=495eP7jk8B type=hidden name=N696:LegalEntityId2:0><INPUT id=N696:PartyTypeCode:0 value=CFCDRGjWF type=hidden name=N696:PartyTypeCode:0><INPUT id=N696:ProductRuleCode:0 value=AR_DEFAULT_ACCRUAL3XdI5wN5 type=hidden name=N696:ProductRuleCode:0><INPUT id=N696:LedgerId:0 value=41QRC3-K8f type=hidden name=N696:LedgerId:0><INPUT id=N696:LedgerId2:0 value=41GHL4Hz30 type=hidden name=N696:LedgerId2:0><INPUT id=N696:AccountingClassCode:0 value=RECEIVABLE6oQtj6dM type=hidden name=N696:AccountingClassCode:0><INPUT id=N696:CompSeqVerId:0 type=hidden name=N696:CompSeqVerId:0><INPUT id=N696:BalanceTypeCode:0 value=ANd7z-zkT type=hidden name=N696:BalanceTypeCode:0><INPUT id=N696:BudgetVersionId:0 type=hidden name=N696:BudgetVersionId:0><INPUT id=N696:CreatedBy:0 value=1351533xxXOLCH type=hidden name=N696:CreatedBy:0><INPUT id=N696:GlTransferStatusCode:0 value=NnWYKMO4p type=hidden name=N696:GlTransferStatusCode:0><INPUT id=N696:CloseSeqVerId:0 type=hidden name=N696:CloseSeqVerId:0><INPUT id=N696:BalancingSeg:0 type=hidden name=N696:BalancingSeg:0><INPUT id=N696:ManagementSeg:0 type=hidden name=N696:ManagementSeg:0><INPUT id=N696:CostCenterSeg:0 type=hidden name=N696:CostCenterSeg:0><INPUT id=N696:NaturalAcctSeg:0 type=hidden name=N696:NaturalAcctSeg:0><INPUT id=N696:_pkAeHeaderId:0 value={!!YIipcG9v1yLY5CybUhXq5wfOFQ_Naq type=hidden name=N696:_pkAeHeaderId:0><INPUT id=N696:_pkAeLineNum:0 value={!!xaCDqSKnEBXRmjG-Bvg7SwMkDmMt_6 type=hidden name=N696:_pkAeLineNum:0><INPUT id=N696:_pkApplicationId:0 value={!!-ZacWyt0dNBMNNImuGNLbQg0hzYWib type=hidden name=N696:_pkApplicationId:0><INPUT id=N696:JeCategoryName:1 value="Credit MemosU0wkrl1t" type=hidden name=N696:JeCategoryName:1><INPUT id=N696:DocSequenceId:1 type=hidden name=N696:DocSequenceId:1><INPUT id=N696:EncumbranceTypeId:1 type=hidden name=N696:EncumbranceTypeId:1><INPUT id=N696:EventClassCode:1 value=CREDIT_MEMO3Cp952QT type=hidden name=N696:EventClassCode:1><INPUT id=N696:EntityCode:1 value=TRANSACTIONSv_d3VrH2 type=hidden name=N696:EntityCode:1><INPUT id=N696:EventCreatedBy:1 value=135153Vy19IFpA type=hidden name=N696:EventCreatedBy:1><INPUT id=N696:EventTypeCode:1 value=CM_CREATE07XSpqmq type=hidden name=N696:EventTypeCode:1><INPUT id=N696:CurrConvTypeCode:1 type=hidden name=N696:CurrConvTypeCode:1><INPUT id=N696:CustomerId:1 value=3046716tBFbdm39 type=hidden name=N696:CustomerId:1><INPUT id=N696:CustomerId2:1 value=3046716T-jQVjVL type=hidden name=N696:CustomerId2:1><INPUT id=N696:CustomerId3:1 value=3046716QMnZarlt type=hidden name=N696:CustomerId3:1><INPUT id=N696:CustomerId4:1 value=3046716ZKzEcw70 type=hidden name=N696:CustomerId4:1><INPUT id=N696:CustomerSiteId:1 value=64419045L169r2S type=hidden name=N696:CustomerSiteId:1><INPUT id=N696:SupplierId:1 type=hidden name=N696:SupplierId:1><INPUT id=N696:SupplierId2:1 type=hidden name=N696:SupplierId2:1><INPUT id=N696:SupplierId3:1 type=hidden name=N696:SupplierId3:1><INPUT id=N696:SupplierId4:1 type=hidden name=N696:SupplierId4:1><INPUT id=N696:SupplierSiteId:1 type=hidden name=N696:SupplierSiteId:1><INPUT id=N696:ProductRuleTypeCode:1 value=Sd_MQvxBf type=hidden name=N696:ProductRuleTypeCode:1><INPUT id=N696:AeStatusCode:1 value=FuLUrH5lW type=hidden name=N696:AeStatusCode:1><INPUT id=N696:AeTypeCode:1 value=STANDARD9HuLumba type=hidden name=N696:AeTypeCode:1><INPUT id=N696:LegalEntityId:1 value=495JMX2-5C type=hidden name=N696:LegalEntityId:1><INPUT id=N696:LegalEntityId2:1 value=49pk_r769L type=hidden name=N696:LegalEntityId2:1><INPUT id=N696:PartyTypeCode:1 value=CXkT2kBpp type=hidden name=N696:PartyTypeCode:1><INPUT id=N696:ProductRuleCode:1 value=AR_DEFAULT_ACCRUALzGjNegw0 type=hidden name=N696:ProductRuleCode:1><INPUT id=N696:LedgerId:1 value=41VJG-gjEt type=hidden name=N696:LedgerId:1><INPUT id=N696:LedgerId2:1 value=417QbYxi6s type=hidden name=N696:LedgerId2:1><INPUT id=N696:AccountingClassCode:1 value=RECEIVABLE5dVmMRCs type=hidden name=N696:AccountingClassCode:1><INPUT id=N696:CompSeqVerId:1 type=hidden name=N696:CompSeqVerId:1><INPUT id=N696:BalanceTypeCode:1 value=Ao7QR5dEc type=hidden name=N696:BalanceTypeCode:1><INPUT id=N696:BudgetVersionId:1 type=hidden name=N696:BudgetVersionId:1><INPUT id=N696:CreatedBy:1 value=135153tWichqoK type=hidden name=N696:CreatedBy:1><INPUT id=N696:GlTransferStatusCode:1 value=N11VqxhjR type=hidden name=N696:GlTransferStatusCode:1><INPUT id=N696:CloseSeqVerId:1 type=hidden name=N696:CloseSeqVerId:1><INPUT id=N696:BalancingSeg:1 type=hidden name=N696:BalancingSeg:1><INPUT id=N696:ManagementSeg:1 type=hidden name=N696:ManagementSeg:1><INPUT id=N696:CostCenterSeg:1 type=hidden name=N696:CostCenterSeg:1><INPUT id=N696:NaturalAcctSeg:1 type=hidden name=N696:NaturalAcctSeg:1><INPUT id=N696:_pkAeHeaderId:1 value={!!YIipcG9v1yLY5CybUhXq5wAGl_G7rB type=hidden name=N696:_pkAeHeaderId:1><INPUT id=N696:_pkAeLineNum:1 value={!!uIh.BoMOWnL80gPTFgI89AJfxrTfXr type=hidden name=N696:_pkAeLineNum:1><INPUT id=N696:_pkApplicationId:1 value={!!-ZacWyt0dNBMNNImuGNLbQZAwxHIj1 type=hidden name=N696:_pkApplicationId:1><INPUT id=N696:JeCategoryName:2 value="Credit Memosd7b8VLrA" type=hidden name=N696:JeCategoryName:2><INPUT id=N696:DocSequenceId:2 type=hidden name=N696:DocSequenceId:2><INPUT id=N696:EncumbranceTypeId:2 type=hidden name=N696:EncumbranceTypeId:2><INPUT id=N696:EventClassCode:2 value=CREDIT_MEMONdTZYKpk type=hidden name=N696:EventClassCode:2><INPUT id=N696:EntityCode:2 value=TRANSACTIONSUB4HH3P2 type=hidden name=N696:EntityCode:2><INPUT id=N696:EventCreatedBy:2 value=135153imFpn6Cu type=hidden name=N696:EventCreatedBy:2><INPUT id=N696:EventTypeCode:2 value=CM_CREATEHucvYhyB type=hidden name=N696:EventTypeCode:2><INPUT id=N696:CurrConvTypeCode:2 type=hidden name=N696:CurrConvTypeCode:2><INPUT id=N696:CustomerId:2 value=3046716oBxKNzqG type=hidden name=N696:CustomerId:2><INPUT id=N696:CustomerId2:2 value=3046716cFXN--mp type=hidden name=N696:CustomerId2:2><INPUT id=N696:CustomerId3:2 value=30467169FodzVlS type=hidden name=N696:CustomerId3:2><INPUT id=N696:CustomerId4:2 value=3046716vlDRqORI type=hidden name=N696:CustomerId4:2><INPUT id=N696:CustomerSiteId:2 value=6441904txcuSUyX type=hidden name=N696:CustomerSiteId:2><INPUT id=N696:SupplierId:2 type=hidden name=N696:SupplierId:2><INPUT id=N696:SupplierId2:2 type=hidden name=N696:SupplierId2:2><INPUT id=N696:SupplierId3:2 type=hidden name=N696:SupplierId3:2><INPUT id=N696:SupplierId4:2 type=hidden name=N696:SupplierId4:2><INPUT id=N696:SupplierSiteId:2 type=hidden name=N696:SupplierSiteId:2><INPUT id=N696:ProductRuleTypeCode:2 value=Sg8uncUoN type=hidden name=N696:ProductRuleTypeCode:2><INPUT id=N696:AeStatusCode:2 value=FHuDlavXm type=hidden name=N696:AeStatusCode:2><INPUT id=N696:AeTypeCode:2 value=STANDARDlz_n5R8H type=hidden name=N696:AeTypeCode:2><INPUT id=N696:LegalEntityId:2 value=49SlaTQPCS type=hidden name=N696:LegalEntityId:2><INPUT id=N696:LegalEntityId2:2 value=49y14iwIUI type=hidden name=N696:LegalEntityId2:2><INPUT id=N696:PartyTypeCode:2 value=COiYVVMq9 type=hidden name=N696:PartyTypeCode:2><INPUT id=N696:ProductRuleCode:2 value=AR_DEFAULT_ACCRUALLjZ7q5QU type=hidden name=N696:ProductRuleCode:2><INPUT id=N696:LedgerId:2 value=41_GbfsI5J type=hidden name=N696:LedgerId:2><INPUT id=N696:LedgerId2:2 value=41cCNJZU2a type=hidden name=N696:LedgerId2:2><INPUT id=N696:AccountingClassCode:2 value=RECEIVABLEWUvSFnNR type=hidden name=N696:AccountingClassCode:2><INPUT id=N696:CompSeqVerId:2 type=hidden name=N696:CompSeqVerId:2><INPUT id=N696:BalanceTypeCode:2 value=Az_xfedJN type=hidden name=N696:BalanceTypeCode:2><INPUT id=N696:BudgetVersionId:2 type=hidden name=N696:BudgetVersionId:2><INPUT id=N696:CreatedBy:2 value=135153-xvkg-3C type=hidden name=N696:CreatedBy:2><INPUT id=N696:GlTransferStatusCode:2 value=N-pVy_9mN type=hidden name=N696:GlTransferStatusCode:2><INPUT id=N696:CloseSeqVerId:2 type=hidden name=N696:CloseSeqVerId:2><INPUT id=N696:BalancingSeg:2 type=hidden name=N696:BalancingSeg:2><INPUT id=N696:ManagementSeg:2 type=hidden name=N696:ManagementSeg:2><INPUT id=N696:CostCenterSeg:2 type=hidden name=N696:CostCenterSeg:2><INPUT id=N696:NaturalAcctSeg:2 type=hidden name=N696:NaturalAcctSeg:2><INPUT id=N696:_pkAeHeaderId:2 value={!!YIipcG9v1yLY5CybUhXq5wFjrpPd7N type=hidden name=N696:_pkAeHeaderId:2><INPUT id=N696:_pkAeLineNum:2 value={!!Jh9rTWrI-1ADDYORi6z9EQeO9PGxEE type=hidden name=N696:_pkAeLineNum:2><INPUT id=N696:_pkApplicationId:2 value={!!-ZacWyt0dNBMNNImuGNLbQwOi0GJda type=hidden name=N696:_pkApplicationId:2><INPUT id=N696:JeCategoryName:3 value="Credit MemoslNNKZD79" type=hidden name=N696:JeCategoryName:3><INPUT id=N696:DocSequenceId:3 type=hidden name=N696:DocSequenceId:3><INPUT id=N696:EncumbranceTypeId:3 type=hidden name=N696:EncumbranceTypeId:3><INPUT id=N696:EventClassCode:3 value=CREDIT_MEMOPhuANqgU type=hidden name=N696:EventClassCode:3><INPUT id=N696:EntityCode:3 value=TRANSACTIONSFHwUD4YX type=hidden name=N696:EntityCode:3><INPUT id=N696:EventCreatedBy:3 value=135153gdXDaZzE type=hidden name=N696:EventCreatedBy:3><INPUT id=N696:EventTypeCode:3 value=CM_CREATEucxKInpE type=hidden name=N696:EventTypeCode:3><INPUT id=N696:CurrConvTypeCode:3 type=hidden name=N696:CurrConvTypeCode:3><INPUT id=N696:CustomerId:3 value=30467165w_k9gaZ type=hidden name=N696:CustomerId:3><INPUT id=N696:CustomerId2:3 value=3046716AwqkdXcg type=hidden name=N696:CustomerId2:3><INPUT id=N696:CustomerId3:3 value=3046716K6EOTTjQ type=hidden name=N696:CustomerId3:3><INPUT id=N696:CustomerId4:3 value=3046716luvwm-6U type=hidden name=N696:CustomerId4:3><INPUT id=N696:CustomerSiteId:3 value=6441904W4G2aE3A type=hidden name=N696:CustomerSiteId:3><INPUT id=N696:SupplierId:3 type=hidden name=N696:SupplierId:3><INPUT id=N696:SupplierId2:3 type=hidden name=N696:SupplierId2:3><INPUT id=N696:SupplierId3:3 type=hidden name=N696:SupplierId3:3><INPUT id=N696:SupplierId4:3 type=hidden name=N696:SupplierId4:3><INPUT id=N696:SupplierSiteId:3 type=hidden name=N696:SupplierSiteId:3><INPUT id=N696:ProductRuleTypeCode:3 value=SEqPnZoV_ type=hidden name=N696:ProductRuleTypeCode:3><INPUT id=N696:AeStatusCode:3 value=FPuM8P31P type=hidden name=N696:AeStatusCode:3><INPUT id=N696:AeTypeCode:3 value=STANDARDKeRavYBx type=hidden name=N696:AeTypeCode:3><INPUT id=N696:LegalEntityId:3 value=4906dUfp2r type=hidden name=N696:LegalEntityId:3><INPUT id=N696:LegalEntityId2:3 value=496Wxeq9OV type=hidden name=N696:LegalEntityId2:3><INPUT id=N696:PartyTypeCode:3 value=CtuLZPU4Y type=hidden name=N696:PartyTypeCode:3><INPUT id=N696:ProductRuleCode:3 value=AR_DEFAULT_ACCRUALZxKlU4kJ type=hidden name=N696:ProductRuleCode:3><INPUT id=N696:LedgerId:3 value=41B8sOlp_s type=hidden name=N696:LedgerId:3><INPUT id=N696:LedgerId2:3 value=41yBjI63Jf type=hidden name=N696:LedgerId2:3><INPUT id=N696:AccountingClassCode:3 value=REVENUE_O88V6NQ type=hidden name=N696:AccountingClassCode:3><INPUT id=N696:CompSeqVerId:3 type=hidden name=N696:CompSeqVerId:3><INPUT id=N696:BalanceTypeCode:3 value=AHruxz-ug type=hidden name=N696:BalanceTypeCode:3><INPUT id=N696:BudgetVersionId:3 type=hidden name=N696:BudgetVersionId:3><INPUT id=N696:CreatedBy:3 value=135153I5mQVvvi type=hidden name=N696:CreatedBy:3><INPUT id=N696:GlTransferStatusCode:3 value=Na0-9Zvvq type=hidden name=N696:GlTransferStatusCode:3><INPUT id=N696:CloseSeqVerId:3 type=hidden name=N696:CloseSeqVerId:3><INPUT id=N696:BalancingSeg:3 type=hidden name=N696:BalancingSeg:3><INPUT id=N696:ManagementSeg:3 type=hidden name=N696:ManagementSeg:3><INPUT id=N696:CostCenterSeg:3 type=hidden name=N696:CostCenterSeg:3><INPUT id=N696:NaturalAcctSeg:3 type=hidden name=N696:NaturalAcctSeg:3><INPUT id=N696:_pkAeHeaderId:3 value={!!YIipcG9v1yLY5CybUhXq5woigLpgHn type=hidden name=N696:_pkAeHeaderId:3><INPUT id=N696:_pkAeLineNum:3 value={!!umElWhXDSrYaytEC34fsHQqKY0cLIG type=hidden name=N696:_pkAeLineNum:3><INPUT id=N696:_pkApplicationId:3 value={!!-ZacWyt0dNBMNNImuGNLbQf1TkaOwx type=hidden name=N696:_pkApplicationId:3><INPUT value=4 type=hidden name=N696:length></SPAN></SPAN></SPAN></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV><SPAN id=defaultDialogPopup>
+<DIV aria-hidden=true style="Z-INDEX: 15; WIDTH: 604px; DISPLAY: none; HEIGHT: 244px; TOP: 0px; LEFT: 0px; initialwidth: 604px; initialheight: 244px" onkeydown="detectEventType(event) " id=popupdefaultDialogPopup class=popupP0 role=dialog isautoresize="true" ismodal="true" warnmsg="The%u0020changes%u0020you%u0020made%u0020in%u0020this%u0020pop-up%u0020have%u0020not%u0020been%u0020saved.%u0020%u0020If%u0020you%u0020continue%u002c%u0020the%u0020changes%u0020will%u0020be%u0020discarded.%u0020%u0020Do%u0020you%u0020wish%u0020to%u0020continue%u003f" data="{autoPosition:0,px:-1,py:-1};">
+<DIV style="POSITION: relative; WIDTH: 604px; HEIGHT: 240px">
+<DIV id=defaultDialogPopupskyroscloseBar></DIV><INPUT id=hiddenUrldefaultDialogPopup value=/OA_HTML/cabo/jsps/frameRedirect.jsp?redirect=/OA_HTML/OA.jsp&amp;region=/oracle/apps/fnd/framework/webui/OADialogPopupRN&amp;bypassPageCounterIncr=Y&amp;isPopupRegion=Y&amp;retainAM=Y&amp;&amp;transactionid=2032684219&amp;oapc=5&amp;oas=eP2xVx5RBBefqrTvv3vteQ.. type=hidden>
+<DIV style="HEIGHT: 185px" class="popupContent OraParamPopupContent"><IFRAME id=iframedefaultDialogPopup title=null onload="if(typeof(setTitle) != 'undefined')setTitle();" height=185 longDesc=null src="" frameBorder=0 width=580 name=null )></IFRAME></DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName value=/oracle/apps/xla/linesinquiry/webui/JeLinesSubledgerDrillDownPG:::952z4aZg type=hidden name=_fwkAbsolutePageName></DIV></DIV>
+<DIV id=FooterRN>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,2)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=2></DIV>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right>
+<TABLE id=FooterTable border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR id=FooterRow>
+<TD id=FooterCell width="100%"></TD></TR></TBODY></TABLE>
+<SCRIPT>t(void 0,'5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" height=5><BUTTON class=x7p title="Save Search" onclick="submitForm('DefaultFormName',0,{'_FORM_SUBMIT_BUTTON':'saveSearchButtonGg42wfi2'});return false" type=submit>Save Search</BUTTON></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/skyros/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV>
+<DIV style="WIDTH: auto" id=_oafPageFooter class=x8v>
+<DIV class=x8w><SPAN id=N716>Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</SPAN></DIV>
+<DIV style="WIDTH: auto" class=x8x><SPAN class=x14 nowrap><A class=xh onclick="submitForm('DefaultFormName',0,{'serverValidate':'1-nQjACmi',event:'about'});return false;" href="#">About this Page</A></SPAN><SPAN class=x13 nowrap><A class=xh title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></SPAN></DIV></DIV></DIV></DIV></SPAN><INPUT id=displayedItems_AdvancedSearchRN_602_/oracle/apps/xla/linesinquiry/webui/JeLinesSubledgerDrillDownPG_602_AdvancedSearchRN value=item1:~:LedgerNameCV:~:item2:~:BalSegCV:~:item61:~:NaturalAcctSegCV:~:item3:~:GlDateCV:~:item43:~:item54:~:item57:~:item58:~:item14:~:item12:~:item23:~:item19:~:item11:~:item27:~:item6:~:item34:~:item5:~:item8:~:item56:~:item45:~:item46:~:item51:~:item49:~:item22:~:item21:~:item55:~:item18:~:item30:~:item16:~:item28:~:item35:~:item7:~:item4:~:item29:~:item33:~:item36:~:item37:~:item38:~:item32:~:item39:~:item40:~:item9:~:item24:~:item20:~:item44:~:item48:~:item50:~:item52:~:item41:~:item53:~:item42:~:item59:~:item63:~:item64:~:SR1CP:~:SR2CP:~:SR3CP:~:SR4CP:~:SR5CP:~:SR6CP:~:SR7CP:~:SR8CP:~:SR9CP:~:SR10CP:~:SR11CP:~:SR12CP:~:SR13CP:~:SR14CP:~:SR15CP:~:SR16CP:~:SR17CP:~:SR18CP:~:SR19CP:~:SR20CP:~:SR21CP:~:SR22CP:~:SR23CP:~:SR24CP:~:SR25CP:~:SR26CP:~:SR27CP:~:SR28CP:~:SR29CP:~:SR30CP:~:SR31CP:~:SR32CP:~:SR33CP:~:SR34CP:~:SR35CP:~:SR36CP:~:SR37CP:~:SR38CP:~:SR39CP:~:SR40CP:~:SR41CP:~:SR42CP:~:SR43CP:~:SR44CP:~:SR45CP:~:SR46CP:~:SR47CP:~:SR48CP:~:SR49CP:~:SR50CP:~:SR401CP:~:SR402CP:~:SR403CP:~:SR404CP:~:SR405CP:~:SR406CP:~:SR407CP:~:SR408CP:~:SR409CP:~:SR410CP:~:SR601CP:~:SR602CP:~:SR603CP:~:SR604CP:~:SR605CP:~:SR606CP:~:SR607CP:~:SR608CP:~:SR609CP:~:SR610CP:~:SR611CP:~:SR612CP:~:SR613CP:~:SR614CP:~:SR615CP:~:SR616CP:~:SR617CP:~:SR618CP:~:SR619CP:~:SR620CP:~:SR621CP:~:SR622CP:~:SR623CP:~:SR624CP:~:SR625CP:~:SR626CP:~:SR627CP:~:SR628CP:~:SR629CP:~:SR630CP:~:SR631CP:~:SR632CP:~:SR633CP:~:SR634CP:~:SR635CP:~:SR636CP:~:SR637CP:~:SR638CP:~:SR639CP:~:SR640CPLEa0Hpat type=hidden name=displayedItems_AdvancedSearchRN_602_/oracle/apps/xla/linesinquiry/webui/JeLinesSubledgerDrillDownPG_602_AdvancedSearchRN><INPUT id=customizeSubmitButton$$processFormDataCalled value=truerDyCxVxT type=hidden name=customizeSubmitButton$$processFormDataCalled><INPUT id=clearButton$$unvalidated value=trueirHh8W76 type=hidden name=clearButton$$unvalidated><INPUT id=clearButton$$processFormDataCalled value=falsecGeRM8ur type=hidden name=clearButton$$processFormDataCalled><INPUT id=addButton$$unvalidated value=trueU2XkHdsV type=hidden name=addButton$$unvalidated><INPUT id=addButton$$processFormDataCalled value=trueknsOQf9d type=hidden name=addButton$$processFormDataCalled><INPUT id=_fwkActBtnName_SupportingReferences_VIEW_AC$$serverUnvalidated value=falsersPlcKa9 type=hidden name=_fwkActBtnName_SupportingReferences_VIEW_AC$$serverUnvalidated><INPUT id=export$$unvalidated value=falsezmVehjNK type=hidden name=export$$unvalidated><INPUT id=export$$serverUnvalidated value=falsemRWJVlwq type=hidden name=export$$serverUnvalidated><INPUT id=export$$processFormDataCalled value=truetiwvprUR type=hidden name=export$$processFormDataCalled><INPUT id=ViewTransaction$$unvalidated value=falsebmdyCmmX type=hidden name=ViewTransaction$$unvalidated><INPUT id=ViewTransaction$$serverUnvalidated value=falseo3y70GGo type=hidden name=ViewTransaction$$serverUnvalidated><INPUT id=ViewTransaction$$processFormDataCalled value=truelZQGUYTC type=hidden name=ViewTransaction$$processFormDataCalled><INPUT id=ViewJE$$unvalidated value=falseZE0kP-0s type=hidden name=ViewJE$$unvalidated><INPUT id=ViewJE$$serverUnvalidated value=falseyNtlcNM8 type=hidden name=ViewJE$$serverUnvalidated><INPUT id=ViewJE$$processFormDataCalled value=trueLqcSDaDo type=hidden name=ViewJE$$processFormDataCalled><INPUT id=N696$$unvalidated value=falseYgMj2V9p type=hidden name=N696$$unvalidated><INPUT id=N696$$serverUnvalidated value=falsehLZpzhQx type=hidden name=N696$$serverUnvalidated><INPUT id=openPopupSourceId value=yEUwOhMx type=hidden name=openPopupSourceId><INPUT id=saveSearchButton$$unvalidated value=trueRZFd3mHN type=hidden name=saveSearchButton$$unvalidated><INPUT id=saveSearchButton$$serverUnvalidated value=trueJwu44kB0 type=hidden name=saveSearchButton$$serverUnvalidated><INPUT id=saveSearchButton$$processFormDataCalled value=truevRhLO5FB type=hidden name=saveSearchButton$$processFormDataCalled><INPUT id=FORM_MAC_LIST value=export$$unvalidated^BASE_FORM_NAME^saveSearchButton$$unvalidated^export$$processFormDataCalled^clearButton$$processFormDataCalled^_FORM_SUBMIT_BUTTON^saveSearchButton$$processFormDataCalled^displayedItems_AdvancedSearchRN_602_/oracle/apps/xla/linesinquiry/webui/JeLinesSubledgerDrillDownPG_602_AdvancedSearchRN^Condition_4^Condition_3^Condition_2^Condition_1^serverValidate^_FORM^saveSearchButton$$serverUnvalidated^N696$$serverUnvalidated^lovCriteriaHiddenFieldValue_0^_fwkAbsolutePageName^_FORMEVENT^customizeSubmitButton$$processFormDataCalled^lovAutoClearHFValue_0^ViewTransaction$$serverUnvalidated^addButton$$unvalidated^N696$$unvalidated^export$$serverUnvalidated^openPopupSourceId^ViewTransaction$$processFormDataCalled^ViewJE$$processFormDataCalled^ViewTransaction$$unvalidated^_AM_TX_ID_FIELD^advancedSearchRadioGroup^ViewJE$$unvalidated^clearButton$$unvalidated^ViewJE$$serverUnvalidated^addMorePickList^addButton$$processFormDataCalled^_fwkActBtnName_SupportingReferences_VIEW_AC$$serverUnvalidated***N696:EventTypeCode:3;T^N696:EventTypeCode:2;T^N696:EventTypeCode:1;T^N696:EventTypeCode:0;T^value;T^N696:_pkAeLineNum:3;T^N696:_pkAeLineNum:2;T^N696:_pkAeLineNum:1;T^N696:_pkAeLineNum:0;T^N696:ProductRuleTypeCode:3;T^N696:ProductRuleTypeCode:2;T^N696:ProductRuleTypeCode:1;T^N696:ProductRuleTypeCode:0;T^N696:CreatedBy:3;T^N696:CreatedBy:2;T^N696:CreatedBy:1;T^N696:CreatedBy:0;T^AeHeaderId;T^N696:EventCreatedBy:3;T^N696:EventCreatedBy:2;T^N696:EventCreatedBy:1;T^N696:EventCreatedBy:0;T^N696:CustomerId:3;T^N696:CustomerId:2;T^AeLineNum;T^N696:CustomerId:1;T^N696:CustomerId:0;T^N696:JeCategoryName:3;T^N696:JeCategoryName:2;T^N696:JeCategoryName:1;T^N696:JeCategoryName:0;T^N696:AccountingClassCode:3;T^N696:CustomerId4:3;T^N696:AccountingClassCode:2;T^N696:CustomerId4:2;T^N696:AccountingClassCode:1;T^N696:CustomerId4:1;T^N696:AccountingClassCode:0;T^N696:CustomerId4:0;T^N696:CustomerId2:3;T^N696:CustomerId2:2;T^N696:CustomerId2:1;T^N696:CustomerId2:0;T^N696:_pkAeHeaderId:3;T^N696:_pkAeHeaderId:2;T^N696:_pkAeHeaderId:1;T^N696:_pkAeHeaderId:0;T^N696:PartyTypeCode:3;T^N696:PartyTypeCode:2;T^N696:PartyTypeCode:1;T^N696:PartyTypeCode:0;T^N696:EventClassCode:3;T^evtSrcRowId;T^N696:EventClassCode:2;T^N696:LegalEntityId:3;T^N696:EventClassCode:1;T^N696:LegalEntityId:2;T^N696:EventClassCode:0;T^N696:LegalEntityId:1;T^N696:LegalEntityId:0;T^N696:LegalEntityId2:3;T^N696:LegalEntityId2:2;T^N696:LegalEntityId2:1;T^N696:LegalEntityId2:0;T^N696:ProductRuleCode:3;T^N696:ProductRuleCode:2;T^N696:ProductRuleCode:1;T^N696:ProductRuleCode:0;T^N696:_pkApplicationId:3;T^N696:_pkApplicationId:2;T^N696:_pkApplicationId:1;T^N696:_pkApplicationId:0;T^N696:AeTypeCode:3;T^N696:AeTypeCode:2;T^N696:AeTypeCode:1;T^N696:AeTypeCode:0;T^N696:AeStatusCode:3;T^N696:AeStatusCode:2;T^N696:AeStatusCode:1;T^N696:AeStatusCode:0;T^N696:EntityCode:3;T^N696:EntityCode:2;T^N696:EntityCode:1;T^N696:EntityCode:0;T^N696:GlTransferStatusCode:3;T^N696:GlTransferStatusCode:2;T^N696:GlTransferStatusCode:1;T^N696:GlTransferStatusCode:0;T^N696:BalanceTypeCode:3;T^N696:BalanceTypeCode:2;T^N696:BalanceTypeCode:1;T^N696:BalanceTypeCode:0;T^N696:CustomerId3:3;T^N696:CustomerId3:2;T^N696:CustomerId3:1;T^N696:CustomerId3:0;T^N696:LedgerId:3;T^N696:LedgerId:2;T^N696:LedgerId:1;T^N696:LedgerId:0;T^evtSrcRowIdx;T^N696:CustomerSiteId:3;T^N696:CustomerSiteId:2;T^N696:CustomerSiteId:1;T^N696:CustomerSiteId:0;T^N696:LedgerId2:3;T^N696:LedgerId2:2;T^N696:LedgerId2:1;T^N696:LedgerId2:0;T@@@FORM_MAC_LIST***@@@lovOnClickJSHiddenFieldValue_0^N696:SupplierId4:3^N696:SupplierId4:2^N696:SupplierId4:1^N696:SupplierId4:0^lovOnClickJSExecutedHiddenFieldValue_0^N696:SupplierId3:3^N696:SupplierId3:2^N696:SupplierId3:1^N696:SupplierId3:0^N696:SupplierId2:3^N696:SupplierId2:2^N696:SupplierId2:1^N696:SupplierId2:0^N696:SupplierId:3^N696:SupplierId:2^N696:SupplierId:1^FORM_MAC_LIST^N696:SupplierId:0^N696:CostCenterSeg:3^N696:CostCenterSeg:2^N696:CostCenterSeg:1^N696:CompSeqVerId:3^N696:CostCenterSeg:0^N696:CompSeqVerId:2^N696:CompSeqVerId:1^N696:CompSeqVerId:0^N696:CurrConvTypeCode:3^N696:CurrConvTypeCode:2^N696:CurrConvTypeCode:1^N696:CurrConvTypeCode:0^N696:DocSequenceId:3^N696:DocSequenceId:2^N696:DocSequenceId:1^N696:DocSequenceId:0^N696:NaturalAcctSeg:3^N696:CloseSeqVerId:3^N696:NaturalAcctSeg:2^N696:CloseSeqVerId:2^N696:NaturalAcctSeg:1^N696:CloseSeqVerId:1^N696:NaturalAcctSeg:0^N696:CloseSeqVerId:0^event^N696:BudgetVersionId:3^N696:BudgetVersionId:2^N696:BudgetVersionId:1^N696:BudgetVersionId:0^N696:BalancingSeg:3^N696:BalancingSeg:2^N696:BalancingSeg:1^N696:BalancingSeg:0^partialTargets^N696:ManagementSeg:3^N696:ManagementSeg:2^N696:ManagementSeg:1^N696:ManagementSeg:0^Value_4^Value_3^Value_2^Value_1^N696:EncumbranceTypeId:3^N696:EncumbranceTypeId:2^N696:EncumbranceTypeId:1^N696:EncumbranceTypeId:0^lovJSHiddenFieldValue_0^N696:SupplierSiteId:3^N696:SupplierSiteId:2^N696:SupplierSiteId:1^N696:SupplierSiteId:0^direction:N696^source^N696:selected^lovPassiveCriteriaHFValue_0^N696:length^stateVzCMStR_yM0GupAhVaO79g.. type=hidden name=FORM_MAC_LIST><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=AeHeaderId><INPUT type=hidden name=AeLineNum>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","value","state","partialTargets","partial","AeHeaderId","AeLineNum"];</SCRIPT>
+
+<SCRIPT>var _DefaultFormName_Validations=['new SimpleDateFormat([\\'dd-MMM-yyyy\\',\\'dd-MMM-yyyy\\']).validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"Value_4",0,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'Value_4':'GL\\x20Date'};var _DefaultFormName_Patterns={'Value_4':'dd-MMM-yyyy'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is not a date formatted as "%pattern%".:::::Value "%value%" in "%label%" is not a valid time due to Day Light Savings Time.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+
+<SCRIPT>var isOAGestureTickCrossEnabled=false;</SCRIPT>
+<INPUT id=gestureDiagnostics value=false type=hidden></SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV style="Z-INDEX: 50; VISIBILITY: hidden" id=LLAOutput>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE id=lovSuggestTable border=1 cellSpacing=0 cellPadding=2 width="100%"></TABLE></DIV></TD>
+<TD class=OraRightShadowBg vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG align=top src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=center align=left>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" border=0 cellSpacing=0 cellPadding=0 width="100%"></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR class=OraBottomShadowBg>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG align=left src="/OA_MEDIA/btmshdw.gif" width=5 height=13></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 12; POSITION: absolute; FILTER: alpha(opacity=20); BACKGROUND-COLOR: black; WIDTH: 1419px; DISPLAY: none; HEIGHT: 730px; TOP: 0px; LEFT: 0px; opacity: 0.2" id=overlay></DIV>
+<SCRIPT language=javascript>ifWarnAboutChange=false;</SCRIPT>
+<IFRAME style="POSITION: absolute; TOP: -500px" id=formsLauncher title="Forms Launcher" height=5 src="https://erpint.fin.yahoo.com:8000/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<DIV style="Z-INDEX: 2000; POSITION: absolute; WIDTH: 200px; HEIGHT: 100px; VISIBILITY: hidden; VERTICAL-ALIGN: middle" id=_ProcDiv_ class=oaf-screen-shadow>
+<DIV class=oaf-screen-content><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=55><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<DIV style="VISIBILITY: hidden" id=_ProcPosDiv_ class=oaf-load-content-pos-rich><IMG style="VERTICAL-ALIGN: middle" border=0 alt="" src="/OA_HTML/cabo/images/alta/spinner.gif" width=32 height=32><SPAN class=oaf-screen-message>Loading...</SPAN></DIV></DIV>
+<SCRIPT>if (typeof(_oafResizeUserContent) == "function") _oafResizeUserContent(); </SCRIPT>
+
+<SCRIPT>var SCROLL_BAR_THICKNESS=17;</SCRIPT>
+</SPAN><INPUT id=_pprSaveLib disabled type=hidden><INPUT id=_pprSaveScript disabled type=hidden><INPUT id=_pprSavePage disabled type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Accessibility:disabled, laf:alta.desktopEXTN (alta.desktopEXTN) --></BODY></HTML>

@@ -1,0 +1,28 @@
+<HTML lang={{locale}} xml:lang="{{locale}}" text-direction ng-controller="PageController" ng-strict-di ng-app="content"><HEAD><TITLE></TITLE>
+<META charset=utf-8>
+<META name=viewport content="width=device-width, initial-scale=1.0">
+<META content=IE=edge http-equiv=X-UA-Compatible>
+<META name=ms.refView content="">
+<META name=ms.pageType content="">
+<META name=ms.Nav1 content="">
+<META name=ms.auth content="">
+<META name=ms.ssversion content=200>
+<META name=ms.flightId content="">
+<META name=ms.partnerId content="">
+<META name=ms.cV content="">
+<META name=ms.muid content="">
+<META name=msvalidate.01 content=B79672A77B167E030BC40D0D0A4D372A>
+<META name=robots content="noindex, nofollow" ng-if="noIndex">
+<META name={{metaTag.name}} content={{metaTag.content}} ng-repeat="metaTag in metaTags"><BASE href="/">
+<SCRIPT type=text/javascript>
+        var supportWindowsHistory = !!(window.history && window.history.pushState);
+        // In downgraded browsers we need to use the hash in order to reach the angular routes
+        if (!supportWindowsHistory) {
+            if (window.location.hash.charAt(1) !== "!") {
+                var baseHref = document.getElementsByTagName('base')[0].href;
+                var hashRoute = location.href.replace(baseHref, "").replace(location.hash, "");
+                window.location.replace(window.location.pathname + '#!' + hashRoute + window.location.search + window.location.hash);
+            }
+        }
+    </SCRIPT>
+<LINK rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2"><LINK rel=canonical ng-href="{{canonicalUrl}}"><LINK rel=alternate hreflang={{lang.locale}} ng-repeat="lang in languages" ng-href="{{canonicalUrl.replace(locale, lang.locale)}}"><LINK rel=stylesheet type=text/css href="https://assets.onestore.ms/cdnfiles/external/webcore/4.19.0/stylesheets/WebCore.4.19.0.ltr.light.min.css"></HEAD></HTML>
