@@ -9,7 +9,9 @@ Require-Bundle: oracle.oats.jagent.lib3rdparty,oracle.oats.javaAgent,o
  .modules.webdom.api,oracle.oats.scripting.modules.webdom.common.api,o
  racle.oats.scripting.modules.formsFT.api,oracle.oats.scripting.module
  s.formsFT.common.api,oracle.oats.scripting.modules.applet.api,oracle.
- oats.scripting.modules.applet.common.api
+ oats.scripting.modules.applet.common.api,oracle.oats.scripting.module
+ s.blockScenarios.api;bundle-version="[2.11.2,3.0.0)",oracle.oats.scri
+ pting.modules.datatable.api;bundle-version="[2.11.2,3.0.0)"
 Bundle-Version: 1.0.0.qualifier
 Bundle-Name: APCreditMemoInvoice
 Bundle-ManifestVersion: 2
