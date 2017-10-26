@@ -9,6 +9,7 @@ import oracle.oats.scripting.modules.webdom.api.*;
 import oracle.oats.scripting.modules.formsFT.api.*;
 import oracle.oats.scripting.modules.applet.api.*;
 import lib.*;
+import oracle.oats.scripting.modules.blockScenarios.api.*;
 
 public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
@@ -18,6 +19,8 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;
 	@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;
 	@FunctionLibrary("EBS_Reusable_Methods") lib.Yahoo.EBS_Reusable.EBS_Reusable_Methods eBS_Reusable_Methods;
+	@ScriptService oracle.oats.scripting.modules.blockScenarios.api.BlockScenariosService blockScenarios;
+	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
 	
 	public void initialize() throws Exception {
 		browser.launch();
@@ -33,6 +36,23 @@ public class script extends IteratingVUserScript {
 	 */
 	public void run() throws Exception {
 		
+		datatable.importExcel("C:\\OracleATS\\OFT\\AP Sceanrios\\Test Data\\APCMInvoiceTestData.xls");
+        datatable.getCurrentSheet();
+        int rowcnt=datatable.getRowCount();
+        int colcnt=datatable.getColumnCount(0);
+        
+        
+        String Supplier=(String)datatable.getValue(1, "A");
+        String InvType=(String)datatable.getValue(1, "B");
+        String InvAmt=(String)datatable.getValue(1, "C");
+        info(InvAmt);
+        String pymtmethod=(String)datatable.getValue(1, "E");
+        String HldName=(String)datatable.getValue(1, "F");
+        String Distribution=(String)datatable.getValue(1, "G");
+        String PayTerm=(String)datatable.getValue(1, "D");
+        String Pymtprofile=(String)datatable.getValue(1, "H");
+        String Bank=(String)datatable.getValue(1, "I");
+		
 		String Batchname=eBS_Reusable_Methods.generateUniqueData("OATS");
         eBS_Reusable_Methods.SwitchResponsibility("Payables Manager");
         forms.treeList("//forms:treeList[(@name='NAVIGATOR_LIST_0')]").selectItem("Invoices");
@@ -43,11 +63,11 @@ public class script extends IteratingVUserScript {
 		
 		String Invoicenum=eBS_Reusable_Methods.generateUniqueData("INVCM");
 		String Invoicedate=eBS_Reusable_Methods.getDateTimeFormat("format2");
-		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_TYPE_0')]").setText("Credit Memo");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_TYPE_0')]").setText(InvType);
 		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_TYPE_0')]").invokeSoftKey("NEXT_FIELD");
 		forms.choiceBox("//forms:choiceBox").clickButton("OK");
 		//forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_QUICK_PO_NUMBER_0')]").click();
-		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_VENDOR_NAME_0')]").setText("Approved Networks");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_VENDOR_NAME_0')]").setText(Supplier);
 		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_VENDOR_NAME_0')]").invokeSoftKey("NEXT_FIELD");
 		//forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_QUICK_PO_NUMBER_0')]").setText(Reqnum);
 		//forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_QUICK_PO_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");
@@ -55,14 +75,15 @@ public class script extends IteratingVUserScript {
 		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_DATE_0')]").setText(Invoicedate);
 		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_DATE_0')]").invokeSoftKey("NEXT_FIELD");
 		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_NUM_0')]").setText(Invoicenum);
-		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_AMOUNT_DSP_0')]").setText("-200");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_AMOUNT_DSP_0')]").setText(InvAmt);
 		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_INVOICE_AMOUNT_DSP_0')]").invokeSoftKey("NEXT_FIELD");
-		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_IBY_PAYMENT_METHOD_0')]").setText("Check");
+		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_IBY_PAYMENT_METHOD_0')]").setText(pymtmethod);
 		forms.textField("//forms:textField[(@name='INV_SUM_FOLDER_IBY_PAYMENT_METHOD_0')]").invokeSoftKey("NEXT_FIELD");
 		
-		forms.tab("//forms:tab[(@name='TAB_INVOICE_SUM_REGIONS')]").select("2 Lines");	
+		forms.tab("//forms:tab[(@name='TAB_INVOICE_SUM_REGIONS')]").select("2 Lines");
+		think(5);
 		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_AMOUNT_DISP_0')]").click();
-		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_AMOUNT_DISP_0')]").setText("-200");
+		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_AMOUNT_DISP_0')]").setText(InvAmt);
 		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_AMOUNT_DISP_0')]").invokeSoftKey("NEXT_FIELD");
 		
 		/*forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_PO_LINE_NUMBER_0')]").click();
@@ -72,9 +93,9 @@ public class script extends IteratingVUserScript {
 		forms.textField("//forms:textField[(@name='LINE_SUM_FOLDER_PO_SHIPMENT_NUMBER_0')]").invokeSoftKey("NEXT_FIELD");*/
 		
 		forms.button("//forms:button[(@name='LINE_SUM_CONTROL_DISTRIBUTIONS_0')]").click();
-		forms.textField("//forms:textField[(@name='D_SUM_FOLDER_AMOUNT_0')]").setText("-200");
+		forms.textField("//forms:textField[(@name='D_SUM_FOLDER_AMOUNT_0')]").setText(InvAmt);
 		forms.textField("//forms:textField[(@name='D_SUM_FOLDER_AMOUNT_0')]").invokeSoftKey("NEXT_FIELD");
-		forms.textField("//forms:textField[(@name='D_SUM_FOLDER_DIST_CODE_COMBINATION_DISP_0')]").setText("110-100120-1010-0000-000-000000-000-0000");
+		forms.textField("//forms:textField[(@name='D_SUM_FOLDER_DIST_CODE_COMBINATION_DISP_0')]").setText(Distribution);
 		forms.textField("//forms:textField[(@name='D_SUM_FOLDER_DIST_CODE_COMBINATION_DISP_0')]").invokeSoftKey("NEXT_FIELD");
 		String DistAcctnum=eBS_Reusable_Methods.GetText("D_SUM_FOLDER_DIST_CODE_COMBINATION_DISP_0");
 		info("distribution acctnumber is "+DistAcctnum);
@@ -86,6 +107,7 @@ public class script extends IteratingVUserScript {
 		forms.checkBox("//forms:checkBox[(@name='INV_SUM_ACTIONS_APPROVE_0')]").check(true);
 		forms.button("//forms:button[(@name='INV_SUM_ACTIONS_OK_BUTTON_0')]").click();
 		think(10);
+		forms.tab("//forms:tab[(@name='TAB_INVOICE_SUM_REGIONS')]").select("1 General");
 		String Invoicestatus=eBS_Reusable_Methods.GetText("INV_SUM_FOLDER_APPROVAL_STATUS_DISPLAY_0");
 		
 		if (Invoicestatus.equalsIgnoreCase("Validated")){
@@ -111,15 +133,15 @@ public class script extends IteratingVUserScript {
 		{
 			reportFailure("Credit Memo Invoice is not Accounted sucessfully");
 			}
-			
+			forms.window("//forms:window[(@name='INVOICES_SUM_FOLDER_WINDOW')]").close();
+			forms.window("//forms:window[(@name='BAT_SUM_FOLDER')]").close();	
 			
 			//forms:button[(@name='PYS_BUTTON_PLATTE_PAY_0')]
 			//forms:tab[(@name='TAB_INVOICE_SUM_REGIONS')]
 			//forms:textField[(@name='PAY_SUM_FOLDER_CURRENT_BANK_ACCOUNT_NAME_0')]
 			//forms:textField[(@name='PAY_SUM_FOLDER_CHECK_NUMBER_0')]
 			//forms:window[(@name='PAYMENTS_SUM_FOLDER_WINDOW')]
-		forms.window("//forms:window[(@name='INVOICES_SUM_FOLDER_WINDOW')]").close();
-		forms.window("//forms:window[(@name='BAT_SUM_FOLDER')]").close();
+		
 		
 		
 		

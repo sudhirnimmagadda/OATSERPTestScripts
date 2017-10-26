@@ -43,10 +43,11 @@ public class script extends IteratingVUserScript {
         
         String Supplier=(String)datatable.getValue(1, "A");
         String Amt=(String)datatable.getValue(1, "B");
-        String PymtMethod=(String)datatable.getValue(1, "C");
-        String Distribution=(String)datatable.getValue(1, "E");
-        String HldName=(String)datatable.getValue(1, "F");
-        String Hldreason=(String)datatable.getValue(1, "G");
+        String LineAmt=(String)datatable.getValue(1, "C");
+        String PymtMethod=(String)datatable.getValue(1, "D");
+        String Distribution=(String)datatable.getValue(1, "F");
+        String HldName=(String)datatable.getValue(1, "G");
+        String Hldreason=(String)datatable.getValue(1, "H");
         String PayTerm=(String)datatable.getValue(1, "D");
         
 		
@@ -110,6 +111,7 @@ public class script extends IteratingVUserScript {
 		forms.checkBox("//forms:checkBox[(@name='INV_SUM_ACTIONS_APPROVE_0')]").check(true);
 		forms.button("//forms:button[(@name='INV_SUM_ACTIONS_OK_BUTTON_0')]").click();
 		think(10);
+		forms.tab("//forms:tab[(@name='TAB_INVOICE_SUM_REGIONS')]").select("1 General");
 		String Invoicestatus=eBS_Reusable_Methods.GetText("INV_SUM_FOLDER_APPROVAL_STATUS_DISPLAY_0");
 		
 		
