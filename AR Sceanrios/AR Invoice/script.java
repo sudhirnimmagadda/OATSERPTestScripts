@@ -201,8 +201,6 @@ public class script extends IteratingVUserScript {
 	forms.textField("//forms:textField[(@name='TACC_ACC_ASSGN_ACCOUNTING_FLEX_0')]").invokeSoftKey("NEXT_FIELD");
 	forms.window("//forms:window[(@name='TACCOUNTS')]").clickToolBarButton("Save");
 	forms.window("//forms:window[(@name='TACCOUNTS')]").close();
-	//forms:list[(@name='TACC_CONTROL_ACCOUNTING_REGIONS_0')]
-	//forms:textField[(@name='TACC_ACC_ASSGN_AL_CLASS_MEANING_DSP_0')]
 	}
 
 }
