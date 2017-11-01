@@ -443,13 +443,11 @@ public class script extends IteratingVUserScript {
 			{
 				think(1.592);
 			}
-			forms.window("//forms:window[(@name='NAVIGATOR')]").activate(
-				true);
+			forms.window("//forms:window[(@name='NAVIGATOR')]").activate(true);
 			{
 				think(0.231);
 			}
-			forms.listOfValues("//forms:listOfValues").select(
-			"System Administrator");
+			forms.listOfValues("//forms:listOfValues").select("System Administrator");
 			forms.treeList("//forms:treeList[(@name='NAVIGATOR_LIST_0')]")
 			.selectItem("Security");
 			{
@@ -521,31 +519,16 @@ public class script extends IteratingVUserScript {
 		return rspnblts;
 
 	}
-	private void addResponsibility(String responsibility) throws Exception{
-
-		forms.window(395, "//forms:window[(@name='USER_WINDOW')]")
-		.clickToolBarButton("New");
+	public void addResponsibility(String responsibility) throws Exception{
+		forms.textField("//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_1')]").click();
+		forms.window("//forms:window[(@name='USER_WINDOW')]").clickToolBarButton("New");
+		forms.textField("//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_1')]").openDialog();
+		forms.listOfValues("//forms:listOfValues").find(responsibility);
+		forms.listOfValues("//forms:listOfValues").select(responsibility);
+		think(5);
+		forms.window("//forms:window[(@name='USER_WINDOW')]").clickToolBarButton("Save");
+			}
 	
-		forms.textField(396,
-		"//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_1')]")
-		.openDialog();
-		forms.listOfValues(411, "//forms:listOfValues").find(
-			responsibility);
-		{
-			think(1.795);
-		}
-		forms.listOfValues(412, "//forms:listOfValues")
-		.select(responsibility);
-		{
-			think(1.598);
-		}
-		forms.window(415, "//forms:window[(@name='USER_WINDOW')]")
-		.clickToolBarButton("Save");
-		{
-			think(1.598);
-		}
-
-	}
 	public void selecttreelist(String strfieldprop,String strfieldvalue) throws Exception {
 		forms.treeList("//forms:treeList[(@name='"+strfieldprop+"')]").focusItem(strfieldvalue);
 		forms.treeList("//forms:treeList[(@name='"+strfieldprop+"')]").selectItem(strfieldvalue);
@@ -1839,6 +1822,22 @@ public class script extends IteratingVUserScript {
 	       String todaysdate=getDateTimeFormat("format2");	
 	       utilities.getFileService().appendStringToFile(scriptpath+""+"/TestResults.CSV", eval(testcasename)+","+eval(datetime)+","+eval(todaysdate)+","+ eval(Alertmsg)+ "," + eval(Result)+"\n");
 	}
+	
+	
+	public void createuser(String username,String pwd) throws Exception{
+		forms.window("//forms:window[(@name='USER_WINDOW')]").clickToolBarButton("Close Form");
+		forms.treeList("//forms:treeList[(@name='NAVIGATOR_LIST_0')]").selectItem("Security|User|Define");
+		think(5);
+		forms.textField("//forms:textField[(@name='USER_USER_NAME_0')]").setText(username);
+		forms.textField("//forms:textField[(@name='USER_USER_PASSWORD_0')]").setText(pwd);
+		forms.window("//forms:window[(@name='USER_WINDOW')]").clickToolBarButton("Save");
+		forms.textField("//forms:textField[(@name='USER_USER_PASSWORD_0')]").setText(pwd);
+		forms.window("//forms:window[(@name='USER_WINDOW')]").clickToolBarButton("Save");
+		String status=GetText("USER_USER_STATUS_0");
+		String effectivedate=GetText("USER_START_DATE_0");
+		forms.window("//forms:window[(@name='USER_WINDOW')]").clickToolBarButton("Close Form");
+		}
+	
 	
 	
 	

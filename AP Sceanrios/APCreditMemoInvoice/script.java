@@ -108,6 +108,7 @@ public class script extends IteratingVUserScript {
 		forms.button("//forms:button[(@name='INV_SUM_ACTIONS_OK_BUTTON_0')]").click();
 		think(10);
 		forms.tab("//forms:tab[(@name='TAB_INVOICE_SUM_REGIONS')]").select("1 General");
+		think(5);
 		String Invoicestatus=eBS_Reusable_Methods.GetText("INV_SUM_FOLDER_APPROVAL_STATUS_DISPLAY_0");
 		
 		if (Invoicestatus.equalsIgnoreCase("Validated")){

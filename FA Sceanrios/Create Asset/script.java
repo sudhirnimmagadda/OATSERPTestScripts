@@ -40,6 +40,8 @@ public class script extends IteratingVUserScript {
 		datatable.getCurrentSheet();
 		int rowcnt=datatable.getRowCount();
 		int colcnt=datatable.getColumnCount(0);
+		
+		
 		String desc=(String)datatable.getValue(1,"A");
 	    String Assettype=(String)datatable.getValue(1,"B");
 		String Majcat=(String)datatable.getValue(1,"C");
@@ -72,27 +74,30 @@ public class script extends IteratingVUserScript {
 		
 		  					/// enter asset details////
 		forms.button("//forms:button[(@name='SMART_FIND_SF_NEW_BUTTON_0')]").click();
-		forms.textField("//forms:textField[(@name='ASSET_DESCRIPTION_0')]").setText("Dell Laptop");
+		forms.textField("//forms:textField[(@name='ASSET_DESCRIPTION_0')]").setText(desc);
 		forms.textField("//forms:textField[(@name='ASSET_ATTRIBUTE_CATEGORY_CODE_0')]").openDialog();
 		forms.flexWindow("//forms:flexWindow").openDialog("Major Category", "");
-		forms.listOfValues("//forms:listOfValues").select("COMPUTERS|Computer Equipment");
+		//forms.listOfValues("//forms:listOfValues").select("COMPUTERS|Computer Equipment");
+		forms.listOfValues("//forms:listOfValues").select(Majcat);
 		forms.flexWindow("//forms:flexWindow").openDialog("Minor Category", "");
-		forms.listOfValues("//forms:listOfValues").select("LAPTOP|Laptop");	
-		forms.flexWindow("//forms:flexWindow").setText("Location", "",	"00");
+		//forms.listOfValues("//forms:listOfValues").select("LAPTOP|Laptop");	
+		forms.listOfValues("//forms:listOfValues").select(Mincat);	
+		forms.flexWindow("//forms:flexWindow").setText("Location", "",	Loc);
 		forms.flexWindow("//forms:flexWindow").clickOk();
 		forms.flexWindow("//forms:flexWindow").clickOk();
-		forms.list("//forms:list[(@name='ASSET_CAP_ASSET_TYPE_0')]").selectItem("Capitalized");
+		forms.list("//forms:list[(@name='ASSET_CAP_ASSET_TYPE_0')]").selectItem(Assettype);
 		
 		
 		forms.button("//forms:button[(@name='ASSET_BOOKS_ASSET_0')]").click();
 		forms.textField("//forms:textField[(@name='FA_BOOKS_HEADER_BOOK_TYPE_CODE_0')]").openDialog();
 		forms.window(117, "//forms:window[(@name='FA_BOOKS')]").activate(true);
-		forms.listOfValues("//forms:listOfValues").select("YAHOO! INC.|YAHOO! INC.");
+		//forms.listOfValues("//forms:listOfValues").select("YAHOO! INC.|YAHOO! INC.");
+		forms.listOfValues("//forms:listOfValues").select(Book);
 		forms.textField("//forms:textField[(@name='FA_BOOKS_HEADER_TRANSACTION_NAME_0')]").setFocus();
-		forms.textField("//forms:textField[(@name='FA_BOOKS_COST_0')]").setText("1500");
-		forms.textField("//forms:textField[(@name='FA_BOOKS_YTD_DEPRN_0')]").setText("10");
-		forms.textField("//forms:textField[(@name='FA_BOOKS_LTD_DEPRN_0')]").setText("10");
-		forms.textField("//forms:textField[(@name='FA_BOOKS_SALVAGE_VALUE_0')]").setText("10");
+		forms.textField("//forms:textField[(@name='FA_BOOKS_COST_0')]").setText(Costamt);
+		forms.textField("//forms:textField[(@name='FA_BOOKS_YTD_DEPRN_0')]").setText(YTDAMT);
+		forms.textField("//forms:textField[(@name='FA_BOOKS_LTD_DEPRN_0')]").setText(LTDAMT);
+		forms.textField("//forms:textField[(@name='FA_BOOKS_SALVAGE_VALUE_0')]").setText(Salval);
 		forms.textField("//forms:textField[(@name='FA_BOOKS_DATE_PLACED_IN_SERVICE_0')]").setText("10-JUl-2017");
 		forms.textField("//forms:textField[(@name='FA_BOOKS_PRORATE_CONVENTION_CODE_0')]").setFocus();
 		forms.button("//forms:button[(@name='FA_BOOKS_ASSIGNMENTS_BOOKS_0')]").click();

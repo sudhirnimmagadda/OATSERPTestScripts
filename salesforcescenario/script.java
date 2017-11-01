@@ -31,7 +31,7 @@ public class script extends IteratingVUserScript {
 			{
 				think(3.687);
 			}
-			web.textBox("/web:window[@index='0' or @title='Login | Salesforce']/web:document[@index='0']/web:form[@id='login_form' or @name='login' or @index='0']/web:input_text[@id='username' or @name='username' or @index='0']")
+			web.textBox("/web:window[@index='0' or @title='Login | Salesforce']/web:document[@index='0']/web:form[@id='login_form' or @name='login' or @index='0']/web:input_email[@id='username' or @name='username' or @index='0']")
 					.setText("admin@ahatis.com.pnctest");
 			
 			web.textBox("/web:window[@index='0' or @title='Login | Salesforce']/web:document[@index='0']/web:form[@id='login_form' or @name='login' or @index='0']/web:input_password[@id='password' or @name='pw' or @index='0']")
@@ -83,6 +83,13 @@ public class script extends IteratingVUserScript {
 					.click();
 		
 			web.window("/web:window[@index='1' or @title='Business Plan: FY2017 Kroger ~ Salesforce - Enterprise Edition']").waitForPage(null);
+		}
+		endStep();
+		beginStep("[2] No Title (/test.salesforce.com/)", 0);
+		{
+			web.window(72,
+					"/web:window[@index='0' or @title='Login | Salesforce']")
+					.navigate("https://test.salesforce.com/");
 		}
 		endStep();
 

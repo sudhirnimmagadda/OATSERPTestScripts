@@ -18,6 +18,7 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;
 	@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;
 	@FunctionLibrary("EBS_Reusable_Methods") lib.Yahoo.EBS_Reusable.EBS_Reusable_Methods eBS_Reusable_Methods;
+	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
 	
 	public void initialize() throws Exception {
 		browser.launch();
@@ -32,6 +33,36 @@ public class script extends IteratingVUserScript {
 	 * Add code to be executed each iteration for this virtual user.
 	 */
 	public void run() throws Exception {
+		
+		
+		datatable.importExcel("C:\\OracleATS\\OFT\\FA Sceanrios\\TestData\\FA Data.xls");
+		datatable.getCurrentSheet();
+		int rowcnt=datatable.getRowCount();
+		int colcnt=datatable.getColumnCount(0);
+		
+		
+		String desc=(String)datatable.getValue(1,"A");
+	    String Assettype=(String)datatable.getValue(1,"B");
+		String Majcat=(String)datatable.getValue(1,"C");
+		String Mincat=(String)datatable.getValue(1,"D");
+	    String Loc=(String)datatable.getValue(1,"E");
+		String Book=(String)datatable.getValue(1,"F");
+		String Costamt=(String)datatable.getValue(1,"G");
+	    String YTDAMT=(String)datatable.getValue(1,"H");
+		String LTDAMT=(String)datatable.getValue(1,"I");
+		String Salval=(String)datatable.getValue(1,"J");
+	    String SerDat=(String)datatable.getValue(1,"K");
+		String SubAct=(String)datatable.getValue(1,"L");
+		String Region=(String)datatable.getValue(1,"M");
+	    String Function=(String)datatable.getValue(1,"N");
+		String Cstctr=(String)datatable.getValue(1,"O");
+		String IntCo=(String)datatable.getValue(1,"P");
+	    String Feature=(String)datatable.getValue(1,"Q");
+		String Country=(String)datatable.getValue(1,"R");
+		String State=(String)datatable.getValue(1,"S");
+	    String County=(String)datatable.getValue(1,"T");
+		String City=(String)datatable.getValue(1,"U");
+		String Building=(String)datatable.getValue(1,"V");
 		
 		String Batchname=eBS_Reusable_Methods.generateUniqueData("OATS");
         eBS_Reusable_Methods.SwitchResponsibility("Payables Manager");
@@ -108,15 +139,23 @@ public class script extends IteratingVUserScript {
 		forms.button("//forms:button[(@name='SMART_FIND_SF_NEW_BUTTON_0')]").click();
 		forms.textField("//forms:textField[(@name='ASSET_DESCRIPTION_0')]")
 			.setText("Dell Server");
-		forms.textField("//forms:textField[(@name='ASSET_ATTRIBUTE_CATEGORY_CODE_0')]")
-			.openDialog();
 		
+		forms.textField("//forms:textField[(@name='ASSET_ATTRIBUTE_CATEGORY_CODE_0')]")
+				.setText("COMPUTERS.LAPTOP.00");
+		forms.textField("//forms:textField[(@name='ASSET_ATTRIBUTE_CATEGORY_CODE_0')]")
+				.invokeSoftKey("NEXT_FIELD");
+		
+		
+		
+		
+		/*forms.textField("//forms:textField[(@name='ASSET_ATTRIBUTE_CATEGORY_CODE_0')]")
+		.openDialog();
 		forms.flexWindow("//forms:flexWindow").openDialog("Major Category", "");
 		forms.listOfValues("//forms:listOfValues").select("COMPUTERS|Computer Equipment");
 		forms.flexWindow("//forms:flexWindow").openDialog("Minor Category", "");
 		forms.listOfValues("//forms:listOfValues").select("SERVER|Server");	
 		forms.flexWindow("//forms:flexWindow").setText("Location", "",	"00");
-		forms.flexWindow("//forms:flexWindow").clickOk();
+		forms.flexWindow("//forms:flexWindow").clickOk();*/
 		forms.flexWindow("//forms:flexWindow").clickOk();
 
 		forms.list("//forms:list[(@name='ASSET_CAP_ASSET_TYPE_0')]")
@@ -134,6 +173,13 @@ public class script extends IteratingVUserScript {
 					.setText("1");
 		forms.textField("//forms:textField[(@name='ASSIGNMENTS_DIST_EXPENSE_ACCOUNT_0')]")
 					.click();
+		forms.textField("//forms:textField[(@name='ASSIGNMENTS_DIST_EXPENSE_ACCOUNT_0')]")
+		.setText("value");
+		
+		forms.textField("//forms:textField[(@name='ASSIGNMENTS_DIST_EXPENSE_ACCOUNT_0')]")
+			.invokeSoftKey("NEXT_FIELD");
+			
+		
 		forms.textField("//forms:textField[(@name='ASSIGNMENTS_DIST_EXPENSE_ACCOUNT_0')]")
 					.openDialog();
 		forms.flexWindow("//forms:flexWindow").setText("Company", "","110");
