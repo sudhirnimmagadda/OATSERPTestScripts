@@ -1,0 +1,64 @@
+<html class=" ie9" lang="en"><head>
+	<title>Login</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+        <link href="?login.css" rel="stylesheet" type="text/css">
+        <script src="?login.js" type="text/javascript"></script>
+
+</head>
+<body onload="startup()">
+	
+	<div id="logo">
+		<img title="Oracle Logo" class="logo" alt="Oracle Logo" src="/OA_HTML/media/oracle_white_logo.png">
+	</div>
+	
+	<div class="login_panel">
+	<div class="login_container">
+        <form id="login" action="javascript:submitCredentials();" method="post" autocomplete="off">
+		<div class="control_box min_margin" id="UsernameBox">
+			<label title="User Name" for="usernameField" message="FND_SSO_USER_NAME">User Name</label>
+			<input name="usernameField" tabindex="0" class="inp" id="usernameField" type="text" value="" message="FND_SSO_USER_NAME">
+
+		</div>
+
+                <div class="control_box min_margin" id="logoutLink" style="display: none;"><a name="logout" tabindex="0" title="Not ?  Log Out" onclick="confirmLogout()" message="FND_SSO_NOTSAME_USER">Not ?  Log Out</a></div>
+		<div class="control_box min_margin">
+			<label title="Password" for="passwordField" message="FND_SSO_PASSWORD">Password</label>
+			<input name="passwordField" tabindex="0" class="inp" id="passwordField" type="password" value="" message="FND_SSO_PASSWORD">
+		</div>
+        </form>
+		<div class="control_box center" id="ButtonBox">
+			
+			<button tabindex="0" class="OraButton left" style="padding-right: 6px; padding-left: 6px;" onclick="submitCredentials()" message="FND_SSO_LOGIN">Login</button>
+			<button tabindex="0" class="OraButton right" style="padding-right: 6px; padding-left: 6px;" onclick="handleCancel()" message="FND_SSO_CANCEL">Cancel</button>
+		</div>
+		<div class="control_box" id="HelpLinkBox">
+			<a tabindex="0" title="Login Assistance" id="ForgotPasswordURL" role="LINK" href="#" message="FND_SSO_FORGOT_PASSWORD">Login Assistance</a>			
+			<br><br>
+			<a tabindex="0" title="Register here" id="RegisterHereURL" role="LINK" href="#" message="FND_SSO_REGISTER_HERE">Register here</a>
+		</div>
+		<div class="control_box min_margin" id="AccessibilityBox">
+			<label title="Accessibility" id="adaLabel" for="accessibility" message="FND_SSO_ACCESSIBILITY">Accessibility</label>
+			<select name="Accessibility" tabindex="0" title="Accessibility" class="selector" id="accessibility"><option title="None" value="N">None</option><option title="Standard Accessibility" value="Y">Standard Accessibility</option><option title="Screen Reader Optimized" value="S">Screen Reader Optimized</option>
+                    </select>
+		</div>
+		<div class="control_box min_margin" id="LanguagePickerBox">
+			<label title="Language" for="slang" message="FND_SSO_LANGUAGE">Language</label>
+			<select name="currentLanguage" tabindex="0" title="Select a Language:" class="selector" id="slang" message="FND_SSO_LOGIN_LANG_SELECT"><option title="American English" lang="en" value="US">English</option>
+			</select>
+		</div>
+                <div class="control_box min_margin" id="errorBox" role="alert" style="display: none;"></div>
+	</div>
+	</div>
+	
+	<div class="footer" id="FooterBox">
+		<div class="copyright" id="CopyrightBox"><span title="Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved." message="FND_COPYRIGHT">Copyright (c) 1998, 2016, Oracle and/or its affiliates. All rights reserved.</span></div>
+		<div class="links_footer" id="LinksBox">
+			
+		<ul></ul></div>
+	</div>
+
+
+<div class="lock" id="lock" style="display: none;"></div><div class="spinner" id="spinner" style="display: none;"></div></body></html>

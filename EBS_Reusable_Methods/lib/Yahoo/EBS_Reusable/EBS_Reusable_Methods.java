@@ -122,6 +122,12 @@ public class EBS_Reusable_Methods extends FuncLibraryWrapper
 		callFunction("AddMissingResponsibility", responsibility);
 	}
 
+	public void addResponsibility(String responsibility)
+			throws AbstractScriptException {
+		checkInit();
+		callFunction("addResponsibility", responsibility);
+	}
+
 	public void selecttreelist(String strfieldprop, String strfieldvalue)
 			throws AbstractScriptException {
 		checkInit();
@@ -448,6 +454,12 @@ public class EBS_Reusable_Methods extends FuncLibraryWrapper
 			String Result, String Alertmsg) throws AbstractScriptException {
 		checkInit();
 		callFunction("failresults", scriptpath, testcasename, Result, Alertmsg);
+	}
+
+	public void createuser(String username, String pwd)
+			throws AbstractScriptException {
+		checkInit();
+		callFunction("createuser", username, pwd);
 	}
 
 	public void finish() throws AbstractScriptException {

@@ -108,20 +108,20 @@ public class script extends IteratingVUserScript {
 		web.window("/web:window[@index='2' or @title='Suppliers']").waitForPage(null);
 		web.button("/web:window[@index='2' or @title='Suppliers']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:button[@id='supCreatBtn' or @index='0']")
 			.click();
-		web.window("/web:window[@index='2' or @title='Create Supplier']").waitForPage(null);
-		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='organization_name' or @name='organization_name' or @index='0']")
+		//web.window("/web:window[@index='2' or @title='Create Supplier']").waitForPage(null);
+		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='organization_name' or @name='organization_name']")
 			.click();
 		
-		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='organization_name' or @name='organization_name' or @index='0']")
+		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='organization_name' or @name='organization_name']")
 			.setText(OrgName);
 		
-		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='alias' or @name='alias' or @index='1']")
+		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='alias' or @name='alias']")
 			.click();
 		
-		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='org_name_pronunciation' or @name='org_name_pronunciation' or @index='2']")
+		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='org_name_pronunciation' or @name='org_name_pronunciation']")
 					.click();
 			
-		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='org_name_pronunciation' or @name='org_name_pronunciation' or @index='2']")
+		web.textBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:input_text[@id='org_name_pronunciation' or @name='org_name_pronunciation']")
 					.setText(Altname);
 			
 		web.selectBox("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:form[@id='DefaultFormName' or @name='DefaultFormName' or @index='0']/web:select[(@id='supplierDff9' or @name='supplierDff9' or @index='2') and multiple mod 'False']")
@@ -141,17 +141,15 @@ public class script extends IteratingVUserScript {
 		web.window("/web:window[@index='2' or @title='Update Radisson Test - 233445: Quick Update']").waitForPage(null);
 		
 		                         			//// Validating whether Supplier Exists or not ////
-   if (web.element("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0']/web:div[@text='Error' or @index='0']").exists()){
-	   String errordata=web.element("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0']/web:div[@text='There is currently another supplier in the system with the same Taxpayer Id.' or @index='35']").getAttribute("text");
+   if (web.element("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0']/web:div[@text='Error']").exists()){
+	   String errordata=web.element("/web:window[@index='2' or @title='Create Supplier']/web:document[@index='0']/web:div[@text='There is currently another supplier in the system with the same Taxpayer Id.']").getAttribute("text");
 	   info(errordata);
 	   System.out.println("Supplier or Tax id : "+errordata);
 	   reportFailure("Supplier or Tax id : "+errordata);
 	   System.exit(0);
 	  	        }
    
-   
-			
-	String suppliernum=web.element("/web:window[@index='2' or @title='Update Radisson Test - 233445: Quick Update']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:span[@id='supplierNumber' or @index='38']")
+   String suppliernum=web.element("/web:window[@index='2' or @title='Update Radisson Test - 233445: Quick Update']/web:document[@index='0' or @name='APPS_NAVIGATION']/web:span[@id='supplierNumber']")
 					    			.getAttribute("text");  
 	info(suppliernum);
 			
@@ -598,13 +596,7 @@ public class script extends IteratingVUserScript {
 		web.image("/web:window[@index='3' or @title='Search and Select List of Values']/web:document[@index='1']/web:img[@alt='Quick Select' or @index='4' or @src='https://erpptp1.fin.yahoo.com:8000/OA_HTML/cabo/images/cache/cqs.gif']")
 				.click();
 		web.window("/web:window[@index='2' or @title='Payment Details']").close();
-		beginStep("[1] No Title (/OA.jsp)", 0);
-		{
-			web.window(524, "/web:window[@index='0' or @title='Home']")
-					.navigate(
-							"https://erpint.fin.yahoo.com:8000/OA_HTML/OA.jsp?OAFunc=OAHOMEPAGE##dummyAnchor");
-		}
-		endStep();
+		
 		
 
 	}

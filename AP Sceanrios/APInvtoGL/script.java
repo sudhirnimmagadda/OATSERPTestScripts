@@ -44,16 +44,16 @@ public class script extends IteratingVUserScript {
 	        int rowcnt=datatable.getRowCount();
 	        int colcnt=datatable.getColumnCount(0);
 	        
-	        
 	        String Supplier=(String)datatable.getValue(1, "A");
 	        String Amt=(String)datatable.getValue(1, "B");
-	        String PymtMethod=(String)datatable.getValue(1, "C");
-	        String Distribution=(String)datatable.getValue(1, "E");
-	        String HldName=(String)datatable.getValue(1, "F");
-	        String Hldreason=(String)datatable.getValue(1, "G");
+	        String LineAmt=(String)datatable.getValue(1, "C");
+	        String PymtMethod=(String)datatable.getValue(1, "D");
+	        String Distribution=(String)datatable.getValue(1, "F");
+	        String HldName=(String)datatable.getValue(1, "G");
+	        String Hldreason=(String)datatable.getValue(1, "H");
 	        String PayTerm=(String)datatable.getValue(1, "D");
-	        String Pymtprofile=(String)datatable.getValue(1, "H");
-	        String Bank=(String)datatable.getValue(1, "I");
+	        String Pymtprofile=(String)datatable.getValue(1, "I");
+	        String Bank=(String)datatable.getValue(1, "J");
 			
 			String Batchname=eBS_Reusable_Methods.generateUniqueData("OATS");
 	        eBS_Reusable_Methods.SwitchResponsibility("Payables Manager");
