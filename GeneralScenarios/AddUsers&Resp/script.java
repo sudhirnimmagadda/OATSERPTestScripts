@@ -1,3 +1,10 @@
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.concurrent.TimeUnit;
+
 import oracle.oats.scripting.modules.basic.api.*;
 import oracle.oats.scripting.modules.browser.api.*;
 import oracle.oats.scripting.modules.functionalTest.api.*;
@@ -54,9 +61,47 @@ public class script extends IteratingVUserScript {
 		forms.textField("//forms:textField[(@name='USER_USER_NAME_0')]").setText(username);
 		forms.textField("//forms:textField[(@name='USER_USER_NAME_0')]").invokeSoftKey("EXECUTE_QUERY");
 		String usernm=eBS_Reusable_Methods.GetText("USER_USER_NAME_0");
-		if (usernm.contentEquals(username)){
+		String endate=eBS_Reusable_Methods.GetText("USER_END_DATE_0");
+		String sysdate=eBS_Reusable_Methods.getDateTimeFormat("format2");
+		info(usernm);
+		info(endate);
+		info(sysdate);
+		
+			
+		/*SimpleDateFormat sdf =new SimpleDateFormat("dd-MMM-yyyy",Locale.ENGLISH);
+		  java.util.Date userenddate=(Date) sdf.parse(endate);
+		  java.util.Date usersysdate=(Date) sdf.parse(sysdate);
+		  
+		 if(usersysdate.before(userenddate)){
+			info("user enddate is more than current date") ;
+		 }
+		 else {
+			 info("user is end dated");
+			 forms.textField("//forms:textField[(@name='USER_END_DATE_0')]").setText("");
+		 }*/
+		 
+			
+		
+		
+		if (usernm.equalsIgnoreCase(username)){
 			reportPassed("user Already Exists");
+			info("test");
+			 for (int i=1; i<rowcnt;i++){
+					String Resp=(String)datatable.getValue(i, "C");
+					forms.textField("//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_0')]").click();
+					forms.window("//forms:window[(@name='USER_WINDOW')]").selectMenu("View|Query By Example|Enter");
+					forms.textField("//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_0')]").setText(Resp+"%");
+					//forms.window("//forms:window[(@name='USER_WINDOW')]").selectMenu("View|Query By Example|Run");
+					forms.textField("//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_0')]").invokeSoftKey("EXECUTE_QUERY");
+					think(5);
+					String respexists=eBS_Reusable_Methods.GetText("USER_RESP_RESPONSIBILITY_NAME_0");
+					info(respexists);
+					if(!respexists.equalsIgnoreCase(Resp)){
+						eBS_Reusable_Methods.addResponsibility(Resp);
+					}
+				}
 			}
+		
 		else {
 			eBS_Reusable_Methods.createuser(username, pwd);
 			forms.treeList("//forms:treeList[(@name='NAVIGATOR_LIST_0')]").selectItem("Security|User|Define");
@@ -64,13 +109,28 @@ public class script extends IteratingVUserScript {
 			forms.textField("//forms:textField[(@name='USER_USER_NAME_0')]").setText(username);
 			forms.textField("//forms:textField[(@name='USER_USER_NAME_0')]").invokeSoftKey("EXECUTE_QUERY");
 			think(5);
+			for (int i=1; i<rowcnt;i++){
+			String Resp=(String)datatable.getValue(i, "C");
+			eBS_Reusable_Methods.addResponsibility(Resp);
+			  }
 			}
-		
-		 for (int i=1; i<rowcnt;i++){
-		String Resp=(String)datatable.getValue(i, "C");
-		eBS_Reusable_Methods.addResponsibility(Resp);
-		 }
-		
+	     }
+
+	private List<String> getResponsibilityList() throws Exception{
+		List<String> rspnblts = new ArrayList<String>();
+		int counter = 0;
+		for(int i=0; counter<forms.blockScroller("//forms:blockScroller[(@barIndex='0')]").getMaximum();i++){
+			if(forms.textField("//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_"+i+"')]").exists(2, TimeUnit.SECONDS)){
+				rspnblts.add(forms.textField("//forms:textField[(@name='USER_RESP_RESPONSIBILITY_NAME_"+i+"')]").getText());
+				counter++;
+			} else{
+				forms.blockScroller(203, "//forms:blockScroller[(@barIndex='0')]").scrollDown();
+				i = i-2;
+			}
+
+		}
+		return rspnblts;
+
 	}
 
 	public void finish() throws Exception {
